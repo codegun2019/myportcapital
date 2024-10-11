@@ -5,10 +5,18 @@
     "create_account": "Create Account",
     "login_account": "Log In",
 
-    "buy": "Buy",
-    "platform": "Platform",
-    "more": "More"
-  },
+  "buy": "Buy",
+  "home": "Home",
+  "store": "Store",
+  "accounting": "Accounting",
+  "market": "Market",
+  "deposit": "Deposit",
+  "promotion": "Promotion",
+  "platform": "Platform",
+  "partners": "Partners",
+  "about": "About",
+  "more": "More"
+},
 
   "Home": {
     "Header_welcome_title": "Experience Superior Trading",
@@ -90,11 +98,12 @@
   },
 
   "currency": "Currency",
-  "share": "Currency",
+  "share": "Share",
   "index": "Index",
   "crypto_cfd": "Crypto CFD",
   "commodity": "Commodity",
   "product": "Product",
+  "new" : "New",
 
   "about": "About Us",
   "footer_message": "All rights reserved",

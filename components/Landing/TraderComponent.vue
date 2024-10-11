@@ -17,7 +17,7 @@
               {{ $t("Home.Trader_welcome_description") }}
             </p>
             <div class="flex justify-center lg:justify-start">
-              <a href="th/platforms/mt5">
+              <a href="">
                 <button class="bg-transparent text-primary-500 hover:text-secondary-500 text-primary mt-[16px] flex items-center px-0 font-[500] text-primary">
                   {{ $t("Home.Trader_welcome_cta") }}&nbsp;
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5">
@@ -29,30 +29,30 @@
 
             <!-- Download buttons for MetaTrader -->
             <div class="mt-[50px] hidden lg:block">
-              <div class="mb-0 ms-0 text-body-4 text-secondary sm:text-body-3 md:mb-[28px] lg:text-heading-body">ดาวน์โหลด MetaTrader ได้ที่</div>
+              <div class="mb-0 ms-0 text-body-4 text-secondary sm:text-body-3 md:mb-[28px] lg:text-heading-body">{{ $t("Home.Trader_welcome_ctb") }}</div>
               <div class="flex max-w-[315px] flex-wrap items-center">
                 <div class="basis-1/3">
-                  <a target="_blank" href="https://download.mql5.com/cdn/web/iux.markets.limited/mt5/iuxmarkets5setup.exe">
+                  <a target="_blank" href="">
                     <img :src="mt5Windows" alt="windows" class="w-100 mb-2" />
                   </a>
                 </div>
                 <div class="basis-1/3">
-                  <a target="_blank" href="https://download.mql5.com/cdn/web/metaquotes.software.corp/mt5/MetaTrader5.dmg">
+                  <a target="_blank" href="">
                     <img :src="mt5Macos" alt="macos" class="w-100 mb-2" />
                   </a>
                 </div>
                 <div class="basis-1/3">
-                  <a target="_blank" href="https://download.mql5.com/cdn/mobile/mt5/android">
+                  <a target="_blank" href="">
                     <img :src="mt5Android" alt="android" class="w-100 mb-2" />
                   </a>
                 </div>
                 <div class="basis-1/3">
-                  <a target="_blank" href="https://download.mql5.com/cdn/mobile/mt5/ios">
+                  <a target="_blank" href="">
                     <img :src="mt5Ios" alt="ios" class="w-100 mb-2" />
                   </a>
                 </div>
                 <div class="basis-1/3">
-                  <a target="_blank" href="https://portal.iux.com/en/webterminal/version5?sever=live">
+                  <a target="_blank" href="">
                     <img :src="mt5Web" alt="web" class="w-100 mb-2" />
                   </a>
                 </div>

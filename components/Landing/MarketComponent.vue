@@ -4,7 +4,7 @@
       <div class="bg-dark-500 text-white py-16">
         <div class="container mx-auto text-center">
           <h3 class="text-5xl font-bold mb-24 mt-24">
-            ตลาดโลก<span class="text-primary-400">อยู่เพียง</span>ปลายนิ้วมือของคุณ?
+            {{ $t("Home.WordTitle") }}<span class="text-primary-400">{{ $t("Home.WordTitleSub") }}</span>{{ $t("Home.WordTitleSub_row") }}
           </h3>
 
           <div class="mt-5 flex flex-wrap justify-center gap-4 mx-auto">
@@ -20,13 +20,13 @@
                   </div>
                   <!-- Text content -->
                   <div>
-                    <h3 class="text-white font-semibold">สกุลเงิน</h3>
-                    <p class="text-gray-400 text-sm">63+ ผลิตภัณฑ์</p>
+                    <h3 class="text-white font-semibold">{{ $t("currency") }}</h3>
+                    <p class="text-gray-400 text-sm">63+ {{ $t("product") }}</p>
                   </div>
                 </div>
                 <!-- New badge -->
                 <div class="bg-primary-500 text-primary-900 text-sm px-2 py-1 rounded-full">
-                  ใหม่
+                  {{ $t("new") }}
                 </div>
               </div>
             </div>
@@ -42,13 +42,13 @@
                   </div>
                   <!-- Text content -->
                   <div>
-                    <h3 class="text-white font-semibold">สกุลเงิน</h3>
-                    <p class="text-gray-400 text-sm">63+ ผลิตภัณฑ์</p>
+                    <h3 class="text-white font-semibold">{{ $t("currency") }}</h3>
+                    <p class="text-gray-400 text-sm">63+ {{ $t("product") }}</p>
                   </div>
                 </div>
                 <!-- New badge -->
                 <div class="bg-primary-500 text-primary-900 text-sm px-2 py-1 rounded-full">
-                  ใหม่
+                  {{ $t("new") }}
                 </div>
               </div>
             </div>
@@ -64,13 +64,13 @@
                   </div>
                   <!-- Text content -->
                   <div>
-                    <h3 class="text-white font-semibold">สกุลเงิน</h3>
-                    <p class="text-gray-400 text-sm">63+ ผลิตภัณฑ์</p>
+                    <h3 class="text-white font-semibold">{{ $t("currency") }}</h3>
+                    <p class="text-gray-400 text-sm">63+ {{ $t("product") }}</p>
                   </div>
                 </div>
                 <!-- New badge -->
                 <div class="bg-primary-500 text-primary-900 text-sm px-2 py-1 rounded-full">
-                  ใหม่
+                  {{ $t("new") }}
                 </div>
               </div>
             </div>
@@ -86,13 +86,13 @@
                   </div>
                   <!-- Text content -->
                   <div>
-                    <h3 class="text-white font-semibold">สกุลเงิน</h3>
-                    <p class="text-gray-400 text-sm">63+ ผลิตภัณฑ์</p>
+                    <h3 class="text-white font-semibold">{{ $t("currency") }}</h3>
+                    <p class="text-gray-400 text-sm">63+ {{ $t("product") }}</p>
                   </div>
                 </div>
                 <!-- New badge -->
                 <div class="bg-primary-500 text-primary-900 text-sm px-2 py-1 rounded-full">
-                  ใหม่
+                  {{ $t("new") }}
                 </div>
               </div>
             </div>
@@ -108,13 +108,13 @@
                   </div>
                   <!-- Text content -->
                   <div>
-                    <h3 class="text-white font-semibold">สกุลเงิน</h3>
-                    <p class="text-gray-400 text-sm">63+ ผลิตภัณฑ์</p>
+                    <h3 class="text-white font-semibold">{{ $t("currency") }}</h3>
+                    <p class="text-gray-400 text-sm">63+ {{ $t("product") }}</p>
                   </div>
                 </div>
                 <!-- New badge -->
                 <div class="bg-primary-500 text-primary-900 text-sm px-2 py-1 rounded-full">
-                  ใหม่
+                  {{ $t("new") }}
                 </div>
               </div>
             </div>
@@ -129,13 +129,13 @@
                   </div>
                   <!-- Text content -->
                   <div>
-                    <h3 class="text-white font-semibold">สกุลเงิน</h3>
-                    <p class="text-gray-400 text-sm">63+ ผลิตภัณฑ์</p>
+                    <h3 class="text-white font-semibold">{{ $t("currency") }}</h3>
+                    <p class="text-gray-400 text-sm">63+ {{ $t("product") }}</p>
                   </div>
                 </div>
                 <!-- New badge -->
                 <div class="bg-primary-500 text-primary-900 text-sm px-2 py-1 rounded-full">
-                  ใหม่
+                  {{ $t("new") }}
                 </div>
               </div>
             </div>

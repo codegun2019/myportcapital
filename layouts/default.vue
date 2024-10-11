@@ -1,17 +1,13 @@
 <template>
   <div>
-    <ThePreloader />
-    <!-- Header component -->
+    <!-- <ThePreloader /> -->
     <NavbarComponent />
-    <HeaderComponent />
-    <!-- Main content area -->
     <NuxtPage />
-    <!-- Footer component -->
-    <FooterComponent />
+    <!-- <FooterComponent /> -->
   </div>
 </template>
 
 <script lang="ts" setup>
 import NavbarComponent from '~/components/Layouts/NavbarComponent.vue'
-import FooterComponent from '~/components/Layouts/FooterComponent.vue'
+// import FooterComponent from '~/components/Layouts/FooterComponent.vue'
 </script>

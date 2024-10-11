@@ -5,7 +5,7 @@
       <!-- Logo and Hamburger menu icon for mobile -->
       <div class="flex items-center space-x-0 sm:space-x-6">
         <div class="h-8 hidden sm:block" >
-          <img :src="logo" alt="logo" class="h-4 w-6" />
+          <img :src="logo" alt="logo" class="h-8 w-12" />
         </div>
 
         <!-- Hamburger icon for mobile -->
@@ -18,51 +18,52 @@
 
         <!-- Menu items (hidden on mobile, shown on desktop) -->
         <div :class="{'hidden': isMobileMenuOpen, 'hidden': !isMobileMenuOpen}" class="md:flex md:space-x-6">
-          <NuxtLink to="/">หน้าแรก</NuxtLink>
+          <NuxtLink to="/">{{ $t("menu.home") }}</NuxtLink>
+          
           <!-- <a href="#" class="hover:text-primary-400">{{ $t("menu.buy") }}</a>
           <a href="#" class="hover:text-primary-400">{{ $t("menu.platform") }}</a>
           <a href="#" class="hover:text-primary-400">{{ $t("menu.more") }}</a> -->
-          <NuxtLink to="market">ร้านค้า</NuxtLink>
-          <NuxtLink to="accounting">บัญชี</NuxtLink>
-          <NuxtLink to="deposit">ฝากถอน</NuxtLink>
-          <NuxtLink to="promotion">โปรโมชั่น</NuxtLink>
-          <NuxtLink to="platform">แพลตฟอร์ม</NuxtLink>
-          <NuxtLink to="partners">พาทเนอร์</NuxtLink>
-          <NuxtLink to="about">เกี่ยวกับเรา</NuxtLink>
+          <NuxtLink to="market">{{ $t("menu.market") }}</NuxtLink>
+          <NuxtLink to="accounting">{{ $t("menu.accounting") }}</NuxtLink>
+          <NuxtLink to="deposit">{{ $t("menu.deposit") }}</NuxtLink>
+          <NuxtLink to="promotion">{{ $t("menu.promotion") }}</NuxtLink>
+          <NuxtLink to="platform">{{ $t("menu.platform") }}</NuxtLink>
+          <NuxtLink to="partners">{{ $t("menu.partners") }}</NuxtLink>
+          <NuxtLink to="about">{{ $t("menu.about") }}</NuxtLink>
         </div>
       </div>
 
       <!-- Language switcher and buttons (shown in both mobile and desktop) -->
-      <div class="flex items-center space-x-4">
+      <div class="flex items-center space-x-4 ">
         <div class="relative">
           <!-- Language dropdown -->
           <button @click="toggleDropdown" class="flex items-center bg-gray-800 px-3 py-2 rounded-lg">
             <img :src="currentFlag" alt="Selected Language" class="h-4 w-6" />
-            <span>{{ currentLanguage }}</span>
+            <span class="pl-1"> {{ currentLanguage }}</span>
             <svg class="ml-2 h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
               <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
             </svg>
           </button>
-          <div v-if="isDropdownOpen" class="absolute mt-2 bg-white text-black py-2 w-20 rounded-lg shadow-lg">
+          <div v-if="isDropdownOpen" class="z-40 absolute mt-2 bg-white text-black py-2 w-20 rounded-lg shadow-lg">
             <button @click="switchLanguage('en')" class="flex items-center px-4 py-2 hover:bg-gray-200">
               <img :src="enFlag" alt="EN" class="h-4 w-6" />
-              <span>EN</span>
+              <span class="pl-1"> EN</span>
             </button>
             <button @click="switchLanguage('th')" class="flex items-center px-4 py-2 hover:bg-gray-200">
               <img :src="thFlag" alt="TH" class="h-4 w-6" />
-              <span>TH</span>
+              <span class="pl-1"> TH</span>
             </button>
             <button @click="switchLanguage('lo')" class="flex items-center px-4 py-2 hover:bg-gray-200">
               <img :src="loFlag" alt="LO" class="h-4 w-6" />
-              <span>LA</span>
+              <span class="pl-1"> LA</span>
             </button>
             <button @click="switchLanguage('zh')" class="flex items-center px-4 py-2 hover:bg-gray-200">
               <img :src="zhFlag" alt="ZH" class="h-4 w-6" />
-              <span>CN</span>
+              <span class="pl-1"> CN</span>
             </button>
             <button @click="switchLanguage('jp')" class="flex items-center px-4 py-2 hover:bg-gray-200">
               <img :src="jpFlag" alt="JP" class="h-4 w-6" />
-              <span>JP</span>
+              <span class="pl-1"> JP</span>
             </button>
           </div>
         </div>
@@ -105,6 +106,8 @@ import loFlag from '~/assets/flags/lo.svg'
 import zhFlag from '~/assets/flags/zh.svg'
 import jpFlag from '~/assets/flags/jp.svg'
 import logo from '~/assets/images/logo.png'
+
+
 
 const isDropdownOpen = ref(false)
 const isMobileMenuOpen = ref(false)

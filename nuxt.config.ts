@@ -29,7 +29,15 @@ export default defineNuxtConfig({
     lazy: false, // ปิดการโหลดแบบ lazy เพื่อโหลดทุกภาษาในครั้งเดียว
     langDir: 'locales/', // โฟลเดอร์ที่เก็บไฟล์ JSON ของภาษา
     strategy: 'no_prefix', // ไม่ใช้คำนำหน้าสำหรับ URL ภาษา
-    defaultLocale: 'th' // กำหนดภาษาไทยเป็นค่าเริ่มต้น
+    defaultLocale: 'th', // กำหนดภาษาไทยเป็นค่าเริ่มต้น
+    detectBrowserLanguage: false,
+    // detectBrowserLanguage: {
+    //   useCookie: true, // ใช้คุกกี้เพื่อจำภาษาที่เลือก
+    //   cookieKey: 'i18n_redirected', // ชื่อคีย์ของคุกกี้
+    //   alwaysRedirect: true, // เปลี่ยนภาษาตามคุกกี้ที่ตั้งไว้เสมอ
+    //   fallbackLocale: 'th', // ใช้ภาษาไทยถ้าไม่เจอภาษาที่ตั้งไว้ในคุกกี้
+    //   redirectOn: 'root' // ทำการ redirect เมื่อเข้าหน้า root
+    // }
   },
   compatibilityDate: '2024-09-21'
-})
+});

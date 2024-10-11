@@ -1,12 +1,20 @@
 {
-  "welcome": "ยินดีต้อนรับสู่เว็บไซต์ของเรา",
+  "welcome": "Welcome to our website",
 
   "menu": {
-    "create_account": "เปิดบัญชี",
-    "login_account": "เข้าสู่ระบบ",
+    "create_account": "Create Account",
+    "login_account": "Log In",
 
-    "buy": "ซื้อขาย",
+    "buy": "ซื้อ",
+    "home": "หน้าแรก",
+    "store": "ร้านค้า",
+    "accounting": "บัญชี",
+    "market": "ร้านค้า",
+    "deposit": "ฝากถอน",
+    "promotion": "โปรโมชั่น",
     "platform": "แพลตฟอร์ม",
+    "partners": "พาทเนอร์",
+    "about": "เกี่ยวกับเรา",
     "more": "เพิ่มเติม"
   },
 
@@ -97,6 +105,7 @@
   "crypto_cfd" : "Crypto CFD",
   "commodity" : "คอมมูดิเคชั่น",
   "product" : "ผลิตภัณฑ์",
+  "new" : "ใหม่",
 
 
 
