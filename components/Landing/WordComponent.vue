@@ -4,7 +4,7 @@
       <div class="bg-dark-500 text-white py-16">
         <div class="container mx-auto text-center">
           <h3 class="text-5xl font-bold mb-24 mt-24">
-            ตลาดโลก<span class="text-primary-400">อยู่เพียง</span>ปลายนิ้วมือของคุณ?
+            {{ $t("Home.WordTitle") }}<span class="text-primary-400">{{ $t("Home.WordTitleSub") }}</span>{{ $t("Home.WordTitleSub_row") }}
           </h3>
 
           <div class="mt-5 flex flex-wrap justify-center gap-4 mx-auto" style="max-width:895px">
@@ -14,9 +14,9 @@
                 <div class="flex justify-center mt-4">
                   <img :src="Word1Image" alt="CFD Icon" class="w-[42px] h-[42px] md:w-[62px] md:h-[62px] lg:h-[82px] lg:w-[82px]">
                 </div>
-                <h6 class="text-center text-white md:text-heading-body text-body-4 mt-4">สกุลเงิน</h6>
+                <h6 class="text-center text-white md:text-heading-body text-body-4 mt-4">{{ $t("currency") }}</h6>
                 <p class="text-center text-white mb-4 md:text-heading-body text-body-4">
-                  <span class="text-primary-400"> 60+ </span>ผลิตภัณฑ์
+                  <span class="text-primary-400"> 60+ </span>{{ $t("product") }}
                 </p>
               </div>
             </div>
@@ -27,9 +27,9 @@
                 <div class="flex justify-center mt-4">
                   <img :src="Word1Image" alt="Stock Icon" class="w-[42px] h-[42px] md:w-[62px] md:h-[62px] lg:h-[82px] lg:w-[82px]">
                 </div>
-                <h6 class="text-center text-white md:text-heading-body text-body-4 mt-4">หุ้น</h6>
+                <h6 class="text-center text-white md:text-heading-body text-body-4 mt-4">{{ $t("share") }}</h6>
                 <p class="text-center text-white mb-4 md:text-heading-body text-body-4">
-                  <span class="text-primary-400"> 120+ </span>ผลิตภัณฑ์
+                  <span class="text-primary-400"> 120+ </span>{{ $t("product") }}
                 </p>
               </div>
             </div>
@@ -40,9 +40,9 @@
                 <div class="flex justify-center mt-4">
                   <img :src="Word1Image" alt="Index Icon" class="w-[42px] h-[42px] md:w-[62px] md:h-[62px] lg:h-[82px] lg:w-[82px]">
                 </div>
-                <h6 class="text-center text-white md:text-heading-body text-body-4 mt-4">ดัชนี</h6>
+                <h6 class="text-center text-white md:text-heading-body text-body-4 mt-4">{{ $t("index") }}</h6>
                 <p class="text-center text-white mb-4 md:text-heading-body text-body-4">
-                  <span class="text-primary-400"> 23+ </span>ผลิตภัณฑ์
+                  <span class="text-primary-400"> 23+ </span>{{ $t("product") }}
                 </p>
               </div>
             </div>
@@ -53,9 +53,9 @@
                 <div class="flex justify-center mt-4">
                   <img :src="Word1Image" alt="Crypto Icon" class="w-[42px] h-[42px] md:w-[62px] md:h-[62px] lg:h-[82px] lg:w-[82px]">
                 </div>
-                <h6 class="text-center text-white md:text-heading-body text-body-4 mt-4">Crypto CFD</h6>
+                <h6 class="text-center text-white md:text-heading-body text-body-4 mt-4">{{ $t("crypto_cfd") }}</h6>
                 <p class="text-center text-white mb-4 md:text-heading-body text-body-4">
-                  <span class="text-primary-400"> 5+ </span>ผลิตภัณฑ์
+                  <span class="text-primary-400"> 5+ </span>{{ $t("product") }}
                 </p>
               </div>
             </div>
@@ -66,9 +66,9 @@
                 <div class="flex justify-center mt-4">
                   <img :src="Word1Image" alt="Commodity Icon" class="w-[42px] h-[42px] md:w-[62px] md:h-[62px] lg:h-[82px] lg:w-[82px]">
                 </div>
-                <h6 class="text-center text-white md:text-heading-body text-body-4 mt-4">คอมโมดิตี้</h6>
+                <h6 class="text-center text-white md:text-heading-body text-body-4 mt-4">{{ $t("commodity") }}</h6>
                 <p class="text-center text-white mb-4 md:text-heading-body text-body-4">
-                  <span class="text-primary-400"> 19+ </span>ผลิตภัณฑ์
+                  <span class="text-primary-400"> 19+ </span>{{ $t("product") }}
                 </p>
               </div>
             </div>

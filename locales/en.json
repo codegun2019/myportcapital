@@ -1,20 +1,112 @@
 {
   "welcome": "Welcome to our website",
-  "about": "About us",
-  "footer_message": "All rights reserved",
+
   "menu": {
+    "create_account": "Create Account",
+    "login_account": "Log In",
+
     "buy": "Buy",
     "platform": "Platform",
     "more": "More"
   },
+
+  "Home": {
+    "Header_welcome_title": "Experience Superior Trading",
+    "Header_welcome_description": "With better offers",
+    "Header_welcome_subttile": "Increase your profit potential by reducing costs. Trade with the lowest spreads and faster order execution for unmatched trading performance.",
+    "Header_welcome_cta": "Get your $30 welcome bonus",
+
+    "Myport_1_title": "LotBack",
+    "Myport_2_title": "0.0",
+    "Myport_3_title": "STP",
+    "Myport_4_title": "Swap Free",
+
+    "Myport_1_subtitle": "Program",
+    "Myport_2_subtitle": "Low Spread",
+    "Myport_3_subtitle": "Account",
+    "Myport_4_subtitle": "Commission",
+
+    "Myport_welcome_title": "Experience Superior Trading",
+    "Myport_welcome_description": "Experience Superior Trading",
+    "Myport_welcome_cta": "Start Trading",
+    "Myport_welcome_ctb": "Demo Account",
+
+    "MyportBox_1_title": "0.0 Spread",
+    "MyportBox_2_title": "Institutional Trading",
+    "MyportBox_3_title": "Fast Execution",
+
+    "MyportBox_1_title_a": "Offering superior spreads",
+    "MyportBox_2_title_a": "Trade with spreads starting from 0.0 pips",
+    "MyportBox_3_title_a": "Combining proprietary liquidity",
+
+    "MyportBox_1_title_b": "Reducing market volatility",
+    "MyportBox_2_title_b": "Institutional trading with high liquidity",
+    "MyportBox_3_title_b": "CFD trading over $1.5 billion",
+
+    "MyportBox_1_title_c": "Average execution speed below 30ms",
+    "MyportBox_2_title_c": "Low fibre optic latency",
+
+    "ReadyTitle": "myport",
+    "ReadyTitleSub": "Elevate your trading experience?",
+
+    "ReadyTitle_a": "Access analysis anytime",
+    "ReadyTitleSub_a": "View market charts to keep up with the latest market news?",
+
+    "ReadyTitle_b": "Popular Assets",
+    "ReadyTitleSub_b": "View global markets by different instruments for profitable trading with low spreads and high speed?",
+
+    "ReadyTitle_c": "Economic Calendar",
+    "ReadyTitleSub_c": "Keep track of the latest market news and upcoming economic events anywhere, anytime?",
+
+    "WordTitle": "Global Market",
+    "WordTitleSub": "Just",
+    "WordTitleSub_row": "at your fingertips?",
+
+    "WordTitle_a": "Access analysis anytime",
+    "WordTitleSub_a": "View market charts to keep up with the latest market news?",
+
+    "WordTitle_b": "Popular Assets",
+    "WordTitleSub_b": "View global markets by different instruments for profitable trading with low spreads and high speed?",
+
+    "WordTitle_c": "Economic Calendar",
+    "WordTitleSub_c": "Keep track of the latest market news and upcoming economic events anywhere, anytime?",
+
+    "Buysell_welcome_title": "Trade Easily on",
+    "Buysell_welcome_title_sub": "Mobile",
+    "Buysell_welcome_description": "Trade easily on mobile. Access the CFD market via a mobile application designed for user-friendliness, with quick order execution and maximum performance for smooth trading.",
+    "Buysell_welcome_cta": "Learn More",
+
+    "Trader_welcome_title": "MetaTrader",
+    "Trader_welcome_title_sub": "5",
+    "Trader_welcome_subttile": "A Powerful Trading Terminal",
+    "Trader_welcome_description": "Successful trading starts with convenient and practical trading. MetaTrader is the best choice for modern traders.",
+    "Trader_welcome_cta": "Learn More",
+    "Trader_welcome_ctb": "Download MetaTrader at",
+
+    "Start_welcome_title": "Start Trading in the Global Market Today",
+    "Start_welcome_description": "Ready to trade on all platforms: IUX Web Trade, IUX App Trade, and MetaTrader5. MetaTrader is the best choice for modern traders.",
+    "Start_welcome_cta": "Trade with 0.0 pips",
+    "Start_welcome_ctb": "Demo Account"
+  },
+
+  "currency": "Currency",
+  "share": "Currency",
+  "index": "Index",
+  "crypto_cfd": "Crypto CFD",
+  "commodity": "Commodity",
+  "product": "Product",
+
+  "about": "About Us",
+  "footer_message": "All rights reserved",
+
   "buttons": {
     "open_account": "Open Account",
-    "login": "Login"
+    "login": "Log In"
   },
   "hero": {
-    "title": "Experience superior trading",
+    "title": "Experience Superior Trading",
     "subtitle": "With better offers",
-    "description": "Increase your chance of profit by lowering costs. Trade with the lowest spreads and the fastest order execution. Join us for unmatched trading advantages.",
-    "cta": "Claim your $30 welcome bonus"
+    "description": "Increase your profit potential by reducing costs. Trade with the lowest spreads and faster order execution for unmatched trading performance.",
+    "cta": "Get your $30 welcome bonus"
   }
 }

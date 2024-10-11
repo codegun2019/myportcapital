@@ -4,7 +4,7 @@
     <!-- Section Header -->
       <div class="text-center my-10">
         <h2 class="text-5xl font-bold mb-24 mt-24">
-          <span class="text-primary-400">myport</span> ยกระดับการเทรดที่เหนือกว่า?
+          <span class="text-primary-400">myport</span> {{ $t("Home.ReadyTitleSub") }}
         </h2>
       </div>
 
@@ -12,34 +12,34 @@
         <!-- Card 1: Market Analysis -->
         <div class="bg-dark-900 rounded-xl pt-16 px-5 text-center border border-dark-400 flex flex-col justify-between">
           <div>
-            <h3 class="text-xl font-bold mb-4">เข้าถึงการวิเคราะห์ได้ตลอด</h3>
+            <h3 class="text-xl font-bold mb-4">{{ $t("Home.ReadyTitle_a") }}</h3>
             <p class="text-gray-400 mb-6">
-              ดูแผนภูมิตลาดเพื่อติดตามข่าวสารล่าสุดของตลาด ในช่วงเวลานั้นๆ
+              {{ $t("Home.ReadyTitleSub_a") }}
             </p>
           </div>
-          <img :src="Ready1Image" alt="Market Analysis Image" class="w-1/1.5 h-auto mx-auto rounded-lg">
+          <img :src="Ready1Image" :alt="$t('Home.ReadyTitle_a')" class="w-1/1.5 h-auto mx-auto rounded-lg">
         </div>
 
         <!-- Card 2: Popular Assets -->
         <div class="bg-dark-900 rounded-xl pt-16 px-5 text-center border border-dark-400 flex flex-col justify-between">
           <div>
-            <h3 class="text-xl font-bold mb-4">สินทรัพย์ยอดนิยม</h3>
+            <h3 class="text-xl font-bold mb-4">{{ $t("Home.ReadyTitle_b") }}</h3>
             <p class="text-gray-400 mb-6">
-              ดูตลาดโลกตามตราสารต่างๆ เพื่อการค้าขนาดมาร่ำรวย สเปรด และสปีดที่รวดเร็ว
+              {{ $t("Home.ReadyTitleSub_b") }}
             </p>
           </div>
-          <img :src="Ready2Image" alt="Market Analysis Image" class="w-1/1.5 h-auto mx-auto rounded-lg">
+          <img :src="Ready2Image" :alt="$t('Home.ReadyTitle_b')" class="w-1/1.5 h-auto mx-auto rounded-lg">
         </div>
 
         <!-- Card 3: Economic Calendar -->
         <div class="bg-dark-900 rounded-xl pt-16 px-5 text-center border border-dark-400 flex flex-col justify-between">
           <div>
-            <h3 class="text-xl font-bold mb-4">ปฏิทินเศรษฐกิจ</h3>
+            <h3 class="text-xl font-bold mb-4">{{ $t("Home.ReadyTitle_c") }}</h3>
             <p class="text-gray-400 mb-6">
-              ติดตามข่าวการตลาดล่าสุดและกิจกรรมทางเศรษฐกิจที่กำลังจะเกิดขึ้นได้ทุกที่ ทุกเวลา
+              {{ $t("Home.ReadyTitleSub_c") }}
             </p>
           </div>
-          <img :src="Ready3Image" alt="Market Analysis Image" class="w-1/1.5 h-auto mx-auto rounded-lg">
+          <img :src="Ready3Image" :alt="$t('Home.ReadyTitle_c')" class="w-1/1.5 h-auto mx-auto rounded-lg">
         </div>
       </div>
 

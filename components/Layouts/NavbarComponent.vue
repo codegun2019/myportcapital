@@ -5,10 +5,7 @@
       <!-- Logo and Hamburger menu icon for mobile -->
       <div class="flex items-center space-x-0 sm:space-x-6">
         <div class="h-8 hidden sm:block" >
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" class="h-full w-full">
-            <circle cx="50" cy="50" r="50" fill="#4CAF50" />
-            <text x="50%" y="50%" text-anchor="middle" fill="white" font-size="20" dy=".3em">LOGO</text>
-          </svg>
+          <img :src="logo" alt="logo" class="h-4 w-6" />
         </div>
 
         <!-- Hamburger icon for mobile -->
@@ -107,6 +104,7 @@ import enFlag from '~/assets/flags/en.svg'
 import loFlag from '~/assets/flags/lo.svg'
 import zhFlag from '~/assets/flags/zh.svg'
 import jpFlag from '~/assets/flags/jp.svg'
+import logo from '~/assets/images/logo.png'
 
 const isDropdownOpen = ref(false)
 const isMobileMenuOpen = ref(false)

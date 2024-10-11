@@ -2,8 +2,10 @@
 import type { DefineComponent, SlotsType } from 'vue'
 type IslandComponent<T extends DefineComponent> = T & DefineComponent<{}, {refresh: () => Promise<void>}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, SlotsType<{ fallback: { error: unknown } }>>
 interface _GlobalComponents {
-      'AccountingComponent': typeof import("../components/Accounting/AccountingComponent.vue")['default']
+      'AboutHeadComponent': typeof import("../components/About/HeadComponent.vue")['default']
+    'AccountingComponent': typeof import("../components/Accounting/AccountingComponent.vue")['default']
     'AccountingStartComponent': typeof import("../components/Accounting/StartComponent.vue")['default']
+    'ContactHeadComponent': typeof import("../components/Contact/HeadComponent.vue")['default']
     'DepositStartComponent': typeof import("../components/Deposit/StartComponent.vue")['default']
     'DepositTraditionComponent': typeof import("../components/Deposit/TraditionComponent.vue")['default']
     'DepositWithdrawComponent': typeof import("../components/Deposit/WithdrawComponent.vue")['default']
@@ -60,8 +62,10 @@ interface _GlobalComponents {
     'Body': typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
     'NuxtIsland': typeof import("../node_modules/nuxt/dist/app/components/nuxt-island")['default']
     'NuxtRouteAnnouncer': IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
-      'LazyAccountingComponent': typeof import("../components/Accounting/AccountingComponent.vue")['default']
+      'LazyAboutHeadComponent': typeof import("../components/About/HeadComponent.vue")['default']
+    'LazyAccountingComponent': typeof import("../components/Accounting/AccountingComponent.vue")['default']
     'LazyAccountingStartComponent': typeof import("../components/Accounting/StartComponent.vue")['default']
+    'LazyContactHeadComponent': typeof import("../components/Contact/HeadComponent.vue")['default']
     'LazyDepositStartComponent': typeof import("../components/Deposit/StartComponent.vue")['default']
     'LazyDepositTraditionComponent': typeof import("../components/Deposit/TraditionComponent.vue")['default']
     'LazyDepositWithdrawComponent': typeof import("../components/Deposit/WithdrawComponent.vue")['default']
@@ -124,8 +128,10 @@ declare module 'vue' {
   export interface GlobalComponents extends _GlobalComponents { }
 }
 
+export const AboutHeadComponent: typeof import("../components/About/HeadComponent.vue")['default']
 export const AccountingComponent: typeof import("../components/Accounting/AccountingComponent.vue")['default']
 export const AccountingStartComponent: typeof import("../components/Accounting/StartComponent.vue")['default']
+export const ContactHeadComponent: typeof import("../components/Contact/HeadComponent.vue")['default']
 export const DepositStartComponent: typeof import("../components/Deposit/StartComponent.vue")['default']
 export const DepositTraditionComponent: typeof import("../components/Deposit/TraditionComponent.vue")['default']
 export const DepositWithdrawComponent: typeof import("../components/Deposit/WithdrawComponent.vue")['default']
@@ -182,8 +188,10 @@ export const Html: typeof import("../node_modules/nuxt/dist/head/runtime/compone
 export const Body: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
 export const NuxtIsland: typeof import("../node_modules/nuxt/dist/app/components/nuxt-island")['default']
 export const NuxtRouteAnnouncer: IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
+export const LazyAboutHeadComponent: typeof import("../components/About/HeadComponent.vue")['default']
 export const LazyAccountingComponent: typeof import("../components/Accounting/AccountingComponent.vue")['default']
 export const LazyAccountingStartComponent: typeof import("../components/Accounting/StartComponent.vue")['default']
+export const LazyContactHeadComponent: typeof import("../components/Contact/HeadComponent.vue")['default']
 export const LazyDepositStartComponent: typeof import("../components/Deposit/StartComponent.vue")['default']
 export const LazyDepositTraditionComponent: typeof import("../components/Deposit/TraditionComponent.vue")['default']
 export const LazyDepositWithdrawComponent: typeof import("../components/Deposit/WithdrawComponent.vue")['default']

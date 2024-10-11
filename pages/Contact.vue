@@ -3,7 +3,7 @@
 </template>
 
 <script lang="ts" setup>
-import HeadComponent from '~/components/About/HeadComponent.vue'
+import HeadComponent from '~/components/Contact/HeadComponent.vue'
 </script>
 
 <style scoped>

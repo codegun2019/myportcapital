@@ -14,10 +14,10 @@
         <div>
           <div>
             <h2 class="text-4xl mt-5 mb-5 font-bold lg:text-left xl:tex-teft text-center">
-              <span class="text-white">เริ่มต้นซื้อขายในตลาดโลกได้แล้ววันนี้</span>
+              <span class="text-white">{{ $t("Home.Start_welcome_title") }}</span>
             </h2>
             <p class="mt-2 text-center text-secondary-400 md:text-start lg:text-body-3">
-              พร้อมให้ซื้อขายแล้วทุกแพลตฟอร์ม IUX Web Trade, IUX App Trade, และ MetaTrader5
+              {{ $t("Home.Start_welcome_description") }}
             </p>
           </div>
           <div class="mt-3 flex flex-col items-center justify-center gap-4 sm:flex-row md:justify-start">
@@ -25,14 +25,14 @@
               <button
                 class="py-[10px] px-[16px] bg-primary-500 text-primary-900 rounded-full hover:bg-primary-600 disabled:bg-[#2F2F2F] disabled:text-[#666666] max-h-[44px] btn-primary-iux-round whitespace-nowrap"
               >
-                ซื้อขายด้วย 0.0 pips
+              {{ $t("Home.Start_welcome_cta") }}
               </button>
             </a>
             <a href="https://portal.iux.com/th/register">
               <button
                 class="py-[10px] px-[16px] bg-transparent border border-primary-500 rounded-full hover:bg-primary-600 text-primary max-h-[44px] whitespace-nowrap text-primary-100"
               >
-                บัญชีทดลอง
+              {{ $t("Home.Start_welcome_ctb") }}
               </button>
             </a>
           </div>

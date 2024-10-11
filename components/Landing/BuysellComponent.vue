@@ -9,22 +9,21 @@
             <!-- Left side image -->
             <div class="">
               <div class="flex justify-center pb-[62px] md:pb-0 mt-16">
-                <img :src="BuyphoneImage" alt="custom-image" />
+                <img :src="BuyphoneImage" :alt="$t('Home.Buysell_welcome_title')" />
               </div>
             </div>
             <!-- Right side content -->
             <div>
               <h2 class="text-5xl font-bold mb-24 mt-24 text-center 2xl:text-left xl:text-left">
-                ซื้อขายง่ายๆ บน <span class="text-primary-400">มือถือ</span>
+                {{ $t("Home.Buysell_welcome_title") }} <span class="text-primary-400">{{ $t("Home.Buysell_welcome_title_sub") }}</span>
               </h2>
               <p class="mt-[28px] text-center text-button-2 md:text-heading-body lg:text-start">
-                เข้าถึงตลาด CFD ผ่านแอปพลิเคชันมือถือที่ออกแบบมาให้ใช้งานง่าย ด้วยการดำเนินการตามคำสั่งที่รวดเร็ว 
-                และประสิทธิภาพสูงสุดเพื่อการซื้อขายที่ราบรื่น
+                {{ $t("Home.Buysell_welcome_description") }}
               </p>
               <div class="flex justify-center lg:justify-start">
-                <a href="/your-link" class="mt-[16px]">
+                <a href="" class="mt-[16px]">
                   <button class="bg-transparent hover:text-secondary text-primary flex items-center font-[500]">
-                    ดูเพิ่มเติม &nbsp;
+                    {{ $t("Home.Buysell_welcome_cta") }} &nbsp;
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5">
                       <path fill-rule="evenodd" d="M3 10a.75.75 0 0 1 .75-.75h10.638L10.23 5.29a.75.75 0 1 1 1.04-1.08l5.5 5.25a.75.75 0 0 1 0 1.08l-5.5 5.25a.75.75 0 1 1-1.04-1.08l4.158-3.96H3.75A.75.75 0 0 1 3 10Z" clip-rule="evenodd"></path>
                     </svg>
