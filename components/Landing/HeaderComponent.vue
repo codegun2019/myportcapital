@@ -11,7 +11,7 @@
     autoplay=""
     muted=""
     loop=""
-    poster="https://starlink.ua/media/mod_starlink/snapshot.png"
+    :poster="loadpage"
     id="hero-video"
     class="absolute top-0 grayscale brightness-100 lg:left-20 left-0 w-full h-full object-cover z-0"
     
@@ -67,6 +67,7 @@ import { ref, onMounted } from "vue";
 import { useI18n } from "vue-i18n";
 
 import cover from "~/assets/images/cover-landing.webm";
+import loadpage from "~/assets/images/load_page.png";
 
 const isDropdownOpen = ref(false);
 const { locale } = useI18n();
