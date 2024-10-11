@@ -13,7 +13,7 @@
     loop=""
     poster="https://starlink.ua/media/mod_starlink/snapshot.png"
     id="hero-video"
-    class="absolute top-0 grayscale brightness-100 left-20 w-full h-full object-cover z-0"
+    class="absolute top-0 grayscale brightness-100 lg:left-20 left-0 w-full h-full object-cover z-0"
     
   >
     <source :src="cover" type="video/webm" />
