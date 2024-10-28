@@ -1,8 +1,8 @@
 <template>
-  <div class="relative right-[-55%] md:right-[-70%]">
+  <div class="relative right-[-55%] md:right-[-70%] z-20" data-aos="fade-in" data-aos-duration="6000">
     <!-- App Store Review Widget -->
     <div class="absolute top-[30%] xl:top-[30%] xl:right-[60%] right-[50%] w-[195px]">
-      <div
+      <div 
         class="bg-card-good-w rounded-xl py-5 px-5 text-center border border-whire flex flex-col justify-between"
         data-elfsight-app-lazy="true"
       >

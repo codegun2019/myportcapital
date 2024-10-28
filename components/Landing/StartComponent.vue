@@ -5,7 +5,6 @@
       <div class="bg-cover bg-cover bg-no-repeat":style="{
           backgroundImage: `url(${section7_1})`,
         }">
-        <div class="shadow-container"></div>
       </div>
       <!-- Right content section -->
       <div class="flex items-center px-[16px] pb-[62px] pt-[16px] md:pb-0 md:pt-[0]">

@@ -3,7 +3,7 @@
     <section class="container mx-auto" id="section-ready">
     <!-- Section Header -->
       <div class="text-center my-10">
-        <h2 class="text-5xl font-bold mb-24 mt-24">
+        <h2 class="text-5xl font-bold mb-24 mt-24" data-aos="fade-up" data-aos-duration="500">
           <span class="text-primary-400">myport</span> {{ $t("Home.ReadyTitleSub") }}
         </h2>
       </div>
@@ -12,39 +12,39 @@
         <!-- Card 1: Market Analysis -->
         <div class="bg-dark-900 rounded-xl pt-16 px-5 text-center border border-dark-400 flex flex-col justify-between">
           <div>
-            <h3 class="text-xl font-bold mb-4">{{ $t("Home.ReadyTitle_a") }}</h3>
-            <p class="text-gray-400 mb-6">
+            <h3 data-aos="fade-up" data-aos-duration="9000" class="text-xl font-bold mb-4">{{ $t("Home.ReadyTitle_a") }}</h3>
+            <p class="text-gray-400 mb-6" data-aos="fade-up" data-aos-duration="18000">
               {{ $t("Home.ReadyTitleSub_a") }}
             </p>
           </div>
           <div class="shadow-container bg-no-repeat" :style="{ backgroundImage: `url(${section3_bg})`, backgroundSize: 'cover', backgroundPosition: 'left' }">
-            <img :src="section3_1" :alt="$t('Home.ReadyTitle_a')" class="w-1/1.5 h-auto mx-auto rounded-lg">
+            <img :src="section3_1" data-aos="fade-up" data-aos-duration="12000" :alt="$t('Home.ReadyTitle_a')" class="w-1/1.5 h-auto mx-auto rounded-lg">
           </div>
         </div>
 
         <!-- Card 2: Popular Assets -->
         <div class="bg-dark-900 rounded-xl pt-16 px-5 text-center border border-dark-400 flex flex-col justify-between">
           <div>
-            <h3 class="text-xl font-bold mb-4">{{ $t("Home.ReadyTitle_b") }}</h3>
-            <p class="text-gray-400 mb-6">
+            <h3 data-aos="fade-up" data-aos-duration="6000" class="text-xl font-bold mb-4">{{ $t("Home.ReadyTitle_b") }}</h3>
+            <p class="text-gray-400 mb-6" data-aos="fade-up" data-aos-duration="12000">
               {{ $t("Home.ReadyTitleSub_b") }}
             </p>
           </div>
           <div class="shadow-container bg-no-repeat" :style="{ backgroundImage: `url(${section3_bg})`, backgroundSize: 'cover', backgroundPosition: 'left' }">
-            <img :src="section3_2" :alt="$t('Home.ReadyTitle_a')" class="w-1/1.5 h-auto mx-auto rounded-lg">
+            <img :src="section3_2" data-aos="fade-down" data-aos-duration="12000" :alt="$t('Home.ReadyTitle_a')" class="w-1/1.5 h-auto mx-auto rounded-lg">
           </div>
         </div>
 
         <!-- Card 3: Economic Calendar -->
         <div class="bg-dark-900 rounded-xl pt-16 px-5 text-center border border-dark-400 flex flex-col justify-between">
           <div>
-            <h3 class="text-xl font-bold mb-4">{{ $t("Home.ReadyTitle_c") }}</h3>
-            <p class="text-gray-400 mb-6">
+            <h3 data-aos="fade-up" data-aos-duration="3000" class="text-xl font-bold mb-4">{{ $t("Home.ReadyTitle_c") }}</h3>
+            <p class="text-gray-400 mb-6" data-aos="fade-up" data-aos-duration="6000">
               {{ $t("Home.ReadyTitleSub_c") }}
             </p>
           </div>
           <div class="shadow-container bg-no-repeat" :style="{ backgroundImage: `url(${section3_bg})`, backgroundSize: 'cover', backgroundPosition: 'left' }">
-            <img :src="section3_3" :alt="$t('Home.ReadyTitle_a')" class="w-1/1.5 h-auto mx-auto rounded-lg">
+            <img :src="section3_3" data-aos="fade-up" data-aos-duration="12000" :alt="$t('Home.ReadyTitle_a')" class="w-1/1.5 h-auto mx-auto rounded-lg">
           </div>
         </div>
       </div>

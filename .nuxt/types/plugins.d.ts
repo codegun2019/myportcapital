@@ -22,7 +22,8 @@ type NuxtAppInjections =
   InjectionType<typeof import("../../node_modules/@nuxtjs/i18n/dist/runtime/plugins/i18n.js").default> &
   InjectionType<typeof import("../../node_modules/nuxt/dist/app/plugins/dev-server-logs.js").default> &
   InjectionType<typeof import("../../node_modules/nuxt/dist/app/plugins/check-if-layout-used.js").default> &
-  InjectionType<typeof import("../../plugins/router-hooks.js").default>
+  InjectionType<typeof import("../../plugins/router-hooks.js").default> &
+  InjectionType<typeof import("../../plugins/aos.client.js").default>
 
 declare module '#app' {
   interface NuxtApp extends NuxtAppInjections { }

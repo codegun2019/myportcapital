@@ -10,11 +10,11 @@
             <div class="">
               <div class="flex justify-center pb-[62px] md:pb-0 mt-16">
                 <div class="relative w-full h-[600px]">
-                  <img :src="section5_1" class="hidden md:block absolute bottom-0 left-1/2 transform -translate-x-1/2 h-auto">
-                  <img :src="section5_2" :alt="$t('Home.Buysell_welcome_title')"
+                  <img data-aos="fade-in" data-aos-duration="6000" :src="section5_1" class="fix-drop-strone hidden md:block absolute bottom-0 left-1/2 transform -translate-x-1/2 h-auto">
+                  <img data-aos="fade-in" data-aos-duration="6000" :src="section5_2" :alt="$t('Home.Buysell_welcome_title')"
                       class="absolute left-1/2 transform -translate-x-1/2 bottom-16  h-auto z-10">
-                  <img :src="section5_3"
-                      class="absolute app-mobile-icon  transform -translate-x-2/10 -translate-y-1/2 top-2/3 w-24 h-24 z-20">
+                  <img data-aos="fade-in" data-aos-duration="6000" :src="section5_3" 
+                  class="absolute app-mobile-icon fix-drop-right-top transform -translate-x-2/10  -translate-y-1/2 top-2/4 w-24 h-24 z-20">
                   <img :src="section5_4" class="absolute bottom-0 hidden md:block left-1/2 transform -translate-x-1/2 h-auto">    
                 </div>
               </div>
@@ -65,7 +65,36 @@ import section5_4 from '~/assets/images/landing/section5/03_Shadow.png'
 
 <style scoped>
 .app-mobile-icon{
-  left: 53%;
-  top: 45%;
+  left: 60%;
+  top: 30%;
+}
+.fix-drop-right-top {
+  position: absolute;
+  /* transform: translate(600px, 106px); */
+  z-index: 11;
+  -webkit-animation: fix-drop-right-top-mover 2.5s infinite alternate;
+  animation: fix-drop-right-top-mover 2.5s infinite alternate;
+}
+@keyframes fix-drop-right-top-mover {
+  0% {
+    transform: translate(69%, 45%);
+  }
+  100% {
+    transform: translate(55%, 30%);
+  }
+}
+.fix-drop-strone {
+  position: absolute;
+  /* transform: translate(600px, 106px); */
+  -webkit-animation: strone 99.5s infinite alternate;
+  animation: strone 99.5s infinite alternate;
+}
+@keyframes strone {
+  0% {
+    transform: translate(-5%, 0%);
+  }
+  100% {
+    transform: translate(5%, 0%);
+  }
 }
 </style>

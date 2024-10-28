@@ -1,5 +1,5 @@
 <template>
-<div class="bg-black text-white" :style="{ backgroundImage: `url(${section1_1})`, backgroundSize: 'cover', backgroundPosition: 'left' }">
+<div class="bg-black text-white z-10 relative" :style="{ backgroundImage: `url(${section1_1})`, backgroundSize: 'cover', backgroundPosition: 'left' }">
   <section class="mx-auto" id="section-platform">
     <div class="container mx-auto px-[16px]">
       <div class="grid grid-cols-1 lg:grid-cols-2">

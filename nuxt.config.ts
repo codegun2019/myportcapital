@@ -2,8 +2,8 @@
 export default defineNuxtConfig({
   devtools: { enabled: true }, // เปิด Devtools
   css: ['~/assets/css/main.css'], // การเพิ่มไฟล์ CSS ที่กำหนดเอง
-  plugins: ['~/plugins/router-hooks.js'],
-  
+  plugins: ['~/plugins/router-hooks.js','~/plugins/aos.client.js'],
+
   postcss: {
     plugins: {
       tailwindcss: {},

@@ -1,5 +1,5 @@
 <template>
-  <div :style="{ backgroundImage: `url(${section1_1})`, backgroundSize: 'cover', }" class="bg-right-top md:bg-right-top bg-primaryDarkNight 2xl:bg-bottom bg-top 2xl:bg-contain xl:bg-contain lg:bg-contain 2xl:bg-left bg-no-repeat bg-black text-white  flex items-center justify-center">
+  <div :style="{ backgroundImage: `url(${section1_1})`, backgroundSize: 'cover', }" class="z-10 relative bg-right-top md:bg-right-top bg-primaryDarkNight 2xl:bg-bottom bg-top 2xl:bg-contain xl:bg-contain lg:bg-contain 2xl:bg-left bg-no-repeat bg-black text-white  flex items-center justify-center">
     <section class="px-[16px]" id="buysell-section">
       <div class="container mx-auto">
         <div class="container-section-custom">
@@ -13,7 +13,7 @@
                 และประสิทธิภาพสูงสุดเพื่อการซื้อขายที่ราบรื่น
               </p>
               <div class="flex justify-center lg:justify-start">
-                <img :src="IosImage" class="w-[200px]" alt="custom-image" />
+                <img data-aos="fade-in" data-aos-duration="9000" :src="IosImage" class="w-[200px]" alt="custom-image" />
               </div>
 
               <div class="mt-8 flex justify-center gap-6 lg:justify-start">
@@ -23,10 +23,10 @@
               </div>
             </div>
             <!-- Left side image (now on the right) -->
-            <div class="">
+            <div class="" >
               <div class="flex justify-center  pb-0 md:pb-0 mt-16">
                 <Forios/>
-                <img :src="section3_2" alt="custom-image" />
+                <img class="z-10 relative" data-aos="fade-up" data-aos-duration="3000" :src="section3_2" alt="custom-image" />
               </div>
             </div>
           </div>

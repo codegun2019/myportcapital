@@ -1,11 +1,11 @@
 <template>
-  <div class="bg-black text-white" :style="{ backgroundImage: `url(${section1_1})`, backgroundSize: 'cover', backgroundPosition: 'left' }">
+  <div class="bg-black text-white z-10 relative" :style="{ backgroundImage: `url(${section1_1})`, backgroundSize: 'cover', backgroundPosition: 'left' }">
     <section class="mx-auto" id="section-myport">
       <div class="px-10">
-        <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
+        <div class="container mx-auto flex flex-col md:flex-row min-h-fit items-center justify-between">
           <!-- Text Section -->
           <div class="md:w-1/2 md:py-16 py-8">
-            <h2 class="text-4xl font-bold">
+            <h2 class="text-4xl font-bold" data-aos="fade-up" data-aos-duration="6000">
               <span class="text-primary-400 underline">myport </span>App Trade
             </h2>
             <p class="mt-4 text-lg text-gray-400">
@@ -47,7 +47,7 @@
           <!-- Image Section -->
           <div class="md:w-1/2 mt-8 md:mt-0 px-5 lg:px-16 pt-16">
             <img :src="section1_2" class="w-[80%] h-auto mx-auto">
-            <img :src="section1_3" class="block hidden md:block absolute app-mobile-icon transform  right-0 -translate-y-1/2 w-100 top-1/2 z-20">
+            <img :src="section1_3" class="fix-drop-right-top block hidden md:block absolute app-mobile-icon transform  right-0 -translate-y-1/2 w-100 top-1/2 z-20">
           </div>
         </div>
       </div>
@@ -69,5 +69,18 @@ import bighomemoney from '~/assets/flags/bighomemoney.svg'
 </script>
 
 <style scoped>
-
+.fix-drop-right-top {
+  position: absolute;
+  /* transform: translate(600px, 106px); */
+  -webkit-animation: fix-drop-right-top-mover 3.5s infinite alternate;
+  animation: fix-drop-right-top-mover 3.5s infinite alternate;
+}
+@keyframes fix-drop-right-top-mover {
+  0% {
+    transform: translate(0, -37%);
+  }
+  100% {
+    transform: translate(0, -33%);
+  }
+}
 </style>

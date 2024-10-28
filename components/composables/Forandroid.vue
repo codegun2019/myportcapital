@@ -1,5 +1,5 @@
 <template>
-  <div class="relative left-[96%] md:left-[13%]">
+  <div class="relative left-[96%] md:left-[13%] z-20">
     <!-- App Store Review Widget -->
     <div class="absolute top-[30%] xl:top-[30%] xl:right-[60%] right-[50%] w-[195px]">
       <div
