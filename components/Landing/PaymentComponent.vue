@@ -14,6 +14,7 @@
 </template>
 
 <script setup>
+
 import CryptopayImage from '~/assets/images/payment/cryptopay.svg'
 import LocalpayImage from '~/assets/images/payment/localpay.svg'
 import WirepayImage from '~/assets/images/payment/wirepay.svg'

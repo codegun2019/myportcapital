@@ -1,20 +1,27 @@
 <template>
   <div :style="{
       backgroundImage: `url(${BglightImage})`,
-    }" class="bg-light 2xl:bg-bottom bg-top 2xl:bg-contain xl:bg-contain lg:bg-contain 2xl:bg-left bg-no-repeat bg-black text-white  min-h-screen flex items-center justify-center">
-    <section  class=" px-[16px] py-[62px] md:py-[125px]" id="buysell-section">
-      <div class="container mx-auto">
+    }" class="bg-light 2xl:bg-bottom bg-top 2xl:bg-contain xl:bg-contain lg:bg-contain 2xl:bg-left bg-no-repeat bg-black text-white flex items-center justify-center">
+    <section  class=" pt-[62px] md:pt-[125px]" id="buysell-section">
+      <div class=" mx-auto">
         <div class="container-section-custom">
           <div class="grid grid-cols-1 lg:grid-cols-2">
             <!-- Left side image -->
             <div class="">
               <div class="flex justify-center pb-[62px] md:pb-0 mt-16">
-                <img :src="BuyphoneImage" :alt="$t('Home.Buysell_welcome_title')" />
+                <div class="relative w-full h-[600px]">
+                  <img :src="section5_1" class="hidden md:block absolute bottom-0 left-1/2 transform -translate-x-1/2 h-auto">
+                  <img :src="section5_2" :alt="$t('Home.Buysell_welcome_title')"
+                      class="absolute left-1/2 transform -translate-x-1/2 bottom-16  h-auto z-10">
+                  <img :src="section5_3"
+                      class="absolute app-mobile-icon  transform -translate-x-2/10 -translate-y-1/2 top-2/3 w-24 h-24 z-20">
+                  <img :src="section5_4" class="absolute bottom-0 hidden md:block left-1/2 transform -translate-x-1/2 h-auto">    
+                </div>
               </div>
             </div>
             <!-- Right side content -->
             <div>
-              <h2 class="text-5xl font-bold mb-24 mt-24 text-center 2xl:text-left xl:text-left">
+              <h2 class="text-5xl font-bold mb-24 mt-44 text-center 2xl:text-left xl:text-left">
                 {{ $t("Home.Buysell_welcome_title") }} <span class="text-primary-400">{{ $t("Home.Buysell_welcome_title_sub") }}</span>
               </h2>
               <p class="mt-[28px] text-center text-button-2 md:text-heading-body lg:text-start">
@@ -45,11 +52,20 @@
 </template>
 
 <script setup>
-import BuyphoneImage from '~/assets/images/tradeonmobile.png'
-import BglightImage from '~/assets/images/bg-light.png'
+
+import BglightImage from '~/assets/images/landing/section5/01_Banner.jpg'
+import section5_1 from '~/assets/images/landing/section5/02_Stone.png'
+import section5_2 from '~/assets/images/landing/section5/04_Device.png'
+import section5_3 from '~/assets/images/landing/section5/05_Icon_App.png'
+import section5_4 from '~/assets/images/landing/section5/03_Shadow.png'
+// import BuyphoneImage from '~/assets/images/tradeonmobile.png'
+// import BglightImage from '~/assets/images/bg-light.png'
 
 </script>
 
 <style scoped>
-
+.app-mobile-icon{
+  left: 53%;
+  top: 45%;
+}
 </style>

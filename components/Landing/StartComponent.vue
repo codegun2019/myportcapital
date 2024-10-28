@@ -1,17 +1,15 @@
 <template>
-  <section class="bg-primaryDarkNight" id="section-start-trader">
+  <section class="bg-black" id="section-start-trader">
     <div class="grid grid-cols-1 md:grid-cols-2">
       <!-- Left image section -->
       <div class="bg-cover bg-cover bg-no-repeat":style="{
-          backgroundImage: `url(${BglightImage})`,
+          backgroundImage: `url(${section7_1})`,
         }">
-        <div>
-          <img :src="footerImage" alt="img-footer" />
-        </div>
+        <div class="shadow-container"></div>
       </div>
       <!-- Right content section -->
       <div class="flex items-center px-[16px] pb-[62px] pt-[16px] md:pb-0 md:pt-[0]">
-        <div>
+        <div class="md:p-20 px-1 py-10">
           <div>
             <h2 class="text-4xl mt-5 mb-5 font-bold lg:text-left xl:tex-teft text-center">
               <span class="text-white">{{ $t("Home.Start_welcome_title") }}</span>
@@ -21,20 +19,20 @@
             </p>
           </div>
           <div class="mt-3 flex flex-col items-center justify-center gap-4 sm:flex-row md:justify-start">
-            <a href="https://portal.iux.com/th/register">
+            <NuxtLink href="https://portal.iux.com/th/register">
               <button
                 class="py-[10px] px-[16px] bg-primary-500 text-primary-900 rounded-full hover:bg-primary-600 disabled:bg-[#2F2F2F] disabled:text-[#666666] max-h-[44px] btn-primary-iux-round whitespace-nowrap"
               >
               {{ $t("Home.Start_welcome_cta") }}
               </button>
-            </a>
-            <a href="https://portal.iux.com/th/register">
+            </NuxtLink>
+            <NuxtLink href="https://portal.iux.com/th/register">
               <button
                 class="py-[10px] px-[16px] bg-transparent border border-primary-500 rounded-full hover:bg-primary-600 text-primary max-h-[44px] whitespace-nowrap text-primary-100"
               >
               {{ $t("Home.Start_welcome_ctb") }}
               </button>
-            </a>
+            </NuxtLink>
           </div>
         </div>
       </div>
@@ -43,6 +41,8 @@
 </template>
 
 <script setup>
+import section7_1 from '~/assets/images/landing/section7/01_Device.jpg'
+
 import BglightImage from '~/assets/images/bg-light.png'
 import footerImage from '~/assets/images/landing/footer-img.png'
 </script>

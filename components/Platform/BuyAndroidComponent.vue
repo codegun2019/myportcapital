@@ -1,20 +1,20 @@
 <template>
-  <div class="bg-light 2xl:bg-bottom bg-top 2xl:bg-contain xl:bg-contain lg:bg-contain 2xl:bg-left bg-no-repeat bg-black text-white flex items-center justify-center">
-    <section class="px-[16px] py-[20px] md:py-[55px]" id="buysell-section">
+  <div :style="{ backgroundImage: `url(${section1_1})`, backgroundSize: 'cover', backgroundPosition: '100%' }" class="bg-right-top bg-light 2xl:bg-bottom bg-top 2xl:bg-contain xl:bg-contain lg:bg-contain 2xl:bg-left bg-no-repeat bg-black text-white flex items-center justify-center">
+    <section class="px-[16px]" id="buysell-section">
       <div class="container mx-auto">
         <div class="container-section-custom">
           <div class="grid grid-cols-1 lg:grid-cols-2">
             <!-- Left side image (now on the left) -->
-            <div class="">
-              <div class="flex justify-center pb-[62px] md:pb-0 mt-16">
+            <div class="order-2 md:order-1">
+              <div class="flex justify-center md:pb-0 mt-16">
                 <ForAndoid/>
-                <img :src="IosForImage" alt="custom-image" />
+                <img :src="section3_2" alt="custom-image" />
               </div>
             </div>
 
             <!-- Right side content (now on the right) -->
-            <div>
-              <h2 class="text-5xl font-bold mb-1 mt-24 text-center 2xl:text-left xl:text-left">
+            <div class="order-1 md:order-2">
+              <h2 class="text-5xl font-bold mb-1 mt-24 pt-10 text-center 2xl:text-left xl:text-left">
                 <span class="text-primary-400">myport </span> สำหรับ Android
               </h2>
               <p class="text-gray-400 mt-[28px] text-center mb-2 text-button-2 md:text-heading-body lg:text-start">
@@ -39,6 +39,10 @@
 </template>
 
 <script setup>
+import section1_1 from '~/assets/images/platforms/section4/01_Background.jpg'
+import section3_2 from '~/assets/images/platforms/section4/02_Device.png'
+import section3_3 from '~/assets/images/platforms/section3/03_Shadow.png'
+
 import ForAndoid from '~/components/composables/Forandroid.vue'
 import BuyphoneImage from '~/assets/images/tradeonmobile.png'
 

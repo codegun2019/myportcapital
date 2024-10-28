@@ -99,6 +99,62 @@
 
 
   },
+  
+  "Accounting": {
+    "Header_welcome_title" : "ภาพรวม",
+    "Header_welcome_subttile" : "บัญชีซื้อขาย",
+    "Header_welcome_description" : "เลือกประเภทบัญชีที่เหมาะสมกับตัวคุณ เพื่อให้ตรงกับสไตล์การซื้อขาย ขับเคลื่อนโดย",
+    "Header_welcome_subdescription" : "แพลตฟอร์มนวัตกรรมล้ำสมัย",
+    "Header_welcome_cta" : "เข้าร่วมกับเรา",
+
+    "Footer_welcome_title" : "เริ่มต้นซื้อขายในตลาดโลกได้แล้ววันนี้",
+    "Footer_welcome_description" : "พร้อมให้ซื้อขายแล้วทุกแพลตฟอร์ม IUX Web Trade, IUX App Trade, และ MetaTrader5 MetaTrader เป็นตัวเลือกที่ดีที่สุดสำหรับเทรดเดอร์ยุคใหม่",
+    "Header_welcome_cta_1" : "ซื้อขายด้วย",
+    "Header_welcome_cta_2" : "บัญชีทดลอง"
+
+  },
+
+  "Deposit": {
+    "Header_welcome_title" : "ไม่มีค่าธรรมเนียม",
+    "Header_welcome_subttile" : " ทำธุรกรรมการเงินด้วยตัวเอง ผ่านเว็บไซต์ myport ได้ทันที",
+    "Header_welcome_cta" : "เริ่มเทรดตอนนี้"
+
+  },
+
+  "Package": {
+    "Header_welcome_title" : "ภาพรวม",
+    "Header_welcome_subttile" : "บัญชีซื้อขาย",
+    "Header_welcome_description" : "เลือกประเภทบัญชีที่เหมาะสมกับตัวคุณ เพื่อให้ตรงกับสไตล์การซื้อขาย ขับเคลื่อนโดย",
+    "Header_welcome_subdescription" : "แพลตฟอร์มนวัตกรรมล้ำสมัย",
+    "Header_welcome_cta" : "เข้าร่วมกับเรา",
+
+    "Package_welcome_title_1" : "my Standard",
+    "Package_welcome_title_2" : "my Pro",
+    "Package_welcome_title_3" : "my Partner",
+    
+    "Package_welcome_description_1" : "ฝากเริ่มต้น $10",
+    "Package_welcome_description_2" : "ฝากเริ่มต้น $500",
+    "Package_welcome_description_3" : "บัญชีที่มีลักษณะสเปรดที่น้อยกว่าและเรามอบข้อ เสนอนี้ให้กับเทรดเดอร์ที่ต้องการสร้างรายได้",
+
+    "Package_Space_1" : "ค่าสเปรด : เริ่มต้น 20 pip",
+    "Package_CommissionLeverag_1" : "commission : $10",
+    "Package_Leverage_1" : "Leverage : 500",
+    "Package_Lotback_1" : "Leverage : 500",
+    "Package_Stop_out_1" : "Stop out 35%",
+
+    "Package_Space_2" : "ค่าสเปรด : เริ่มต้น 10 pip",
+    "Package_CommissionLeverag_2" : "commission : $2",
+    "Package_Leverage_2" : "Leverage : 500",
+    "Package_Lotback_2" : "Lotback : $1 / lot ",
+    "Package_Stop_out_2" : "Stop out 35%",
+
+    "Package_Space_3" : "ค่าสเปรด : raw spread 0.0",
+    "Package_CommissionLeverag_3" : "commission : $15",
+    "Package_Leverage_3" : "Leverage : 500",
+    "Package_Lotback_3" : "Lotback : $1 / lot",
+    "Package_Stop_out_3" : "Stop out 35%"
+  },
+  
   "currency" : "สกุลเงิน",
   "share" : "หุ้น",
   "index" : "ดัชนี",
@@ -114,8 +170,20 @@
 
   "buttons": {
     "open_account": "เปิดบัญชี",
-    "login": "เข้าสู่ระบบ"
+    "login": "เข้าสู่ระบบ",
+    "Mostpopular" : "นิยมมากที่สุด",
+    "Trade_with" : "ซื้อขายด้วย",
+    "Demo_account" : "บัญชีทดลอง"
   },
+    "text": {
+    "Instant" : "ทันที",
+    "Channel": "ช่องทาง",
+    "Minimum_Deposit": "ฝากขั้นต่ำ",
+    "Minimum_Withdrawal": "ถอนขั้นต่ำ",
+    "Maximum_Withdrawal": "ถอนสูงสุด",
+    "Processing_Time": "ระยะเวลาดำเนินการ"
+  },
+
   "hero": {
     "title": "สัมผัสประสบการณ์การเทรดที่เหนือกว่า",
     "subtitle": "ด้วยข้อเสนอที่ดีกว่า",

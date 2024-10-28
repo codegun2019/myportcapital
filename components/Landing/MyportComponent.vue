@@ -1,7 +1,7 @@
 <template>
   <div class="bg-black text-white md:py-16 py-5 md:px-16 px-5">
     <section class="container mx-auto" id="section-myport">
-      <div class="rounded-t-[24px] border px-10 border-Color/background-card">
+      <div :style="{ backgroundImage: `url(${section2_1})`, backgroundSize: 'cover', backgroundPosition: 'left' }" class="rounded-t-[24px] border px-10 border-Color/background-card">
         <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
           <!-- Text Section -->
           <div class="md:w-1/2 md:py-16 py-8">
@@ -23,7 +23,7 @@
 
           <!-- Image Section -->
           <div class="md:w-1/2 mt-8 md:mt-0 px-5 lg:px-16 pt-16">
-            <img :src="myportImage" :alt="$t('Home.Myport_welcome_title')" class="w-[80%] h-auto mx-auto">
+            <img :src="section2_2" :alt="$t('Home.Myport_welcome_title')" class="w-[100%] h-auto mx-auto">
           </div>
         </div>
       </div>
@@ -79,6 +79,10 @@
 </template>
 
 <script setup>
+
+import section2_1 from '~/assets/images/landing/section2/01_Banner.jpg'
+import section2_2 from '~/assets/images/landing/section2/02_Device.png'
+
 import myportImage from '~/assets/images/trade-image.png'
 import checkIcon from '~/assets/flags/check.svg'
 import bighomefast from '~/assets/flags/bighomefast.svg'

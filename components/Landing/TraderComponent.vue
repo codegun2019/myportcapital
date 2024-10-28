@@ -1,12 +1,11 @@
 <template>
-  <section id="section-trader" :style="{
-      backgroundImage: `url(${BglightImage})`,
-    }" class="bg-bottom 2xl:bg-contain bg-left bg-black min-h-screen bg-top text-white bg-[80%_0%] bg-no-repeat">
+  <section id="section-trader" :style="{ backgroundImage: `url(${section6_1})`, backgroundSize: 'cover', backgroundPosition: 'left' }" class="bg-bottom 2xl:bg-contain bg-left bg-black min-h-screen bg-top text-white bg-[80%_0%] bg-no-repeat">
     <div class="container mx-auto px-[16px]">
       <div class="grid grid-cols-1 gap-4 lg:grid-cols-2">
         <!-- Left content -->
-        <div class="flex items-center justify-center pl-0 pt-[62px] lg:justify-start lg:pl-12 lg:pt-0">
+        <div class="flex items-center justify-center min-h-screen pl-0 pt-[62px] lg:justify-start lg:pl-12 lg:pt-0">
           <div>
+            <img :src="section6_2" alt="web" class="block md:hidden w-100 mb-2" />
             <h2 class="text-4xl lg:text-left xl:tex-teft text-center font-bold">
               {{ $t("Home.Trader_welcome_title") }}<span class="text-primary-500">{{ $t("Home.Trader_welcome_title_sub") }}</span>
             </h2>
@@ -26,12 +25,11 @@
                 </button>
               </a>
             </div>
-
             <!-- Download buttons for MetaTrader -->
-            <div class="mt-[50px] hidden lg:block">
-              <div class="mb-0 ms-0 text-body-4 text-secondary sm:text-body-3 md:mb-[28px] lg:text-heading-body">{{ $t("Home.Trader_welcome_ctb") }}</div>
+            <div class="mt-[50px]">
+              <div class="mb-0 ms-0 hidden lg:block text-body-4 text-secondary sm:text-body-3 md:mb-[28px] lg:text-heading-body">{{ $t("Home.Trader_welcome_ctb") }}</div>
               <div class="flex max-w-[315px] flex-wrap items-center">
-                <div class="basis-1/3">
+                <div class="basis-1/3 ">
                   <a target="_blank" href="">
                     <img :src="mt5Windows" alt="windows" class="w-100 mb-2" />
                   </a>
@@ -64,7 +62,6 @@
         <!-- Right content: Image -->
         <div class="flex justify-center px-[30px] 2xl:px-[150px] xl:px-[150px] lg:px-[50px] py-[40px] lg:py-[128px]">
           <div>
-            <img :src="mt5Image" alt="tradeonmobile" width="100%" />
             <div class="mt-[50px] block lg:hidden">
               <div class="mb-[16px] ms-0 text-center text-body-4 text-secondary sm:text-body-3 md:mb-[28px] lg:text-heading-body">
                 {{ $t("Home.Trader_welcome_ctb") }}
@@ -78,6 +75,10 @@
 </template>
 
 <script setup>
+
+import section6_1 from '~/assets/images/landing/section6/01_Banner.jpg'
+import section6_2 from '~/assets/images/landing/section6/02_Device.png'
+
 import BglightImage from '~/assets/images/bg-light.png'
 import mt5Windows from '~/assets/images/landing/icons/mt5-windows.svg'
 import mt5Macos from '~/assets/images/landing/icons/mt5-macos.svg'

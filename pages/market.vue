@@ -5,8 +5,8 @@
 </template>
 
 <script lang="ts" setup>
-import TraderComponent from '~/components/Landing/TraderComponent.vue'
-import MarketComponent from '~/components/Landing/MarketComponent.vue'
+import TraderComponent from '~/components/Market/TraderComponent.vue'
+import MarketComponent from '~/components/Market/MarketComponent.vue'
 import StartComponent from '~/components/Landing/StartComponent.vue'
 </script>
 

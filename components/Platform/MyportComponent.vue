@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-black text-white">
+  <div class="bg-black text-white" :style="{ backgroundImage: `url(${section1_1})`, backgroundSize: 'cover', backgroundPosition: 'left' }">
     <section class="mx-auto" id="section-myport">
       <div class="px-10">
         <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
@@ -46,7 +46,8 @@
 
           <!-- Image Section -->
           <div class="md:w-1/2 mt-8 md:mt-0 px-5 lg:px-16 pt-16">
-            <img :src="myportImage" alt="Phone Image" class="w-[80%] h-auto mx-auto">
+            <img :src="section1_2" class="w-[80%] h-auto mx-auto">
+            <img :src="section1_3" class="block hidden md:block absolute app-mobile-icon transform  right-0 -translate-y-1/2 w-100 top-1/2 z-20">
           </div>
         </div>
       </div>
@@ -55,7 +56,11 @@
 </template>
 
 <script lang="ts" setup>
-import myportImage from '~/assets/images/trade-image.png'
+
+import section1_1 from '~/assets/images/platforms/section1/01_Background.jpg'
+import section1_2 from '~/assets/images/platforms/section1/02_Device.png'
+import section1_3 from '~/assets/images/platforms/section1/03_Coin.png'
+
 import checkIcon from '~/assets/flags/check.svg'
 import bighomefast from '~/assets/flags/bighomefast.svg'
 import bighomeone from '~/assets/flags/bighomeone.svg'

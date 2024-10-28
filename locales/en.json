@@ -96,7 +96,63 @@
     "Start_welcome_cta": "Trade with 0.0 pips",
     "Start_welcome_ctb": "Demo Account"
   },
+  "Accounting": {
+    "Header_welcome_title" : "Account",
+    "Header_welcome_subttile" : " Overview",
+    "Header_welcome_description" : "Create your own account by selecting the promotions that best fit your",
+    "Header_welcome_subdescription" : "trading style with just one clic",
+    "Header_welcome_cta" : "Join us",
+    
+    "Footer_welcome_title": "Start trading with myport now",
+    "Footer_welcome_description": "Available for trading on all platforms: IUX Web Trade, IUX App Trade, and MetaTrader5. MetaTrader is the best choice for modern traders.",
+    "Footer_welcome_cta_1": "Trade with",
+    "Footer_welcome_cta_2": "Demo Account"
 
+
+
+  },
+
+  "Deposit": {
+    "Header_welcome_title": "No Fees",
+    "Header_welcome_subttile": "Perform financial transactions yourself through the myport website instantly",
+    "Header_welcome_cta": "Start Trading Now"
+  },
+
+
+  "Package": {
+    "Header_welcome_title" : "Account",
+    "Header_welcome_subttile" : " Overview",
+    "Header_welcome_description" : "Choose the account type that suits you best to match your trading style,",
+    "Header_welcome_subdescription" : "powered by an innovative, cutting-edge platform.",
+    "Header_welcome_cta" : "Join us",
+
+    "Package_welcome_title_1" : "my Standard",
+    "Package_welcome_title_2" : "my Pro",
+    "Package_welcome_title_3" : "my Partner",
+
+    "Package_welcome_description_1" : "Initial deposit $10",
+    "Package_welcome_description_2" : "Initial deposit $500",
+    "Package_welcome_description_3" : "An account with lower spreads, offered to traders who aim to generate income.",
+
+    "Package_Space_1" : "Spread : เริ่มต้น 20 pip",
+    "Package_CommissionLeverag_1" : "commission : $10",
+    "Package_Leverage_1" : "Leverage : 500",
+    "Package_Lotback_1" : "Leverage : 500",
+    "Package_Stop_out_1" : "Stop out 35%",
+
+    "Package_Space_2" : "Spread : เริ่มต้น 10 pip",
+    "Package_CommissionLeverag_2" : "commission : $2",
+    "Package_Leverage_2" : "Leverage : 500",
+    "Package_Lotback_2" : "Lotback : $1 / lot ",
+    "Package_Stop_out_2" : "Stop out 35%",
+
+    "Package_Space_3" : "Spread : raw spread 0.0",
+    "Package_CommissionLeverag_3" : "commission : $15",
+    "Package_Leverage_3" : "Leverage : 500",
+    "Package_Lotback_3" : "Lotback : $1 / lot",
+    "Package_Stop_out_3" : "Stop out 35%"
+
+  },
   "currency": "Currency",
   "share": "Share",
   "index": "Index",
@@ -110,7 +166,18 @@
 
   "buttons": {
     "open_account": "Open Account",
-    "login": "Log In"
+    "login": "Log In",
+    "Mostpopular" : "Most popular",
+    "Trade_with" : "Trade with",
+    "Demo_account" : "Demo account"
+  },
+  "text": {
+    "Instant" : "Instant",
+    "Channel": "Channel",
+    "Minimum_Deposit": "Minimum Deposit",
+    "Minimum_Withdrawal": "Minimum Withdrawal",
+    "Maximum_Withdrawal": "Maximum Withdrawal",
+    "Processing_Time": "Processing"
   },
   "hero": {
     "title": "Experience Superior Trading",

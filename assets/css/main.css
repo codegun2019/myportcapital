@@ -7,3 +7,24 @@
 body {
   font-family: 'Prompt', sans-serif;
 }
+.bg-card-good-w{
+  background: rgba(242, 239, 239, 0.8);
+}
+.shadow-container {
+  background: #000; /* Or any other background */
+  position: relative;
+}
+
+.shadow-container::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  filter: blur(10px);
+  border-radius: 50%;
+  transform: scaleX(1.1);
+  pointer-events: none;
+}

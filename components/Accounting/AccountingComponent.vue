@@ -4,18 +4,22 @@
       <div class="container mx-auto text-center">
         <!-- หัวข้อ -->
         <h1 class="text-4xl font-bold mb-4">
-          ภาพรวม<span class="text-primary-500">บัญชีซื้อขาย</span>
+          {{ $t("Accounting.Header_welcome_title") }}<span class="text-primary-500">{{ $t("Accounting.Header_welcome_subttile") }}</span>
         </h1>
 
         <!-- คำอธิบาย -->
         <p class="text-lg text-gray-400 max-w-2xl mx-auto mb-8">
-          เลือกประเภทบัญชีที่เหมาะสมกับตัวคุณ เพื่อให้ตรงกับสไตล์การซื้อขาย ขับเคลื่อนโดยแพลตฟอร์มนวัตกรรมล้ำสมัย
+          {{ $t("Accounting.Header_welcome_description") }} {{ $t("Accounting.Header_welcome_subdescription") }}
         </p>
 
         <!-- ปุ่ม CTA -->
-        <a href="/join-iux" class="inline-block bg-primary-500 text-white py-3 px-6 rounded-full hover:bg-green-600 transition-all">
-          เข้าร่วม IUX
-        </a>
+        <NuxtLink
+          to=""
+          class="inline-block bg-primary-500 text-white py-3 px-6 rounded-full hover:bg-primary-800 transition-all"
+        >
+          {{ $t("Accounting.Header_welcome_cta") }}
+        </NuxtLink>
+
       </div>
     </section>
   </div>

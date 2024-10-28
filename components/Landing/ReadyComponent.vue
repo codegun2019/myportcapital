@@ -17,7 +17,9 @@
               {{ $t("Home.ReadyTitleSub_a") }}
             </p>
           </div>
-          <img :src="Ready1Image" :alt="$t('Home.ReadyTitle_a')" class="w-1/1.5 h-auto mx-auto rounded-lg">
+          <div class="shadow-container bg-no-repeat" :style="{ backgroundImage: `url(${section3_bg})`, backgroundSize: 'cover', backgroundPosition: 'left' }">
+            <img :src="section3_1" :alt="$t('Home.ReadyTitle_a')" class="w-1/1.5 h-auto mx-auto rounded-lg">
+          </div>
         </div>
 
         <!-- Card 2: Popular Assets -->
@@ -28,7 +30,9 @@
               {{ $t("Home.ReadyTitleSub_b") }}
             </p>
           </div>
-          <img :src="Ready2Image" :alt="$t('Home.ReadyTitle_b')" class="w-1/1.5 h-auto mx-auto rounded-lg">
+          <div class="shadow-container bg-no-repeat" :style="{ backgroundImage: `url(${section3_bg})`, backgroundSize: 'cover', backgroundPosition: 'left' }">
+            <img :src="section3_2" :alt="$t('Home.ReadyTitle_a')" class="w-1/1.5 h-auto mx-auto rounded-lg">
+          </div>
         </div>
 
         <!-- Card 3: Economic Calendar -->
@@ -39,7 +43,9 @@
               {{ $t("Home.ReadyTitleSub_c") }}
             </p>
           </div>
-          <img :src="Ready3Image" :alt="$t('Home.ReadyTitle_c')" class="w-1/1.5 h-auto mx-auto rounded-lg">
+          <div class="shadow-container bg-no-repeat" :style="{ backgroundImage: `url(${section3_bg})`, backgroundSize: 'cover', backgroundPosition: 'left' }">
+            <img :src="section3_3" :alt="$t('Home.ReadyTitle_a')" class="w-1/1.5 h-auto mx-auto rounded-lg">
+          </div>
         </div>
       </div>
 
@@ -48,6 +54,13 @@
 </template>
 
 <script setup>
+
+
+import section3_1 from '~/assets/images/landing/section3/01_Device.png'
+import section3_2 from '~/assets/images/landing/section3/02_Device.png'
+import section3_3 from '~/assets/images/landing/section3/03_Device.png'
+import section3_bg from '~/assets/images/landing/section3/01_Background.jpg'
+
 import Ready1Image from '~/assets/images/ready_1.png'
 import Ready2Image from '~/assets/images/ready_2.png'
 import Ready3Image from '~/assets/images/ready_3.png'

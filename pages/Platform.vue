@@ -9,9 +9,10 @@
 </template>
 
 <script lang="ts" setup>
+
 import MyportComponent from '~/components/Platform/MyportComponent.vue'
 import StartComponent from '~/components/Platform/StartComponent.vue'
-import ReadyComponent from '~/components/Platform/ReadyComponent.vue'
+import ReadyComponent from '~/components/Landing/ReadyComponent.vue'
 import BuyIosComponent from '~/components/Platform/BuyIosComponent.vue'
 import BuyAndroidComponent from '~/components/Platform/BuyAndroidComponent.vue'
 import TraderLandingComponent from '~/components/Landing/TraderComponent.vue'

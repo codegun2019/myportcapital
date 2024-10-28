@@ -6,12 +6,12 @@
         <div class="px-5">
           <div>
             <h3 class="text-4xl font-bold mb-4 text-center md:text-left">
-              <span class="text-white">เริ่มต้นซื้อขายกับ my</span>
-              <span class="text-primary-500">port</span>
-              <span class="text-white">ได้แล้ววันนี้</span>
+              <span class="text-white">{{ $t("Accounting.Footer_welcome_title") }}</span>
+              <!-- <span class="text-primary-500">port</span>
+              <span class="text-white">ได้แล้ววันนี้</span> -->
             </h3>
             <p class="mt-2 text-center text-secondary-400 md:text-start lg:text-body-3">
-              พร้อมให้ซื้อขายแล้วทุกแพลตฟอร์ม IUX Web Trade, IUX App Trade, และ MetaTrader5
+              {{ $t("Accounting.Footer_welcome_description") }}
             </p>
           </div>
           <div class="mt-3 flex flex-col items-center justify-center gap-4 sm:flex-row md:justify-start">
@@ -19,14 +19,14 @@
               <button
                 class="py-[10px] px-[16px] bg-primary-500 text-primary-900 rounded-full hover:bg-primary-600 disabled:bg-[#2F2F2F] disabled:text-[#666666] max-h-[44px] btn-primary-iux-round whitespace-nowrap"
               >
-                ซื้อขายด้วย 0.0 pips
+                {{ $t("buttons.Trade_with") }} 0.0 pips
               </button>
             </a>
             <a href="https://portal.iux.com/th/register">
               <button
                 class="py-[10px] px-[16px] bg-transparent border border-primary-500 rounded-full hover:bg-primary-600 text-primary max-h-[44px] whitespace-nowrap text-primary-100"
               >
-                บัญชีทดลอง
+                {{ $t("buttons.Demo_account") }}
               </button>
             </a>
           </div>
