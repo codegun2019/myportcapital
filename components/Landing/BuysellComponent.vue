@@ -7,12 +7,13 @@
         <div class="container-section-custom">
           <div class="grid grid-cols-1 lg:grid-cols-2">
             <!-- Left side image -->
-            <div class="">
-              <div class="flex justify-center pb-[62px] md:pb-0 mt-16">
-                <div class="relative w-full h-[600px]">
+            <div class="order-2 md:order-1">
+              <div class="flex justify-center pb-[10px] md:pb-0 mt-16">
+                <div class="relative w-full h-[600px] app-all-mobile">
                   <img data-aos="fade-in" data-aos-duration="6000" :src="section5_1" class="fix-drop-strone hidden md:block absolute bottom-0 left-1/2 transform -translate-x-1/2 h-auto">
-                  <img data-aos="fade-in" data-aos-duration="6000" :src="section5_2" :alt="$t('Home.Buysell_welcome_title')"
-                      class="absolute left-1/2 transform -translate-x-1/2 bottom-16  h-auto z-10">
+                  <img data-aos="fade-in" data-aos-duration="6000" :src="section5_2" 
+                  :alt="$t('Home.Buysell_welcome_title')"
+                  class="absolute md:left-1/2 left-32 transform -translate-x-1/2 bottom-16  h-auto z-10">
                   <img data-aos="fade-in" data-aos-duration="6000" :src="section5_3" 
                   class="absolute app-mobile-icon fix-drop-right-top transform -translate-x-2/10  -translate-y-1/2 top-2/4 w-24 h-24 z-20">
                   <img :src="section5_4" class="absolute bottom-0 hidden md:block left-1/2 transform -translate-x-1/2 h-auto">    
@@ -20,9 +21,10 @@
               </div>
             </div>
             <!-- Right side content -->
-            <div>
+            <div class="order-1 md:order-2">
               <h2 class="text-5xl font-bold mb-24 mt-44 text-center 2xl:text-left xl:text-left">
-                {{ $t("Home.Buysell_welcome_title") }} <span class="text-primary-400">{{ $t("Home.Buysell_welcome_title_sub") }}</span>
+                <span class="md:inline block">{{ $t("Home.Buysell_welcome_title") }}</span>
+                <span class="md:inline block text-primary-400">{{ $t("Home.Buysell_welcome_title_sub") }}</span>
               </h2>
               <p class="mt-[28px] text-center text-button-2 md:text-heading-body lg:text-start">
                 {{ $t("Home.Buysell_welcome_description") }}
@@ -68,6 +70,19 @@ import section5_4 from '~/assets/images/landing/section5/03_Shadow.png'
   left: 60%;
   top: 30%;
 }
+
+@media screen and (max-width: 600px) {
+  .app-mobile-icon{
+    left: 53%;
+    top: 30%;
+  }
+  .app-all-mobile{
+    left: -45px;
+    top: -70px;
+  }
+
+}
+
 .fix-drop-right-top {
   position: absolute;
   /* transform: translate(600px, 106px); */

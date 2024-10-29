@@ -3,13 +3,13 @@
     <section class="container mx-auto" id="section-myport">
       <div class="bg-dark-500 text-white py-16">
         <div class="container mx-auto text-center">
-          <h3 class="text-5xl font-bold mb-24 mt-24">
+          <h3 data-aos="fade-up" data-aos-duration="1000" class="text-5xl font-bold mb-24 mt-24">
             {{ $t("Home.WordTitle") }}<span class="text-primary-400">{{ $t("Home.WordTitleSub") }}</span>{{ $t("Home.WordTitleSub_row") }}
           </h3>
 
           <div class="mt-5 flex flex-wrap justify-center gap-4 mx-auto" style="max-width:895px">
             <!-- Card 1 -->
-            <div class="basis-[40%] md:basis-[30%]">
+            <div data-aos="fade-up" data-aos-duration="1000" class="basis-[40%] md:basis-[30%]">
               <div class="bg-dark-500 h-full border border-dark-400 rounded-[24px] pt-[24px] md:pt-[56px] pb-[24px]">
                 <div class="flex justify-center mt-4">
                   <img :src="section4_1" alt="CFD Icon" class="w-[80px] h-[80px] md:w-[120px] md:h-[120px] lg:h-[120px] lg:w-[120px]">
@@ -22,7 +22,7 @@
             </div>
 
             <!-- Card 2 -->
-            <div class="basis-[40%] md:basis-[30%]">
+            <div data-aos="fade-left" data-aos-duration="1000" class="basis-[40%] md:basis-[30%]">
               <div class="bg-dark-500 h-full border border-dark-400 rounded-[24px] pt-[24px] md:pt-[56px] pb-[24px]">
                 <div class="flex justify-center mt-4">
                   <img :src="section4_2" alt="Stock Icon" class="w-[80px] h-[80px] md:w-[120px] md:h-[120px] lg:h-[120px] lg:w-[120px]">
@@ -35,7 +35,7 @@
             </div>
 
             <!-- Card 3 -->
-            <div class="basis-[40%] md:basis-[30%]">
+            <div data-aos="fade-up" data-aos-duration="2000" class="basis-[40%] md:basis-[30%]">
               <div class="bg-dark-500 h-full border border-dark-400 rounded-[24px] pt-[24px] md:pt-[56px] pb-[24px]">
                 <div class="flex justify-center mt-4">
                   <img :src="section4_3" alt="Index Icon" class="w-[80px] h-[80px] md:w-[120px] md:h-[120px] lg:h-[120px] lg:w-[120px]">
@@ -48,7 +48,7 @@
             </div>
 
             <!-- Card 4 -->
-            <div class="basis-[40%] md:basis-[30%]">
+            <div data-aos="fade-right" data-aos-duration="3000" class="basis-[40%] md:basis-[30%]">
               <div class="bg-dark-500 h-full border border-dark-400 rounded-[24px] pt-[24px] md:pt-[56px] pb-[24px]">
                 <div class="flex justify-center mt-4">
                   <img :src="section4_4" alt="Crypto Icon" class="w-[80px] h-[80px] md:w-[120px] md:h-[120px] lg:h-[120px] lg:w-[120px]">
@@ -61,7 +61,7 @@
             </div>
 
             <!-- Card 5 -->
-            <div class="basis-[40%] md:basis-[30%]">
+            <div data-aos="fade-up" data-aos-duration="4000" class="basis-[40%] md:basis-[30%]">
               <div class="bg-dark-500 h-full border border-dark-400 rounded-[24px] pt-[24px] md:pt-[56px] pb-[24px]">
                 <div class="flex justify-center mt-4">
                   <img :src="section4_5" alt="Commodity Icon" class="w-[80px] h-[80px] md:w-[120px] md:h-[120px] lg:h-[120px] lg:w-[120px]">
