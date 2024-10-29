@@ -1,20 +1,255 @@
 {
   "welcome": "欢迎来到我们的网站",
-  "about": "关于我们",
-  "footer_message": "版权所有",
+
   "menu": {
+    "create_account": "创建账户",
+    "login_account": "登录",
     "buy": "购买",
+    "home": "首页",
+    "store": "商店",
+    "accounting": "账户",
+    "market": "市场",
+    "deposit": "存取款",
+    "promotion": "促销",
     "platform": "平台",
+    "partners": "合作伙伴",
+    "about": "关于我们",
     "more": "更多"
   },
+
+  "Home": {
+    "Header_welcome_title": "体验卓越的交易",
+    "Header_welcome_description": "更优的报价",
+    "Header_welcome_subttile": "通过降低成本提高盈利机会。享受最低点差和更快速的订单执行，为您提供无与伦比的交易体验。",
+    "Header_welcome_cta": "领取您的 $30 欢迎奖金",
+
+    "Myport_1_title": "回扣",
+    "Myport_2_title": "0.0",
+    "Myport_3_title": "STP",
+    "Myport_4_title": "免掉期",
+    "Myport_1_subtitle": "项目",
+    "Myport_2_subtitle": "低点差",
+    "Myport_3_subtitle": "账户",
+    "Myport_4_subtitle": "佣金",
+    "Myport_welcome_title": "为什么选择",
+    "Myport_welcome_description": "提供超过 250 种交易产品，最低点差 0.0 pips，无重新报价，最优价格，无交易限制。IUX 为我们的重要客户提供流畅而有价值的交易机会。",
+    "Myport_welcome_cta": "开始交易",
+    "Myport_welcome_ctb": "模拟账户",
+    "MyportBox_1_title": "点差 0.0",
+    "MyportBox_2_title": "机构交易",
+    "MyportBox_3_title": "快速执行",
+    "MyportBox_1_title_a": "提供更优的点差",
+    "MyportBox_2_title_a": "从 0.0 pips 点差开始交易",
+    "MyportBox_3_title_a": "结合多种专有流动性",
+    "MyportBox_1_title_b": "降低市场波动性",
+    "MyportBox_2_title_b": "高流动性的机构交易",
+    "MyportBox_3_title_b": "超过 15 亿美元的 CFD 交易量",
+    "MyportBox_1_title_c": "平均执行速度低于 30ms",
+    "MyportBox_2_title_c": "光纤延迟低",
+    "ReadyTitle": "myport",
+    "ReadyTitleSub": "提升您的交易体验？",
+    "ReadyTitle_a": "随时访问分析",
+    "ReadyTitleSub_a": "查看市场图表，了解最新的市场新闻",
+    "ReadyTitle_b": "热门资产",
+    "ReadyTitleSub_b": "按工具查看全球市场，实现更高的盈利",
+    "ReadyTitle_c": "经济日历",
+    "ReadyTitleSub_c": "随时随地跟踪最新的市场新闻和即将发生的经济事件",
+    "WordTitle": "全球市场",
+    "WordTitleSub": "仅在您的",
+    "WordTitleSub_row": "指尖",
+    "WordTitle_a": "随时访问分析",
+    "WordTitleSub_a": "查看市场图表，了解最新的市场新闻",
+    "WordTitle_b": "热门资产",
+    "WordTitleSub_b": "按工具查看全球市场，实现更高的盈利",
+    "WordTitle_c": "经济日历",
+    "WordTitleSub_c": "随时随地跟踪最新的市场新闻和即将发生的经济事件",
+    "Buysell_welcome_title": "轻松交易",
+    "Buysell_welcome_title_sub": "在手机上",
+    "Buysell_welcome_description": "通过设计简洁的移动应用程序轻松访问 CFD 市场，享受快速订单执行和最佳交易体验。",
+    "Buysell_welcome_cta": "查看更多",
+    "Trader_welcome_title": "MetaTrader",
+    "Trader_welcome_title_sub": "5",
+    "Trader_welcome_subttile": "强大的交易终端",
+    "Trader_welcome_description": "成功的交易始于便利和实用。MetaTrader 是现代交易者的最佳选择。",
+    "Trader_welcome_cta": "查看更多",
+    "Trader_welcome_ctb": "下载 MetaTrader",
+
+    "Start_welcome_title": "今天开始全球市场交易",
+    "Start_welcome_description": "IUX Web Trade、IUX App Trade 和 MetaTrader5 提供全面的交易选择。MetaTrader 是现代交易者的理想选择。",
+    "Start_welcome_cta": "以 0.0 pips 交易",
+    "Start_welcome_ctb": "模拟账户"
+  },
+
+  "Accounting": {
+    "Header_welcome_title": "概览",
+    "Header_welcome_subttile": "交易账户",
+    "Header_welcome_description": "选择适合您交易风格的账户类型，由",
+    "Header_welcome_subdescription": "创新平台驱动",
+    "Header_welcome_cta": "立即加入",
+    "Footer_welcome_title": "今天开始全球市场交易",
+    "Footer_welcome_description": "IUX Web Trade、IUX App Trade 和 MetaTrader5 提供全面的交易选择。MetaTrader 是现代交易者的理想选择。",
+    "Header_welcome_cta_1": "交易",
+    "Header_welcome_cta_2": "模拟账户"
+  },
+
+  "Deposit": {
+    "Header_welcome_title": "无手续费",
+    "Header_welcome_subttile": "立即通过 myport 网站自行完成金融交易",
+    "Header_welcome_cta": "现在开始交易"
+  },
+
+  "Package": {
+    "Header_welcome_title": "概览",
+    "Header_welcome_subttile": "交易账户",
+    "Header_welcome_description": "选择适合您交易风格的账户类型，由",
+    "Header_welcome_subdescription": "创新平台驱动",
+    "Header_welcome_cta": "立即加入",
+    "Package_welcome_title_1": "my 标准账户",
+    "Package_welcome_title_2": "my 专业账户",
+    "Package_welcome_title_3": "my 合作伙伴账户",
+    "Package_welcome_description_1": "最低存款 $10",
+    "Package_welcome_description_2": "最低存款 $500",
+    "Package_welcome_description_3": "低点差账户，适合寻求高盈利的交易者",
+    "Package_Space_1": "点差：从 20 pips 开始",
+    "Package_CommissionLeverag_1": "佣金：$10",
+    "Package_Leverage_1": "杠杆：500",
+    "Package_Lotback_1": "回扣：每手 $1",
+    "Package_Stop_out_1": "止损：35%",
+    "Package_Space_2": "点差：从 10 pips 开始",
+    "Package_CommissionLeverag_2": "佣金：$2",
+    "Package_Leverage_2": "杠杆：500",
+    "Package_Lotback_2": "回扣：每手 $1",
+    "Package_Stop_out_2": "止损：35%",
+    "Package_Space_3": "点差：原始点差 0.0",
+    "Package_CommissionLeverag_3": "佣金：$15",
+    "Package_Leverage_3": "杠杆：500",
+    "Package_Lotback_3": "回扣：每手 $1",
+    "Package_Stop_out_3": "止损：35%"
+  },
+
+  "Platform": {
+    "Header_welcome_title": "myport",
+    "Header_welcome_subttile": "应用程序交易",
+    "Header_welcome_description": "通过 myport 应用程序随时随地访问交易。设计简洁易用，满足现代交易者的需求。",
+    "Header_welcome_subdescription": "创新平台",
+    "Header_welcome_cta": "立即加入",
+    "NuxtLink_1": "IUX/ 应用程序交易",
+    "NuxtLink_2": "IUX/ 网页交易",
+    "NuxtLink_3": "MetaTrader5",
+    "NuxtLink_4": "MetaTrader5 网页终端",
+    "Header_android_title": "适用于 iOS",
+    "Header_android_description": "满足所有使用需求，易用且可自定义，适应您的交易风格",
+    "Header_ios_title": "适用于 Android",
+    "Header_ios_description": "通过移动应用程序轻松访问 CFD 市场，享受快速的订单执行和最佳的交易体验。",
+    "Header_welcome_title_2": "快速交易信号",
+    "Header_welcome_description_2": "通过移动应用程序轻松访问 CFD 市场，享受快速的订单执行和最佳的交易体验。",
+    "Header_welcome_cta_2": "IUX/ 应用程序交易",
+    "Header_welcome_title_myport": "提升您的交易体验？",
+    "Header_myport_title_1": "随时访问分析",
+    "Header_myport_description_1": "查看市场图表，实时跟踪市场最新消息",
+    "Header_myport_title_2": "热门资产",
+    "Header_myport_description_2": "查看全球市场，实现更高的盈利",
+    "Header_myport_title_3": "经济日历",
+    "Header_myport_description_3": "随时随地跟踪最新的市场新闻和即将发生的经济事件"
+  },
+
+  "Promotion": {
+    "Header_welcome_title": "特别优惠",
+    "Header_welcome_subttile": "通过选择适合您的交易风格的促销活动轻松设计您的账户，只需一键操作",
+    "Header_Tradition_title_1": "奖金",
+    "Header_Tradition_subttile_1": "30% 奖金",
+    "Header_Tradition_title_2": "回扣",
+    "Header_Tradition_subttile_2": "最低存款 $100 即可享受",
+    "Header_Tradition_price_1": "50%",
+    "Header_Tradition_price_2": "50美元"
+  },
+
+  "Partners": {
+    "Header_about_title": "加入",
+    "Header_about_subttile": "合作伙伴",
+    "Header_welcome_title": "加入",
+    "Header_welcome_subttile": "合作伙伴",
+    "Header_welcome_description": "与 myport 一起踏上收益之旅，提供超越交易的机会",
+    "Header_welcome_cta": "加入我们成为合作伙伴",
+    "Header_welcome_cta_title": "自 2007 年以来的佣金支付",
+    "Header_welcome_cta_description": "$ 214,920,739.85",
+    "Header_row_description_1": "月度忠诚计划支付",
+    "Header_row_description_2": "高达 72% 的佣金",
+    "Header_row_description_3": "营销材料和支持",
+    "Header_row_description_4": "独家 VIP 活动和活动",
+    "Header_row_description": "* 请注意，所有合作伙伴计划福利均需遵守条款和条件"
+  },
+
+  "BrokerReferral": {
+    "title": "推荐经纪人 (IB)",
+    "description": "通过推荐您的朋友、同事或学生赚取高达 72% 的佣金。适合 EA 提供商、交易顾问、信号提供商和交易机构。",
+    "spread_share": "EUR/USD 每手的最高点差分成",
+    "loyalty_bonus": "最高忠诚奖金",
+    "monthly_commission": "每月佣金的一部分"
+  },
+
+  "LearnMore": {
+    "cta": "了解更多"
+  },
+
+  "MyPartners": {
+    "start_title": "轻松",
+    "start_title_2": "开始",
+    "welcome_description": "与 myport 一起踏上收益之旅",
+    "opportunity_description": "提供超越交易的机会",
+    "celebrate_success": "旨在庆祝您的成长和成功"
+  },
+
+  "FooterPartner": {
+    "join_title": "合作伙伴",
+    "join_subtitle": "加入超过",
+    "feedback": "来自的反馈",
+    "cta": "收入！",
+    "register": "注册",
+    "description": "注册并选择我们的 IB 或多层级计划",
+    "invite_friends": "邀请朋友",
+    "share_link": "通过在线渠道分享您的独特合作伙伴链接",
+    "earn_more": "赚取更多",
+    "earn_description": "每 4 小时获得高达 75% 的无限收入",
+    "title": "与 myport 一起踏上收益之旅",
+    "celebrate_success": "旨在庆祝您的成长和成功",
+    "feedback_from": "来自的反馈",
+    "growth_title": "与 myport 一起踏上收益之旅",
+    "growth_description": "旨在庆祝您的成长和成功"
+  },
+
+  "currency": "货币",
+  "share": "股票",
+  "index": "指数",
+  "crypto_cfd": "加密CFD",
+  "commodity": "商品",
+  "product": "产品",
+  "new": "新",
+
+  "about": "关于我们",
+  "footer_message": "版权所有",
+
   "buttons": {
     "open_account": "开设账户",
-    "login": "登录"
+    "login": "登录",
+    "Mostpopular": "最受欢迎",
+    "Trade_with": "交易",
+    "Demo_account": "模拟账户"
   },
+  
+  "text": {
+    "Instant": "即时",
+    "Channel": "渠道",
+    "Minimum_Deposit": "最低存款",
+    "Minimum_Withdrawal": "最低取款",
+    "Maximum_Withdrawal": "最高取款",
+    "Processing_Time": "处理时间"
+  },
+
   "hero": {
     "title": "体验卓越的交易",
-    "subtitle": "提供更好的交易条件",
-    "description": "通过降低成本增加您的盈利机会。享受最低的点差和最快的订单执行速度。加入我们，获得无与伦比的交易优势。",
+    "subtitle": "更优的报价",
+    "description": "通过降低成本提高盈利机会。享受最低点差和更快速的订单执行，为您提供无与伦比的交易体验。",
     "cta": "领取您的 $30 欢迎奖金"
   }
 }

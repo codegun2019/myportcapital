@@ -7,16 +7,16 @@
       <div class="flex items-center px-[16px] pb-[62px] pt-[16px] md:pb-0 md:pt-[0]">
         <div class="px-5">
           <div>
-            <h3 class="text-4xl font-bold mb-4 text-center md:text-left mt-10 md:mt-1">
+            <h3 data-aos="fade-up" data-aos-duration="1000" class="text-4xl font-bold mb-4 text-center md:text-left mt-10 md:mt-1">
               <span class="text-white">{{ $t("Deposit.Header_welcome_title") }} my</span>
               <span class="text-primary-500">port</span>
               <span class="text-white"></span>
             </h3>
-            <p class="mt-2 text-center text-secondary-400 md:text-start lg:text-body-3">
+            <p data-aos="fade-up" data-aos-duration="1000" class="mt-2 text-center text-secondary-400 md:text-start lg:text-body-3">
               {{ $t("Deposit.Header_welcome_subttile") }}
             </p>
           </div>
-          <div class="mt-3 flex flex-col items-center justify-center gap-4 sm:flex-row md:justify-start">
+          <div data-aos="fade-up" data-aos-duration="1000" class="mt-3 flex flex-col items-center justify-center gap-4 sm:flex-row md:justify-start">
             <NuxtLink
                 class="font-bold inline-flex items-center cursor-pointer justify-between border border-gray-400 hover:scale-110 transform-gpu rounded-full px-4 py-2 text-white hover:bg-gray-800 transition duration-300 ease-in-out"
               >

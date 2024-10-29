@@ -6,39 +6,39 @@
           <!-- Text Section -->
           <div class="md:w-1/2 md:py-16 py-8">
             <h2 class="text-4xl font-bold" data-aos="fade-up" data-aos-duration="6000">
-              <span class="text-primary-400 underline">myport </span>App Trade
+              <span class="text-primary-400 underline">{{ $t("Platform.Header_welcome_title") }} </span>
+              {{ $t("Platform.Header_welcome_subttile") }}
             </h2>
             <p class="mt-4 text-lg text-gray-400">
-              พบกับตราสารมากกว่า 250+ รายการด้วยสเปรดที่ต่ำเป็นพิเศษ 0.0 pips ไม่มีรีโควต ราคาดีที่สุด
-              และข้อจำกัดทางการค้าเป็นศูนย์ รับประกันโอกาสในการซื้อขายที่ราบรื่นและคุ้มค่าสำหรับลูกค้าคนสำคัญของเราที่ IUX
+              {{ $t("Platform.Header_welcome_description") }}
             </p>
             <div class="mt-6 flex flex-col xl:flex-row space-x-0 xl:space-x-4 flex gap-4 ">
               <NuxtLink to="/">
                 <button
                   class="py-[10px] px-[16px] bg-primary-500 text-primary-900 rounded-full hover:bg-primary-600 disabled:bg-[#2F2F2F] disabled:text-[#666666] max-h-[44px] btn-primary-iux-round whitespace-nowrap"
                 >
-                  IUX/ App Trade
+                {{ $t("Platform.NuxtLink_1") }}
                 </button>
               </NuxtLink>
               <NuxtLink to="/">
                 <button
                   class="py-[10px] px-[16px] bg-transparent border border-primary-500 rounded-full hover:bg-primary-600 text-primary max-h-[44px] whitespace-nowrap text-primary-100"
                 >
-                  IUX/ Web Trade
+                {{ $t("Platform.NuxtLink_2") }}
                 </button>
               </NuxtLink>
               <NuxtLink to="/">
                 <button
                   class="py-[10px] px-[16px] bg-transparent border border-primary-500 rounded-full hover:bg-primary-600 text-primary max-h-[44px] whitespace-nowrap text-primary-100"
                 >
-                  MetaTrader5
+                {{ $t("Platform.NuxtLink_3") }}
                 </button>
               </NuxtLink>
               <NuxtLink to="/">
                 <button
                   class="py-[10px] px-[16px] bg-transparent border border-primary-500 rounded-full hover:bg-primary-600 text-primary max-h-[44px] whitespace-nowrap text-primary-100"
                 >
-                  MetaTrader5 WebTerminal
+                {{ $t("Platform.NuxtLink_4") }}
                 </button>
               </NuxtLink>
             </div>

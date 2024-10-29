@@ -3,7 +3,7 @@
     <section class="container mx-auto" id="section-ready">
     <!-- Section Header -->
       <div class="text-center my-10">
-        <h2 class="text-5xl font-bold mb-24 mt-24">
+        <h2  class="text-5xl font-bold mb-24 mt-24">
           <span class="text-primary-400">พร้อม</span>ที่จะซื้อขายหรือยัง?
         </h2>
       </div>

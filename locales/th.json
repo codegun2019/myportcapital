@@ -28,62 +28,46 @@
     "Myport_2_title" : "0.0",
     "Myport_3_title" : "STP",
     "Myport_4_title" : "ฟรีสว็อป",
-
     "Myport_1_subtitle" : "โปรแกรม",
     "Myport_2_subtitle" : "สเปรดต่ำ",
     "Myport_3_subtitle" : "บัญชี",
     "Myport_4_subtitle" : "คอมมิชชั่น",
-
     "Myport_welcome_title" : "ทำไมต้อง",
     "Myport_welcome_description" : "พบกับตราสารมากกว่า 250+ รายการด้วยสเปรดที่ต่ำเป็นพิเศษ 0.0 pips ไม่มีรีโควต ราคาดีที่สุด และข้อจำกัดทางการค้าเป็นศูนย์ รับประกันโอกาสในการซื้อขายที่ราบรื่นและคุ้มค่าสำหรับลูกค้าคนสำคัญของเราที่ IUX",
     "Myport_welcome_cta" : "เริ่มต้นการซื้อขาย",
     "Myport_welcome_ctb" : "บัญชีทดลอง",
-
     "MyportBox_1_title" : "สเปรด 0.0",
     "MyportBox_2_title" : "การซื้อขายระดับสถาบัน",
     "MyportBox_3_title" : "การดำเนินการที่รวดเร็ว",
-
     "MyportBox_1_title_a" : "มอบสเปรดที่เหนือชั้นกว่าใคร",
     "MyportBox_2_title_a" : "ซื้อขายด้วยสเปรดเริ่มต้นที่ 0.0 pips",
     "MyportBox_3_title_a" : "ผสมผสานสภาพคล่องที่เป็นกรรมสิทธิ์หลากหลาย",
-
     "MyportBox_1_title_b" : "ลดความผันผวนของตลาด",
     "MyportBox_2_title_b" : "การซื้อขายระดับสถาบันพร้อมกับสภาพคล่องสูง",
     "MyportBox_3_title_b" : "การซื้อขาย CFD มากกว่า 1.5 พันล้านดอลลาร์",
-
     "MyportBox_1_title_c" : "ความเร็วในการดำเนินการโดยเฉลี่ยต่ำกว่า 30ms",
     "MyportBox_2_title_c" : "Fibre optic latency ต่ำ",
-
     "ReadyTitle" : "myport",
     "ReadyTitleSub" : "ยกระดับการเทรดที่เหนือกว่า?",
-
     "ReadyTitle_a" : "เข้าถึงการวิเคราะห์ได้ตลอด",
     "ReadyTitleSub_a" : "ดูแผนภูมิตลาดเพื่อติดตามข่าวสารล่าสุดของตลาด ในช่วงเวลานั้นๆ?",
-
     "ReadyTitle_b" : "สินทรัพย์ยอดนิยม",
     "ReadyTitleSub_b" : "ดูตลาดโลกตามตราสารต่างๆ เพื่อการค้าขนาดมาร่ำรวย สเปรด และสปีดที่รวดเร็ว?",
-
     "ReadyTitle_c" : "ปฏิทินเศรษฐกิจ",
     "ReadyTitleSub_c" : "ติดตามข่าวการตลาดล่าสุดและกิจกรรมทางเศรษฐกิจที่กำลังจะเกิดขึ้นได้ทุกที่ ทุกเวลา?",
-
     "WordTitle" : "ตลาดโลก",
     "WordTitleSub" : "อยู่เพียง",
     "WordTitleSub_row" : "ปลายนิ้วมือของคุณ?",
-
     "WordTitle_a" : "เข้าถึงการวิเคราะห์ได้ตลอด",
     "WordTitleSub_a" : "ดูแผนภูมิตลาดเพื่อติดตามข่าวสารล่าสุดของตลาด ในช่วงเวลานั้นๆ?",
-
     "WordTitle_b" : "สินทรัพย์ยอดนิยม",
     "WordTitleSub_b" : "ดูตลาดโลกตามตราสารต่างๆ เพื่อการค้าขนาดมาร่ำรวย สเปรด และสปีดที่รวดเร็ว?",
-
     "WordTitle_c" : "ปฏิทินเศรษฐกิจ",
     "WordTitleSub_c" : "ติดตามข่าวการตลาดล่าสุดและกิจกรรมทางเศรษฐกิจที่กำลังจะเกิดขึ้นได้ทุกที่ ทุกเวลา?",
-
     "Buysell_welcome_title" : "ซื้อขายง่ายๆ บน",
     "Buysell_welcome_title_sub" : "มือถือ",
     "Buysell_welcome_description" : "ซื้อขายง่ายๆ บน มือถือ เข้าถึงตลาด CFD ผ่านแอปพลิเคชันมือถือที่ออกแบบมาให้ใช้งานง่าย ด้วยการดำเนินการตามคำสั่งที่รวดเร็ว และประสิทธิภาพสูงสุดเพื่อการซื้อขายที่ราบรื่น",
     "Buysell_welcome_cta" : "ดูเพิ่มเติม",
-
     "Trader_welcome_title" : "MetaTrader",
     "Trader_welcome_title_sub" : "5",
     "Trader_welcome_subttile" : "เทอร์มินอลซื้อขายที่ทรงพลัง",
@@ -106,7 +90,6 @@
     "Header_welcome_description" : "เลือกประเภทบัญชีที่เหมาะสมกับตัวคุณ เพื่อให้ตรงกับสไตล์การซื้อขาย ขับเคลื่อนโดย",
     "Header_welcome_subdescription" : "แพลตฟอร์มนวัตกรรมล้ำสมัย",
     "Header_welcome_cta" : "เข้าร่วมกับเรา",
-
     "Footer_welcome_title" : "เริ่มต้นซื้อขายในตลาดโลกได้แล้ววันนี้",
     "Footer_welcome_description" : "พร้อมให้ซื้อขายแล้วทุกแพลตฟอร์ม IUX Web Trade, IUX App Trade, และ MetaTrader5 MetaTrader เป็นตัวเลือกที่ดีที่สุดสำหรับเทรดเดอร์ยุคใหม่",
     "Header_welcome_cta_1" : "ซื้อขายด้วย",
@@ -127,34 +110,125 @@
     "Header_welcome_description" : "เลือกประเภทบัญชีที่เหมาะสมกับตัวคุณ เพื่อให้ตรงกับสไตล์การซื้อขาย ขับเคลื่อนโดย",
     "Header_welcome_subdescription" : "แพลตฟอร์มนวัตกรรมล้ำสมัย",
     "Header_welcome_cta" : "เข้าร่วมกับเรา",
-
     "Package_welcome_title_1" : "my Standard",
     "Package_welcome_title_2" : "my Pro",
     "Package_welcome_title_3" : "my Partner",
-    
     "Package_welcome_description_1" : "ฝากเริ่มต้น $10",
     "Package_welcome_description_2" : "ฝากเริ่มต้น $500",
     "Package_welcome_description_3" : "บัญชีที่มีลักษณะสเปรดที่น้อยกว่าและเรามอบข้อ เสนอนี้ให้กับเทรดเดอร์ที่ต้องการสร้างรายได้",
-
     "Package_Space_1" : "ค่าสเปรด : เริ่มต้น 20 pip",
     "Package_CommissionLeverag_1" : "commission : $10",
     "Package_Leverage_1" : "Leverage : 500",
     "Package_Lotback_1" : "Leverage : 500",
     "Package_Stop_out_1" : "Stop out 35%",
-
     "Package_Space_2" : "ค่าสเปรด : เริ่มต้น 10 pip",
     "Package_CommissionLeverag_2" : "commission : $2",
     "Package_Leverage_2" : "Leverage : 500",
     "Package_Lotback_2" : "Lotback : $1 / lot ",
     "Package_Stop_out_2" : "Stop out 35%",
-
     "Package_Space_3" : "ค่าสเปรด : raw spread 0.0",
     "Package_CommissionLeverag_3" : "commission : $15",
     "Package_Leverage_3" : "Leverage : 500",
     "Package_Lotback_3" : "Lotback : $1 / lot",
     "Package_Stop_out_3" : "Stop out 35%"
   },
-  
+
+  "Platform": {
+    "Header_welcome_title" : "myport",
+    "Header_welcome_subttile" : "App Trade",
+    "Header_welcome_description" : "เข้าถึงการซื้อขาย ได้ทุกที่ทุกเวลา  ผ่านแอปพลิเคชั่นของ myport ใช้งานง่าย ไม่มีสะดุด ตรงความต้องการของเทรดเดอร์สมัยใหม่",
+    "Header_welcome_subdescription" : "แพลตฟอร์มนวัตกรรมล้ำสมัย",
+    "Header_welcome_cta" : "เข้าร่วมกับเรา",
+    "NuxtLink_1" : "IUX/ App Trade",
+    "NuxtLink_2" : "IUX/ Web Trade",
+    "NuxtLink_3" : "MetaTrader5",
+    "NuxtLink_4" : "MetaTrader5 WebTerminal",
+    "Header_android_title" : "สำหรับ IOS",
+    "Header_android_description" : "ตอบโจทย์ทุกการใ้ช้งาน ใช้งานง่าย สามารถปรับแต่ง ให้เข้ากับการเทรดของคุณ ในแอปพลิเคชั่นของ myport",
+    "Header_ios_title" : "สำหรับ Android",
+    "Header_ios_description" : "เข้าถึงตลาด CFD ผ่านแอปพลิเคชันมือถือที่ออกแบบมาให้ใช้งานง่าย ด้วยการดำเนินการตามคำสั่งที่รวดเร็ว และประสิทธิภาพสูงสุดเพื่อการซื้อขายที่ราบรื่น",
+    "Header_welcome_title_2" : "สัญญาณคำสั่งซื้อขายรวดเร็ว",
+    "Header_welcome_description_2" : "เข้าถึงตลาด CFD ผ่านแอปพลิเคชันมือถือที่ออกแบบมาให้ใช้งานง่าย ด้วยการดำเนินการตามคำสั่งที่รวดเร็ว และประสิทธิภาพสูงสุดเพื่อการซื้อขายที่ราบรื่น",
+    "Header_welcome_cta_2" : "IUX/ App Trade",
+    "Header_welcome_title_myport" : "ยกระดับการเทรดที่เหนือกว่า?",
+    "Header_myport_title_1" : "เข้าถึงการวิเคราะห์ได้ตลอด",
+    "Header_myport_description_1" : "ดูแผนภูมิตลาดเพื่อติดตามข่าวสารล่าสุดของตลาด ในช่วงเวลานั้นๆ?",
+    "Header_myport_title_2" : "สินทรัพย์ยอดนิยม",
+    "Header_myport_description_2" : "ดูตลาดโลกตามตราสารต่างๆ เพื่อการค้าขนาดมาร่ำรวย สเปรด และสปีดที่รวดเร็ว?",
+    "Header_myport_title_3" : "ปฏิทินเศรษฐกิจ",
+    "Header_myport_description_3" : "ติดตามข่าวการตลาดล่าสุดและกิจกรรมทางเศรษฐกิจที่กำลังจะเกิดขึ้นได้ทุกที่ ทุกเวลา?"
+
+
+  },
+
+  "Promotion": {
+    "Header_welcome_title": "ข้อเสนอสุดพิเศษ",
+    "Header_welcome_subttile": "ออกแบบบัญชีของตัวเอง ด้วยการเลือกโปรโมชั่นที่ต้องการ ให้เหมาะกับสไตล์การเทรดของตัวเองได้ง่ายๆ เพียงคลิกเดียว",
+    "Header_Tradition_title_1": "Bonus",
+    "Header_Tradition_subttile_1": "โบนัส 30%",
+    "Header_Tradition_title_2": "Lotback",
+    "Header_Tradition_subttile_2": "เพียงเริ่มต้นฝากเงินที่ $100 ขึ้นไป",
+    "Header_Tradition_price_1": "50%",
+    "Header_Tradition_price_2": "50$"
+
+  },
+
+  "Partners": {
+    "Header_about_title": "ก้าวสู่",
+    "Header_about_subttile": "พันธมิตร",
+    "Header_welcome_title": "ก้าวสู่",
+    "Header_welcome_subttile": "Partner",
+    "Header_welcome_description" : "ก้าวสู่การสร้างรายได้กับ myport โอกาสทางการเทรด ที่ให้มากกว่าการเทรด",
+    "Header_welcome_cta" : "ร่วมเป็นพาร์ทเนอร์กับเรา",
+    "Header_welcome_cta_title" : "จ่ายค่าคอมมิชชันตั้งแต่ปี 2007",
+    "Header_welcome_cta_description" : "$ 214,920,739.85",
+    "Header_row_description_1" : "การจ่ายเงินโปรแกรมความภักดีแบบรายเดือน",
+    "Header_row_description_2" : "รับค่าคอมมิชชันสูงถึง 72%",
+    "Header_row_description_3" : "สื่อการตลาดและการสนับสนุน",
+    "Header_row_description_4" : "อีเวนต์และกิจกรรมวีไอพีสุดเอ็กซ์คลูซีฟ",
+    "Header_row_description" : "* โปรดทราบว่าสิทธิประโยชน์ทั้งหมดของโปรแกรมพันธมิตรเป็นไปตามข้อกําหนดและเงื่อนไข",
+    "Header_about_title": "ก้าวสู่",
+    "Header_about_subttile": "Partner",
+    "Header_about_description" : "ก้าวสู่การสร้างรายได้กับ myport โอกาสทางการเทรด ที่ให้มากกว่าการเทรด"
+  },
+  "BrokerReferral": {
+      "title": "ผู้แนะนำโบรกเกอร์ (IB)",
+      "description": "รับค่าคอมมิชชันสูงถึง 72% โดยการแนะนำเพื่อน เพื่อนร่วมงาน หรือนักเรียนของคุณ เหมาะสำหรับผู้ให้บริการ EA ที่ปรึกษาด้านการเทรด ผู้ให้บริการสัญญาณเทรด และสถาบันการเทรด",
+      "spread_share": "ส่วนแบ่งสเปรดของ EUR/USD ต่อล็อตสูงสุดถึง",
+      "loyalty_bonus": "Loyalty Bonus สูงสุดถึง",
+      "monthly_commission": "ของค่าคอมมิชชันรายเดือน"
+  },
+  "LearnMore": {
+    "cta": "เรียนรู้เพิ่มเติม"
+  },
+
+  "MyPartners": {
+      "start_title": "เริ่มต้น",
+      "start_title_2": "ง่ายๆ",
+      "welcome_description": "ก้าวสู่การสร้างรายได้กับ myport",
+      "opportunity_description": "โอกาสทางการเทรด ที่ให้มากกว่าการเทรด",
+      "celebrate_success": "ซึ่งได้รับการออกแบบมาเพื่อฉลองการเติบโตและความสําเร็จของคุณ"
+  },
+
+
+  "FooterPartner": {
+      "join_title": "พาร์ทเนอร์",
+      "join_subtitle": "เข้าร่วมกว่า",
+      "feedback": "เสียงตอบรับจาก",
+      "cta": "ราย!",
+      "register": "สมัคร",
+      "description": "ลงทะเบียนและเลือกโปรแกรม IB หรือ Multi-level ของเรา",
+      "invite_friends": "เชิญเพื่อน",
+      "share_link": "แชร์ลิงก์พาร์ทเนอร์ที่ไม่ซ้ำใครของคุณผ่านช่องทางออนไลน์",
+      "earn_more": "รับรายได้มากขึ้น",
+      "earn_description": "รับรายได้สูงถึง 75% แบบไม่จำกัดทุก 4 ชั่วโมง",
+      "title": "ก้าวสู่การสร้างรายได้กับ myport",
+      "celebrate_success": "ซึ่งได้รับการออกแบบมาเพื่อฉลองการเติบโตและความสําเร็จของคุณ",
+      "feedback_from": "เสียงตอบรับจาก",
+      "growth_title": "ก้าวสู่การสร้างรายได้กับ myport",
+      "growth_description": "ซึ่งได้รับการออกแบบมาเพื่อฉลองการเติบโตและความสําเร็จของคุณ"
+    },
+
   "currency" : "สกุลเงิน",
   "share" : "หุ้น",
   "index" : "ดัชนี",

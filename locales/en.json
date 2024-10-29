@@ -23,74 +23,56 @@
     "Header_welcome_description": "With better offers",
     "Header_welcome_subttile": "Increase your profit potential by reducing costs. Trade with the lowest spreads and faster order execution for unmatched trading performance.",
     "Header_welcome_cta": "Get your $30 welcome bonus",
-
     "Myport_1_title": "LotBack",
     "Myport_2_title": "0.0",
     "Myport_3_title": "STP",
     "Myport_4_title": "Swap Free",
-
     "Myport_1_subtitle": "Program",
     "Myport_2_subtitle": "Low Spread",
     "Myport_3_subtitle": "Account",
     "Myport_4_subtitle": "Commission",
-
     "Myport_welcome_title": "Experience Superior Trading",
     "Myport_welcome_description": "Experience Superior Trading",
     "Myport_welcome_cta": "Start Trading",
     "Myport_welcome_ctb": "Demo Account",
-
     "MyportBox_1_title": "0.0 Spread",
     "MyportBox_2_title": "Institutional Trading",
     "MyportBox_3_title": "Fast Execution",
-
     "MyportBox_1_title_a": "Offering superior spreads",
     "MyportBox_2_title_a": "Trade with spreads starting from 0.0 pips",
     "MyportBox_3_title_a": "Combining proprietary liquidity",
-
     "MyportBox_1_title_b": "Reducing market volatility",
     "MyportBox_2_title_b": "Institutional trading with high liquidity",
     "MyportBox_3_title_b": "CFD trading over $1.5 billion",
-
     "MyportBox_1_title_c": "Average execution speed below 30ms",
     "MyportBox_2_title_c": "Low fibre optic latency",
-
     "ReadyTitle": "myport",
     "ReadyTitleSub": "Elevate your trading experience?",
-
     "ReadyTitle_a": "Access analysis anytime",
     "ReadyTitleSub_a": "View market charts to keep up with the latest market news?",
-
     "ReadyTitle_b": "Popular Assets",
     "ReadyTitleSub_b": "View global markets by different instruments for profitable trading with low spreads and high speed?",
-
     "ReadyTitle_c": "Economic Calendar",
     "ReadyTitleSub_c": "Keep track of the latest market news and upcoming economic events anywhere, anytime?",
-
     "WordTitle": "Global Market",
     "WordTitleSub": "Just",
     "WordTitleSub_row": "at your fingertips?",
-
     "WordTitle_a": "Access analysis anytime",
     "WordTitleSub_a": "View market charts to keep up with the latest market news?",
-
     "WordTitle_b": "Popular Assets",
     "WordTitleSub_b": "View global markets by different instruments for profitable trading with low spreads and high speed?",
-
     "WordTitle_c": "Economic Calendar",
     "WordTitleSub_c": "Keep track of the latest market news and upcoming economic events anywhere, anytime?",
-
     "Buysell_welcome_title": "Trade Easily on",
     "Buysell_welcome_title_sub": "Mobile",
     "Buysell_welcome_description": "Trade easily on mobile. Access the CFD market via a mobile application designed for user-friendliness, with quick order execution and maximum performance for smooth trading.",
     "Buysell_welcome_cta": "Learn More",
-
     "Trader_welcome_title": "MetaTrader",
     "Trader_welcome_title_sub": "5",
     "Trader_welcome_subttile": "A Powerful Trading Terminal",
     "Trader_welcome_description": "Successful trading starts with convenient and practical trading. MetaTrader is the best choice for modern traders.",
     "Trader_welcome_cta": "Learn More",
     "Trader_welcome_ctb": "Download MetaTrader at",
-
     "Start_welcome_title": "Start Trading in the Global Market Today",
     "Start_welcome_description": "Ready to trade on all platforms: IUX Web Trade, IUX App Trade, and MetaTrader5. MetaTrader is the best choice for modern traders.",
     "Start_welcome_cta": "Trade with 0.0 pips",
@@ -102,7 +84,6 @@
     "Header_welcome_description" : "Create your own account by selecting the promotions that best fit your",
     "Header_welcome_subdescription" : "trading style with just one clic",
     "Header_welcome_cta" : "Join us",
-    
     "Footer_welcome_title": "Start trading with myport now",
     "Footer_welcome_description": "Available for trading on all platforms: IUX Web Trade, IUX App Trade, and MetaTrader5. MetaTrader is the best choice for modern traders.",
     "Footer_welcome_cta_1": "Trade with",
@@ -125,27 +106,22 @@
     "Header_welcome_description" : "Choose the account type that suits you best to match your trading style,",
     "Header_welcome_subdescription" : "powered by an innovative, cutting-edge platform.",
     "Header_welcome_cta" : "Join us",
-
     "Package_welcome_title_1" : "my Standard",
     "Package_welcome_title_2" : "my Pro",
     "Package_welcome_title_3" : "my Partner",
-
     "Package_welcome_description_1" : "Initial deposit $10",
     "Package_welcome_description_2" : "Initial deposit $500",
     "Package_welcome_description_3" : "An account with lower spreads, offered to traders who aim to generate income.",
-
     "Package_Space_1" : "Spread : เริ่มต้น 20 pip",
     "Package_CommissionLeverag_1" : "commission : $10",
     "Package_Leverage_1" : "Leverage : 500",
     "Package_Lotback_1" : "Leverage : 500",
     "Package_Stop_out_1" : "Stop out 35%",
-
     "Package_Space_2" : "Spread : เริ่มต้น 10 pip",
     "Package_CommissionLeverag_2" : "commission : $2",
     "Package_Leverage_2" : "Leverage : 500",
     "Package_Lotback_2" : "Lotback : $1 / lot ",
     "Package_Stop_out_2" : "Stop out 35%",
-
     "Package_Space_3" : "Spread : raw spread 0.0",
     "Package_CommissionLeverag_3" : "commission : $15",
     "Package_Leverage_3" : "Leverage : 500",
@@ -153,6 +129,94 @@
     "Package_Stop_out_3" : "Stop out 35%"
 
   },
+
+  "Platform": {
+      "Header_welcome_title" : "myport",
+      "Header_welcome_subttile" : "App Trade",
+      "Header_welcome_description" : "Access trading anytime, anywhere through the myport application. Easy to use, seamless, and tailored for the modern trader.",
+      "Header_welcome_subdescription" : "A cutting-edge innovative platform",
+      "Header_welcome_cta" : "Join us",
+      "NuxtLink_1" : "IUX/ App Trade",
+      "NuxtLink_2" : "IUX/ Web Trade",
+      "NuxtLink_3" : "MetaTrader5",
+      "NuxtLink_4" : "MetaTrader5 WebTerminal",
+      "Header_android_title" : "For IOS",
+      "Header_android_description" : "Meets all usage needs, easy to use, and customizable to match your trading style within the myport application",
+      "Header_ios_title" : "For Android",
+      "Header_ios_description" : "Access the CFD market via a mobile application designed for ease of use, with fast order execution and optimal performance for smooth trading.",
+      "Header_welcome_title_2" : "Fast Trade Signals",
+      "Header_welcome_description_2" : "Access the CFD market via a mobile application designed for ease of use, with fast order execution and optimal performance for smooth trading.",
+      "Header_welcome_cta_2" : "IUX/ App Trade",
+      "Header_welcome_title_myport" : "Elevate Your Trading Experience?",
+      "Header_myport_title_1" : "Constant Access to Analysis",
+      "Header_myport_description_1" : "View market charts to stay updated with the latest market news at any time.",
+      "Header_myport_title_2" : "Top Assets",
+      "Header_myport_description_2" : "Explore global markets across various instruments for profitable trades, with tight spreads and rapid speed.",
+      "Header_myport_title_3" : "Economic Calendar",
+      "Header_myport_description_3" : "Keep track of the latest market news and upcoming economic events, anytime, anywhere."
+  },
+
+  "Promotion": {
+      "Header_welcome_title": "Special Offers",
+      "Header_welcome_subttile": "Design your own account by selecting the promotions that suit your trading style with just one click.",
+      "Header_Tradition_title_1": "Bonus",
+      "Header_Tradition_subttile_1": "30% Bonus",
+      "Header_Tradition_title_2": "Lotback",
+      "Header_Tradition_subttile_2": "Just start by depositing $100 or more",
+      "Header_Tradition_price_1": "50%",
+      "Header_Tradition_price_2": "$50"
+  },
+
+  "Partners": {
+      "Header_about_title": "Step into",
+      "Header_about_subttile": "Partner",
+      "Header_welcome_title": "Step into",
+      "Header_welcome_subttile": "Partner",
+      "Header_welcome_description": "Step into earning opportunities with myport — a trading opportunity that offers more than just trading.",
+      "Header_welcome_cta": "Join us as a partner",
+      "Header_welcome_cta_title": "Commission payouts since 2007",
+      "Header_welcome_cta_description": "$ 214,920,739.85",
+      "Header_row_description_1": "Monthly loyalty program payouts",
+      "Header_row_description_2": "Earn up to 72% in commissions",
+      "Header_row_description_3": "Marketing materials and support",
+      "Header_row_description_4": "Exclusive VIP events and activities",
+      "Header_row_description": "* Please note that all affiliate program benefits are subject to terms and conditions."
+  },
+  "BrokerReferral": {
+      "title": "Introducing Broker (IB)",
+      "description": "Earn up to 72% in commissions by referring friends, colleagues, or your students. Ideal for EA providers, trading consultants, signal providers, and trading institutions.",
+      "spread_share": "Spread share of EUR/USD per lot up to",
+      "loyalty_bonus": "Loyalty Bonus up to",
+      "monthly_commission": "of monthly commission"
+  },
+  "LearnMore": {
+    "cta": "Learn More"
+  },
+  "MyPartners": {
+      "start_title": "Get Started",
+      "start_title_2": "Easily",
+      "welcome_description": "Step into earning opportunities with myport",
+      "opportunity_description": "A trading opportunity that offers more than just trading",
+      "celebrate_success": "Designed to celebrate your growth and success"
+  },
+  "FooterPartner": {
+      "join_title": "Partner",
+      "join_subtitle": "Joined over",
+      "feedback": "Feedback from",
+      "cta": "Revenue!",
+      "register": "Register",
+      "description": "Sign up and select our IB or Multi-level program",
+      "invite_friends": "Invite Friends",
+      "share_link": "Share your unique partner link through online channels",
+      "earn_more": "Earn More",
+      "earn_description": "Earn up to 75% unlimited revenue every 4 hours",
+      "title": "Step into earning opportunities with myport",
+      "celebrate_success": "Designed to celebrate your growth and success",
+      "feedback_from": "Feedback from",
+      "growth_title": "Step into earning opportunities with myport",
+      "growth_description": "Designed to celebrate your growth and success"
+  },
+
   "currency": "Currency",
   "share": "Share",
   "index": "Index",

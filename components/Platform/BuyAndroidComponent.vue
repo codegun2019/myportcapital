@@ -15,11 +15,10 @@
             <!-- Right side content (now on the right) -->
             <div class="order-1 md:order-2">
               <h2 class="text-5xl font-bold mb-1 mt-24 pt-10 text-center 2xl:text-left xl:text-left">
-                <span class="text-primary-400">myport </span> สำหรับ Android
+                <span class="text-primary-400">myport </span> {{ $t("Platform.Header_android_title") }}
               </h2>
               <p class="text-gray-400 mt-[28px] text-center mb-2 text-button-2 md:text-heading-body lg:text-start">
-                เข้าถึงตลาด CFD ผ่านแอปพลิเคชันมือถือที่ออกแบบมาให้ใช้งานง่าย ด้วยการดำเนินการตามคำสั่งที่รวดเร็ว
-                และประสิทธิภาพสูงสุดเพื่อการซื้อขายที่ราบรื่น
+                {{ $t("Platform.Header_android_description") }}
               </p>
               <div class="flex justify-center lg:justify-start">
                 <img data-aos="fade-in" data-aos-duration="9000" :src="IosImage" class="w-[200px]" alt="custom-image" />

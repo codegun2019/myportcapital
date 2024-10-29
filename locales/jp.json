@@ -1,20 +1,255 @@
 {
   "welcome": "私たちのウェブサイトへようこそ",
-  "about": "私たちについて",
-  "footer_message": "全著作権所有",
+
   "menu": {
+    "create_account": "アカウントを作成する",
+    "login_account": "ログイン",
     "buy": "購入",
+    "home": "ホーム",
+    "store": "ストア",
+    "accounting": "アカウント",
+    "market": "マーケット",
+    "deposit": "入出金",
+    "promotion": "プロモーション",
     "platform": "プラットフォーム",
+    "partners": "パートナー",
+    "about": "私たちについて",
     "more": "もっと見る"
   },
-  "buttons": {
-    "open_account": "アカウントを開設する",
-    "login": "ログイン"
+
+  "Home": {
+    "Header_welcome_title": "より高いトレード体験を",
+    "Header_welcome_description": "より良いオファーで",
+    "Header_welcome_subttile": "コストを削減し、最低スプレッドと迅速な注文執行で利益のチャンスを広げ、比類なきトレード体験を提供します",
+    "Header_welcome_cta": "ウェルカムボーナス $30 を取得する",
+
+    "Myport_1_title": "ロットバック",
+    "Myport_2_title": "0.0",
+    "Myport_3_title": "STP",
+    "Myport_4_title": "スワップフリー",
+    "Myport_1_subtitle": "プログラム",
+    "Myport_2_subtitle": "低スプレッド",
+    "Myport_3_subtitle": "アカウント",
+    "Myport_4_subtitle": "コミッション",
+    "Myport_welcome_title": "なぜ",
+    "Myport_welcome_description": "250以上の取引可能な商品を最小スプレッド 0.0 pips で提供。リクオートなし、最適な価格で制限なく取引できます。IUX の重要なお客様に円滑で価値あるトレードの機会を保証します",
+    "Myport_welcome_cta": "トレードを始める",
+    "Myport_welcome_ctb": "デモ口座",
+    "MyportBox_1_title": "スプレッド 0.0",
+    "MyportBox_2_title": "インスティテューショナルトレーディング",
+    "MyportBox_3_title": "高速な執行",
+    "MyportBox_1_title_a": "比類なきスプレッドを提供",
+    "MyportBox_2_title_a": "スプレッド 0.0 pips から",
+    "MyportBox_3_title_a": "独自の多様な流動性をミックス",
+    "MyportBox_1_title_b": "市場の変動を最小限に",
+    "MyportBox_2_title_b": "高い流動性でインスティテューショナルトレーディング",
+    "MyportBox_3_title_b": "CFD の取引量 15 億ドル以上",
+    "MyportBox_1_title_c": "平均実行速度 30ms 未満",
+    "MyportBox_2_title_c": "低光ファイバー遅延",
+    "ReadyTitle": "myport",
+    "ReadyTitleSub": "より高いトレード体験を?",
+    "ReadyTitle_a": "いつでも分析にアクセス",
+    "ReadyTitleSub_a": "その瞬間の最新市場ニュースをチャートで確認",
+    "ReadyTitle_b": "人気のある資産",
+    "ReadyTitleSub_b": "世界の市場を製品別に確認し、収益性のあるトレードを実現",
+    "ReadyTitle_c": "経済カレンダー",
+    "ReadyTitleSub_c": "最新の市場ニュースと今後の経済イベントをいつでもどこでも",
+    "WordTitle": "グローバルマーケット",
+    "WordTitleSub": "指先に",
+    "WordTitleSub_row": "あなたの",
+    "WordTitle_a": "いつでも分析にアクセス",
+    "WordTitleSub_a": "その瞬間の最新市場ニュースをチャートで確認",
+    "WordTitle_b": "人気のある資産",
+    "WordTitleSub_b": "世界の市場を製品別に確認し、収益性のあるトレードを実現",
+    "WordTitle_c": "経済カレンダー",
+    "WordTitleSub_c": "最新の市場ニュースと今後の経済イベントをいつでもどこでも",
+    "Buysell_welcome_title": "簡単に売買できる",
+    "Buysell_welcome_title_sub": "携帯電話で",
+    "Buysell_welcome_description": "モバイルアプリで簡単にCFD市場にアクセスし、迅速な注文とスムーズなトレード体験を実現",
+    "Buysell_welcome_cta": "もっと見る",
+    "Trader_welcome_title": "MetaTrader",
+    "Trader_welcome_title_sub": "5",
+    "Trader_welcome_subttile": "強力なトレードターミナル",
+    "Trader_welcome_description": "便利で実用的なトレードが成功の鍵。MetaTraderは現代のトレーダーに最適な選択です",
+    "Trader_welcome_cta": "もっと見る",
+    "Trader_welcome_ctb": "MetaTrader をダウンロード",
+
+    "Start_welcome_title": "今日からグローバルマーケットでのトレードを始めよう",
+    "Start_welcome_description": "すべてのプラットフォームで取引可能、IUX Web Trade、IUX App Trade、MetaTrader5。MetaTraderは現代のトレーダーに最適な選択です",
+    "Start_welcome_cta": "0.0 pips で取引する",
+    "Start_welcome_ctb": "デモ口座"
   },
+
+  "Accounting": {
+    "Header_welcome_title": "概要",
+    "Header_welcome_subttile": "トレードアカウント",
+    "Header_welcome_description": "あなたのトレードスタイルに合ったアカウントタイプを選択",
+    "Header_welcome_subdescription": "革新的なプラットフォームによって推進される",
+    "Header_welcome_cta": "今すぐ参加",
+    "Footer_welcome_title": "今日からグローバルマーケットでのトレードを始めよう",
+    "Footer_welcome_description": "すべてのプラットフォームで取引可能、IUX Web Trade、IUX App Trade、MetaTrader5。MetaTraderは現代のトレーダーに最適な選択です",
+    "Header_welcome_cta_1": "取引する",
+    "Header_welcome_cta_2": "デモ口座"
+  },
+
+  "Deposit": {
+    "Header_welcome_title": "手数料なし",
+    "Header_welcome_subttile": "myportウェブサイトで即時に入出金処理",
+    "Header_welcome_cta": "今すぐトレードを始める"
+  },
+
+  "Package": {
+    "Header_welcome_title": "概要",
+    "Header_welcome_subttile": "トレードアカウント",
+    "Header_welcome_description": "あなたのトレードスタイルに合ったアカウントタイプを選択",
+    "Header_welcome_subdescription": "革新的なプラットフォームによって推進される",
+    "Header_welcome_cta": "今すぐ参加",
+    "Package_welcome_title_1": "my Standard",
+    "Package_welcome_title_2": "my Pro",
+    "Package_welcome_title_3": "my Partner",
+    "Package_welcome_description_1": "最低入金額 $10",
+    "Package_welcome_description_2": "最低入金額 $500",
+    "Package_welcome_description_3": "少ないスプレッドと収益を追求するトレーダーに最適なアカウント",
+    "Package_Space_1": "スプレッド: 20ピップから",
+    "Package_CommissionLeverag_1": "コミッション: $10",
+    "Package_Leverage_1": "レバレッジ: 500",
+    "Package_Lotback_1": "ロットバック: $1 / ロット",
+    "Package_Stop_out_1": "ストップアウト 35%",
+    "Package_Space_2": "スプレッド: 10ピップから",
+    "Package_CommissionLeverag_2": "コミッション: $2",
+    "Package_Leverage_2": "レバレッジ: 500",
+    "Package_Lotback_2": "ロットバック: $1 / ロット",
+    "Package_Stop_out_2": "ストップアウト 35%",
+    "Package_Space_3": "スプレッド: raw spread 0.0",
+    "Package_CommissionLeverag_3": "コミッション: $15",
+    "Package_Leverage_3": "レバレッジ: 500",
+    "Package_Lotback_3": "ロットバック: $1 / ロット",
+    "Package_Stop_out_3": "ストップアウト 35%"
+  },
+
+  "Platform": {
+    "Header_welcome_title": "myport",
+    "Header_welcome_subttile": "アプリトレード",
+    "Header_welcome_description": "myportアプリケーションでどこでもトレードにアクセス。使いやすく、現代のトレーダーのニーズに合わせてデザインされています",
+    "Header_welcome_subdescription": "革新的なプラットフォーム",
+    "Header_welcome_cta": "今すぐ参加",
+    "NuxtLink_1": "IUX/ アプリトレード",
+    "NuxtLink_2": "IUX/ ウェブトレード",
+    "NuxtLink_3": "MetaTrader5",
+    "NuxtLink_4": "MetaTrader5 ウェブターミナル",
+    "Header_android_title": "iOS用",
+    "Header_android_description": "使いやすく、トレードスタイルに合わせてカスタマイズできるmyportアプリ",
+    "Header_ios_title": "Android用",
+    "Header_ios_description": "CFD市場に簡単にアクセス。迅速な注文実行と高性能なモバイルアプリでスムーズなトレード",
+    "Header_welcome_title_2": "高速注文シグナル",
+    "Header_welcome_description_2": "CFD市場に簡単にアクセス。迅速な注文実行と高性能なモバイルアプリでスムーズなトレード",
+    "Header_welcome_cta_2": "IUX/ アプリトレード",
+    "Header_welcome_title_myport": "より高いトレード体験?",
+    "Header_myport_title_1": "いつでも分析にアクセス",
+    "Header_myport_description_1": "市場ニュースをチャートでリアルタイムに確認",
+    "Header_myport_title_2": "人気の資産",
+    "Header_myport_description_2": "世界の市場で様々な商品を確認、収益性のあるトレードを実現",
+    "Header_myport_title_3": "経済カレンダー",
+    "Header_myport_description_3": "最新の市場ニュースと経済イベントに常にアクセス"
+  },
+
+  "Promotion": {
+    "Header_welcome_title": "特別オファー",
+    "Header_welcome_subttile": "自分に合ったプロモーションを選んでアカウントをデザイン。ワンクリックで実現",
+    "Header_Tradition_title_1": "ボーナス",
+    "Header_Tradition_subttile_1": "ボーナス30%",
+    "Header_Tradition_title_2": "ロットバック",
+    "Header_Tradition_subttile_2": "$100 以上の入金で利用可能",
+    "Header_Tradition_price_1": "50%",
+    "Header_Tradition_price_2": "50ドル"
+  },
+
+  "Partners": {
+    "Header_about_title": "ステップイン",
+    "Header_about_subttile": "パートナー",
+    "Header_welcome_title": "ステップイン",
+    "Header_welcome_subttile": "パートナー",
+    "Header_welcome_description": "myportと共に収益のチャンスを広げましょう。トレード以上の可能性を提供",
+    "Header_welcome_cta": "パートナーとして参加する",
+    "Header_welcome_cta_title": "2007年からのコミッション支払い",
+    "Header_welcome_cta_description": "$ 214,920,739.85",
+    "Header_row_description_1": "月次ロイヤルティプログラムの支払い",
+    "Header_row_description_2": "最大72％のコミッション獲得",
+    "Header_row_description_3": "マーケティング資料とサポート",
+    "Header_row_description_4": "VIP限定イベントと活動",
+    "Header_row_description": "* すべてのアフィリエイトプログラム特典には条件と規約が適用されます"
+  },
+
+  "BrokerReferral": {
+    "title": "ブローカー紹介 (IB)",
+    "description": "友人、同僚、または生徒を紹介して最大72％のコミッションを獲得。EAプロバイダー、トレードアドバイザー、シグナルプロバイダー、トレーディングインスティテューションに最適",
+    "spread_share": "EUR/USDのスプレッドシェア最大",
+    "loyalty_bonus": "ロイヤルティボーナス最大",
+    "monthly_commission": "月次コミッションの一部"
+  },
+
+  "LearnMore": {
+    "cta": "さらに詳しく"
+  },
+
+  "MyPartners": {
+    "start_title": "簡単に",
+    "start_title_2": "スタート",
+    "welcome_description": "myportと共に収益のチャンスを広げましょう",
+    "opportunity_description": "トレード以上の可能性を提供",
+    "celebrate_success": "あなたの成長と成功を祝うために設計されています"
+  },
+
+  "FooterPartner": {
+    "join_title": "パートナー",
+    "join_subtitle": "以上参加",
+    "feedback": "からのフィードバック",
+    "cta": "収益!",
+    "register": "登録",
+    "description": "IB またはマルチレベルプログラムを選んで登録",
+    "invite_friends": "友人を招待",
+    "share_link": "オンラインチャネルを通じて独自のパートナーリンクを共有",
+    "earn_more": "もっと稼ぐ",
+    "earn_description": "4時間ごとに最大75％の無制限収益を得る",
+    "title": "myportと共に収益のチャンスを広げましょう",
+    "celebrate_success": "あなたの成長と成功を祝うために設計されています",
+    "feedback_from": "からのフィードバック",
+    "growth_title": "myportと共に収益のチャンスを広げましょう",
+    "growth_description": "あなたの成長と成功を祝うために設計されています"
+  },
+
+  "currency": "通貨",
+  "share": "株式",
+  "index": "インデックス",
+  "crypto_cfd": "暗号CFD",
+  "commodity": "コモディティ",
+  "product": "製品",
+  "new": "新しい",
+
+  "about": "私たちについて",
+  "footer_message": "著作権所有",
+
+  "buttons": {
+    "open_account": "口座を開設",
+    "login": "ログイン",
+    "Mostpopular": "最も人気のある",
+    "Trade_with": "取引する",
+    "Demo_account": "デモ口座"
+  },
+  
+  "text": {
+    "Instant": "即時",
+    "Channel": "チャネル",
+    "Minimum_Deposit": "最低入金額",
+    "Minimum_Withdrawal": "最低出金額",
+    "Maximum_Withdrawal": "最大出金額",
+    "Processing_Time": "処理時間"
+  },
+
   "hero": {
-    "title": "優れた取引を体験",
+    "title": "より高いトレード体験を",
     "subtitle": "より良いオファーで",
-    "description": "コストを削減し、利益のチャンスを増やしましょう。最も低いスプレッドと最速の注文執行を提供します。無類の取引優位性を手に入れるために、ぜひご参加ください。",
-    "cta": "$30 のウェルカムボーナスを今すぐ請求"
+    "description": "コストを削減し、最低スプレッドと迅速な注文執行で利益のチャンスを広げ、比類なきトレード体験を提供します",
+    "cta": "ウェルカムボーナス $30 を取得する"
   }
 }

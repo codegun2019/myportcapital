@@ -1,20 +1,201 @@
 {
   "welcome": "ຍິນດີຕ້ອນຮັບສູ່ເວັບໄຊຂອງພວກເຮົາ",
-  "about": "ກ່ຽວກັບພວກເຮົາ",
-  "footer_message": "ສິດທິທັງໝົດຖືກສົງວັດ",
+
   "menu": {
+    "create_account": "ສ້າງບັນຊີ",
+    "login_account": "ເຂົ້າລະບົບ",
     "buy": "ຊື້",
-    "platform": "ແພລດຟອມ",
+    "home": "ໜ້າຫຼັກ",
+    "store": "ຮ້ານຄ້າ",
+    "accounting": "ບັນຊີ",
+    "market": "ຕະຫຼາດ",
+    "deposit": "ຝາກ/ຖອນ",
+    "promotion": "ໂປຣໂມຊັ່ນ",
+    "platform": "ແພລະຟອມ",
+    "partners": "ພັນທະມິດ",
+    "about": "ກ່ຽວກັບພວກເຮົາ",
     "more": "ເພີ່ມເຕີມ"
   },
+
+  "Home": {
+    "Header_welcome_title": "ສຳຜັດປະສົບການການຊື້ຂາຍທີ່ເຫນືອກ່ວາ",
+    "Header_welcome_description": "ດ້ວຍຂໍ້ສະເໜີທີ່ດີກວ່າ",
+    "Header_welcome_subttile": "ເພີ່ມໂອກາດໃນການທຳກຳໄລໂດຍຫຼຸດຕົ້ນທຶນ ແລະເທຣດດ້ວຍສະເພຣດທີ່ຕ່ຳສຸດ ແລະຄວາມໄວທີ່ສູງກວ່າ",
+    "Header_welcome_cta": "ຮັບໂບນັດຕ້ອນຮັບ $30 ຂອງທ່ານ",
+
+    "Myport_1_title": "LotBack",
+    "Myport_2_title": "0.0",
+    "Myport_3_title": "STP",
+    "Myport_4_title": "ປອດຄ່າທຳນຽມ",
+    "Myport_1_subtitle": "ໂປແກຣມ",
+    "Myport_2_subtitle": "ສະເພຣດຕ່ຳ",
+    "Myport_3_subtitle": "ບັນຊີ",
+    "Myport_4_subtitle": "ຄ່ານາຍຫນ້າ",
+    "Myport_welcome_title": "ເປັນເຫດໃດຕ້ອງເລືອກ",
+    "Myport_welcome_description": "ພົບກັບຕະຫຼາດການຊື້ຂາຍຫຼາຍກວ່າ 250+ ເປັນຕົ້ນໄປ ດ້ວຍສະເພຣດຕ່ຳສຸດ 0.0 pips, ບໍ່ມີເລື່ອນລາຄາ, ແລະຂໍ້ຈຳກັດໃນການຄ້າ ເພື່ອຄວາມຄຸ້ມຄ່າສູງສຸດສຳລັບລູກຄ້າ",
+    "Myport_welcome_cta": "ເລີ່ມຕົ້ນການຊື້ຂາຍ",
+    "Myport_welcome_ctb": "ບັນຊີທົດລອງ",
+    "MyportBox_1_title": "ສະເພຣດ 0.0",
+    "MyportBox_2_title": "ການຊື້ຂາຍລະດັບສະຖາບັນ",
+    "MyportBox_3_title": "ຄວາມໄວໃນການເຮັດວຽກ",
+    "MyportBox_1_title_a": "ມອບສະເພຣດທີ່ດີກວ່າ",
+    "MyportBox_2_title_a": "ຊື້ຂາຍດ້ວຍສະເພຣດຕົ້ນຕໍ່ທີ່ 0.0 pips",
+    "MyportBox_3_title_a": "ຜະລິດຄວາມຄວາມໄວໃນການຈັດການ",
+    "MyportBox_1_title_b": "ຫຼຸດຜົນກະທົບຕະຫຼາດ",
+    "MyportBox_2_title_b": "ການຊື້ຂາຍລະດັບສະຖາບັນເພື່ອຄວາມຄຸ້ມຄ່າ",
+    "MyportBox_3_title_b": "ຊື້ຂາຍ CFD ກວ່າ $1.5 ຕື້",
+    "MyportBox_1_title_c": "ຄວາມໄວໃນການເຮັດວຽກບໍ່ເກີນ 30 ms",
+    "MyportBox_2_title_c": "ຄວາມໄວໃນການເຄື່ອນໄຫວຕໍ່າ",
+    "ReadyTitle": "myport",
+    "ReadyTitleSub": "ຍົກລະດັບການຊື້ຂາຍທີ່ດີກວ່າ?",
+    "ReadyTitle_a": "ເຂົ້າເຖິງການວິເຄາະໄດ້ຕະຫຼອດ",
+    "ReadyTitleSub_a": "ເບິ່ງຕະຫຼາດເພື່ອຕິດຕາມຂ່າວລ່າສຸດ",
+    "ReadyTitle_b": "ສິນຊື້ທີ່ນິຍົມ",
+    "ReadyTitleSub_b": "ເບິ່ງຕະຫຼາດໂລກເພື່ອຄ່ານຳໃຊ້ທີ່ຄຸ້ມຄ່າ",
+    "ReadyTitle_c": "ປະຕິທິນເສດຖະກິດ",
+    "ReadyTitleSub_c": "ຕິດຕາມຂ່າວສານທີ່ຕ້ອງໄດ້ໃນໄລຍະໃດ",
+    "WordTitle": "ຕະຫຼາດໂລກ",
+    "WordTitleSub": "ຢູ່ພຽງ",
+    "WordTitleSub_row": "ປົກມືຂອງທ່ານ?",
+    "WordTitle_a": "ເຂົ້າເຖິງການວິເຄາະໄດ້ຕະຫຼອດ",
+    "WordTitleSub_a": "ເບິ່ງຕະຫຼາດເພື່ອຕິດຕາມຂ່າວລ່າສຸດ",
+    "WordTitle_b": "ສິນຊື້ທີ່ນິຍົມ",
+    "WordTitleSub_b": "ເບິ່ງຕະຫຼາດໂລກເພື່ອຄ່ານຳໃຊ້ທີ່ຄຸ້ມຄ່າ",
+    "WordTitle_c": "ປະຕິທິນເສດຖະກິດ",
+    "WordTitleSub_c": "ຕິດຕາມຂ່າວສານທີ່ຕ້ອງໄດ້ໃນໄລຍະໃດ",
+    "Buysell_welcome_title": "ຊື້ຂາຍງ່າຍໆບນ",
+    "Buysell_welcome_title_sub": "ມືຖື",
+    "Buysell_welcome_description": "ຊື້ຂາຍງ່າຍໆຜ່ານມືຖື ພ້ອມມື້ນີ້",
+    "Buysell_welcome_cta": "ເບິ່ງເພີ່ມເຕີມ",
+    "Trader_welcome_title": "MetaTrader",
+    "Trader_welcome_title_sub": "5",
+    "Trader_welcome_subttile": "ເທີມິນອນຊື້ຂາຍ",
+    "Trader_welcome_description": "ການຊື້ຂາຍທີ່ດີເລີ່ມຕົ້ນດ້ວຍ MetaTrader",
+    "Trader_welcome_cta": "ເບິ່ງເພີ່ມເຕີມ",
+    "Trader_welcome_ctb": "ດາວໂຫລດ MetaTrader",
+
+    "Start_welcome_title": "ເລີ່ມຕົ້ນຊື້ຂາຍໃນຕະຫຼາດໂລກໄດ້ທັນທີ",
+    "Start_welcome_description": "ເປີດໃຫ້ຊື້ຂາຍໃນເວັບ, App, ແລະ MetaTrader5",
+    "Start_welcome_cta": "ຊື້ຂາຍດ້ວຍ 0.0 pips",
+    "Start_welcome_ctb": "ບັນຊີທົດລອງ"
+  },
+
+  "Accounting": {
+    "Header_welcome_title": "ສະໜອງຂໍ້ມູນ",
+    "Header_welcome_subttile": "ບັນຊີຊື້ຂາຍ",
+    "Header_welcome_description": "ເລືອກບັນຊີຂອງທ່ານ ດ້ວຍໂປແກຣມສະໜອງຄວາມໄວໃນການຊື້ຂາຍ",
+    "Header_welcome_cta": "ເຂົ້າຮ່ວມ",
+    "Footer_welcome_title": "ເລີ່ມການຊື້ຂາຍໃນຕະຫຼາດໂລກໄດ້ແລ້ວໃນມື້ນີ້",
+    "Footer_welcome_description": "ເພີ່ມເມື່ອລາຄາຄວາມຫຼວງໃນການຊື້ຂາຍ",
+    "Header_welcome_cta_1": "ໃຊ້",
+    "Header_welcome_cta_2": "ບັນຊີທົດລອງ"
+  },
+
+  "Deposit": {
+    "Header_welcome_title": "ປອດຄ່າທຳນຽມ",
+    "Header_welcome_subttile": "ເຮັດທຸລະກຳການເງິນດ້ວຍຕົວເອງ",
+    "Header_welcome_cta": "ເລີ່ມຊື້ຂາຍຕອນນີ້"
+  },
+
+  "Promotion": {
+    "Header_welcome_title": "ຂໍ້ສະເໜີທີ່ດີທີ່ສຸດ",
+    "Header_welcome_subttile": "ອອກແບບບັນຊີຂອງທ່ານໄດ້ງ່າຍໆ",
+    "Header_Tradition_title_1": "ໂບນັດ",
+    "Header_Tradition_subttile_1": "ໂບນັດ 30%",
+    "Header_Tradition_title_2": "Lotback",
+    "Header_Tradition_subttile_2": "ເລີ່ມຝາກເງິນໃນຈຳນວນ $100 ຂື້ນໄປ",
+    "Header_Tradition_price_1": "50%",
+    "Header_Tradition_price_2": "50 ໂດລາ"
+  },
+
+  "BrokerReferral": {
+    "title": "ຜູ້ແນະນຳໂບຣກເກີ (IB)",
+    "description": "ຮັບຄ່ານາຍຫນ້າສູງເຖິງ 72% ໂດຍການແນະນຳເພື່ອນ, ພັນທະມິດ ຫລື ນັກຮຽນ",
+    "spread_share": "ສະແດງປະສິດທິພາບສູງ",
+    "loyalty_bonus": "ໂບນັດຄວາມພັນທະມິດສູງ",
+    "monthly_commission": "ຂອງຄ່ານາຍຫນ້າປະຈຳເດືອນ"
+  },
+  "Partners": {
+    "Header_about_title": "ກ້າວສູ່",
+    "Header_about_subttile": "ພັນທະມິດ",
+    "Header_welcome_title": "ກ້າວສູ່",
+    "Header_welcome_subttile": "ພັນທະມິດ",
+    "Header_welcome_description": "ກ້າວສູ່ການສ້າງລາຍໄດ້ກັບ myport ໂອກາດທາງການຊື້ຂາຍທີ່ໃຫ້ຫຼາຍກວ່າການຊື້ຂາຍ",
+    "Header_welcome_cta": "ເຂົ້າຮ່ວມເປັນພັນທະມິດກັບພວກເຮົາ",
+    "Header_welcome_cta_title": "ຈ່າຍຄ່າຄອມມິດຊັນຕັ້ງແຕ່ປີ 2007",
+    "Header_welcome_cta_description": "$ 214,920,739.85",
+    "Header_row_description_1": "ການຈ່າຍເງິນໂປຣແກຣມຄວາມພັກດີປະຈໍາເດືອນ",
+    "Header_row_description_2": "ຮັບຄ່າຄອມມິດຊັນສູງສຸດເຖິງ 72%",
+    "Header_row_description_3": "ສື່ການຕະຫຼາດແລະການສະໜອງສື່ສະໜອງຂ່າວ",
+    "Header_row_description_4": "ກິດຈະກຳ VIP ສຸດພິເສດ",
+    "Header_row_description": "* ກະລຸນາຮູ້ວ່າສິດທິປະໂຫຍດທັງຫມົດຂອງໂປຣແກຣມພັນທະມິດເປັນໄປຕາມເງື່ອນໄຂ",
+    "Header_about_title": "ກ້າວສູ່",
+    "Header_about_subttile": "ພັນທະມິດ",
+    "Header_about_description": "ກ້າວສູ່ການສ້າງລາຍໄດ້ກັບ myport ໂອກາດທາງການຊື້ຂາຍທີ່ໃຫ້ຫຼາຍກວ່າການຊື້ຂາຍ"
+  },
+  "BrokerReferral": {
+    "title": "ຜູ້ແນະນຳໂບຣກເກີ (IB)",
+    "description": "ຮັບຄ່າຄອມມິດຊັນສູງສຸດເຖິງ 72% ໂດຍການແນະນຳເພື່ອນ, ພັນທະມິດ ຫລື ນັກຮຽນ",
+    "spread_share": "ສ່ວນແບ່ງສະເພຣດຂອງ EUR/USD ຕໍ່ລັອດສູງສຸດ",
+    "loyalty_bonus": "ໂບນັດຄວາມພັນທະມິດສູງສຸດ",
+    "monthly_commission": "ຂອງຄ່າຄອມມິດຊັນປະຈຳເດືອນ"
+  },
+  "LearnMore": {
+    "cta": "ຮຽນຮູ້ເພີ່ມເຕີມ"
+  },
+  "MyPartners": {
+    "start_title": "ເລີ່ມຕົ້ນ",
+    "start_title_2": "ງ່າຍໆ",
+    "welcome_description": "ກ້າວສູ່ການສ້າງລາຍໄດ້ກັບ myport",
+    "opportunity_description": "ໂອກາດທາງການຊື້ຂາຍທີ່ໃຫ້ຫຼາຍກວ່າການຊື້ຂາຍ",
+    "celebrate_success": "ທີ່ໄດ້ຮັບການອອກແບບເພື່ອສະເຫນິພາກໃຫ້ຄວາມສຳເລັດຂອງທ່ານ"
+  },
+  "FooterPartner": {
+    "join_title": "ພັນທະມິດ",
+    "join_subtitle": "ເຂົ້າຮ່ວມຫຼາຍກວ່າ",
+    "feedback": "ສຽງຕອບຮັບຈາກ",
+    "cta": "ລາຍ!",
+    "register": "ລົງທະບຽນ",
+    "description": "ລົງທະບຽນແລະເລືອກໂປຣແກຣມ IB ຫລື Multi-level ຂອງພວກເຮົາ",
+    "invite_friends": "ເຊີນເພື່ອນ",
+    "share_link": "ແບ່ງປັນລິ້ງພັນທະມິດຂອງທ່ານໂດຍບໍ່ຊ້ຳກັນ",
+    "earn_more": "ຮັບລາຍໄດ້ຫຼາຍຂຶ້ນ",
+    "earn_description": "ຮັບລາຍໄດ້ສູງສຸດເຖິງ 75% ບໍ່ຈຳກັດທຸກ 4 ຊົ່ວໂມງ",
+    "title": "ກ້າວສູ່ການສ້າງລາຍໄດ້ກັບ myport",
+    "celebrate_success": "ທີ່ໄດ້ຮັບການອອກແບບເພື່ອສະເຫນິພາກໃຫ້ຄວາມສຳເລັດຂອງທ່ານ",
+    "feedback_from": "ສຽງຕອບຮັບຈາກ",
+    "growth_title": "ກ້າວສູ່ການສ້າງລາຍໄດ້ກັບ myport",
+    "growth_description": "ທີ່ໄດ້ຮັບການອອກແບບເພື່ອສະເຫນິພາກໃຫ້ຄວາມສຳເລັດຂອງທ່ານ"
+  },
+  "currency": "ສະກຸນເງິນ",
+  "share": "ຫຸ້ນ",
+  "index": "ດັດຊະນີ",
+  "crypto_cfd": "Crypto CFD",
+  "commodity": "ຄອມມູດິຕິ",
+  "product": "ຜະລິດຕະພັນ",
+  "new": "ໃໝ່",
+  "about": "ກ່ຽວກັບພວກເຮົາ",
+  "footer_message": "ລິຂະສິດທິຈຳກັດ",
   "buttons": {
     "open_account": "ເປີດບັນຊີ",
-    "login": "ເຂົ້າລະບົບ"
+    "login": "ເຂົ້າລະບົບ",
+    "Mostpopular": "ນິຍົມຫຼາຍທີ່ສຸດ",
+    "Trade_with": "ຊື້ຂາຍດ້ວຍ",
+    "Demo_account": "ບັນຊີທົດລອງ"
+  },
+  "text": {
+    "Instant": "ທັນທີ",
+    "Channel": "ຊ່ອງທາງ",
+    "Minimum_Deposit": "ຝາກເງິນຂັ້ນຕ່ຳ",
+    "Minimum_Withdrawal": "ຖອນເງິນຂັ້ນຕ່ຳ",
+    "Maximum_Withdrawal": "ຖອນເງິນຂັ້ນສູງສຸດ",
+    "Processing_Time": "ໄລຍະເວລາດຳເນີນການ"
   },
   "hero": {
-    "title": "ປະສົບການການຊາວທີ່ດີເລີດ",
-    "subtitle": "ດ້ວຍຂໍ້ເສນທີ່ດີກວ່າ",
-    "description": "ເພີ່ມໂອກາດໃນການມີກໍາໄລໂດຍລົດຄ່າໃຊ້ຈ່າຍ. ການຊາວດ້ວຍການລາດທີ່ຕ່ໍາທີ່ສຸດແລະການດໍາເນີນຄໍາສັ່ງທີ່ໄວທີ່ສຸດ. ມາເຂົ້າຮ່ວມກັບພວກເຮົາເພື່ອການຊາວທີ່ໄດ້ປຽບ.",
+    "title": "ສຳຜັດປະສົບການການຊື້ຂາຍທີ່ເຫນືອກ່ວາ",
+    "subtitle": "ດ້ວຍຂໍ້ສະເໜີທີ່ດີກວ່າ",
+    "description": "ເພີ່ມໂອກາດໃນການທຳກຳໄລໂດຍການຫຼຸດຕົ້ນທຶນໃຫ້ນ້ອຍລົງ ແລະເທຣດທີ່ມີຄວາມໄວທີ່ດີທີ່ສຸດ",
     "cta": "ຮັບໂບນັດຕ້ອນຮັບ $30 ຂອງທ່ານ"
   }
 }
+

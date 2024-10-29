@@ -3,11 +3,11 @@
     <section class="container mx-auto" id="section-myport">
       <div class="bg-black text-white py-16">
         <div class="container mx-auto text-center">
-          <h3 class="text-5xl font-bold mb-24 mt-24">
+          <h3 data-aos="fade-up" data-aos-duration="1000" class="text-5xl font-bold mb-24 mt-24">
             {{ $t("Home.WordTitle") }}<span class="text-primary-400">{{ $t("Home.WordTitleSub") }}</span>{{ $t("Home.WordTitleSub_row") }}
           </h3>
 
-          <div class="mt-5 flex flex-wrap justify-center gap-4 mx-auto">
+          <div data-aos="fade-up" data-aos-duration="555" class="mt-5 flex flex-wrap justify-center gap-4 mx-auto">
             <!-- Loop through icons -->
             <div
               v-for="(icon, index) in icons"
@@ -19,16 +19,16 @@
                 <div class="flex items-center space-x-4">
                   <!-- Icon -->
                   <div class="w-22 h-22 flex items-center justify-center ">
-                    <img :src="icon.image" :alt="icon.alt" class="mt-5 w-[80px] h-[80px] md:w-[120px] md:h-[120px] lg:h-[120px] lg:w-[120px]">
+                    <img data-aos="fade-up" data-aos-duration="1000" :src="icon.image" :alt="icon.alt" class="mt-5 w-[80px] h-[80px] md:w-[120px] md:h-[120px] lg:h-[120px] lg:w-[120px]">
                   </div>
                   <!-- Text content -->
                   <div>
-                    <h3 class="text-white font-semibold">{{ icon.title }}</h3>
-                    <p class="text-gray-400 text-sm">{{ icon.description }}</p>
+                    <h3 data-aos="fade-up" data-aos-duration="1000" class="text-white font-semibold">{{ icon.title }}</h3>
+                    <p data-aos="fade-up" data-aos-duration="1000" class="text-gray-400 text-sm">{{ icon.description }}</p>
                   </div>
                 </div>
                 <!-- New badge -->
-                <div class="bg-primary-500 text-primary-900 text-sm px-2 py-1 rounded-full">
+                <div data-aos="fade-up" data-aos-duration="1000" class="bg-primary-500 text-primary-900 text-sm px-2 py-1 rounded-full">
                   {{ $t("new") }}
                 </div>
               </div>

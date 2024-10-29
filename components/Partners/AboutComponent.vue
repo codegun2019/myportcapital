@@ -8,21 +8,25 @@
             <!-- Card 1 -->
             <div class="partner-item bg-gradient-to-r from-gray-700 to-gray-800 rounded-xl p-6">
               <p class="text-lg font-semibold text-center">
-                การจ่ายเงินโปรแกรมความภักดีแบบรายเดือน
+                {{ $t("Partners.Header_row_description_1") }}
               </p>
             </div>
             <!-- Card 2 -->
             <div class="partner-item bg-gradient-to-r from-gray-700 to-gray-800 rounded-xl p-6 special-card">
-              <p class="text-lg font-semibold text-center">รับค่าคอมมิชชันสูงถึง 72%</p>
+              <p class="text-lg font-semibold text-center">
+                {{ $t("Partners.Header_row_description_2") }}
+              </p>
             </div>
             <!-- Card 3 -->
             <div class="partner-item bg-gradient-to-r from-gray-700 to-gray-800 rounded-xl p-6">
-              <p class="text-lg font-semibold text-center">สื่อการตลาดและการสนับสนุน</p>
+              <p class="text-lg font-semibold text-center">
+                {{ $t("Partners.Header_row_description_3") }}
+              </p>
             </div>
             <!-- Card 4 -->
             <div class="partner-item bg-gradient-to-r from-gray-700 to-gray-800 rounded-xl p-6">
               <p class="text-lg font-semibold text-center">
-                อีเวนต์และกิจกรรมวีไอพีสุดเอ็กซ์คลูซีฟ
+                {{ $t("Partners.Header_row_description_4") }}
               </p>
             </div>
           </div>
@@ -30,28 +34,26 @@
           <!-- Caption -->
           <p class="text-center text-sm text-gray-400 mt-6">
             *
-            โปรดทราบว่าสิทธิประโยชน์ทั้งหมดของโปรแกรมพันธมิตรเป็นไปตามข้อกําหนดและเงื่อนไข
+            {{ $t("Partners.Header_row_description") }}
           </p>
         </div>
       </div>
       
       <div class="container mx-auto text-center md:pt-[100px] pt-5 md:pb-[55px] pb-5">
         <h2 class="text-4xl font-bold text-white">
-          ก้าวสู่ my<span class="text-primary-400">Partner</span>
+          {{ $t("Partners.Header_about_title") }} my<span class="text-primary-400">{{ $t("Partners.Header_about_subttile") }}</span>
         </h2>
         <p class="page-header-description text-lg mb-6 text-secondary-500">
-          ก้าวสู่การสร้างรายได้กับ myport <br />
-          โอกาสทางการเทรด ที่ให้มากกว่าการเทรด<br />
+          {{ $t("Partners.Header_about_description") }}
         </p>
       </div>
 
       <article class="bg-gradient-to-b from-[#333333] to-[#222222] rounded-lg p-6 max-w-lg mx-auto">
         <!-- Partner program subheading and description -->
         <hgroup class="mb-4">
-          <h3 class="text-2xl font-bold text-white mb-2">ผู้แนะนำโบรกเกอร์ (IB)</h3>
+          <h3 class="text-2xl font-bold text-white mb-2">{{ $t("BrokerReferral.title") }}</h3>
           <p class="text-sm text-secondary-500">
-            รับค่าคอมมิชชันสูงถึง 72% โดยการแนะนําเพื่อน เพื่อนร่วมงาน หรือนักเรียนของคุณ เหมาะสําหรับผู้ให้บริการ EA
-            ที่ปรึกษาด้านการเทรด ผู้ให้บริการสัญญาณเทรด และสถาบันการเทรด
+            {{ $t("BrokerReferral.description") }}
           </p>
         </hgroup>
 
@@ -60,43 +62,42 @@
           <li class="flex items-start text-sm">
             <span class="text-primary-400">✦</span>
             <span class="ml-2">
-              ส่วนแบ่งสเปรดของ EUR/USD ต่อล็อตสูงสุดถึง <strong>$14.4</strong>
+              {{ $t("BrokerReferral.spread_share") }} <strong>$14.4</strong>
             </span>
           </li>
           <li class="flex items-start text-sm">
             <span class="text-primary-400">✦</span>
             <span class="ml-2">
-              ส่วนแบ่งสเปรดของ EUR/USD ต่อล็อตสูงสุดถึง <strong>$7.5</strong>
+              {{ $t("BrokerReferral.loyalty_bonus") }} <strong>$7.5</strong>
             </span>
           </li>
           <li class="flex items-start text-sm">
             <span class="text-primary-400">✦</span>
             <span class="ml-2">
-              Loyalty Bonus สูงสุดถึง <strong>20%</strong> ของค่าคอมมิชชันรายเดือน
+              {{ $t("BrokerReferral.monthly_commission") }} <strong>20%</strong>
             </span>
           </li>
         </ul>
 
         <!-- Link to partner program page -->
-        <a
-          href="https://www.markets4you.asia/th/introducing-broker-program/"
+        <NuxtLink
           class="inline-flex items-center text-primary-400 hover:text-primary-300 font-semibold"
         >
-          เรียนรู้เพิ่มเติม
+        {{ $t("LearnMore.cta") }}
           <svg xmlns="http://www.w3.org/2000/svg" class="ml-2 w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
           </svg>
-        </a>
+        </NuxtLink>
       </article>
 
       <div class="container mx-auto text-center md:pt-[100px] pt-5 md:pb-[55px] pb-5">
         <h2 class="text-4xl font-bold text-white">
-          เริ่มต้น my<span class="text-primary-400">partner ง่ายๆ</span>
+          {{ $t("MyPartners.start_title") }} my<span class="text-primary-400">partner {{ $t("MyPartners.start_title_2") }}</span>
         </h2>
         <p class="page-header-description text-lg mb-6 text-secondary-500">
-          ก้าวสู่การสร้างรายได้กับ myport <br />
-          โอกาสทางการเทรด ที่ให้มากกว่าการเทรด<br />
-          ซึ่งได้รับการออกแบบมาเพื่อฉลองการเติบโตและความสําเร็จของคุณ<br />
+          {{ $t("MyPartners.welcome_description") }} <br />
+          {{ $t("MyPartners.opportunity_description") }}<br />
+          {{ $t("MyPartners.celebrate_success") }}<br />
         </p>
       </div>
 
@@ -109,7 +110,7 @@
             <img class="w-10 h-10 rounded-full border-2 border-white" src="https://i.pravatar.cc/40?img=3" alt="Partner 3">
           </div>
           <div class="text-xl md:text-2xl font-bold">
-            พาร์ทเนอร์เข้าร่วมกว่า 102,000 ราย!
+            {{ $t("FooterPartner.join_title") }}{{ $t("FooterPartner.join_subtitle") }} 102,000 {{ $t("FooterPartner.cta") }}
           </div>
         </div>
 
@@ -119,20 +120,20 @@
           <!-- Step 1 -->
           <div>
             <h1 class="text-6xl font-bold text-white opacity-10">01</h1>
-            <h2 class="text-2xl font-bold mt-4">สมัคร</h2>
-            <p class="text-gray-300 mt-2">ลงทะเบียนและเลือกโปรแกรม IB <br/> หรือ Multi-level ของเรา</p>
+            <h2 class="text-2xl font-bold mt-4">{{ $t("FooterPartner.register") }}</h2>
+            <p class="text-gray-300 mt-2">{{ $t("FooterPartner.description") }}</p>
           </div>
           <!-- Step 2 -->
           <div>
             <h1 class="text-6xl font-bold text-white opacity-10">02</h1>
-            <h2 class="text-2xl font-bold mt-4">เชิญเพื่อน</h2>
-            <p class="text-gray-300 mt-2">แชร์ลิงก์พาร์ทเนอร์ที่ไม่ซ้ำใครของคุณ<br/>ผ่านช่องทางออนไลน์</p>
+            <h2 class="text-2xl font-bold mt-4">{{ $t("FooterPartner.share_link") }}</h2>
+            <p class="text-gray-300 mt-2">{{ $t("FooterPartner.share_link") }}</p>
           </div>
           <!-- Step 3 -->
           <div>
             <h1 class="text-6xl font-bold text-white opacity-10">03</h1>
-            <h2 class="text-2xl font-bold mt-4">รับรายได้มากขึ้น</h2>
-            <p class="text-gray-300 mt-2">รับรายได้สูงถึง 75% <br/>แบบไม่จำกัดทุก 4 ชั่วโมง</p>
+            <h2 class="text-2xl font-bold mt-4">{{ $t("FooterPartner.earn_more") }}</h2>
+            <p class="text-gray-300 mt-2">{{ $t("FooterPartner.earn_description") }}</p>
           </div>
         </div>
 
@@ -142,7 +143,7 @@
             <button
               class="group flex mx-auto items-center justify-center font-bold py-[12px] pr-[2px] pl-[16px] bg-white border border-transparent rounded-full hover:bg-primary-600 hover:text-white text-black max-h-[44px] whitespace-nowrap space-x-2 shadow-lg"
             >
-              <span>ร่วมเป็นพาร์ทเนอร์กับเรา</span>
+              <span>{{ $t("Partners.Header_welcome_cta") }}</span>
               <!-- Icon with green background and hover effect -->
               <div class="text-white bg-primary-500 rounded-full p-2 flex items-center justify-center group-hover:bg-white group-hover:text-primary-500 transition-colors duration-300">
                 <ArrowIcon class="w-4 h-4" />
@@ -152,11 +153,11 @@
         </div>
         <div class="container mx-auto text-center md:pt-[100px] pt-5 md:pb-[55px] pb-5">
           <h2 class="text-4xl font-bold text-white">
-            เสียงตอบรับจาก my<span class="text-primary-400">partner</span>
+            {{ $t("FooterPartner.feedback_from") }} my<span class="text-primary-400">partner</span>
           </h2>
           <p class="page-header-description text-lg mb-6 text-secondary-500">
-            ก้าวสู่การสร้างรายได้กับ myport <br />
-            ซึ่งได้รับการออกแบบมาเพื่อฉลองการเติบโตและความสําเร็จของคุณ<br />
+            {{ $t("FooterPartner.growth_title") }} <br />
+            {{ $t("FooterPartner.growth_description") }}<br />
           </p>
         </div>
       </div>
@@ -173,7 +174,7 @@
         </div>
       </div>
       <p class="text-sm">
-        “Markets4you เดินได้อย่างรวดเร็วในช่วงไม่กี่ปีที่ผ่านมา ตอนนี้ทำเว็บที่ทันสมัยและใช้งานง่าย ทำให้การทำงานกับ Markets4you ราบรื่นมาก”
+         เดินได้อย่างรวดเร็วในช่วงไม่กี่ปีที่ผ่านมา ตอนนี้ทำเว็บที่ทันสมัยและใช้งานง่าย ทำให้การทำงานกับ Markets4you ราบรื่นมาก”
       </p>
     </div>
 
