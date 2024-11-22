@@ -22,7 +22,7 @@
             </div>
 
             <!-- Card 2 -->
-            <div data-aos="fade-left" data-aos-duration="1000" class="basis-[40%] md:basis-[30%]">
+            <div data-aos="fade-up" data-aos-duration="1000" class="basis-[40%] md:basis-[30%]">
               <div class="bg-dark-500 h-full border border-dark-400 rounded-[24px] pt-[24px] md:pt-[56px] pb-[24px]">
                 <div class="flex justify-center mt-4">
                   <img :src="section4_2" alt="Stock Icon" class="w-[80px] h-[80px] md:w-[120px] md:h-[120px] lg:h-[120px] lg:w-[120px]">
@@ -48,7 +48,7 @@
             </div>
 
             <!-- Card 4 -->
-            <div data-aos="fade-right" data-aos-duration="3000" class="basis-[40%] md:basis-[30%]">
+            <div data-aos="fade-up" data-aos-duration="3000" class="basis-[40%] md:basis-[30%]">
               <div class="bg-dark-500 h-full border border-dark-400 rounded-[24px] pt-[24px] md:pt-[56px] pb-[24px]">
                 <div class="flex justify-center mt-4">
                   <img :src="section4_4" alt="Crypto Icon" class="w-[80px] h-[80px] md:w-[120px] md:h-[120px] lg:h-[120px] lg:w-[120px]">
@@ -85,7 +85,6 @@ import section4_2 from '~/assets/images/landing/section4/icon_02.svg'
 import section4_3 from '~/assets/images/landing/section4/icon_03.svg'
 import section4_4 from '~/assets/images/landing/section4/icon_04.svg'
 import section4_5 from '~/assets/images/landing/section4/icon_05.svg'
-import Word1Image from '~/assets/flags/cfds.svg'
 </script>
 
 <style scoped>

@@ -24,7 +24,7 @@
           <tbody>
             <tr class="flex flex-col flex-no wrap sm:table-row rounded-l-lg sm:rounded-none mb-2 sm:mb-0">
               <td class="py-3 px-6 flex items-center">
-                <img :src="section1_1" alt="bronze" class="w-20 h-20 mr-2">
+                <img :src="section1_1" alt="bronze" class="w-20 mr-2">
                 Qr Code
               </td>
               <td class="py-3 px-6">100 THB</td>
@@ -34,7 +34,7 @@
             </tr>
             <tr class="flex flex-col flex-no wrap sm:table-row rounded-l-lg sm:rounded-none mb-2 sm:mb-0">
               <td class="py-3 px-6 flex items-center">
-                <img :src="section1_2" alt="silver" class="w-20 h-20 mr-2">
+                <img :src="section1_2" alt="silver" class="w-20 mr-2">
                 Online Banking
               </td>
               <td class="py-3 px-6">100 THB</td>
@@ -62,7 +62,7 @@
           <tbody>
             <tr class="flex flex-col flex-no wrap sm:table-row rounded-l-lg sm:rounded-none mb-2 sm:mb-0">
               <td class="py-3 px-6 flex items-center">
-                <img :src="section1_3" alt="bronze" class="w-20 h-20 mr-2">
+                <img :src="section1_3" alt="bronze" class="w-20 mr-2">
                 Qr Code
               </td>
               <td class="py-3 px-6">100 THB</td>
@@ -72,7 +72,7 @@
             </tr>
             <tr class="flex flex-col flex-no wrap sm:table-row rounded-l-lg sm:rounded-none mb-2 sm:mb-0">
               <td class="py-3 px-6 flex items-center">
-                <img :src="section1_4" alt="silver" class="w-20 h-20 mr-2">
+                <img :src="section1_4" alt="silver" class="w-20 mr-2">
                 Online Banking
               </td>
               <td class="py-3 px-6">100 THB</td>
@@ -82,7 +82,7 @@
             </tr>
             <tr class="flex flex-col flex-no wrap sm:table-row rounded-l-lg sm:rounded-none mb-2 sm:mb-0">
               <td class="py-3 px-6 flex items-center">
-                <img :src="section1_4" alt="silver" class="w-20 h-20 mr-2">
+                <img :src="section1_4" alt="silver" class="w-20 mr-2">
                 Online Banking
               </td>
               <td class="py-3 px-6">100 THB</td>

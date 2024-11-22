@@ -20,19 +20,19 @@
   </video>
 
   <section class="relative container mx-auto z-10" id="header-section">
-    <h1 class="text-4xl font-bold">
+    <h1 class="text-4xl font-bold motion-preset-slide-left-sm motion-delay-[800ms]">
       {{ $t("Home.Header_welcome_title") }}
     </h1>
-    <h2 class="text-3xl text-primary-500 mt-4">
+    <h2 class="text-3xl font-semibold text-primary-500 mt-4 motion-preset-blur-left block motion-delay-[1200ms]">
       {{ $t("Home.Header_welcome_description") }}
     </h2>
-    <p class="text-lg mt-6 max-w-2xl mx-auto text-secondary-500">
+    <p class="text-lg mt-6 max-w-2xl mx-auto text-secondary-500 motion-preset-blur-left block motion-delay-[1400ms]">
       {{ $t("Home.Header_welcome_subttile") }}
     </p>
     <button
-      class="mt-8 px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white rounded-lg"
+      class="mt-8 px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white rounded-lg  motion-preset-fade-lg  motion-delay-1500"
     >
-      {{ $t("Home.Header_welcome_cta") }}
+      <span class="motion-preset-blur-left block motion-delay-[1800ms]">{{ $t("Home.Header_welcome_cta") }}</span>
     </button>
   </section>
 </div>
@@ -42,20 +42,20 @@
     <section class="bg-dark-900 text-white py-4">
       <div class="flex justify-between items-center text-center">
         <div class="flex-1">
-          <h2 class="text-lg font-bold">{{ $t("Home.Myport_1_title") }}</h2>
-          <p class="text-sm">{{ $t("Home.Myport_1_subtitle") }}</p>
+          <h2 data-aos="fade-in" data-aos-duration="3500" class="text-lg font-bold">{{ $t("Home.Myport_1_title") }}</h2>
+          <p class="text-sm" data-aos="fade-in" data-aos-duration="4500">{{ $t("Home.Myport_1_subtitle") }}</p>
         </div>
         <div class="flex-1">
-          <h2 class="text-lg font-bold">{{ $t("Home.Myport_2_title") }}</h2>
-          <p class="text-sm">{{ $t("Home.Myport_2_subtitle") }}</p>
+          <h2 data-aos="fade-in" data-aos-duration="3500" class="text-lg font-bold">{{ $t("Home.Myport_2_title") }}</h2>
+          <p class="text-sm" data-aos="fade-in" data-aos-duration="4500">{{ $t("Home.Myport_2_subtitle") }}</p>
         </div>
         <div class="flex-1">
-          <h2 class="text-lg font-bold">{{ $t("Home.Myport_3_title") }}</h2>
-          <p class="text-sm">{{ $t("Home.Myport_3_subtitle") }}</p>
+          <h2 data-aos="fade-in" data-aos-duration="3500" class="text-lg font-bold">{{ $t("Home.Myport_3_title") }}</h2>
+          <p class="text-sm" data-aos="fade-in" data-aos-duration="4500">{{ $t("Home.Myport_3_subtitle") }}</p>
         </div>
         <div class="flex-1">
-          <h2 class="text-lg font-bold">{{ $t("Home.Myport_4_title") }}</h2>
-          <p class="text-sm">{{ $t("Home.Myport_4_subtitle") }}</p>
+          <h2 data-aos="fade-in" data-aos-duration="3500" class="text-lg font-bold">{{ $t("Home.Myport_4_title") }}</h2>
+          <p class="text-sm" data-aos="fade-in" data-aos-duration="4500">{{ $t("Home.Myport_4_subtitle") }}</p>
         </div>
       </div>
     </section>

@@ -6,17 +6,17 @@
         <div class="flex items-center justify-center min-h-screen pl-0 pt-[62px] lg:justify-start lg:pl-12 lg:pt-0">
           <div>
             <img :src="section6_2" alt="web" class="block md:hidden w-100 mb-2" />
-            <h2 class="text-4xl lg:text-left xl:tex-teft text-center font-bold">
+            <h2 class="motion-preset-slide-left-sm motion-delay-[800ms] text-4xl lg:text-left xl:tex-teft text-center font-bold">
               {{ $t("Home.Trader_welcome_title") }}<span class="text-primary-500">{{ $t("Home.Trader_welcome_title_sub") }}</span>
             </h2>
-            <h2 class="mt-[16px] text-center text-body-2 text-white sm:text-body-1 md:mt-0 lg:text-start lg:text-heading-6">
+            <h2 class="motion-preset-slide-right-sm motion-delay-[800ms] mt-[16px] text-center text-body-2 text-white sm:text-body-1 md:mt-0 lg:text-start lg:text-heading-6">
               {{ $t("Home.Trader_welcome_subttile") }}
             </h2>
-            <p class="mt-3 text-center text-body-4 text-secondary-500 sm:text-body-3 lg:text-start lg:text-heading-body">
+            <p class="motion-preset-blur-left block motion-delay-[1000ms] mt-3 text-center text-body-4 text-secondary-500 sm:text-body-3 lg:text-start lg:text-heading-body">
               {{ $t("Home.Trader_welcome_description") }}
             </p>
-            <div class="flex justify-center lg:justify-start">
-              <a href="">
+            <div class="motion-preset-blur-left block motion-delay-[1200ms] flex justify-center lg:justify-start">
+              <a>
                 <button class="bg-transparent text-primary-500 hover:text-secondary-500 text-primary mt-[16px] flex items-center px-0 font-[500] text-primary">
                   {{ $t("Home.Trader_welcome_cta") }}&nbsp;
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5">
@@ -27,31 +27,31 @@
             </div>
             <!-- Download buttons for MetaTrader -->
             <div class="mt-[50px]">
-              <div class="mb-0 ms-0 hidden lg:block text-body-4 text-secondary sm:text-body-3 md:mb-[28px] lg:text-heading-body">{{ $t("Home.Trader_welcome_ctb") }}</div>
+              <div class="motion-preset-blur-left block motion-delay-[1200ms] mb-0 ms-0 hidden lg:block text-body-4 text-secondary sm:text-body-3 md:mb-[28px] lg:text-heading-body">{{ $t("Home.Trader_welcome_ctb") }}</div>
               <div class="flex max-w-[315px] flex-wrap items-center">
                 <div class="basis-1/3 ">
-                  <a target="_blank" href="">
-                    <img :src="mt5Windows" alt="windows" class="w-100 mb-2" />
+                  <a target="_blank">
+                    <img :src="mt5Windows" alt="windows" class="w-100 motion-preset-blur-up block motion-delay-[400ms] mb-2" />
                   </a>
                 </div>
                 <div class="basis-1/3">
-                  <a target="_blank" href="">
-                    <img :src="mt5Macos" alt="macos" class="w-100 mb-2" />
+                  <a target="_blank">
+                    <img :src="mt5Macos" alt="macos" class="w-100 motion-preset-blur-up block motion-delay-[800ms] mb-2" />
                   </a>
                 </div>
                 <div class="basis-1/3">
-                  <a target="_blank" href="">
-                    <img :src="mt5Android" alt="android" class="w-100 mb-2" />
+                  <a target="_blank">
+                    <img :src="mt5Android" alt="android" class="w-100 motion-preset-blur-up block motion-delay-[1200ms] mb-2" />
                   </a>
                 </div>
                 <div class="basis-1/3">
-                  <a target="_blank" href="">
-                    <img :src="mt5Ios" alt="ios" class="w-100 mb-2" />
+                  <a target="_blank">
+                    <img :src="mt5Ios" alt="ios" class="w-100 motion-preset-blur-up block motion-delay-[1600ms] mb-2" />
                   </a>
                 </div>
                 <div class="basis-1/3">
-                  <a target="_blank" href="">
-                    <img :src="mt5Web" alt="web" class="w-100 mb-2" />
+                  <a target="_blank">
+                    <img :src="mt5Web" alt="web" class="w-100 motion-preset-blur-up block motion-delay-[2000ms] mb-2" />
                   </a>
                 </div>
               </div>

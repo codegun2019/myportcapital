@@ -5,38 +5,38 @@
         <div class="container mx-auto flex flex-col md:flex-row min-h-fit items-center justify-between">
           <!-- Text Section -->
           <div class="md:w-1/2 md:py-16 py-8">
-            <h2 class="text-4xl font-bold" data-aos="fade-up" data-aos-duration="6000">
+            <h2 class="text-4xl font-bold motion-preset-slide-left-sm motion-delay-[800ms]">
               <span class="text-primary-400 underline">{{ $t("Platform.Header_welcome_title") }} </span>
               {{ $t("Platform.Header_welcome_subttile") }}
             </h2>
-            <p class="mt-4 text-lg text-gray-400">
+            <p class="mt-4 text-lg text-gray-400 motion-preset-blur-left block motion-delay-[1200ms]">
               {{ $t("Platform.Header_welcome_description") }}
             </p>
             <div class="mt-6 flex flex-col xl:flex-row space-x-0 xl:space-x-4 flex gap-4 ">
               <NuxtLink to="/">
                 <button
-                  class="py-[10px] px-[16px] bg-primary-500 text-primary-900 rounded-full hover:bg-primary-600 disabled:bg-[#2F2F2F] disabled:text-[#666666] max-h-[44px] btn-primary-iux-round whitespace-nowrap"
+                  class="py-[10px] px-[16px] motion-delay-[100ms] motion-ease-spring-bouncier motion-translate-y-in-75 motion-opacity-in bg-primary-500 text-primary-900 rounded-full hover:bg-primary-600 disabled:bg-[#2F2F2F] disabled:text-[#666666] max-h-[44px] btn-primary-iux-round whitespace-nowrap"
                 >
                 {{ $t("Platform.NuxtLink_1") }}
                 </button>
               </NuxtLink>
               <NuxtLink to="/">
                 <button
-                  class="py-[10px] px-[16px] bg-transparent border border-primary-500 rounded-full hover:bg-primary-600 text-primary max-h-[44px] whitespace-nowrap text-primary-100"
+                  class="py-[10px] px-[16px] motion-delay-[200ms] motion-ease-spring-bouncier motion-translate-y-in-75 motion-opacity-in bg-transparent border border-primary-500 rounded-full hover:bg-primary-600 text-primary max-h-[44px] whitespace-nowrap text-primary-100"
                 >
                 {{ $t("Platform.NuxtLink_2") }}
                 </button>
               </NuxtLink>
               <NuxtLink to="/">
                 <button
-                  class="py-[10px] px-[16px] bg-transparent border border-primary-500 rounded-full hover:bg-primary-600 text-primary max-h-[44px] whitespace-nowrap text-primary-100"
+                  class="py-[10px] px-[16px] motion-delay-[300ms] motion-ease-spring-bouncier motion-translate-y-in-75 motion-opacity-in bg-transparent border border-primary-500 rounded-full hover:bg-primary-600 text-primary max-h-[44px] whitespace-nowrap text-primary-100"
                 >
                 {{ $t("Platform.NuxtLink_3") }}
                 </button>
               </NuxtLink>
               <NuxtLink to="/">
                 <button
-                  class="py-[10px] px-[16px] bg-transparent border border-primary-500 rounded-full hover:bg-primary-600 text-primary max-h-[44px] whitespace-nowrap text-primary-100"
+                  class="py-[10px] px-[16px] motion-delay-[400ms] motion-ease-spring-bouncier motion-translate-y-in-75 motion-opacity-in bg-transparent border border-primary-500 rounded-full hover:bg-primary-600 text-primary max-h-[44px] whitespace-nowrap text-primary-100"
                 >
                 {{ $t("Platform.NuxtLink_4") }}
                 </button>

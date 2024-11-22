@@ -1,16 +1,16 @@
 <template>
 <div class="bg-dark-500 text-white md:py-16 min-h-screen  py-5 md:px-16 px-5 items-center justify-center">
   <div class="text-center">
-    <h1 class="text-4xl font-bold mb-4">
+    <h1 class="text-4xl font-bold mb-4 motion-preset-fade-lg motion-delay-500">
       {{ $t("Package.Header_welcome_title") }}<span class="text-primary-500">{{ $t("Package.Header_welcome_subttile") }}</span>
     </h1>
-    <p class="text-lg text-gray-400 max-w-2xl mx-auto mb-8">
+    <p class="text-lg text-gray-400 max-w-2xl mx-auto mb-8 motion-preset-fade-lg motion-delay-1000">
       {{ $t("Package.Header_welcome_description") }} {{ $t("Package.Header_welcome_subdescription") }}
     </p>
   </div>
   <section class="flex flex-col container mx-auto md:flex-row justify-center gap-8 px-4 py-12" id="section-package">
   <!-- Fixed Account Card -->
-  <div class="bg-gradient-to-b from-[#333333] to-[#222222] text-white rounded-xl p-6 shadow-lg w-full md:w-1/3">
+  <div data-aos="fade-up" data-aos-duration="500" class="bg-gradient-to-b from-[#333333] to-[#222222] text-white rounded-xl p-6 shadow-lg w-full md:w-1/3">
     <p class="text-gray-500 text-sm mb-2">Classic</p>
     <h3 class="text-xl font-semibold mb-4">{{ $t("Package.Package_welcome_title_1") }}</h3>
     <p class="text-gray-300 mb-4">
@@ -37,7 +37,7 @@
   </div>
 
   <!-- Standard Account Card (Most Popular) - This card is larger -->
-  <div class="bg-gradient-to-b from-primary-900 to-primary-500 text-white rounded-xl p-6 shadow-lg w-full md:w-1/3 relative md:scale-105 md:h-auto">
+  <div data-aos="fade-up" data-aos-duration="800" class="bg-gradient-to-b from-primary-900 to-primary-500 text-white rounded-xl p-6 shadow-lg w-full md:w-1/3 relative md:scale-105 md:h-auto">
     <div class="absolute top-4 right-4 most-popular-label text-white px-3 py-1 rounded-full text-sm">{{ $t("buttons.Mostpopular") }}</div>
     <p class="text-gray-200 text-sm mb-2">Classic</p>
     <h3 class="text-xl font-semibold mb-4">{{ $t("Package.Package_welcome_title_2") }}</h3>
@@ -65,7 +65,7 @@
   </div>
 
   <!-- Pro Account Card -->
-  <div class="bg-gradient-to-b from-[#333333] to-[#222222] text-white rounded-xl p-6 shadow-lg w-full md:w-1/3">
+  <div data-aos="fade-up" data-aos-duration="1200" class="bg-gradient-to-b from-[#333333] to-[#222222] text-white rounded-xl p-6 shadow-lg w-full md:w-1/3">
     <p class="text-gray-500 text-sm mb-2">Classic</p>
     <h3 class="text-xl font-semibold mb-4">{{ $t("Package.Package_welcome_title_3") }}</h3>
     <p class="text-gray-300 mb-4">
