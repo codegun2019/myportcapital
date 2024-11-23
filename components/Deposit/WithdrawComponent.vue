@@ -1,11 +1,11 @@
 <template>
   <div class="bg-[#080808]  text-white md:py-16 py-5 md:px-16 px-5 items-center justify-center">
     <div class="text-center">
-      <h1 class="text-4xl font-bold mb-4">
+      <h1 class="text-4xl font-bold mb-4 motion-preset-fade-lg motion-delay-[100ms]">
         {{ $t("Package.Header_welcome_title") }}<span class="text-primary-500">{{ $t("Package.Header_welcome_subttile") }}</span>
       </h1>
       <!-- คำอธิบาย -->
-      <p class="text-lg text-gray-400 max-w-2xl mx-auto mb-8">
+      <p class="text-lg text-gray-400 max-w-2xl mx-auto mb-8 motion-preset-fade-lg motion-delay-[300ms]">
         {{ $t("Package.Header_welcome_description") }}
       </p>
     </div>
