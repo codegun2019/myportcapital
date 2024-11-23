@@ -18,14 +18,14 @@
             </p>
           </div>
           <div class="mt-3 flex flex-col items-center justify-center gap-4 sm:flex-row md:justify-start">
-            <NuxtLink href="https://portal.iux.com/th/register">
+            <NuxtLink href="">
               <button data-aos="fade-up" data-aos-duration="3000"
                 class="py-[10px] px-[16px] bg-primary-500 text-primary-900 rounded-full hover:bg-primary-600 disabled:bg-[#2F2F2F] disabled:text-[#666666] max-h-[44px] btn-primary-iux-round whitespace-nowrap"
               >
               {{ $t("Home.Start_welcome_cta") }}
               </button>
             </NuxtLink>
-            <NuxtLink href="https://portal.iux.com/th/register">
+            <NuxtLink href="">
               <button data-aos="fade-up" data-aos-duration="6000"
                 class="py-[10px] px-[16px] bg-transparent border border-primary-500 rounded-full hover:bg-primary-600 text-primary max-h-[44px] whitespace-nowrap text-primary-100"
               >

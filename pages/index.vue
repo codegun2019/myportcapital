@@ -19,7 +19,7 @@
 
 <script lang="ts" setup>
 import { ref, onMounted } from 'vue';
-import PrivacyPolicyModal from '@/components/PrivacyPolicyModal.vue';
+import PrivacyPolicyModal from '@/components/Cookiepolicy.vue';
 import HeaderComponent from '~/components/Landing/HeaderComponent.vue';
 import MyportComponent from '~/components/Landing/MyportComponent.vue';
 import ReadyComponent from '~/components/Landing/ReadyComponent.vue';
