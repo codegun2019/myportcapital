@@ -2,12 +2,12 @@
   <section class="bg-black" id="section-start-trader">
     <div class="grid grid-cols-1 md:grid-cols-2">
       <!-- Left image section -->
-      <div class="bg-cover bg-cover bg-no-repeat" :style="{
+      <div class="bg-left bg-cover order-2 md:order-1 bg-no-repeat h-[340px]" :style="{
           backgroundImage: `url(${section7_1})`,
         }">
       </div>
       <!-- Right content section -->
-      <div class="flex items-center px-[16px] pb-[62px] pt-[16px] md:pb-0 md:pt-[0]">
+      <div class="order-1 md:order-2 flex items-center px-[16px] pb-[62px] pt-[16px] md:pb-0 md:pt-[0]">
         <div class="md:p-20 px-1 py-10">
           <div>
             <h2 data-aos="fade-up" data-aos-duration="1000" class="text-4xl mt-5 mb-5 font-bold lg:text-left xl:tex-teft text-center">

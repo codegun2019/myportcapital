@@ -22,25 +22,25 @@
     </button>
 
     <!-- Content -->
-    <h2 class="text-lg font-semibold text-gray-900">Privacy & Cookie Policy</h2>
+    <h2 class="text-lg font-semibold text-gray-900">{{ $t("Cookiepolicy.title") }}</h2>
     <p class="mt-4 text-sm text-gray-700">
-      Our Privacy Policy below describes in detail how myPort Capital handles the collection, management and protection of all confidential user information.
-      <NuxtLink href="/Privacypolicy" class="text-indigo-600 font-semibold hover:underline">full policy here</NuxtLink>.
+      {{ $t("Cookiepolicy.subtitle") }}
+      <NuxtLink href="/Privacypolicy" class="text-primary-600 font-semibold hover:underline">{{ $t("Cookiepolicy.description") }}</NuxtLink>.
     </p>
 
     <!-- Actions -->
     <div class="mt-6 flex items-center gap-x-4">
       <button
         @click="$emit('close')"
-        class="bg-gray-900 text-white px-4 py-2 rounded-md text-sm font-semibold hover:bg-gray-700"
+        class="bg-primary-500 text-white px-4 py-2 rounded-md text-sm font-semibold hover:bg-primary-700"
       >
-        Accept
+      {{ $t("Cookiepolicy.Accept") }}
       </button>
       <button
         @click="$emit('close')"
         class="text-gray-900 text-sm font-semibold hover:underline"
       >
-        Decline
+      {{ $t("Cookiepolicy.Decline") }}
       </button>
     </div>
   </div>

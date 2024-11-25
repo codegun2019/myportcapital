@@ -251,5 +251,32 @@
     "subtitle": "更优的报价",
     "description": "通过降低成本提高盈利机会。享受最低点差和更快速的订单执行，为您提供无与伦比的交易体验。",
     "cta": "领取您的 $30 欢迎奖金"
-  }
+    }  ,
+    "Cookiepolicy": {
+      "title": "隐私与 Cookie 政策",
+      "subtitle": "以下的隐私政策详细说明了 myPort Capital 如何处理用户的机密信息的收集、管理和保护。",
+      "description": "查看完整政策",
+      "Accept": "接受",
+      "Decline": "拒绝",
+      "cta": "领取您的 $30 欢迎奖金"
+    },
+    "About": {
+      "title": "关于我们",
+      "subtitle": "专业管理的公司，专注于综合商业运营。提供满足不同客户群体需求的产品，同时提供卓越的服务。展示产品并提供高质量服务。通过引入新形象，提高生活质量，社会与环境的可持续性与平衡。",
+      "subtitle2": "MyPort 欢迎您的反馈。",
+      "subtitle3": "请联系我们：",
+      "Support": "支持 myPartner",
+      "SupportSub": "如有合作咨询或帮助需求，请联系我们：",
+      "Marketing": "市场营销",
+      "MarketingSub": "如有市场咨询，请联系我们：",
+      "TechnicalSupport" : "技术支持",
+      "TechnicalSub": "如果您有任何建议或想法，MyPort 很乐意听取您的反馈。请联系我们：",
+      "MediaInquiries" : "媒体咨询",
+      "Officesworldwide" : "全球办事处",
+      "Fulltimecolleagues" : "全职员工",
+      "Hoursperweek" : "每周工作时长",
+      "Paidtimeoff" : "带薪休假",
+      "Contact": "联系我们"
+    }
 }
+

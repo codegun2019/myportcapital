@@ -6,7 +6,7 @@
           <!-- Text Section -->
           <div class="md:w-1/2 md:py-16 py-8">
             <h2 class="text-4xl font-bold motion-preset-slide-left-sm motion-delay-[800ms]">
-              <span class="text-primary-400 underline">{{ $t("Platform.Header_welcome_title") }} </span>
+              <span class="text-primary-400">{{ $t("Platform.Header_welcome_title") }} </span>
               {{ $t("Platform.Header_welcome_subttile") }}
             </h2>
             <p class="mt-4 text-lg text-gray-400 motion-preset-blur-left block motion-delay-[1200ms]">

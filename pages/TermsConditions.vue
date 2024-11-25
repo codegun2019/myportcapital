@@ -1,52 +1,124 @@
 <template>
   <div class="bg-white py-24 sm:py-32">
-    <div class="mx-auto max-w-7xl px-6 lg:px-8">
-      <div class="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-        <div class="lg:pr-4">
-          <div class="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-64 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">
-            <img class="absolute inset-0 size-full object-cover brightness-125 saturate-0" src="https://images.unsplash.com/photo-1630569267625-157f8f9d1a7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2669&q=80" alt="" />
-            <div class="absolute inset-0 bg-gray-900 mix-blend-multiply" />
-            <div class="absolute left-1/2 top-1/2 -ml-16 -translate-x-1/2 -translate-y-1/2 transform-gpu blur-3xl" aria-hidden="true">
-              <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-40" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)" />
-            </div>
-            <figure class="relative isolate">
-              <svg viewBox="0 0 162 128" fill="none" aria-hidden="true" class="absolute -left-2 -top-4 -z-10 h-32 stroke-white/20">
-                <path id="0ef284b8-28c2-426e-9442-8655d393522e" d="M65.5697 118.507L65.8918 118.89C68.9503 116.314 71.367 113.253 73.1386 109.71C74.9162 106.155 75.8027 102.28 75.8027 98.0919C75.8027 94.237 75.16 90.6155 73.8708 87.2314C72.5851 83.8565 70.8137 80.9533 68.553 78.5292C66.4529 76.1079 63.9476 74.2482 61.0407 72.9536C58.2795 71.4949 55.276 70.767 52.0386 70.767C48.9935 70.767 46.4686 71.1668 44.4872 71.9924L44.4799 71.9955L44.4726 71.9988C42.7101 72.7999 41.1035 73.6831 39.6544 74.6492C38.2407 75.5916 36.8279 76.455 35.4159 77.2394L35.4047 77.2457L35.3938 77.2525C34.2318 77.9787 32.6713 78.3634 30.6736 78.3634C29.0405 78.3634 27.5131 77.2868 26.1274 74.8257C24.7483 72.2185 24.0519 69.2166 24.0519 65.8071C24.0519 60.0311 25.3782 54.4081 28.0373 48.9335C30.703 43.4454 34.3114 38.345 38.8667 33.6325C43.5812 28.761 49.0045 24.5159 55.1389 20.8979C60.1667 18.0071 65.4966 15.6179 71.1291 13.7305C73.8626 12.8145 75.8027 10.2968 75.8027 7.38572C75.8027 3.6497 72.6341 0.62247 68.8814 1.1527C61.1635 2.2432 53.7398 4.41426 46.6119 7.66522C37.5369 11.6459 29.5729 17.0612 22.7236 23.9105C16.0322 30.6019 10.618 38.4859 6.47981 47.558L6.47976 47.558L6.47682 47.5647C2.4901 56.6544 0.5 66.6148 0.5 77.4391C0.5 84.2996 1.61702 90.7679 3.85425 96.8404L3.8558 96.8445C6.08991 102.749 9.12394 108.02 12.959 112.654L12.959 112.654L12.9646 112.661C16.8027 117.138 21.2829 120.739 26.4034 123.459L26.4033 123.459L26.4144 123.465C31.5505 126.033 37.0873 127.316 43.0178 127.316C47.5035 127.316 51.6783 126.595 55.5376 125.148L55.5376 125.148L55.5477 125.144C59.5516 123.542 63.0052 121.456 65.9019 118.881L65.5697 118.507Z" />
-                <use href="#0ef284b8-28c2-426e-9442-8655d393522e" x="86" />
-              </svg>
-              <img src="https://tailwindui.com/plus/img/logos/workcation-logo-white.svg" alt="" class="h-12 w-auto" />
-              <blockquote class="mt-6 text-xl/8 font-semibold text-white">
-                <p>“Amet amet eget scelerisque tellus sit neque faucibus non eleifend. Integer eu praesent at a. Ornare arcu gravida natoque erat et cursus tortor.”</p>
-              </blockquote>
-              <figcaption class="mt-6 text-sm/6 text-gray-300"><strong class="font-semibold text-white">Judith Rogers,</strong> CEO at Workcation</figcaption>
-            </figure>
-          </div>
-        </div>
-        <div>
-          <div class="text-base/7 text-gray-700 lg:max-w-lg">
+    <div class="mx-auto px-6 lg:px-8">
+      <div class="mx-auto  lg:max-w-5xl">
+          <div class="text-base/7 text-gray-700">
             <p class="text-base/7 font-semibold text-primary-600">MyPort</p>
             <h1 class="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Terms and Conditions</h1>
-            <div class="max-w-xl">
-              <p class="mt-6">
+            <div class="w-100 break-all">
+              <p class="mt-6 ">
               myPort Capital provides information that can be accessed globally, but there are limitations on who can establish a business relationship with the company. For example, please refer to the section “Information for United States of America, Canada, Japan, Indonesia, Turkey, Israel, And China Persons.” Our company cannot provide services to citizens of these countries.
               The information on the website pertains to myPort Capital and related companies and may not be specific to any particular entity within that group of companies. All clients and their agreements will be directly engaged only with myPort Capital.
               Any facts, assessments, reasoning, predictions, opinions, and other information released by myPort Capital or any of its respective directors, officers, employees, representatives, or agents are for informative and/or marketing purposes only.
               Notwithstanding anything to the contrary, no publication of myPort Capital should be construed as an offer or solicitation in any jurisdiction where it would be illegal. No person should attempt to establish a business relationship with myPort Capital contrary to this stated policy.
               </p>
-              <p class="mt-8">Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie auctor fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices hac adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.</p>
-              <p class="mt-8">Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie auctor fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices hac adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.</p>
+              <h2 class="mt-8 text-pretty text-2xl font-semibold tracking-tight text-gray-900 sm:text-1xl">No Representation, No Warranty</h2>
+              <p class="mt-8">
+                myPort Capital makes reasonable efforts to obtain information from reliable sources, but all publications are provided “as is” without representation or warranty (express or implied) and myPort Capital disclaims liability for any publication not being complete, accurate, suitable, or relevant for the recipient. Specifically, myPort Capital disclaims liability for the accuracy of any market quotations, any delay, inaccuracy, error, interruption or omission in providing market quotations, and any discontinuance of market quotations.
+                Publications of myPort Capital are not updated after their release and may become inaccurate and possibly misleading due to changing circumstances after a period of time that may vary from days, weeks, to months depending on the information. myPort Capital gives no guarantee against, and assumes no liability towards any recipient for, a publication being outdated.
+                If a publication becomes outdated, myPort Capital is not obligated to update the publication, inform recipients, or take any other action.
+                Any publication may be personal to the author and may not reflect the opinion of myPort Capital. myPort Capital reserves the right to withdraw or amend any publication or information provided at any time without notice, at its sole discretion.
+
+              </p>
+              <h2 class="mt-8 text-pretty text-2xl font-semibold tracking-tight text-gray-900 sm:text-1xl">No Recommendations</h2>
+              <p class="mt-8">
+                  Our company, myPort Capital, does not take into account any particular recipient’s investment objectives, special investment goals, financial situation, or specific needs and demands in any of our publications, as they are intended for general information for a broad audience. Therefore, all of our publications are, unless otherwise specifically stated, intended for informational and/or marketing purposes only and should not be construed as
+                  business, financial, investment, hedging, legal, regulatory, tax, or accounting advice, a recommendation or trading idea, or any other type of encouragement to act, invest, hold, or divest in a particular manner (collectively “Recommendations”).
+                  We shall not be responsible for any loss arising from any investment based on a perceived Recommendation.
+                  Regardless of any statement to the contrary, no publication (including possible Recommendations) shall be considered a representation or warranty (neither express nor implied) that the recipient will profit from trading in accordance with a trading strategy set forth in a publication or that the recipient will not sustain losses from trading in accordance with a trading strategy set forth in a publication.
+                  If we do make an actual Recommendation to a specific customer, we shall not be liable unless that Recommendation is inconsistent with prevailing industry standards. Even then, we will only be liable in accordance with our “Limitation of Liability” section outlined below.
+              </p>
+              <h2 class="mt-8 text-pretty text-2xl font-semibold tracking-tight text-gray-900 sm:text-1xl">Risk Warning</h2>
+              <p class="mt-8">
+                Investing in financial markets involves inherent risks, and myPort Capital strongly advises all potential investors to carefully consider their financial situation and investment objectives before engaging in any investment activities.
+                Trading in leveraged products, such as but not limited to, foreign exchange, derivatives, and commodities, can be highly speculative and may result in substantial losses as well as profits. Such products are not suitable for all investors and require a high degree of risk tolerance.
+                makes every effort to ensure that its clients are aware of the risks associated with trading in financial markets. However, any mention of the risks involved in a Publication should not be considered a comprehensive disclosure or a full description of all risks related to a particular product or service.
+                It is the responsibility of the recipient to evaluate the risks and suitability of any investment, transaction, or strategy before engaging in any activity. myPort Capital strongly encourages all investors to seek professional financial advice before making any investment decisions.
+                Remember that past performance is not indicative of future results, and that trading in financial markets may result in the loss of your invested capital.
+              </p>
+              <h2 class="mt-8 text-pretty text-2xl font-semibold tracking-tight text-gray-900 sm:text-1xl">Local Regulatory Compliance
+              </h2>
+              <p class="mt-8">
+                that their use of our products and services complies with the applicable laws and regulations in their country of residence or citizenship.
+                Our company is registered as a financial service provider in certain jurisdictions, and the protections afforded to our customers may differ depending on their location. Please be aware that our products and services may not be available to residents or citizens of countries where we are not registered or authorized to operate.
+                It is important for each recipient to conduct their own due diligence and seek appropriate legal and financial advice before using our products and services. Our company disclaims any liability for non-compliance with local regulations by our customers or other recipients of our publications.
+
+              </p>
+              <h2 class="mt-8 text-pretty text-2xl font-semibold tracking-tight text-gray-900 sm:text-1xl">Use of the website
+              </h2>
+              <p class="mt-8">
+                Any use of myPort Capital ’s website is subject to myPort Capital ’s “Terms of Use”, as amended from time to time, available here, which shall be construed as constituting an integrated part of these Terms & Conditions.
+                Consulting a website of myPort Capital does not constitute a customer relationship and myPort Capital shall not have any duty or incur any liability or responsibility towards any person or entity as a result of such person or entity consulting a website of myPort Capital.
+                Any market data displayed on this Trading Platform may only be used for your own internal business purposes and only in connection with this specific service. Distribution of any market data to any third party is strictly prohibited under the provisions of these Terms & Conditions. Any such violation of this prohibition will be fully prosecuted under the applicable laws.
+              </p>
+              <h2 class="mt-8 text-pretty text-2xl font-semibold tracking-tight text-gray-900 sm:text-1xl">UTranslation Errors
+              </h2>
+              <p class="mt-8">
+                myPort Capital is not responsible for any errors, omissions, or inaccuracies that may arise in translated versions of the original English text. Recipients who rely on translations do so at their own risk, and myPort Capital shall not be held liable for any damages that may result from such reliance.
+              </p>
+              <h2 class="mt-8 text-pretty text-2xl font-semibold tracking-tight text-gray-900 sm:text-1xl">Client Relationship
+              </h2>
+              <p class="mt-8">
+                All clients of myPort Capital are subject to the terms and conditions outlined in their respective account agreements. It is the responsibility of each client to thoroughly review and understand the terms and policies applicable to their relationship with myPort Capital.
+                Accessing myPort Capital’ at website or receiving a publication from them does not establish a client relationship, nor does it create any legal obligation or liability for myPort Capital towards any individual or entity.
+              </p>
+              <h2 class="mt-8 text-pretty text-2xl font-semibold tracking-tight text-gray-900 sm:text-1xl">Third-Party Services
+              </h2>
+              <p class="mt-8">
+                Persons or entities that are not affiliated with myPort Capital may advertise on myPort Capital ’s website, through links, banners, or otherwise. myPort Capital shall not be held responsible or liable for the offerings, information, or acts of any such third party. If a user of myPort Capital websites decides to act upon any such advertising, such a user does so entirely at their own risk.
+                The damages for any incidental and consequential losses, damages for lost opportunity, profit, statutory damages, nominal damages, punitive damages, restitution or disgorgement damages, damages for costs, including legal costs, and damages for any other indirect loss.
+              </p>
+              <h2 class="mt-8 text-pretty text-2xl font-semibold tracking-tight text-gray-900 sm:text-1xl">Privacy and Use of Personal Data
+              </h2>
+              <p class="mt-8">
+              When users sign up for a demo or live account with myPort Capital, certain personal and financial information may be required for identity verification and credit assessment purposes. This information will be kept confidential and will not be disclosed to any third party unless required by law or with the user’s explicit consent.
+              myPort Capital may use users’ email addresses to provide them with login information and to promote its products and services, but users can opt-out of marketing communications at any time.
+              The use of users’ personal data by myPort Capital is subject to its Privacy Policy, which outlines the type of information collected, how it is used, and users’ rights. Users are encouraged to review the Privacy Policy before providing any personal information.
+              </p>
+              <h2 class="mt-8 text-pretty text-2xl font-semibold tracking-tight text-gray-900 sm:text-1xl">Disputes
+              </h2>
+              <p class="mt-8">
+                Any disputes arising from or related to the use of the products and services offered by myPort Capital shall be settled in accordance with the dispute resolution provision contained in the relevant agreement or terms and conditions applicable to the user or client. Such disputes may include, but are not limited to, disputes regarding the validity, enforceability, or interpretation of the terms and conditions, as well as disputes regarding the use of the products and services. It is important for users and clients to carefully review and understand the dispute resolution provision and to seek legal advice if necessary.
+              </p>
+              <h2 class="mt-8 text-pretty text-2xl font-semibold tracking-tight text-gray-900 sm:text-1xl">Leveraged trades Terms and Conditions
+              </h2>
+              <p class="mt-8">
+                This agreement is a contract between a buyer and seller, allowing traders and investors to profit from price movements without actually owning the underlying asset. The value of the contract is based on the price difference between the time of trade entry and exit. Users must accept any profits or losses from their transactions.
+                The contract logs differences in the value of the financial product and presents them to users. Investors never own the underlying asset but instead earn income based on its price change.
+                Benefits of this type of trading include access to the underlying asset at a lower cost, ease of execution, and the ability to go long or short. However, there are also risks, such as sudden drops in the starting position and the need to maintain an adequate margin.
+                This type of contract is subject to industry regulation and terms and conditions, and users should be aware of the risks involved before entering into any trades.
+
+              </p>
+              <h2 class="mt-8 text-pretty text-2xl font-semibold tracking-tight text-gray-900 sm:text-1xl">What is Leverage?
+              </h2>
+              <p class="mt-8">
+                Leverage is a financial concept that involves using borrowed funds to increase the potential profits of an investment. By using leverage, an investor can access a larger amount of capital than what they have available, allowing them to take on larger positions and potentially earn greater returns. However, leverage can also amplify losses, so investors need to manage their risk carefully when using leverage.
+                Outside of finance, leverage can be seen in many aspects of daily life. For example, taking out a loan to start a business or using a car loan to purchase a vehicle can be considered form of leverage. In both cases, the borrower is using someone else’s money to finance an investment, with the hope of generating a return that exceeds the cost of the loan.
+
+              </p>
+              <h2 class="mt-8 text-pretty text-2xl font-semibold tracking-tight text-gray-900 sm:text-1xl">Leveraged Transactions
+              </h2>
+              <p class="mt-8">
+                Leverage is a common strategy used in finance to increase the potential returns on investments. One way to achieve leveraged exposure to the cryptocurrency markets is through the use of leveraged tokens, which are derivatives that allow investors to gain leveraged exposure without actively managing a leveraged position. Unlike other leveraged products such as margin trading and perpetuals, leveraged tokens do not require traders to work with margins, liquidation, collateral, or funding rates. This is because leveraged tokens periodically rebalance themselves to maintain a certain leverage threshold, which means that the actual leverage is constantly changing with price fluctuations. Leveraged tokens can be a useful tool for investors looking to gain exposure to cryptocurrency markets without the need to manage complex leveraged positions. However, as with any investment strategy, it is important to understand the risks involved and to carefully consider the potential returns and losses before making any investment decisions.
+              </p>
+              <h2 class="mt-8 text-pretty text-2xl font-semibold tracking-tight text-gray-900 sm:text-1xl">Summary
+              </h2>
+              <p class="mt-8">
+                Leverage is a powerful tool that can amplify returns, but it also comes with higher risks. It’s essential to understand the mechanics of different leveraged products and their associated risks before using them. At myPort Capital, users who choose to trade with leverage must accept the risks of potential profit and loss. By using our brokerage services, they agree to the terms and obligations outlined in the contract. It’s critical to do extensive research before making any leveraged trades and to carefully consider your financial situation and risk tolerance. Remember, leverage can magnify gains, but it can also magnify losses, so it’s crucial to approach it with caution and use it wisely.
+              </p>
+              <h2 class="mt-8 text-pretty text-2xl font-semibold tracking-tight text-gray-900 sm:text-1xl">Lot requirement rules within the gift campaign
+
+              </h2>
+              <p class="mt-8">
+                Lot requirement rules are often used in gift campaigns to ensure that traders are actively engaged in the trading process. Typically, lot requirements are set as a minimum volume of trades that must be completed within a certain timeframe in order to qualify for a gift or bonus. However, there are some rules that traders should be aware of before participating in such campaigns.
+                Firstly, transactions that are under 3 minutes are not valid for lot counting. This is to prevent traders from making quick trades solely for the purpose of meeting the lot requirement, without actually engaging in the market.
+                Additionally, hedge transactions are invalid, as they can be used to manipulate the market and the outcome of the gift campaign. Trades that are closed negative, or at a loss, are also invalid in lot counting, as they do not contribute to the overall success of the trading process.
+                It’s important to note that while there is a lot requirement, the account is definitely locked and there is no withdrawal. This is to ensure that traders do not withdraw their funds before completing the required number of trades.
+                Traders should carefully read and accept the terms and conditions of the lot requirement before participating in the campaign. None of the above items can be changed or offered to be changed, so it’s important to understand the rules before beginning to trade. By following these guidelines, traders can participate in gift campaigns in a fair and transparent manner.
+
+              </p>
             </div>
           </div>
-          <dl class="mt-10 grid grid-cols-2 gap-8 border-t border-gray-900/10 pt-10 sm:grid-cols-4">
-            <div v-for="(stat, statIdx) in stats" :key="statIdx">
-              <dt class="text-sm/6 font-semibold text-gray-600">{{ stat.label }}</dt>
-              <dd class="mt-2 text-3xl/10 font-bold tracking-tight text-gray-900">{{ stat.value }}</dd>
-            </div>
-          </dl>
-          <div class="mt-10 flex">
-            <a href="#" class="text-base/7 font-semibold text-indigo-600">Learn more about our company <span aria-hidden="true">&rarr;</span></a>
-          </div>
-        </div>
       </div>
     </div>
   </div>

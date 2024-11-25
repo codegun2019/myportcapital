@@ -4,7 +4,7 @@
 
     <div class="px-6 py-24 sm:px-6 sm:py-3 lg:px-8">
       <div class="mx-auto max-w-7xl overflow-hidden px-6 py-20 sm:py-24 lg:px-8">
-        <nav class="-mb-6 flex flex-wrap justify-center gap-x-12 gap-y-3 text-sm/6" aria-label="Footer">
+        <nav class="-mb-6 flex flex-wrap justify-center gap-x-8 md:gap-x-8 gap-y-3 text-sm/6" aria-label="Footer">
           <NuxtLink class="text-gray-400 hover:text-white" to="market">{{ $t("menu.market") }}</NuxtLink>
           <NuxtLink class="text-gray-400 hover:text-white" to="accounting">{{ $t("menu.accounting") }}</NuxtLink>
           <NuxtLink class="text-gray-400 hover:text-white" to="deposit">{{ $t("menu.deposit") }}</NuxtLink>

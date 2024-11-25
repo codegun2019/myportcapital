@@ -20,7 +20,7 @@
           </svg>
           <div class="relative mx-auto max-w-prose text-base lg:max-w-none">
             <figure>
-              <img class="aspect-[12/7] w-full rounded-lg object-cover shadow-lg lg:aspect-auto" src="https://images.unsplash.com/photo-1546913199-55e06682967e?ixlib=rb-1.2.1&auto=format&fit=crop&crop=focalpoint&fp-x=.735&fp-y=.55&w=1184&h=1376&q=80" alt="Whitney leaning against a railing on a downtown street" width="1184" height="1376" />
+              <img class="aspect-[12/7] w-full rounded-lg object-cover shadow-lg lg:aspect-auto" :src="Privacypolicy" alt="Whitney leaning against a railing on a downtown street" width="1184" height="1376" />
               <figcaption class="mt-3 flex text-sm text-gray-500">
                 <CameraIcon class="size-5 flex-none text-gray-400" aria-hidden="true" />
                 <span class="ml-2">Photograph</span>
@@ -29,7 +29,7 @@
           </div>
         </div>
         <div class="mt-8 lg:mt-0">
-          <div class="mx-auto text-base/7 text-gray-500">
+          <div class="mx-auto text-base/7 text-gray-500 ">
             <p class="text-lg/7">Our Privacy Policy below describes in detail how myPort Capital handles the collection, management and protection of all confidential user information.
             </p>
             <h3 class="mt-8 text-xl/8 font-semibold text-gray-900">Introduction</h3>
@@ -210,4 +210,5 @@
 
 <script setup>
 import { CameraIcon } from '@heroicons/vue/20/solid'
+import Privacypolicy from '~/assets/images/Privacypolicy.webp';
 </script>

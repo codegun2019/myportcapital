@@ -80,6 +80,57 @@
     "Start_welcome_ctb": "ບັນຊີທົດລອງ"
   },
 
+    "Platform": {
+      "Header_welcome_title" : "myport",
+      "Header_welcome_subttile" : "App Trade",
+      "Header_welcome_description" : "ເຂົາເຂົາການຄ້າຕະຫຼາດເວົ້າທຸກເທື່ອການທາງ myport ການດຳລິງ. ງານໃຊ້ງານງ່າຍກວ່າ, ເຄື່ອງຂອງທັງປະສົບ, ແລະສໍາລັບຕົວທຸກຄົນຄ້າຕະຫຼາດທັບຍິງ.",
+      "Header_welcome_subdescription" : "ແພລະຟອດພາຍໃນການປິງລາວຕົວພິພູນ",
+      "Header_welcome_cta" : "ກວມລາວ",
+      "NuxtLink_1" : "IUX/ App Trade",
+      "NuxtLink_2" : "IUX/ Web Trade",
+      "NuxtLink_3" : "MetaTrader5",
+      "NuxtLink_4" : "MetaTrader5 WebTerminal",
+      "Header_android_title" : "ສຳລັບ IOS",
+      "Header_android_description" : "ຕົວການເກມການພາຍງານ, ງ່າຍງກົຣອງຕົກຕົມງືກຕິບຫຍວກວມງສປາ",
+      "Header_ios_title" : "ສຳລັບ Android",
+      "Header_ios_description" : "ເຂົາເຂົາກື່ນຄ່າຄ່າກມພຮກຢໂຕປ້ານມາກຂວາ",
+      "Header_welcome_title_2" : "ຄຳສັ່ງການຄົບອິງ",
+      "Header_welcome_description_2" : "ມີພົບຄູນກັບໃຊ້ກັບຄ່າອົບນພາຍແລະຕຳແນະສາອາຄົວຕື້ໂສນຫຮຄື",
+      "Header_welcome_cta_2" : "IUX/ App Trade",
+      "Header_welcome_title_myport" : "ກັບຄົວຕົກໄວເຫດຮຸຂຈາງ?",
+      "Header_myport_title_1" : "ສຸມຮັບດລິງຮັກງເກກຂຳ",
+      "Header_myport_description_1" : "ມອດຮຸມຄ້າໃນສຸຂບຮັມຂອງຫຍຝແລັວນພົມ."
+    },
+
+  "Package": {
+  "Header_welcome_title": "ພາບລວມ",
+  "Header_welcome_subttile": "ບັນຊີຊື້ຂາຍ",
+  "Header_welcome_description": "ເລືອກປະເພດບັນຊີທີ່ເໝາະສົມກັບຕົວເຈົ້າ ເພື່ອໃຫ້ຕົງກັບສໄຕລ໌ການຊື້ຂາຍ ຂັບເຄື່ອນໂດຍ",
+  "Header_welcome_subdescription": "ແພລດຟອມນະວັດຕະກໍາລໍ້າສະໄໝ",
+  "Header_welcome_cta": "ເຂົ້າຮ່ວມກັບພວກເຮົາ",
+  "Package_welcome_title_1": "my Standard",
+  "Package_welcome_title_2": "my Pro",
+  "Package_welcome_title_3": "my Partner",
+  "Package_welcome_description_1": "ຝາກເລີ່ມຕົ້ນ $10",
+  "Package_welcome_description_2": "ຝາກເລີ່ມຕົ້ນ $500",
+  "Package_welcome_description_3": "ບັນຊີທີ່ມີຄ່າສເປຣດທີ່ຕໍ່າກວ່າ ແລະພວກເຮົາມອບຂໍ້ເສຍນີ້ໃຫ້ແກ່ຜູ້ເທຣດທີ່ຕ້ອງການສ້າງລາຍໄດ້",
+  "Package_Space_1": "ຄ່າສເປຣດ: ເລີ່ມຕົ້ນ 20 pip",
+  "Package_CommissionLeverag_1": "ຄ່າຄອມມິຊັນ: $10",
+  "Package_Leverage_1": "Leverage: 500",
+  "Package_Lotback_1": "Leverage: 500",
+  "Package_Stop_out_1": "Stop out 35%",
+  "Package_Space_2": "ຄ່າສເປຣດ: ເລີ່ມຕົ້ນ 10 pip",
+  "Package_CommissionLeverag_2": "ຄ່າຄອມມິຊັນ: $2",
+  "Package_Leverage_2": "Leverage: 500",
+  "Package_Lotback_2": "Lotback: $1 / lot",
+  "Package_Stop_out_2": "Stop out 35%",
+  "Package_Space_3": "ຄ່າສເປຣດ: raw spread 0.0",
+  "Package_CommissionLeverag_3": "ຄ່າຄອມມິຊັນ: $15",
+  "Package_Leverage_3": "Leverage: 500",
+  "Package_Lotback_3": "Lotback: $1 / lot",
+  "Package_Stop_out_3": "Stop out 35%"
+},
+
   "Accounting": {
     "Header_welcome_title": "ສະໜອງຂໍ້ມູນ",
     "Header_welcome_subttile": "ບັນຊີຊື້ຂາຍ",
@@ -196,6 +247,31 @@
     "subtitle": "ດ້ວຍຂໍ້ສະເໜີທີ່ດີກວ່າ",
     "description": "ເພີ່ມໂອກາດໃນການທຳກຳໄລໂດຍການຫຼຸດຕົ້ນທຶນໃຫ້ນ້ອຍລົງ ແລະເທຣດທີ່ມີຄວາມໄວທີ່ດີທີ່ສຸດ",
     "cta": "ຮັບໂບນັດຕ້ອນຮັບ $30 ຂອງທ່ານ"
-  }
+    }  ,
+    "Cookiepolicy": {
+      "title": "ນໂຍບາຍຄວາມເປັນສ່ວນຕົວ ແລະ Cookie",
+      "subtitle": "ນໂຍບາຍຄວາມເປັນສ່ວນຕົວຂອງພວກເຮົາດ້ານລຸ່ມນີ້ ອະທິບາຍລາຍລະອຽດວ່າ myPort Capital ຈັດການ ລົງທະບຽນ ແລະປ້ອງກັນຂໍ້ມູນຜູ້ໃຊ້ທີ່ມີຄວາມລັບໝົດທຸກຢ່າງໄດ້ແນວໃດ",
+      "description": "ເບິ່ງນໂຍບາຍຂອງເຮົາເຕັມທີ່ນີ້",
+      "Accept": "ຍອມຮັບ",
+      "Decline": "ປະຕິເສດ",
+      "cta": "ຮັບໂບນັດຕ້ອນຮັບ $30 ຂອງທ່ານ"
+    },
+    "About": {
+      "title": "ກ່ຽວກັບພວກເຮົາ",
+      "subtitle": "ບົດບາດການຈັດການທີ່ມືອາຊີບ ທີ່ມຸ່ງຫາການດຳເນີນງານທຸລະກິດທີ່ມີການຫາຍທີ່ຫຼາຍ ມີຜະລິດຕະພັນທີ່ກອງກັບຄວາມຕ້ອງການຂອງກຸ່ມລູກຄ້າຫຼາຍປະເພດ ເພື່ອສົດໃຈພວກການບົດບາດພາຍໃນ",
+      "subtitle2": "MyPort ຍິນດີຮັບຟັງຄຳເສົາຫອຍຄຳເວົ້າຂອງທ່ານ",
+      "subtitle3": "ກະລຸນາຕິດຕາມເຮົາທີ່:",
+      "Support": "ສົກປະຕິ myPartner",
+      "SupportSub": "ສຳລັບຄຳຖາມກ່ອນພາກລະປັກຂອງຂອງລູກຄ້າ ກະລຸນາຕິດຕາມກັບຮູບຮອບທາງເຮົາທີ່:",
+      "Marketing": "ການຕະຫຼາດ",
+      "MarketingSub": "ສຳລັບການຕະຫຼາດຂອງກະດີທີ່ກະລຸນາຕິດຕາມຄັບກວົງດັ່ງກັບ:",
+      "TechnicalSupport" : "ຝ່າຍການສົກປະຕິການ",
+      "TechnicalSub": "ຫາກທ່ານມີຄຳເສົາຫອຍຄຳລາວທີ່ພັກທົດຮັບຄຳຂອງເຮົາ.",
+      "MediaInquiries" : "ຄຳເພັດຕິການກວົງມັນ",
+      "Officesworldwide" : "ອອຟິດທົ່ວໂລກ",
+      "Fulltimecolleagues" : "ພະນັກງານປັບສະເຫຼີມ",
+      "Hoursperweek" : "ມວງງານວົງເອີຍ",
+      "Paidtimeoff" : "ເວລາພັກປະກັນ",
+      "Contact": "ຕິດຕາມກັບເຮົາ"
+    }
 }
-

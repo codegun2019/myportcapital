@@ -234,6 +234,7 @@
     "Mostpopular" : "Most popular",
     "Trade_with" : "Trade with",
     "Demo_account" : "Demo account"
+    
   },
   "text": {
     "Instant" : "Instant",
@@ -248,5 +249,31 @@
     "subtitle": "With better offers",
     "description": "Increase your profit potential by reducing costs. Trade with the lowest spreads and faster order execution for unmatched trading performance.",
     "cta": "Get your $30 welcome bonus"
+  }  ,
+  "Cookiepolicy": {
+    "title": "Privacy & Cookie Policy",
+    "subtitle": "Our Privacy Policy below describes in detail how myPort Capital handles the collection, management and protection of all confidential user information.",
+    "description": "full policy here",
+    "Accept" : "Accept",
+    "Decline" : "Decline",
+    "cta": "Get your $30 welcome bonus"
+  },
+  "About": {
+    "title": "About Us",
+    "subtitle": "Professionally managed corporation that focuses on integrated business operations. There are products that meet the needs of different client groups while delivering exceptional service. Present products and deliver high-quality services. Introducing a new image to enhance the quality of life, society, and the environment. Create sustainability and balance for our organization, employees, and society",
+    "subtitle2": "MyPort is happy to hear your feedback.",
+    "subtitle3": "Please contact us at:",
+    "Support": "Support myPartner",
+    "SupportSub": "For partnership inquiries or assistance, please contact us at:",
+    "Marketing": "Marketing",
+    "MarketingSub": "For marketing inquiries, please contact us at:",
+    "TechnicalSupport" : "Technical Support",
+    "TechnicalSub": "If you have any suggestions or ideas, myport is happy to hear your feedback. Please contact us at:",
+    "MediaInquiries" : "Media Inquiries",
+    "Officesworldwide" : "Offices worldwide",
+    "Fulltimecolleagues" : "Full-time colleagues",
+    "Hoursperweek" : "Hours per week",
+    "Paidtimeoff" : "Paid time off",
+    "Contact": "Contact Us"
   }
 }

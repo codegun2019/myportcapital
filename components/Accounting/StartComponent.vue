@@ -33,7 +33,7 @@
         </div>
       </div>
       <!-- Left image section -->
-      <div class="bg-cover bg-cover bg-no-repeat":style="{
+      <div class="bg-cover bg-cover bg-no-repeat " :style="{
           backgroundImage: `url(${BglightImage})`,
         }">
         <div>

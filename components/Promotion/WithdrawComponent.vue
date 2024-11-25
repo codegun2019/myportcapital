@@ -4,7 +4,7 @@
       backgroundImage: `url(${section_bg})`,
     }"
   >
-    <div class="text-center mt-10">
+    <div class="text-center md:mt-10 mt-14 pt-14 md:pt-2">
       <h1 class="text-4xl font-bold mb-4 motion-preset-fade motion-delay-[700ms]">
         {{ $t("Promotion.Header_welcome_title") }} my <span class="text-primary-500">Promotion</span>
       </h1>
