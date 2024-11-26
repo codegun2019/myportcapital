@@ -7,18 +7,18 @@
           <div>
             <img :src="section6_2" alt="web" class="block md:hidden w-100 mb-2" />
             <h2 data-aos="fade-up" data-aos-duration="1000" class="text-4xl lg:text-left xl:tex-teft text-center font-bold">
-              {{ $t("Home.Trader_welcome_title") }} <span class="text-primary-500">{{ $t("Home.Trader_welcome_title_sub") }}</span>
+              {{ $t("Platform.Trader_welcome_title") }} <span class="text-primary-500">{{ $t("Platform.Trader_welcome_title_sub") }}</span>
             </h2>
             <h2 data-aos="fade-up" data-aos-duration="1000" class="mt-[16px] text-xs text-center text-body-2 text-white sm:text-body-1 md:mt-0 lg:text-start lg:text-heading-6">
-              {{ $t("Home.Trader_welcome_subttile") }}
+              {{ $t("Platform.Trader_welcome_subttile") }}
             </h2>
             <p data-aos="fade-up" data-aos-duration="1000" class="mt-3 text-center text-body-4 text-secondary-500 sm:text-body-3 lg:text-start lg:text-heading-body">
-              {{ $t("Home.Trader_welcome_description") }}
+              {{ $t("Platform.Trader_welcome_description") }}
             </p>
             <div class="flex justify-center lg:justify-start">
               <NuxtLink href="">
                 <button data-aos="fade-up" data-aos-duration="1000" class="bg-transparent text-primary-500 hover:text-secondary-500 text-primary mt-[16px] flex items-center px-0 font-[500] text-primary">
-                  {{ $t("Home.Trader_welcome_cta") }}&nbsp;
+                  {{ $t("Platform.Trader_welcome_cta") }}&nbsp;
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5">
                     <path fill-rule="evenodd" d="M3 10a.75.75 0 0 1 .75-.75h10.638L10.23 5.29a.75.75 0 1 1 1.04-1.08l5.5 5.25a.75.75 0 0 1 0 1.08l-5.5 5.25a.75.75 0 1 1-1.04-1.08l4.158-3.96H3.75A.75.75 0 0 1 3 10Z" clip-rule="evenodd"></path>
                   </svg>
@@ -27,7 +27,7 @@
             </div>
             <!-- Download buttons for MetaTrader -->
             <div class="mt-[50px]">
-              <div class="mb-0 ms-0 hidden lg:block text-body-4 text-secondary sm:text-body-3 md:mb-[28px] lg:text-heading-body">{{ $t("Home.Trader_welcome_ctb") }}</div>
+              <div class="mb-0 ms-0 hidden lg:block text-body-4 text-secondary sm:text-body-3 md:mb-[28px] lg:text-heading-body">{{ $t("Platform.Trader_welcome_ctb") }}</div>
               <div class="flex max-w-[315px] flex-wrap items-center">
                 <div class="basis-1/3 ">
                   <NuxtLink target="_blank" href="">
@@ -64,7 +64,7 @@
           <div>
             <div class="mt-[50px] block lg:hidden">
               <div class="mb-[16px] ms-0 text-center text-body-4 text-secondary sm:text-body-3 md:mb-[28px] lg:text-heading-body">
-                {{ $t("Home.Trader_welcome_ctb") }}
+                {{ $t("Platform.Trader_welcome_ctb") }}
               </div>
             </div>
           </div>

@@ -20,11 +20,16 @@
   </video>
 
   <section class="relative container mx-auto z-10" id="header-section">
-    <h1 class="text-4xl font-bold motion-preset-slide-left-sm motion-delay-[800ms]">
-      {{ $t("Home.Header_welcome_title") }}
+    <h1 class="text-6xl font-extrabold motion-preset-slide-left-sm motion-delay-[800ms]">
+      <span class="mr-3">my</span>
+      <span class="text-primary-500">port </span>
+      <span class="text-primary-500">.. </span>
+      <span class="mr-3">my</span>
+      <span class="text-primary-500">plan</span>
     </h1>
     <h2 class="text-3xl font-semibold text-primary-500 mt-4 motion-preset-blur-left block motion-delay-[1200ms]">
-      {{ $t("Home.Header_welcome_description") }}
+      <span class="text-primary-500 mr-3">{{ $t("Home.Header_welcome_title") }}</span>
+      <span class="text-white">{{ $t("Home.Header_welcome_description") }}</span>
     </h2>
     <p class="text-lg mt-6 max-w-2xl mx-auto text-secondary-500 motion-preset-blur-left block motion-delay-[1400ms]">
       {{ $t("Home.Header_welcome_subttile") }}

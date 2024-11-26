@@ -7,19 +7,22 @@
           <div class="md:w-1/2 md:py-16 py-8">
           
             <h2 class="text-4xl font-bold" data-aos="fade-up" data-aos-duration="500">
-              {{ $t("Home.Myport_welcome_title") }} <span class="text-primary-400 underline" data-aos="fade-up" data-aos-duration="1500">my<span class="text-white">port</span></span>
+              {{ $t("Home.Myport_welcome_title") }} <span class="text-primary-500" data-aos="fade-up" data-aos-duration="1500">my<span class="text-white">port</span></span>
             </h2>
-            <p class="mt-4 text-lg text-gray-400" data-aos="zoom-in">
+            <p class="mt-4 text-md text-gray-400" data-aos="zoom-in">
               {{ $t("Home.Myport_welcome_description") }}
             </p>
             <div class="mt-6 flex flex-col xl:flex-row space-x-0 xl:space-x-4">
-              <a href="#" data-aos="zoom-in" data-aos-duration="1000" class="px-6 py-3 text-center mb-5 xl:mb-0 bg-primary-600 text-white rounded-full hover:bg-primary-700">
+              <NuxtLink href="#" data-aos="zoom-in" data-aos-duration="1000" class="px-6 py-3 text-center mb-5 xl:mb-0 bg-primary-600 text-white rounded-full hover:bg-primary-700">
                 {{ $t("Home.Myport_welcome_cta") }}
-              </a>
-              <a href="#" data-aos="zoom-in" data-aos-duration="1500"  class="px-6 py-3 text-center border border-primary-600 text-primary-600 rounded-full hover:bg-gray-800">
+              </NuxtLink>
+              <NuxtLink href="#" data-aos="zoom-in" data-aos-duration="1500"  class="px-6 py-3 text-center border border-primary-600 text-primary-600 rounded-full hover:bg-gray-800">
                 {{ $t("Home.Myport_welcome_ctb") }}
-              </a>
+              </NuxtLink>
             </div>
+            <p class="mt-6 text-md text-gray-400" data-aos="zoom-in">
+              {{ $t("Home.Myport_welcome_description_end") }}
+            </p>
           </div>
 
           <!-- Image Section -->

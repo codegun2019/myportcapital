@@ -4,7 +4,7 @@
     <!-- Section Header -->
       <div class="text-center my-10">
         <h2 class="text-5xl font-bold mb-24 mt-24" data-aos="fade-up" data-aos-duration="500">
-          <span class="text-primary-400">myport</span> {{ $t("Home.ReadyTitleSub") }}
+          {{ $t("Home.ReadyTitleSub") }} <span class="text-primary-500">myport</span>
         </h2>
       </div>
 
@@ -12,7 +12,10 @@
         <!-- Card 1: Market Analysis -->
         <div class="bg-dark-900 rounded-xl pt-16 px-5 text-center border border-dark-400 flex flex-col justify-between">
           <div>
-            <h3 data-aos="fade-up" data-aos-duration="9000" class="text-xl font-bold mb-4">{{ $t("Home.ReadyTitle_a") }}</h3>
+            <h3 data-aos="fade-up" data-aos-duration="9000" class="text-3xl font-bold mb-4">
+              <span>my </span>
+              <span class="text-primary-500"> Trade</span>
+            </h3>
             <p class="text-gray-400 mb-6" data-aos="fade-up" data-aos-duration="18000">
               {{ $t("Home.ReadyTitleSub_a") }}
             </p>
@@ -25,7 +28,10 @@
         <!-- Card 2: Popular Assets -->
         <div class="bg-dark-900 rounded-xl pt-16 px-5 text-center border border-dark-400 flex flex-col justify-between">
           <div>
-            <h3 data-aos="fade-up" data-aos-duration="6000" class="text-xl font-bold mb-4">{{ $t("Home.ReadyTitle_b") }}</h3>
+            <h3 data-aos="fade-up" data-aos-duration="9000" class="text-3xl font-bold mb-4">
+              <span>my </span>
+              <span class="text-primary-500"> Asset</span>
+            </h3>
             <p class="text-gray-400 mb-6" data-aos="fade-up" data-aos-duration="12000">
               {{ $t("Home.ReadyTitleSub_b") }}
             </p>
@@ -38,7 +44,10 @@
         <!-- Card 3: Economic Calendar -->
         <div class="bg-dark-900 rounded-xl pt-16 px-5 text-center border border-dark-400 flex flex-col justify-between">
           <div>
-            <h3 data-aos="fade-up" data-aos-duration="3000" class="text-xl font-bold mb-4">{{ $t("Home.ReadyTitle_c") }}</h3>
+            <h3 data-aos="fade-up" data-aos-duration="9000" class="text-3xl font-bold mb-4">
+              <span>my </span>
+              <span class="text-primary-500"> Partner</span>
+            </h3>
             <p class="text-gray-400 mb-6" data-aos="fade-up" data-aos-duration="6000">
               {{ $t("Home.ReadyTitleSub_c") }}
             </p>

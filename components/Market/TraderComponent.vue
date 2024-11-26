@@ -9,11 +9,11 @@
             <h2 class="motion-preset-slide-left-sm motion-delay-[800ms] text-4xl lg:text-left xl:tex-teft text-center font-bold">
               {{ $t("Home.Trader_welcome_title") }}<span class="text-primary-500">{{ $t("Home.Trader_welcome_title_sub") }}</span>
             </h2>
-            <h2 class="motion-preset-slide-right-sm motion-delay-[800ms] mt-[16px] text-center text-body-2 text-white sm:text-body-1 md:mt-0 lg:text-start lg:text-heading-6">
+            <h2 class="motion-preset-slide-right-sm text-xs motion-delay-[800ms] mt-[16px] text-center text-body-2 text-white sm:text-body-1 md:mt-0 lg:text-start lg:text-heading-6">
               {{ $t("Home.Trader_welcome_subttile") }}
             </h2>
             <p class="motion-preset-blur-left block motion-delay-[1000ms] mt-3 text-center text-body-4 text-secondary-500 sm:text-body-3 lg:text-start lg:text-heading-body">
-              {{ $t("Home.Trader_welcome_description") }}
+              {{ $t("Home.Trader_welcome_description_market") }}
             </p>
             <div class="motion-preset-blur-left block motion-delay-[1200ms] flex justify-center lg:justify-start">
               <a>

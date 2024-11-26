@@ -127,6 +127,7 @@
               We endeavour to disclose to these third parties only the minimum personal data that is required to perform their contractual obligations to us. Our third-party service providers are not permitted to share or use personal data we make available to them for any other purpose than to provide services to us.
               Our websites or our apps may have links to external third-party websites. Please note, however, that third party websites are not covered by this privacy notice and those sites are not subject to our privacy standards and procedures. Please check with each third party as to their privacy practices and procedures.
             </p>
+            
             <h3 class="mt-8 text-xl/8 font-semibold text-gray-900">When and how do we obtain your consent?</h3>
             <p class="mt-3">
               We may process your personal data for one or more lawful bases of processing (“Lawful Basis”) depending on the specific purpose for which we are using your data.

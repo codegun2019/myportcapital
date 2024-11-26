@@ -6,7 +6,7 @@
           <div class="grid grid-cols-1 lg:grid-cols-2">
             <div>
               <h2 class="text-5xl font-bold mb-1 mt-24 text-center 2xl:text-left xl:text-left">
-                <span class="text-primary-400">myport </span> {{ $t("Platform.Header_ios_title") }}
+                <span class="text-primary-500">myport </span> {{ $t("Platform.Header_ios_title") }}
               </h2>
               <p class="text-gray-400 mt-[28px] text-center mb-2 text-button-2 md:text-heading-body lg:text-start">
                 {{ $t("Platform.Header_ios_description") }}
@@ -16,7 +16,7 @@
               </div>
 
               <div class="mt-8 flex justify-center gap-6 lg:justify-start">
-                <!-- Embedded content or widgets -->
+                <!-- Embedded content or x widgets -->
                 <div class="your-widget-1" data-your-app-lazy="true"></div>
                 <div class="your-widget-2" data-your-app-lazy="true"></div>
               </div>
@@ -42,9 +42,10 @@ import section3_3 from '~/assets/images/platforms/section3/03_Shadow.png'
 
 
 import Forios from '~/components/composables/Forios.vue'
+import ForAndoid from '~/components/composables/Forandroid.vue'
 import BuyphoneImage from '~/assets/images/tradeonmobile.png'
 
-import IosImage from '~/assets/images/platforms/download-on-the-app-store.svg'
+import IosImage from '~/assets/images/platforms/google-play-badge.png'
 import IosForImage from '~/assets/images/platforms/for-ios.png'
 </script>
 
