@@ -186,29 +186,32 @@
     "Header_Tradition_price_2": "50ドル"
   },
 
-  "Partners": {
-    "Header_about_title": "ステップイン",
+"Partners": {
+    "Header_about_title": "参加",
     "Header_about_subttile": "パートナー",
-    "Header_welcome_title": "ステップイン",
-    "Header_welcome_subttile": "パートナー",
-    "Header_welcome_description": "Myportでお金を稼ぐ世界に足を踏み入れてみませんか。単なる取引を超えた新しい取引機会を探求しましょう。",
-    "Header_welcome_cta": "パートナーとして参加する",
-    "Header_welcome_cta_title": "2007年からのコミッション支払い",
+    "Header_welcome_title": "myPortパートナープログラムに参加",
+    "Header_welcome_subttile": "プラットフォーム",
+    "Header_welcome_description": "myPortで稼ぐチャンスに踏み出しましょう。ただの取引以上を提供するプラットフォームです。",
+    "Header_welcome_cta": "パートナーとして参加",
+    "Header_welcome_cta_title": "2007年以来の報酬コミッション",
     "Header_welcome_cta_description": "$ 214,920,739.85",
-    "Header_row_description_1": "月次ロイヤルティプログラムの支払い",
-    "Header_row_description_2": "最大72％のコミッション獲得",
-    "Header_row_description_3": "マーケティング資料とサポート",
-    "Header_row_description_4": "VIP限定イベントと活動",
-    "Header_row_description": "* すべてのアフィリエイトプログラム特典には条件と規約が適用されます"
-  },
-
-  "BrokerReferral": {
-    "title": "ブローカー紹介 (IB)",
-    "description": "レベルのアプリケーション リンクを推奨して収入を獲得します。",
-    "spread_share": "EUR/USDのスプレッドシェア最大",
+    "Header_row_description_1": "毎月のロイヤルティプログラム報酬。",
+    "Header_row_description_2": "最大72%のコミッションを獲得。",
+    "Header_row_description_3": "マーケティング素材とサポート。",
+    "Header_row_description_4": "限定エリートイベントやその他の特典。",
+    "Header_row_description": "* すべてのアフィリエイトプログラムの特典は、利用規約に従う必要があります。",
+    "Header_about_title": "プログラムに参加",
+    "Header_about_subttile": "パートナー",
+    "Header_about_subttile2": "",
+    "Header_about_description": "多様な金融ツールと投資オプションを提供し、財務目標の達成を支援します。myPartnerは、投資経験のレベルに関係なく、使いやすいインターフェースと教育資料を提供します。幅広い資産ポートフォリオと専門的な分析を活用して、情報に基づいた意思決定を行い、利益を最大化しましょう。"
+},
+"BrokerReferral": {
+    "title": "紹介ブローカー (IB)",
+    "description": "友人や同僚を紹介することで、最大xx%のコミッションを獲得できます。EAプロバイダー、取引アドバイザー、シグナルプロデューサー、取引会社に最適です。ネットワークを拡大して、収益の可能性を増やしましょう。今すぐ紹介プログラムに参加して、成功した紹介ごとに大きな報酬を得ましょう。",
+    "spread_share": "1ロットごとのEUR/USDスプレッドシェア最大",
     "loyalty_bonus": "ロイヤルティボーナス最大",
-    "monthly_commission": "月次コミッションの一部"
-  },
+    "monthly_commission": "毎月のコミッション最大"
+},
 
   "LearnMore": {
     "cta": "さらに詳しく"
@@ -222,23 +225,32 @@
     "celebrate_success": "収益の制限や時間、地理的な境界がなく、チャンスが広がるように設計されています。"
   },
 
-  "FooterPartner": {
+"FooterPartner": {
     "join_title": "パートナー",
-    "join_subtitle": "以上参加",
-    "feedback": "からのフィードバック",
-    "cta": "収益!",
+    "join_subtitle": "貢献額は",
+    "feedback": "フィードバック",
+    "cta": "収益！",
     "register": "登録",
-    "description": "IB またはマルチレベルプログラムを選んで登録",
-    "invite_friends": "友人を招待",
-    "share_link": "オンラインチャネルを通じて独自のパートナーリンクを共有",
+    "description": "登録して、IBまたはマルチレベルプログラムを選択してください。",
+    "invite_friends": "友達を招待",
+    "share_link": "オンラインチャンネルを通じて、あなたのユニークなパートナーリンクをシェアしましょう",
     "earn_more": "もっと稼ぐ",
-    "earn_description": "4時間ごとに最大75％の無制限収益を得る",
-    "title": "myportと共に収益のチャンスを広げましょう",
+    "earn_description": "毎4時間、最大75%の無制限収益を得ることができます",
+    "title": "myportで収益の機会を手に入れましょう",
     "celebrate_success": "あなたの成長と成功を祝うために設計されています",
-    "feedback_from": "からのフィードバック",
-    "growth_title": "myportと共に収益のチャンスを広げましょう",
+    "feedback_from": "myPartnerの意見",
+    "growth_title": "myportで収益の機会を手に入れましょう",
     "growth_description": "あなたの成長と成功を祝うために設計されています"
-  },
+},
+
+"Review": {
+    "review_1": "過去数年間で、ウェブサイトは近代化され、使いやすくなり、myPortとの仕事がよりスムーズになりました。",
+    "review_2": "myPortで取引を始め、高いコミッションを受け取り、実際の財務的安定を実現しました。",
+    "review_3": "myPortとxx年以上の取引をしており、安定性と優れたサービスを実感しています。",
+    "review_4": "myPortのウェブサイトとアプリケーションは常に進化しており、パートナーがさまざまな方法で収益を得るための機会を提供しています。",
+    "review_5": "myPortで取引している間、素晴らしい体験をしました。"
+}
+,
 
   "currency": "通貨",
   "share": "株式",

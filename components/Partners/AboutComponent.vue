@@ -72,6 +72,7 @@
         <div class="container mx-auto text-center md:pt-[100px] pt-5 pb-5 md:pb-[55px]">
           <h2 class="text-4xl font-bold text-white">
             {{ $t("Partners.Header_about_title") }} my<span class="text-primary-400">{{ $t("Partners.Header_about_subttile") }}</span>
+            {{ $t("Partners.Header_about_subttile2") }}
           </h2>
           <p class="page-header-description text-lg mb-6 text-secondary-500">
             {{ $t("Partners.Header_about_description") }}
@@ -206,7 +207,7 @@
               </div>
             </div>
             <p class="text-sm">
-              เดินได้อย่างรวดเร็วในช่วงไม่กี่ปีที่ผ่านมา ตอนนี้ทำเว็บที่ทันสมัยและใช้งานง่าย ทำให้การทำงานกับ Markets4you ราบรื่นมาก”
+              {{ $t("Review.review_1") }}
             </p>
           </div>
 
@@ -220,7 +221,7 @@
               </div>
             </div>
             <p class="text-sm">
-              “ผมทำงานกับ Markets4you และได้รับค่าคอมมิชชันจำนวนมาก สอนผมสร้างความมั่นใจในการทำงานจริง ๆ”
+              {{ $t("Review.review_2") }}
             </p>
           </div>
 
@@ -234,7 +235,7 @@
               </div>
             </div>
             <p class="text-sm">
-              “การร่วมงานกับ Markets4you มากกว่า 2 ปีทำให้เห็นความมั่นคงและบริการที่เยี่ยมยอด”
+              {{ $t("Review.review_3") }}
             </p>
           </div>
 
@@ -248,7 +249,7 @@
               </div>
             </div>
             <p class="text-sm">
-              “สถานการณ์ของ Markets4you ได้พัฒนาขึ้นเรื่อย ๆ พร้อมโอกาสในการสร้างรายได้ให้กับพาร์ทเนอร์”
+              {{ $t("Review.review_4") }}
             </p>
           </div>
 
@@ -262,7 +263,7 @@
               </div>
             </div>
             <p class="text-sm">
-              “ตลอดเวลาที่ทำงานกับ Markets4you ผมได้รับประสบการณ์ที่ยอดเยี่ยมมาก ๆ”
+              {{ $t("Review.review_5") }}
             </p>
           </div>
         </div>

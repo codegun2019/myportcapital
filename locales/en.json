@@ -192,38 +192,42 @@
   "Partners": {
       "Header_about_title": "Step into",
       "Header_about_subttile": "Partner",
-      "Header_welcome_title": "Step into",
-      "Header_welcome_subttile": "Partner",
-      "Header_welcome_description": "Step into the world of making money with Myport. Explore trading opportunities that offer more than just trading.",
+      "Header_welcome_title": "Joining into myPort Partner program",
+      "Header_welcome_subttile": "Port",
+      "Header_welcome_description": "Step into earning chances with myPort, a trading platform that provides more than just trading.",
       "Header_welcome_cta": "Join us as a partner",
-      "Header_welcome_cta_title": "Commission payouts since 2007",
+      "Header_welcome_cta_title": "Commission rewards since 2007",
       "Header_welcome_cta_description": "$ 214,920,739.85",
-      "Header_row_description_1": "Monthly loyalty program payouts",
-      "Header_row_description_2": "Earn up to 72% in commissions",
-      "Header_row_description_3": "Marketing materials and support",
-      "Header_row_description_4": "Exclusive VIP events and activities",
-      "Header_row_description": "* Please note that all affiliate program benefits are subject to terms and conditions."
-  },
+      "Header_row_description_1": "Monthly loyalty program rewards.",
+      "Header_row_description_2": "Earn up to 72% commissions.",
+      "Header_row_description_3": "Marketing materials and assistance.",
+      "Header_row_description_4": "Exclusive elite events, activities and more",
+      "Header_row_description": "* Please note that all affiliate program benefits are subject to terms and conditions.",
+      "Header_about_title": "Step into program",
+      "Header_about_subttile": "Partner",
+      "Header_about_subttile2": "",
+      "Header_about_description" : "Provides a large selection of financial tools and investment options to assist you in achieving your financial objectives. myPartner provides an easy-to-use interface and educational materials to assist your investment journey, regardless of your level of experience. Utilize our extensive asset portfolio and professional analysis to help you make well-informed decisions and optimize your profits."
+    },
   "BrokerReferral": {
       "title": "Introducing Broker (IB)",
-      "description": "Covers 3 levels of referral income, increasing the opportunity to earn more income. With a trading recommendation system",
+      "description": "Earn up to xx% commission by recommending friends or colleagues. Ideal for EA providers, trade advisors, signal producers, and trading firms. Expand your network to increase your earning possibilities. Join our referral program today and start earning big rewards for every successful recommendation you make.",
       "spread_share": "Spread share of EUR/USD per lot up to",
       "loyalty_bonus": "Loyalty Bonus up to",
-      "monthly_commission": "of monthly commission"
+      "monthly_commission": "Monthly commission up to"
   },
   "LearnMore": {
     "cta": "Learn More"
   },
   "MyPartners": {
-      "start_title": "Get Started",
-      "start_title_2": "Easily",
-      "welcome_description": "Start earning money with my Partner, designed to ",
-      "opportunity_description": "expand your opportunities with no earning limits, no ",
-      "celebrate_success": "time restrictions, and no geographical boundaries."
+      "start_title": "Establish benefit from myPort's ",
+      "start_title_2": "earning opportunities.",
+      "welcome_description": "An opportunity that goes beyond just a trading platform.",
+      "opportunity_description": "Designed to celebrate your development and success.",
+      "celebrate_success": ""
   },
   "FooterPartner": {
       "join_title": "Partner",
-      "join_subtitle": "Joined over",
+      "join_subtitle": "contributed over",
       "feedback": "Feedback from",
       "cta": "Revenue!",
       "register": "Register",
@@ -234,10 +238,19 @@
       "earn_description": "Earn up to 75% unlimited revenue every 4 hours",
       "title": "Step into earning opportunities with myport",
       "celebrate_success": "Designed to celebrate your growth and success",
-      "feedback_from": "Feedback from",
+      "feedback_from": "myPartner's opinions",
       "growth_title": "Step into earning opportunities with myport",
       "growth_description": "Designed to celebrate your growth and success"
   },
+
+      "Review": {
+      "review_1": "In the past few years, the website has been modernized and made it easier to use, making working with myPort much smoother.",
+      "review_2": "I started trading with myPort and received very high commissions, which helped me to achieve real financial stability.x",
+      "review_3": "Having worked with myPort for over xx years, I have experienced stability and outstanding and excellent service.",
+      "review_4": "myPort website and application are constantly being developed to create opportunities for partners to generate income in various ways.",
+      "review_5": "During the whole time I have been trading with myPort, I have had an excellent experience."
+    },
+
 
   "currency": "Currency",
   "share": "Share",

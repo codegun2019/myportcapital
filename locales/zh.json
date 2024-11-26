@@ -187,29 +187,32 @@
     "Header_Tradition_price_2": "50美元"
   },
 
-  "Partners": {
+"Partners": {
     "Header_about_title": "加入",
     "Header_about_subttile": "合作伙伴",
-    "Header_welcome_title": "加入",
-    "Header_welcome_subttile": "合作伙伴",
-    "Header_welcome_description": "通过 myport 开始获利 交易机会不仅仅是进行交易。",
+    "Header_welcome_title": "加入myPort合作伙伴计划",
+    "Header_welcome_subttile": "平台",
+    "Header_welcome_description": "踏入myPort赚取机会，一个不仅仅是交易的平台。",
     "Header_welcome_cta": "加入我们成为合作伙伴",
-    "Header_welcome_cta_title": "自 2007 年以来的佣金支付",
+    "Header_welcome_cta_title": "自2007年以来的佣金奖励",
     "Header_welcome_cta_description": "$ 214,920,739.85",
-    "Header_row_description_1": "月度忠诚计划支付",
-    "Header_row_description_2": "高达 72% 的佣金",
-    "Header_row_description_3": "营销材料和支持",
-    "Header_row_description_4": "独家 VIP 活动和活动",
-    "Header_row_description": "* 请注意，所有合作伙伴计划福利均需遵守条款和条件"
-  },
-
-  "BrokerReferral": {
-    "title": "推荐经纪人 (IB)",
-    "description": "涵盖三个级别的推荐收入，增加了赚取更多收入的机会，并且具有交易推荐系统",
-    "spread_share": "EUR/USD 每手的最高点差分成",
-    "loyalty_bonus": "最高忠诚奖金",
-    "monthly_commission": "每月佣金的一部分"
-  },
+    "Header_row_description_1": "每月忠诚度奖励计划。",
+    "Header_row_description_2": "赚取高达72%的佣金。",
+    "Header_row_description_3": "市场推广材料与协助。",
+    "Header_row_description_4": "专属精英活动及更多。",
+    "Header_row_description": "* 请注意，所有合作伙伴计划的福利均受条款和条件的约束。",
+    "Header_about_title": "加入计划",
+    "Header_about_subttile": "合作伙伴",
+    "Header_about_subttile2": "",
+    "Header_about_description": "提供多种金融工具和投资选择，帮助您实现财务目标。myPartner提供易于使用的界面和教育材料，适合各种投资经验水平。利用我们的广泛资产组合和专业分析，助您做出明智决策并最大化收益。"
+},
+"BrokerReferral": {
+    "title": "介绍经纪人 (IB)",
+    "description": "通过推荐朋友或同事，赚取高达xx%的佣金。非常适合EA供应商、交易顾问、信号提供者和交易公司。扩展您的网络以增加收益可能性。立即加入我们的推荐计划，为每一次成功推荐获取丰厚奖励。",
+    "spread_share": "每手EUR/USD点差分成高达",
+    "loyalty_bonus": "忠诚奖励高达",
+    "monthly_commission": "每月佣金高达"
+},
 
   "LearnMore": {
     "cta": "了解更多"
@@ -223,24 +226,31 @@
     "celebrate_success": ""
   },
 
-  "FooterPartner": {
+"FooterPartner": {
     "join_title": "合作伙伴",
-    "join_subtitle": "加入超过",
+    "join_subtitle": "贡献超过",
     "feedback": "来自的反馈",
     "cta": "收入！",
     "register": "注册",
-    "description": "注册并选择我们的 IB 或多层级计划",
+    "description": "注册并选择我们的IB或多级计划",
     "invite_friends": "邀请朋友",
     "share_link": "通过在线渠道分享您的独特合作伙伴链接",
     "earn_more": "赚取更多",
-    "earn_description": "每 4 小时获得高达 75% 的无限收入",
-    "title": "与 myport 一起踏上收益之旅",
-    "celebrate_success": "旨在庆祝您的成长和成功",
-    "feedback_from": "来自的反馈",
-    "growth_title": "与 myport 一起踏上收益之旅",
-    "growth_description": "旨在庆祝您的成长和成功"
-  },
+    "earn_description": "每4小时赚取高达75%的无限收入",
+    "title": "迈入myport的赚钱机会",
+    "celebrate_success": "旨在庆祝您的成长与成功",
+    "feedback_from": "myPartner的意见",
+    "growth_title": "迈入myport的赚钱机会",
+    "growth_description": "旨在庆祝您的成长与成功"
+},
 
+"Review": {
+    "review_1": "在过去的几年里，网站进行了现代化改造，使得使用起来更加方便，与myPort的合作变得更加顺畅。",
+    "review_2": "我开始使用myPort进行交易，并获得了非常高的佣金，这帮助我实现了真正的财务稳定。",
+    "review_3": "与myPort合作了超过xx年，我体验到了稳定性、卓越和优秀的服务。",
+    "review_4": "myPort的网站和应用程序不断发展，创造了多种方式供合作伙伴赚取收入。",
+    "review_5": "在我整个与myPort的交易期间，我有着非常棒的体验。"
+},
   "currency": "货币",
   "share": "股票",
   "index": "指数",
