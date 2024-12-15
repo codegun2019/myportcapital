@@ -64,9 +64,9 @@
 <script setup>
 
 
-import section3_1 from '~/assets/images/landing/section3/01_Device.png'
-import section3_2 from '~/assets/images/landing/section3/02_Device.png'
-import section3_3 from '~/assets/images/landing/section3/03_Device.png'
+import section3_1 from '~/assets/images/platforms/section_card/01_Card/02_Device.png'
+import section3_2 from '~/assets/images/platforms/section_card/02_Card/02_Device.png'
+import section3_3 from '~/assets/images/platforms/section_card/03_Card/02_Device.png'
 import section3_bg from '~/assets/images/landing/section3/01_Background.jpg'
 
 import Ready1Image from '~/assets/images/ready_1.png'

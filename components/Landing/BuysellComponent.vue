@@ -15,7 +15,7 @@
                   :alt="$t('Home.Buysell_welcome_title')"
                   class="absolute md:left-1/2 left-32 transform -translate-x-1/2 bottom-16  h-auto z-10">
                   <img data-aos="fade-in" data-aos-duration="6000" :src="section5_3" 
-                  class="absolute app-mobile-icon fix-drop-right-top transform -translate-x-2/10  -translate-y-1/2 top-2/4 w-24 h-24 z-20">
+                  class="absolute app-mobile-icon fix-drop-right-top transform -translate-x-2/10  -translate-y-1/2 top-2/4 w-36 h-36 z-20">
                   <img :src="section5_4" class="absolute bottom-0 hidden md:block left-1/2 transform -translate-x-1/2 h-auto">    
                 </div>
               </div>
@@ -92,7 +92,7 @@ import mt5Image from '~/assets/images/landing/mt5.png'
 <style scoped>
 .app-mobile-icon{
   left: 60%;
-  top: 30%;
+  top: 23%;
 }
 
 @media screen and (max-width: 600px) {

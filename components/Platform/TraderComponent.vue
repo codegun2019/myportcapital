@@ -76,7 +76,7 @@
 
 <script setup>
 
-import section6_1 from '~/assets/images/landing/section6/01_Banner.jpg'
+import section6_1 from '~/assets/images/platform_plan.jpg'
 import section6_2 from '~/assets/images/landing/section6/02_Device.png'
 
 import BglightImage from '~/assets/images/bg-light.png'
