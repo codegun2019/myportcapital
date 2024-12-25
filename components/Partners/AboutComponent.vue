@@ -126,7 +126,7 @@
     <div class="bg-cover md:bg-contain  bg-no-repeat" :style="{backgroundImage: `url(${mypartner})`,}">
       <div class="container mx-auto text-center md:pt-[100px] pt-5 md:pb-[55px] pb-5">
         <h2 class="text-4xl font-bold text-white">
-          {{ $t("MyPartners.start_title") }} my<span class="text-primary-400">partner {{ $t("MyPartners.start_title_2") }}</span>
+          {{ $t("MyPartners.start_title") }} my<span class="text-primary-400">Partner {{ $t("MyPartners.start_title_2") }}</span>
         </h2>
         <p class="page-header-description text-lg mb-6 text-secondary-500">
           {{ $t("MyPartners.welcome_description") }} <br />

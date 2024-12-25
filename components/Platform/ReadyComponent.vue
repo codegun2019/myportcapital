@@ -30,7 +30,7 @@
           <div>
             <h3 data-aos="fade-up" data-aos-duration="9000" class="text-3xl font-bold mb-4">
               <span>my </span>
-              <span class="text-primary-500"> trade</span>
+              <span class="text-primary-500"> Trade</span>
             </h3>
             <p class="text-gray-400 mb-6" data-aos="fade-up" data-aos-duration="12000">
               {{ $t("Home.PlatformTitleSub_b") }}
