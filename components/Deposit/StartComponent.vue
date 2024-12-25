@@ -19,7 +19,7 @@
               <button data-aos="fade-up" data-aos-duration="1000"
                 class="py-[10px] px-[16px] bg-primary-500 text-primary-900 rounded-full hover:bg-primary-600 disabled:bg-[#2F2F2F] disabled:text-[#666666] max-h-[44px] btn-primary-iux-round whitespace-nowrap"
               >
-                {{ $t("buttons.Trade_with") }} 0.0 pips
+                {{ $t("Home.Start_welcome_cta") }}
               </button>
             </a>
             <a href="">

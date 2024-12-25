@@ -21,8 +21,8 @@
 
   <section class="relative container mx-auto z-10" id="header-section">
     <h1 class="text-6xl font-extrabold motion-preset-slide-left-sm motion-delay-[800ms]">
-      <span class="mr-3">my</span>
-      <span class="text-primary-500">port </span>
+      <span class="">my</span>
+      <span class="text-primary-500">port</span>
       <span class="text-primary-500">.. </span>
       <span class="mr-3">my</span>
       <span class="text-primary-500">plan</span>

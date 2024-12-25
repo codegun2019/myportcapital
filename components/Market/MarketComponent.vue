@@ -4,7 +4,7 @@
       <div class="bg-black text-white py-16">
         <div class="container mx-auto text-center">
           <h3 data-aos="fade-up" data-aos-duration="1000" class="text-5xl font-bold mb-24 mt-24">
-            {{ $t("Home.WordTitle") }}<span class="text-primary-500">{{ $t("Home.WordTitleSub") }}</span>{{ $t("Home.WordTitleSub_row") }}
+            {{ $t("Home.WordTitle") }}
           </h3>
 
           <div data-aos="fade-up" data-aos-duration="555" class="mt-5 flex flex-wrap justify-center gap-4 mx-auto">

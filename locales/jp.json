@@ -18,9 +18,9 @@
   },
 
   "Home": {
-    "Header_welcome_title": "単純な取引を超えた貴",
-    "Header_welcome_description": "重な取引の瞬間",
-    "Header_welcome_subttile": "ワンクリックであなたの取引スタイルに最適なプロモーションを選び、独自のアカウントを作成しましょう。",
+    "Header_welcome_title": "価値あるトレードの瞬間",
+    "Header_welcome_description": "トレード以上の価値を提供",
+    "Header_welcome_subttile": "希望するプロモーションを選択して、簡単に自分のトレーディングスタイルに合ったアカウントをデザインできます。今日から取引を始め、これまでにない便利さと効率を金融市場で体験してください。",
     "Header_welcome_cta": "Myport 取引アカウントを作成",
 
     "Myport_1_title": "ロットバック",
@@ -51,11 +51,11 @@
     "ReadyTitle": "myport",
     "ReadyTitleSub": "welcome to",
     "ReadyTitle_a": "いつでも分析にアクセス",
-    "ReadyTitleSub_a": "重要な瞬間を決して逃さない取引システム",
+    "ReadyTitleSub_a": "市場と常に接続し、高度なトレードシステムで取引のチャンスを逃さないようにしましょう。",
     "ReadyTitle_b": "人気のある資産",
-    "ReadyTitleSub_b": "世界の市場を製品別に確認し、収益性のあるトレードを実現",
+    "ReadyTitleSub_b": "さまざまな資産クラスを探索し、リアルタイムでパフォーマンスを監視して、戦略的な投資判断を行いましょう。myAssetを活用して、",
     "ReadyTitle_c": "経済カレンダー",
-    "ReadyTitleSub_c": "最新の市場ニュースと今後の経済イベントをいつでもどこでも",
+    "ReadyTitleSub_c": "my Partnerでトレーディング体験を向上させましょう。今日から始めて、その違いを実感してください。",
 
     "PlatformTitle" : "myport",
     "PlatformTitleSub" : "takes trading to a higher level",
@@ -89,7 +89,7 @@
 
     "Start_welcome_title": "今すぐmyportで取引を始めましょう。",
     "Start_welcome_description": "すべてのプラットフォームで取引可能、Myport は現代のトレーダーに最適な選択です",
-    "Start_welcome_cta": "0.0 pips で取引する",
+    "Start_welcome_cta": "本物のアカウントを作成する",
     "Start_welcome_ctb": "デモ口座"
   },
 
@@ -176,14 +176,17 @@
   },
 
   "Promotion": {
+    "Header_bonus_title": "ワンクリックであなたの取引スタイルに最適なプロモーションを選び、",
+    "Header_bonus_title_sub": "独自のアカウントを作成しましょう。",
+
     "Header_welcome_title": "特別オファー",
     "Header_welcome_subttile": "ロットごとに 1 ドルから始まるすべての取引でキャッシュバックを獲得できます。取引すればするほど。 $500 以上の初回入金を行うと、すぐに Lotback を受け取ることができます。",
     "Header_Tradition_title_1": "ボーナス",
     "Header_Tradition_subttile_1": "ボーナス30%",
     "Header_Tradition_title_2": "ロットバック",
-    "Header_Tradition_subttile_2": "$100 以上の入金で利用可能",
-    "Header_Tradition_price_1": "50%",
-    "Header_Tradition_price_2": "50ドル"
+    "Header_Tradition_subttile_2": "$500 以上の入金で利用可能",
+    "Header_Tradition_price_1": "20%",
+    "Header_Tradition_price_2": "500ドル"
   },
 
 "Partners": {
@@ -193,10 +196,10 @@
     "Header_welcome_subttile": "プラットフォーム",
     "Header_welcome_description": "myPortで稼ぐチャンスに踏み出しましょう。ただの取引以上を提供するプラットフォームです。",
     "Header_welcome_cta": "パートナーとして参加",
-    "Header_welcome_cta_title": "2007年以来の報酬コミッション",
-    "Header_welcome_cta_description": "$ 214,920,739.85",
+    "Header_welcome_cta_title": "2015年以来の報酬コミッション",
+    "Header_welcome_cta_description": "$ 90,920,739.85",
     "Header_row_description_1": "毎月のロイヤルティプログラム報酬。",
-    "Header_row_description_2": "最大72%のコミッションを獲得。",
+    "Header_row_description_2": "最大65%のコミッションを獲得。",
     "Header_row_description_3": "マーケティング素材とサポート。",
     "Header_row_description_4": "限定エリートイベントやその他の特典。",
     "Header_row_description": "* すべてのアフィリエイトプログラムの特典は、利用規約に従う必要があります。",
@@ -207,7 +210,7 @@
 },
 "BrokerReferral": {
     "title": "紹介ブローカー (IB)",
-    "description": "友人や同僚を紹介することで、最大xx%のコミッションを獲得できます。EAプロバイダー、取引アドバイザー、シグナルプロデューサー、取引会社に最適です。ネットワークを拡大して、収益の可能性を増やしましょう。今すぐ紹介プログラムに参加して、成功した紹介ごとに大きな報酬を得ましょう。",
+    "description": "友人や同僚を紹介することで、最大65％のコミッションを獲得できます。EAプロバイダー、トレーディングコンサルタント、トレーディングシグナルプロバイダー、トレーディング機関に最適です。ネットワークを拡大し、収益を増やすチャンスを広げましょう。本日、myPartnerプログラムに参加して、成功した紹介で大きな報酬を手に入れましょう",
     "spread_share": "1ロットごとのEUR/USDスプレッドシェア最大",
     "loyalty_bonus": "ロイヤルティボーナス最大",
     "monthly_commission": "毎月のコミッション最大"
@@ -235,7 +238,7 @@
     "invite_friends": "友達を招待",
     "share_link": "オンラインチャンネルを通じて、あなたのユニークなパートナーリンクをシェアしましょう",
     "earn_more": "もっと稼ぐ",
-    "earn_description": "毎4時間、最大75%の無制限収益を得ることができます",
+    "earn_description": "毎4時間、最大65%の無制限収益を得ることができます",
     "title": "myportで収益の機会を手に入れましょう",
     "celebrate_success": "あなたの成長と成功を祝うために設計されています",
     "feedback_from": "myPartnerの意見",

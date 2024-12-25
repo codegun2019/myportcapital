@@ -18,8 +18,8 @@
   },
 
   "Home": {
-    "Header_welcome_title": "ຊົ່ວໂມງການຄ້າທີ່ມີຄ່າ",
-    "Header_welcome_description": "ບໍ່ແມ່ນພຽງແຕ່ການຄ້າເທົ່ານັ້ນ",
+    "Header_welcome_title": "ຊ່ວງເວລາທີ່ມີຄ່າຂອງການຊື້ຂາຍ",
+    "Header_welcome_description": "ມອບໃຫ້ຫຼາຍກວ່າການຊື້ຂາຍ",
     "Header_welcome_subttile": "ສ້າງບັນຊີຂອງເຈົ້າໂດຍເລືອກໂປຣໂມຊັນທີ່ເໝາະສົມກັບຮູບແບບການຄ້າຂອງເຈົ້າເພີຍງແຕ່ຄລິກດຽວ",
     "Header_welcome_cta": "ສ້າງບັນຊີເທຣດ Myport",
 
@@ -51,17 +51,17 @@
     "ReadyTitle": "myport",
     "ReadyTitleSub": "ຍິນດີຕ້ອນຮັບສູ່",
     "ReadyTitle_a": "ເຂົ້າເຖິງການວິເຄາະໄດ້ຕະຫຼອດ",
-    "ReadyTitleSub_a": "ລະບົບການເທຣດທີ່ບໍ່ພາດໂອກາດສໍາຄັນໃດໆ",
+    "ReadyTitleSub_a": "ເຊື່ອມຕໍ່ກັບຕະຫຼາດເສມອ ແລະຢ່າພາດໂອກາດໃນການຊື້ຂາຍດ້ວຍລະບົບການຊື້ຂາຍທີ່ທັນສະໄໝຂອງເຮົາ.",
 
     "ReadyTitle_b": "ສິນຊື້ທີ່ນິຍົມ",
-    "ReadyTitleSub_b": "ເບິ່ງຕະຫຼາດໂລກເພື່ອຄ່ານຳໃຊ້ທີ່ຄຸ້ມຄ່າ",
+    "ReadyTitleSub_b": "ສຳຫຼວດປະເພດສິນຊັບຫຼາຍປະເພດ ແລະຕິດຕາມປະສິດທິພາບເວລາຈິງເພື່ອຕັດສິນໃຈການລົງທຶນຢ່າງມີກົນລະຍຸດ. ດ້ວຍ myAsset,",
     "ReadyTitle_c": "ປະຕິທິນເສດຖະກິດ",
-    "ReadyTitleSub_c": "ຕິດຕາມຂ່າວສານທີ່ຕ້ອງໄດ້ໃນໄລຍະໃດ",
+    "ReadyTitleSub_c":  "ຍົກລະດັບປະສົບການຊື້ຂາຍຂອງທ່ານດ້ວຍ my Partner. ເລີ່ມຕົ້ນມື້ນີ້ ແລະສັມຜັດຄວາມແຕກຕ່າງດ້ວຍຕົນເອງ.",
 
     "PlatformTitle" : "myport",
     "PlatformTitleSub" : "ຍົກລະດັບການເທຣດໃຫ້ສູງຂື້ນ",
     "PlatformTitle_a" : "ເຂົ້າເຖິງການວິເຄາະໄດ້ຕະຫຼອດ",
-    "PlatformTitleSub_a" : "my lotback ຮັບເງິນຄືນໃນທຸກຄັ້ງທີ່ເທຣດ",
+    "PlatformTitleSub_a" : "Get rebate on every trade",
     "PlatformTitle_b" : "ສິນຊັບທີ່ນິຍົມ",
     "PlatformTitleSub_b" : "my trade ໃຊ້ຄຳສັ່ງເທຣດທັນທີ",
     "PlatformTitle_c" : "ປະຕິທິນເສດຖະກິດ",
@@ -91,7 +91,7 @@
     "Start_welcome_title": "ເລີ່ມການເທຣດກັບ myport ດຽວນີ້",
 
     "Start_welcome_description": "ເປີດໃຫ້ຊື້ຂາຍໃນເວັບ, App, ແລະ Myport",
-    "Start_welcome_cta": "ຊື້ຂາຍດ້ວຍ 0.0 pips",
+    "Start_welcome_cta": "ສ້າງບັນຊີຈິງ",
     "Start_welcome_ctb": "ບັນຊີທົດລອງ"
   },
 
@@ -174,14 +174,17 @@
   },
 
   "Promotion": {
+    "Header_bonus_title": "ອອກແບບບັນຊີຂອງເຈົ້າເອງ ດ້ວຍການເລືອກໂປຣໂມຊັ່ນທີ່ຕ້ອງການ",
+    "Header_bonus_title_sub": "ໃຫ້ເໝາະກັບສໄຕລການເທຣດຂອງເຈົ້າໄດ້ງ່າຍໆ ເພີ່ອນຄລິກດຽວ",
+
     "Header_welcome_title": "ຂໍ້ສະເໜີທີ່ດີທີ່ສຸດ",
     "Header_welcome_subttile": "ຮັບເງິນຄືນຈາກການເທຣດທຸກເທື່ອ ເລີ່ມຕົ້ນທີ່ $1 ຕໍ່ Lot ຍິ່ງເທຣດຫຼາຍ ຍິ່ງໄດ້ຮັບເງິນຄືນຫຼາຍ ງ່າຍໆ ໂດຍຝາກເງິນເລີ່ມຕົ້ນ $500 ຂຶ້ນໄປ ເພື່ອຮັບ Lotback ຂອງເຈົ້າທັນທີ",
     "Header_Tradition_title_1": "ໂບນັດ",
     "Header_Tradition_subttile_1": "ໂບນັດ 30%",
     "Header_Tradition_title_2": "Lotback",
-    "Header_Tradition_subttile_2": "ເລີ່ມຝາກເງິນໃນຈຳນວນ $100 ຂື້ນໄປ",
-    "Header_Tradition_price_1": "50%",
-    "Header_Tradition_price_2": "50 ໂດລາ"
+    "Header_Tradition_subttile_2": "ເລີ່ມຝາກເງິນໃນຈຳນວນ $500 ຂື້ນໄປ",
+    "Header_Tradition_price_1": "20%",
+    "Header_Tradition_price_2": "500 ໂດລາ"
   },
 
   "BrokerReferral": {
@@ -198,10 +201,10 @@
     "Header_welcome_subttile": "ແພລດຟອມ",
     "Header_welcome_description": "ກ້າວເຂົ້າສູ່ໂອກາດໃນການສ້າງລາຍໄດ້ກັບ myPort ແພລດຟອມທີ່ໃຫ້ຫຼາຍກວ່າການຊື້ຂາຍທົ່ວໄປ。",
     "Header_welcome_cta": "ຮ່ວມງານເປັນຄູ່ຮ່ວມງານຂອງພວກເຮົາ",
-    "Header_welcome_cta_title": "ລາງວັນຄ່ານາຍຫນ້າຕັ້ງແຕ່ປີ 2007",
-    "Header_welcome_cta_description": "$ 214,920,739.85",
+    "Header_welcome_cta_title": "ລາງວັນຄ່ານາຍຫນ້າຕັ້ງແຕ່ປີ 2015",
+    "Header_welcome_cta_description": "$ 90,920,739.85",
     "Header_row_description_1": "ໂປຣແກຣມລາງວັນລວດສັມພັນປະຈຳເດືອນ.",
-    "Header_row_description_2": "ຮັບສ່ວນແບ່ງຄ່ານາຍຫນ້າສູງສຸດ 72%.",
+    "Header_row_description_2": "ຮັບສ່ວນແບ່ງຄ່ານາຍຫນ້າສູງສຸດ 65%.",
     "Header_row_description_3": "ສື່ສະໜັບສະໜູນການຕະຫຼາດ ແລະການຊ່ວຍເຫຼືອ.",
     "Header_row_description_4": "ກິດຈະກຳສຳລັບຄົນສະເພາະ ແລະສິ່ງອື່ນໆ.",
     "Header_row_description": "* ຂໍຫມາຍເຫດວ່າສິດປະໂຫຍດໃນໂປຣແກຣມຄູ່ຮ່ວມງານທັງໝົດຂື້ນຢູ່ກັບຂໍ້ກຳນົດແລະເງື່ອນໄຂ.",
@@ -212,7 +215,7 @@
   },
   "BrokerReferral": {
     "title": "ຜູ້ແນະນຳໂບຣກເກີ (IB)",
-    "description": "ຄົບຄຸມລາຍໄດ້ສູງສຸດ 3 ລະດັບ ຊ່ວຍໃຫ້ເພີ່ມໂອກາດໃນການຫາລາຍໄດ້ເພີ່ມຂື້ນ ດ້ວຍລະບົບການແນະນຳການເທຣດ",
+    "description": "ຮັບຄ່າຄອມມິຊັນສູງສຸດ 65% ຈາກການແນະນຳໝູ່ຫລືຄູ່ຮ່ວມງານ. ເໝາະສໍາລັບຜູ້ໃຫ້ບໍລິການ EA, ທີ່ປຶກສາດ້ານການເທຣດ, ຜູ້ໃຫ້ບໍລິການສັນຍານເທຣດ, ແລະສະຖາບັນການເທຣດ. ຂະຫຍາຍເຄືອຂ່າຍຂອງທ່ານເພື່ອເພີ່ມໂອກາດໃນການສ້າງລາຍໄດ້. ຮ່ວມໂຄງການ myPartner ຂອງພວກເຮົາໃນມື້ນີ້ ແລະເລີ່ມຮັບລາງວັນໃຫຍ່ສໍາລັບການແນະນຳທີ່ປະສົບຄວາມສໍາເລັດຂອງທ່ານ.",
     "spread_share": "ສ່ວນແບ່ງສະເພຣດຂອງ EUR/USD ຕໍ່ລັອດສູງສຸດ",
     "loyalty_bonus": "ໂບນັດຄວາມພັນທະມິດສູງສຸດ",
     "monthly_commission": "ຂອງຄ່າຄອມມິດຊັນປະຈຳເດືອນ"
@@ -237,7 +240,7 @@
     "invite_friends": "ເຊີນເພື່ອນ",
     "share_link": "ແບ່ງປັນລິ້ງພັນທະມິດຂອງທ່ານໂດຍບໍ່ຊ້ຳກັນ",
     "earn_more": "ຮັບລາຍໄດ້ຫຼາຍຂຶ້ນ",
-    "earn_description": "ຮັບລາຍໄດ້ສູງສຸດເຖິງ 75% ບໍ່ຈຳກັດທຸກ 4 ຊົ່ວໂມງ",
+    "earn_description": "ຮັບລາຍໄດ້ສູງສຸດເຖິງ 65% ບໍ່ຈຳກັດທຸກ 4 ຊົ່ວໂມງ",
     "title": "ກ້າວສູ່ການສ້າງລາຍໄດ້ກັບ myport",
     "celebrate_success": "ທີ່ໄດ້ຮັບການອອກແບບເພື່ອສະເຫນິພາກໃຫ້ຄວາມສຳເລັດຂອງທ່ານ",
     "feedback_from": "ສຽງຕອບຮັບຈາກ",

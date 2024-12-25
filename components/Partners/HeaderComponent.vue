@@ -12,8 +12,7 @@
     <section class="page-header bg-gradient-to-r py-12">
       <div class="container mx-auto text-center flex flex-col items-center justify-center">
         <h2 class="text-4xl font-bold text-white mb-4 motion-preset-slide-left-sm motion-delay-[800ms]">
-          {{ $t("Partners.Header_welcome_title") }} my
-          <span class="text-primary-400">{{ $t("Partners.Header_welcome_subttile") }}</span>
+          {{ $t("Partners.Header_welcome_title") }} my<span class="text-primary-400">{{ $t("Partners.Header_welcome_subttile") }}</span>
         </h2>
         <p class="page-header-description text-lg mb-6 text-secondary-500 motion-preset-blur-left block motion-delay-[1200ms]">
           {{ $t("Partners.Header_welcome_description") }}

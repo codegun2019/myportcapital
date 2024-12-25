@@ -93,25 +93,26 @@
             <li class="flex items-start text-sm">
               <span class="text-primary-400">✦</span>
               <span class="ml-2">
-                {{ $t("BrokerReferral.spread_share") }} <strong>$14.4</strong>
+                {{ $t("BrokerReferral.spread_share") }} <strong>$11</strong>
               </span>
             </li>
             <li class="flex items-start text-sm">
               <span class="text-primary-400">✦</span>
               <span class="ml-2">
-                {{ $t("BrokerReferral.loyalty_bonus") }} <strong>$7.5</strong>
+                {{ $t("BrokerReferral.loyalty_bonus") }} <strong>$9</strong>
               </span>
             </li>
             <li class="flex items-start text-sm">
               <span class="text-primary-400">✦</span>
               <span class="ml-2">
-                {{ $t("BrokerReferral.monthly_commission") }} <strong>20%</strong>
+                {{ $t("BrokerReferral.monthly_commission") }} <strong>65%</strong>
               </span>
             </li>
           </ul>
 
           <!-- Link to partner program page -->
           <NuxtLink
+            href="mailto:partner@myportcapital.com"
             class="inline-flex items-center text-primary-400 hover:text-primary-300 font-semibold"
           >
           {{ $t("LearnMore.cta") }}
@@ -143,7 +144,7 @@
             <img class="w-10 h-10 rounded-full border-2 border-white" src="https://i.pravatar.cc/40?img=3" alt="Partner 3">
           </div>
           <div class="text-xl md:text-2xl font-bold">
-            {{ $t("FooterPartner.join_title") }}{{ $t("FooterPartner.join_subtitle") }} 102,000 {{ $t("FooterPartner.cta") }}
+            {{ $t("FooterPartner.join_title") }}{{ $t("FooterPartner.join_subtitle") }} 68,745 {{ $t("FooterPartner.cta") }}
           </div>
         </div>
 
@@ -202,7 +203,7 @@
             <div class="flex items-center mb-4">
               <img class="w-10 h-10 rounded-full" src="https://i.pravatar.cc/40?img=1" alt="User 1">
               <div class="ml-3">
-                <p class="text-sm font-bold">ธนกร ดาการวด</p>
+                <p class="text-sm font-bold">มาเลีย สาโป</p>
                 <p class="text-xs text-gray-400">เป็นพันธมิตรมา 6 ปี</p>
               </div>
             </div>
@@ -214,9 +215,9 @@
           <!-- Testimonial 2 -->
           <div class="bg-gradient-to-b from-[#333333] to-[#222222] text-white p-6 rounded-lg shadow-lg">
             <div class="flex items-center mb-4">
-              <img class="w-10 h-10 rounded-full" src="https://i.pravatar.cc/40?img=2" alt="User 2">
+              <img class="w-10 h-10 rounded-full" src="https://i.pravatar.cc/40?img=15" alt="User 2">
               <div class="ml-3">
-                <p class="text-sm font-bold">เมลวิน ตัน</p>
+                <p class="text-sm font-bold">มาซากิ ยูมิระ</p>
                 <p class="text-xs text-gray-400">เป็นพันธมิตรมา 3 ปี</p>
               </div>
             </div>
@@ -230,7 +231,7 @@
             <div class="flex items-center mb-4">
               <img class="w-10 h-10 rounded-full" src="https://i.pravatar.cc/40?img=3" alt="User 3">
               <div class="ml-3">
-                <p class="text-sm font-bold">วิลเลียน ตัน</p>
+                <p class="text-sm font-bold">อีกอว์ล</p>
                 <p class="text-xs text-gray-400">เป็นพันธมิตรมา 2 ปี</p>
               </div>
             </div>
@@ -242,7 +243,7 @@
           <!-- Testimonial 4 -->
           <div class="bg-gradient-to-b from-[#333333] to-[#222222] text-white p-6 rounded-lg shadow-lg">
             <div class="flex items-center mb-4">
-              <img class="w-10 h-10 rounded-full" src="https://i.pravatar.cc/40?img=4" alt="User 4">
+              <img class="w-10 h-10 rounded-full" src="https://i.pravatar.cc/40?img=11" alt="User 4">
               <div class="ml-3">
                 <p class="text-sm font-bold">ปราวิน คุตะ</p>
                 <p class="text-xs text-gray-400">เป็นพันธมิตรมา 3 ปี</p>
@@ -258,7 +259,7 @@
             <div class="flex items-center mb-4">
               <img class="w-10 h-10 rounded-full" src="https://i.pravatar.cc/40?img=5" alt="User 5">
               <div class="ml-3">
-                <p class="text-sm font-bold">ไมเคิล วิเซนต์</p>
+                <p class="text-sm font-bold">มิกิ ฮายาโน๊ะ</p>
                 <p class="text-xs text-gray-400">เป็นพันธมิตรมา 4 ปี</p>
               </div>
             </div>

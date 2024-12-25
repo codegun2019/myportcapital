@@ -19,7 +19,7 @@
               <button
                 class="py-[10px] px-[16px] bg-primary-500 text-white rounded-full hover:bg-primary-600 disabled:bg-[#2F2F2F] disabled:text-[#666666] max-h-[44px] btn-primary-iux-round whitespace-nowrap"
               >
-              {{ $t("Platform.Header_welcome_cta_2") }}
+              {{ $t("Platform.Trader_welcome_ctb") }}
               </button>
             </NuxtLink>
           </div>

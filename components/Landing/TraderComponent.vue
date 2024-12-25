@@ -44,7 +44,7 @@
                     <img data-aos="fade-up" data-aos-duration="3000" :src="mt5Android" alt="android" class="w-100 mb-2" />
                   </NuxtLink>
                 </div>
-                <div class="basis-1/3">
+                <!-- <div class="basis-1/3">
                   <NuxtLink target="_blank" href="">
                     <img data-aos="fade-up" data-aos-duration="4000" :src="mt5Ios" alt="ios" class="w-100 mb-2" />
                   </NuxtLink>
@@ -53,7 +53,7 @@
                   <NuxtLink target="_blank" href="">
                     <img data-aos="fade-up" data-aos-duration="5000" :src="mt5Web" alt="web" class="w-100 mb-2" />
                   </NuxtLink>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>

@@ -36,15 +36,16 @@
                 </div>
                 <div class="basis-1/3">
                   <a target="_blank">
-                    <img :src="mt5Macos" alt="macos" class="w-100 motion-preset-blur-up block motion-delay-[800ms] mb-2" />
-                  </a>
-                </div>
-                <div class="basis-1/3">
-                  <a target="_blank">
                     <img :src="mt5Android" alt="android" class="w-100 motion-preset-blur-up block motion-delay-[1200ms] mb-2" />
                   </a>
                 </div>
                 <div class="basis-1/3">
+                  <a target="_blank">
+                    <img :src="mt5Ios" alt="macos" class="w-100 motion-preset-blur-up block motion-delay-[800ms] mb-2" />
+                  </a>
+                </div>
+
+                <!-- <div class="basis-1/3">
                   <a target="_blank">
                     <img :src="mt5Ios" alt="ios" class="w-100 motion-preset-blur-up block motion-delay-[1600ms] mb-2" />
                   </a>
@@ -53,7 +54,7 @@
                   <a target="_blank">
                     <img :src="mt5Web" alt="web" class="w-100 motion-preset-blur-up block motion-delay-[2000ms] mb-2" />
                   </a>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>

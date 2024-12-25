@@ -19,10 +19,11 @@
 },
 
   "Home": {
-    "Header_welcome_title": "Precious trading moments that offer",
-    "Header_welcome_description": "more than just trading.",
-    "Header_welcome_subttile": "Create your own account by selecting the promotions that best fit your trading style with just one click",
+    "Header_welcome_title": "The Moments of Valuable Trading",
+    "Header_welcome_description": "Offering more than just trading.",
+    "Header_welcome_subttile": "Design your own account by selecting the desired promotion that suits your trading style easily with just one click. Start trading today and experience new convenience and efficiency in financial markets like never before.",
     "Header_welcome_cta": "Create a Myport trading account",
+    
     "Myport_1_title": "LotBack",
     "Myport_2_title": "0.0",
     "Myport_3_title": "STP",
@@ -51,14 +52,14 @@
     "ReadyTitle": "myport",
     "ReadyTitleSub": "welcome to",
     "ReadyTitle_a": "Access analysis anytime",
-    "ReadyTitleSub_a": "A trading system that won't miss any important moments",
+    "ReadyTitleSub_a": "Stay connected to the markets and never miss a trading opportunity with our advanced trading system.",
     "ReadyTitle_b": "Popular Assets",
-    "ReadyTitleSub_b": "View global markets by different instruments for profitable trading with low spreads and high speed?",
+    "ReadyTitleSub_b": "Explore a variety of asset classes and monitor performance in real-time to make strategic investment decisions. With myAsset,",
     "ReadyTitle_c": "Economic Calendar",
-    "ReadyTitleSub_c": "Keep track of the latest market news and upcoming economic events anywhere, anytime?",
+    "ReadyTitleSub_c": "Elevate your trading experience with my Partner. Get started today and see the difference for yourself.",
     
     "PlatformTitle" : "myport",
-    "PlatformTitleSub" : "takes trading to a higher level",
+    "PlatformTitleSub" : "takes trading to the next level.",
     "PlatformTitle_a" : "เข้าถึงการวิเคราะห์ได้ตลอด",
     "PlatformTitleSub_a" : "my lotback Get cashback on every trade",
     "PlatformTitle_b" : "สินทรัพย์ยอดนิยม",
@@ -88,14 +89,14 @@
     "Trader_welcome_ctb": "Download Myport at",
     "Start_welcome_title": "Start trading with myport now",
     "Start_welcome_description": "Ready to trade on all platforms: Myport is the best choice for modern traders.",
-    "Start_welcome_cta": "Trade with 0.0 pips",
+    "Start_welcome_cta": "Create a real account",
     "Start_welcome_ctb": "Demo Account"
   },
   "Accounting": {
     "Header_welcome_title" : "Account",
     "Header_welcome_subttile" : " Overview",
-    "Header_welcome_description" : "Create your own account by selecting the promotions that best fit your",
-    "Header_welcome_subdescription" : "trading style with just one clic",
+    "Header_welcome_description" : "Create your own account by selecting the promotions that best fit your Demo accounts for novices and advanced accounts for experienced traders. Trade with simplicity and increase your profits.",
+    "Header_welcome_subdescription" : "trading style with just one click",
     "Header_welcome_cta" : "Join us",
     "Footer_welcome_title": "Start trading with myport now",
     "Footer_welcome_description": "Available for trading on all platforms: MYPORT Web Trade, MYPORT App Trade, and Myport. MetaTrader is the best choice for modern traders.",
@@ -115,8 +116,8 @@
 
   "Package": {
     "Header_welcome_title" : "Account",
-    "Header_welcome_subttile" : " Overview",
-    "Header_welcome_description" : "Create your own account by selecting the promotions that best fit your trading style with just one click",
+    "Header_welcome_subttile" : " deposits",
+    "Header_welcome_description" : "Enjoy the advantages of convenient access to your money at any time.",
     "Header_welcome_subdescription" : "powered by an innovative, cutting-edge platform.",
     "Header_welcome_cta" : "Join us",
     "Package_welcome_title_1" : "my Standard",
@@ -154,11 +155,11 @@
       "NuxtLink_3" : "Myport",
       "NuxtLink_4" : "Myport WebTerminal",
       "Header_android_title" : "For IOS",
-      "Header_android_description" : "The best trading application suitable for iOS mobile operating systems Access assets anywhere, anytime",
+      "Header_android_description" : "Trade confidently with myPort for IOS, a user-friendly platform that provides fast trade signals and access to the market. With customizable features and real-time updates, myPort for iOS ensures you stay informed and make the most of your trading opportunities.",
       "Header_ios_title" : "For Android",
-      "Header_ios_description" : "The best trading application suitable for Andriod mobile operating systems Access assets anywhere, anytime",
-      "Header_welcome_title_2" : "Fast Trade Signals",
-      "Header_welcome_description_2" : "Access the CFD market via a mobile application designed for ease of use, with fast order execution and optimal performance for smooth trading.",
+      "Header_ios_description" : "Trade confidently with myPort for Android, a user-friendly platform that provides fast trade signals and access to the market. Take advantage of its customizable features and stay informed on the go to maximize your success in trading.",
+      "Header_welcome_title_2" : "Fast trade signals",
+      "Header_welcome_description_2" : "Access the market via a mobile application both IOS and Android designed for ease of use, with fast order execution and optimal performance for smooth trading",
       "Header_welcome_cta_2" : "MYPORT/ App Trade",
       "Header_welcome_title_myport" : "Elevate Your Trading Experience?",
       "Header_myport_title_1" : "Constant Access to Analysis",
@@ -168,25 +169,28 @@
       "Header_myport_title_3" : "Economic Calendar",
       "Header_myport_description_3" : "Keep track of the latest market news and upcoming economic events, anytime, anywhere.",
 
-      "Trader_welcome_title" : "Myport for",
-      "Trader_welcome_title_sub": "Computer",
+      "Trader_welcome_title" : "Start trading with ",
+      "Trader_welcome_title_sub": "myPort now.",
       "Trader_welcome_subttile": "A Powerful Trading Terminal",
-      "Trader_welcome_description": "The best trading application suitable for operating systems COMPUTER WINDOW Access assets anywhere, anytime",
-      "Trader_welcome_description_market": "Access to trading Anywhere, anytime Through myport's application Easy to use, no interruptions, meets the needs of modern traders.",
+      "Trader_welcome_description": "A Powerful Trading Terminal With comprehensive charting tools and technical analysis capabilities, myPort for Computer is an effective trading terminal for experienced traders. Take use of its user-friendly interface and efficient trade execution to improve your trading tactics and reach your financial objectives.",
+      "Trader_welcome_description_market": "The best choice for modern traders. Take advantage of real-time market data and analysis tools to make strategic decisions. With myPort, you can access your account from anywhere and trade seamlessly across devices. Elevate your trading experience with myPort's comprehensive platform today.",
       "Trader_welcome_cta": "Learn More",
       "Trader_welcome_ctb": "Download Myport at"
   
     },
 
-  "Promotion": {
+    "Promotion": {
+      "Header_bonus_title": "Create your own account by selecting the promotions",
+      "Header_bonus_title_sub": "that best fit your trading style with just one click",
+  
       "Header_welcome_title": "Special Offers",
-      "Header_welcome_subttile": "Get cashback on every trade, starting at $1 per Lot. The more you trade, the more you earn back. Simply deposit an initial amount of $500 or more to receive your Lotback immediately",
+      "Header_welcome_subttile": "Don't pass up this limited-time opportunity to boost your earnings when trading. To take advantage of this exclusive promotion, start depositing and trading today. Participating in this special offer will help you increase your profits.",
       "Header_Tradition_title_1": "Bonus",
-      "Header_Tradition_subttile_1": "30% Bonus",
+      "Header_Tradition_subttile_1": "20% Bonus",
       "Header_Tradition_title_2": "Lotback",
-      "Header_Tradition_subttile_2": "Just start by depositing $100 or more",
-      "Header_Tradition_price_1": "50%",
-      "Header_Tradition_price_2": "$50"
+      "Header_Tradition_subttile_2": "Just start by depositing $500 or more",
+      "Header_Tradition_price_1": "20%",
+      "Header_Tradition_price_2": "$500"
   },
 
   "Partners": {
@@ -196,10 +200,10 @@
       "Header_welcome_subttile": "Port",
       "Header_welcome_description": "Step into earning chances with myPort, a trading platform that provides more than just trading.",
       "Header_welcome_cta": "Join us as a partner",
-      "Header_welcome_cta_title": "Commission rewards since 2007",
-      "Header_welcome_cta_description": "$ 214,920,739.85",
+      "Header_welcome_cta_title": "Commission rewards since 2015",
+      "Header_welcome_cta_description": "$ 90,920,739.85",
       "Header_row_description_1": "Monthly loyalty program rewards.",
-      "Header_row_description_2": "Earn up to 72% commissions.",
+      "Header_row_description_2": "Earn up to 65% commissions.",
       "Header_row_description_3": "Marketing materials and assistance.",
       "Header_row_description_4": "Exclusive elite events, activities and more",
       "Header_row_description": "* Please note that all affiliate program benefits are subject to terms and conditions.",
@@ -210,7 +214,7 @@
     },
   "BrokerReferral": {
       "title": "Introducing Broker (IB)",
-      "description": "Earn up to xx% commission by recommending friends or colleagues. Ideal for EA providers, trade advisors, signal producers, and trading firms. Expand your network to increase your earning possibilities. Join our referral program today and start earning big rewards for every successful recommendation you make.",
+      "description": "Earn up to 65% commission for referring friends or colleagues. Ideal for EA providers, trading consultants, signal providers, and trading institutions. Expand your network to increase your earning potential. Join our myPartner program today and start receiving great rewards for your successful referrals!",
       "spread_share": "Spread share of EUR/USD per lot up to",
       "loyalty_bonus": "Loyalty Bonus up to",
       "monthly_commission": "Monthly commission up to"
@@ -235,7 +239,7 @@
       "invite_friends": "Invite Friends",
       "share_link": "Share your unique partner link through online channels",
       "earn_more": "Earn More",
-      "earn_description": "Earn up to 75% unlimited revenue every 4 hours",
+      "earn_description": "Earn up to 65% unlimited revenue every 4 hours",
       "title": "Step into earning opportunities with myport",
       "celebrate_success": "Designed to celebrate your growth and success",
       "feedback_from": "myPartner's opinions",

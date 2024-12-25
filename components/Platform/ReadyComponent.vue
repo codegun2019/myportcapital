@@ -4,7 +4,7 @@
     <!-- Section Header -->
       <div class="text-center my-10">
         <h2 class="text-5xl font-bold mb-24 mt-24" data-aos="fade-up" data-aos-duration="500">
-          {{ $t("Home.PlatformTitleSub") }} <span class="text-primary-500">myport</span>
+          <span class="text-primary-500">myPort </span> {{ $t("Home.PlatformTitleSub") }} 
         </h2>
       </div>
 
@@ -14,7 +14,7 @@
           <div>
             <h3 data-aos="fade-up" data-aos-duration="9000" class="text-3xl font-bold mb-4">
               <span>my </span>
-              <span class="text-primary-500"> lotback</span>
+              <span class="text-primary-500"> Lotback</span>
             </h3>
             <p class="text-gray-400 mb-6" data-aos="fade-up" data-aos-duration="18000">
               {{ $t("Home.PlatformTitleSub_a") }}

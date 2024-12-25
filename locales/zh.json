@@ -18,9 +18,9 @@
   },
 
   "Home": {
-    "Header_welcome_title": "珍貴的交易時刻不僅僅",
-    "Header_welcome_description": "是提供交易機會",
-    "Header_welcome_subttile": "只需一鍵選擇最適合您交易風格的促銷活動，便可輕鬆建立自己的帳戶",
+    "Header_welcome_title": "珍贵的交易时刻",
+    "Header_welcome_description": "提供超越交易的价值",
+    "Header_welcome_subttile": "通过选择符合您交易风格的优惠活动，轻松设计您的专属账户，只需轻轻一按。今天开始交易，体验前所未有的金融市场便利性和高效性。",
     "Header_welcome_cta": "创建 Myport 交易账户",
 
     "Myport_1_title": "回扣",
@@ -51,11 +51,11 @@
     "ReadyTitle": "myport",
     "ReadyTitleSub": "welcome to",
     "ReadyTitle_a": "随时访问分析",
-    "ReadyTitleSub_a": "一个不会错过任何重要时刻的交易系统",
+    "ReadyTitleSub_a":  "保持与市场的联系，利用我们的高级交易系统，永不错过交易机会。",
     "ReadyTitle_b": "热门资产",
-    "ReadyTitleSub_b": "按工具查看全球市场，实现更高的盈利",
+    "ReadyTitleSub_b": "多种资产类别，实时监控表现，制定战略性投资决策。使用myAsset，",
     "ReadyTitle_c": "经济日历",
-    "ReadyTitleSub_c": "随时随地跟踪最新的市场新闻和即将发生的经济事件",
+    "ReadyTitleSub_c": "通过my Partner提升您的交易体验。今天就开始，亲自见证不同。",
 
     "PlatformTitle" : "myport",
     "PlatformTitleSub" : "takes trading to a higher level",
@@ -64,7 +64,7 @@
     "PlatformTitle_b" : "สินทรัพย์ยอดนิยม",
     "PlatformTitleSub_b" : "一个不会错过任何重要时刻的交易系统",
     "PlatformTitle_c" : "ปฏิทินเศรษฐกิจ",
-    "PlatformTitleSub_c" : "只需几秒钟即可使用订单不复杂",
+    "PlatformTitleSub_c" : "重要な瞬間を決して逃さない取引システム",
 
 
     "WordTitle": "Global Market",
@@ -90,7 +90,7 @@
 
     "Start_welcome_title": " 立即开始与 myport 进行交易",
     "Start_welcome_description": "Myport 提供全面的交易选择。 是现代交易者的理想选择。",
-    "Start_welcome_cta": "以 0.0 pips 交易",
+    "Start_welcome_cta": "创建真实账户",
     "Start_welcome_ctb": "模拟账户"
   },
 
@@ -177,14 +177,17 @@
   },
 
   "Promotion": {
+    "Header_bonus_title": "只需一鍵選擇最適合您交易風格的促銷活動，",
+    "Header_bonus_title_sub": "便可輕鬆建立自己的帳戶",
+
     "Header_welcome_title": "特别优惠",
     "Header_welcome_subttile": "每笔交易都可获得现金返还，从每手交易 1 美元起。您交易越多，所赚回的金额就越多。只需存入 500 美元或以上的初始资金，即可立即获得您的返还奖励。",
     "Header_Tradition_title_1": "奖金",
-    "Header_Tradition_subttile_1": "30% 奖金",
+    "Header_Tradition_subttile_1": "20% 奖金",
     "Header_Tradition_title_2": "回扣",
-    "Header_Tradition_subttile_2": "最低存款 $100 即可享受",
-    "Header_Tradition_price_1": "50%",
-    "Header_Tradition_price_2": "50美元"
+    "Header_Tradition_subttile_2": "最低存款 $500 即可享受",
+    "Header_Tradition_price_1": "20%",
+    "Header_Tradition_price_2": "500美元"
   },
 
 "Partners": {
@@ -194,8 +197,8 @@
     "Header_welcome_subttile": "平台",
     "Header_welcome_description": "踏入myPort赚取机会，一个不仅仅是交易的平台。",
     "Header_welcome_cta": "加入我们成为合作伙伴",
-    "Header_welcome_cta_title": "自2007年以来的佣金奖励",
-    "Header_welcome_cta_description": "$ 214,920,739.85",
+    "Header_welcome_cta_title": "自2015年以来的佣金奖励",
+    "Header_welcome_cta_description": "$ 90,920,739.85",
     "Header_row_description_1": "每月忠诚度奖励计划。",
     "Header_row_description_2": "赚取高达72%的佣金。",
     "Header_row_description_3": "市场推广材料与协助。",
@@ -208,7 +211,7 @@
 },
 "BrokerReferral": {
     "title": "介绍经纪人 (IB)",
-    "description": "通过推荐朋友或同事，赚取高达xx%的佣金。非常适合EA供应商、交易顾问、信号提供者和交易公司。扩展您的网络以增加收益可能性。立即加入我们的推荐计划，为每一次成功推荐获取丰厚奖励。",
+    "description": "通过推荐朋友或同事，可获得高达 65% 的佣金。适合 EA 提供商、交易顾问、交易信号提供商和交易机构。拓展您的网络，增加创收机会。今天加入我们的 myPartner 计划，为成功推荐赚取丰厚奖励！",
     "spread_share": "每手EUR/USD点差分成高达",
     "loyalty_bonus": "忠诚奖励高达",
     "monthly_commission": "每月佣金高达"
@@ -236,7 +239,7 @@
     "invite_friends": "邀请朋友",
     "share_link": "通过在线渠道分享您的独特合作伙伴链接",
     "earn_more": "赚取更多",
-    "earn_description": "每4小时赚取高达75%的无限收入",
+    "earn_description": "每4小时赚取高达65%的无限收入",
     "title": "迈入myport的赚钱机会",
     "celebrate_success": "旨在庆祝您的成长与成功",
     "feedback_from": "myPartner的意见",

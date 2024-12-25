@@ -13,33 +13,33 @@
       <div class="overflow-x-auto withdrawal-scroll-block accordion-table">
         <table class="table-auto w-full text-left text-white w-full flex-no-wrap rounded-lg overflow-hidden my-5">
           <thead>
-            <tr class="hidden lg-block border-b border-[#3e3f3f]  flex flex-col flex-no wrap md:table-row rounded-l-lg sm:rounded-none mb-2 sm:mb-0">
+            <!-- <tr class="hidden lg-block border-b border-[#3e3f3f]  flex flex-col flex-no wrap md:table-row rounded-l-lg sm:rounded-none mb-2 sm:mb-0">
               <th class="py-3 px-6">{{ $t("text.Channel") }}</th>
               <th class="py-3 px-6">{{ $t("text.Minimum_Deposit") }}</th>
               <th class="py-3 px-6">{{ $t("text.Minimum_Withdrawal") }}</th>
               <th class="py-3 px-6">{{ $t("text.Maximum_Withdrawal") }}</th>
               <th class="py-3 px-6">{{ $t("text.Processing_Time") }}</th>
-            </tr>
+            </tr> -->
           </thead>
           <tbody>
             <tr class="flex flex-col flex-no wrap sm:table-row rounded-l-lg sm:rounded-none mb-2 sm:mb-0">
-              <td class="py-3 px-6 flex items-center">
-                <img :src="section1_1" alt="bronze" class="w-20 mr-2">
+              <td class="py-3 px-6 flex items-center text-xs">
+                <img :src="section1_1" alt="bronze" class=" mr-2">
                 Qr Code
               </td>
-              <td class="py-3 px-6">100 THB</td>
-              <td class="py-3 px-6">500 THB</td>
-              <td class="py-3 px-6">300,000 THB/DAY</td>
+              <td class="py-3 px-6 text-gray-400"><span class="text-white text-xs">{{ $t("text.Minimum_Deposit") }} </span> 100 THB</td>
+              <td class="py-3 px-6 text-gray-400"><span class="text-white text-xs">{{ $t("text.Minimum_Withdrawal") }} </span> 500 THB</td>
+              <td class="py-3 px-6 text-gray-400"><span class="text-white text-xs">{{ $t("text.Maximum_Withdrawal") }} </span> 300,000 THB/DAY</td>
               <td class="py-3 px-6">{{ $t("text.Instant") }}</td>
             </tr>
             <tr class="flex flex-col flex-no wrap sm:table-row rounded-l-lg sm:rounded-none mb-2 sm:mb-0">
-              <td class="py-3 px-6 flex items-center">
-                <img :src="section1_2" alt="silver" class="w-20 mr-2">
+              <td class="py-3 px-6 flex items-center text-xs">
+                <img :src="section1_2" alt="silver" class=" mr-2">
                 Online Banking
               </td>
-              <td class="py-3 px-6">100 THB</td>
-              <td class="py-3 px-6">500 THB</td>
-              <td class="py-3 px-6">300,000 THB/DAY</td>
+              <td class="py-3 px-6 text-gray-400"><span class="text-white text-xs">{{ $t("text.Minimum_Deposit") }} </span> 100 THB</td>
+              <td class="py-3 px-6 text-gray-400"><span class="text-white text-xs">{{ $t("text.Minimum_Withdrawal") }} </span> 500 THB</td>
+              <td class="py-3 px-6 text-gray-400"><span class="text-white text-xs">{{ $t("text.Maximum_Withdrawal") }} </span> 300,000 THB/DAY</td>
               <td class="py-3 px-6">{{ $t("text.Instant") }}</td>
             </tr>
           </tbody>
@@ -51,43 +51,43 @@
       <div class="overflow-x-auto withdrawal-scroll-block accordion-table">
         <table class="table-auto w-full text-left text-white w-full flex-no-wrap rounded-lg overflow-hidden my-5">
           <thead>
-            <tr class="hidden lg-block border-b border-[#3e3f3f]  flex flex-col flex-no wrap md:table-row rounded-l-lg sm:rounded-none mb-2 sm:mb-0">
+            <!-- <tr class="hidden lg-block border-b border-[#3e3f3f]  flex flex-col flex-no wrap md:table-row rounded-l-lg sm:rounded-none mb-2 sm:mb-0">
               <th class="py-3 px-6">{{ $t("text.Channel") }}</th>
               <th class="py-3 px-6">{{ $t("text.Minimum_Deposit") }}</th>
               <th class="py-3 px-6">{{ $t("text.Minimum_Withdrawal") }}</th>
               <th class="py-3 px-6">{{ $t("text.Maximum_Withdrawal") }}</th>
               <th class="py-3 px-6">{{ $t("text.Processing_Time") }}</th>
-            </tr>
+            </tr> -->
           </thead>
           <tbody>
             <tr class="flex flex-col flex-no wrap sm:table-row rounded-l-lg sm:rounded-none mb-2 sm:mb-0">
-              <td class="py-3 px-6 flex items-center">
-                <img :src="section1_3" alt="bronze" class="w-20 mr-2">
+              <td class="py-3 px-6 flex items-center text-xs">
+                <img :src="section1_3" alt="bronze" class=" mr-2">
                 Qr Code
               </td>
-              <td class="py-3 px-6">100 THB</td>
-              <td class="py-3 px-6">500 THB</td>
-              <td class="py-3 px-6">300,000 THB/DAY</td>
+              <td class="py-3 px-6 text-gray-400"><span class="text-white text-xs">{{ $t("text.Minimum_Deposit") }} </span> 100 THB</td>
+              <td class="py-3 px-6 text-gray-400"><span class="text-white text-xs">{{ $t("text.Minimum_Withdrawal") }} </span> 500 THB</td>
+              <td class="py-3 px-6 text-gray-400"><span class="text-white text-xs">{{ $t("text.Maximum_Withdrawal") }} </span> 300,000 THB/DAY</td>
               <td class="py-3 px-6">ทันที</td>
             </tr>
             <tr class="flex flex-col flex-no wrap sm:table-row rounded-l-lg sm:rounded-none mb-2 sm:mb-0">
-              <td class="py-3 px-6 flex items-center">
-                <img :src="section1_4" alt="silver" class="w-20 mr-2">
+              <td class="py-3 px-6 flex items-center text-xs">
+                <img :src="section1_4" alt="silver" class=" mr-2">
                 Online Banking
               </td>
-              <td class="py-3 px-6">100 THB</td>
-              <td class="py-3 px-6">500 THB</td>
-              <td class="py-3 px-6">300,000 THB/DAY</td>
+              <td class="py-3 px-6 text-gray-400"><span class="text-white text-xs">{{ $t("text.Minimum_Deposit") }} </span> 100 THB</td>
+              <td class="py-3 px-6 text-gray-400"><span class="text-white text-xs">{{ $t("text.Minimum_Withdrawal") }} </span> 500 THB</td>
+              <td class="py-3 px-6 text-gray-400"><span class="text-white text-xs">{{ $t("text.Maximum_Withdrawal") }} </span> 300,000 THB/DAY</td>
               <td class="py-3 px-6">ทันที</td>
             </tr>
             <tr class="flex flex-col flex-no wrap sm:table-row rounded-l-lg sm:rounded-none mb-2 sm:mb-0">
-              <td class="py-3 px-6 flex items-center">
-                <img :src="section1_4" alt="silver" class="w-20 mr-2">
+              <td class="py-3 px-6 flex items-center text-xs">
+                <img :src="section1_4" alt="silver" class=" mr-2">
                 Online Banking
               </td>
-              <td class="py-3 px-6">100 THB</td>
-              <td class="py-3 px-6">500 THB</td>
-              <td class="py-3 px-6">300,000 THB/DAY</td>
+              <td class="py-3 px-6 text-gray-400"><span class="text-white text-xs">{{ $t("text.Minimum_Deposit") }} </span> 100 THB</td>
+              <td class="py-3 px-6 text-gray-400"><span class="text-white text-xs">{{ $t("text.Minimum_Withdrawal") }} </span> 500 THB</td>
+              <td class="py-3 px-6 text-gray-400"><span class="text-white text-xs">{{ $t("text.Maximum_Withdrawal") }} </span> 300,000 THB/DAY</td>
               <td class="py-3 px-6">ทันที</td>
             </tr>
           </tbody>

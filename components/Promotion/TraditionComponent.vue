@@ -4,6 +4,13 @@
       backgroundImage: `url(${section_bg})`,
     }"
   >
+    <div class="text-center">
+      <h2 class="text-white font-bold mb-4 motion-preset-fade motion-delay-[700ms]">
+        <span class="text-3xl ">{{ $t("Promotion.Header_bonus_title") }}</span><br>
+        <span class="text-xl ">{{ $t("Promotion.Header_bonus_title_sub") }}</span>
+      </h2>
+      
+    </div>
     <div class="flex justify-center items-center min-h-screen p-6">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-5xl w-full">
         <!-- Card 1: My Bonus -->
