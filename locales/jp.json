@@ -143,7 +143,8 @@
   "Platform": {
     "Header_welcome_title": "myport",
     "Header_welcome_subttile": "アプリトレード",
-    "Header_welcome_description": "あらゆるニーズを満たし、使いやすく、カスタマイズできます。myport アプリケーションで取引に合わせて",
+    "Header_welcome_description": "あらゆるニーズを満たし、使いやすく、カスタマイズできます。",
+    "Header_welcome_description_enter" : "myport アプリケーションで取引に合わせて",
     "Header_welcome_subdescription": "革新的なプラットフォーム",
     "Header_welcome_cta": "今すぐ参加",
     "NuxtLink_1": "MYPORT/ アプリトレード",
@@ -198,6 +199,7 @@
     "Header_welcome_cta": "パートナーとして参加",
     "Header_welcome_cta_title": "2015年以来の報酬コミッション",
     "Header_welcome_cta_description": "$ 90,920,739.85",
+    "Header_welcome_dolar_description" : "",
     "Header_row_description_1": "毎月のロイヤルティプログラム報酬。",
     "Header_row_description_2": "最大65%のコミッションを獲得。",
     "Header_row_description_3": "マーケティング素材とサポート。",

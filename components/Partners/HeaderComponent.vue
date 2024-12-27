@@ -14,7 +14,7 @@
         <h2 class="text-4xl font-bold text-white mb-4 motion-preset-slide-left-sm motion-delay-[800ms]">
           {{ $t("Partners.Header_welcome_title") }} my<span class="text-primary-400">{{ $t("Partners.Header_welcome_subttile") }}</span>
         </h2>
-        <p class="page-header-description text-lg mb-6 text-secondary-500 motion-preset-blur-left block motion-delay-[1200ms]">
+        <p class="page-header-description text-lg mb-6 text-secondary-200 motion-preset-blur-left block motion-delay-[1200ms]">
           {{ $t("Partners.Header_welcome_description") }}
         </p>
 
@@ -38,7 +38,8 @@
             {{ $t("Partners.Header_welcome_cta_title") }}
           </div>
           <div class="paid-out-number text-4xl font-bold mt-2 motion-preset-blur-left block motion-delay-[1800ms]">
-            {{ $t("Partners.Header_welcome_cta_description") }}
+            {{ $t("Partners.Header_welcome_cta_description") }}<br>
+            {{ $t("Partners.Header_welcome_dolar_description") }}
           </div>
         </div>
       </div>

@@ -147,7 +147,8 @@
   "Platform": {
       "Header_welcome_title" : "myport",
       "Header_welcome_subttile" : "App Trade",
-      "Header_welcome_description" : "The myport application meets all your trading needs. It's user-friendly and customizable to fit your preferences.",
+      "Header_welcome_description" : "The myport application meets all your trading needs. It's user-friendly",
+      "Header_welcome_description_enter" : "and customizable to fit your preferences.",
       "Header_welcome_subdescription" : "A cutting-edge innovative platform",
       "Header_welcome_cta" : "Join us",
       "NuxtLink_1" : "MYPORT/ App Trade",
@@ -202,6 +203,7 @@
       "Header_welcome_cta": "Join us as a partner",
       "Header_welcome_cta_title": "Commission rewards since 2015",
       "Header_welcome_cta_description": "$ 90,920,739.85",
+      "Header_welcome_dolar_description" : "",
       "Header_row_description_1": "Monthly loyalty program rewards.",
       "Header_row_description_2": "Earn up to 65% commissions.",
       "Header_row_description_3": "Marketing materials and assistance.",

@@ -98,7 +98,8 @@
     "Platform": {
       "Header_welcome_title" : "myport",
       "Header_welcome_subttile" : "App Trade",
-      "Header_welcome_description" : "ຕອບໂຈດທຸກການໃຊ້ງານ ໃຊ້ງ່າຍ ສາມາດປັບແຕ່ງໃຫ້ເຂົ້າກັບການເທຣດຂອງເຈົ້າ ໃນແອັບພິເກຊັນ Myport",
+      "Header_welcome_description" : "ຕອບໂຈດທຸກການໃຊ້ງານ ໃຊ້ງ່າຍ ສາມາດປັບແຕ່ງໃຫ້ເຂົ້າກັບການເທຣດຂອງເຈົ້າ",
+      "Header_welcome_description_enter" : "ໃນແອັບພິເກຊັນ Myport",
       "Header_welcome_subdescription" : "ແພລະຟອດພາຍໃນການປິງລາວຕົວພິພູນ",
       "Header_welcome_cta" : "ກວມລາວ",
       "NuxtLink_1" : "MYPORT/ App Trade",
@@ -203,6 +204,7 @@
     "Header_welcome_cta": "ຮ່ວມງານເປັນຄູ່ຮ່ວມງານຂອງພວກເຮົາ",
     "Header_welcome_cta_title": "ລາງວັນຄ່ານາຍຫນ້າຕັ້ງແຕ່ປີ 2015",
     "Header_welcome_cta_description": "$ 90,920,739.85",
+    "Header_welcome_dolar_description" : "",
     "Header_row_description_1": "ໂປຣແກຣມລາງວັນລວດສັມພັນປະຈຳເດືອນ.",
     "Header_row_description_2": "ຮັບສ່ວນແບ່ງຄ່ານາຍຫນ້າສູງສຸດ 65%.",
     "Header_row_description_3": "ສື່ສະໜັບສະໜູນການຕະຫຼາດ ແລະການຊ່ວຍເຫຼືອ.",

@@ -144,7 +144,8 @@
   "Platform": {
     "Header_welcome_title": "myport",
     "Header_welcome_subttile": "应用程序交易",
-    "Header_welcome_description": "满足各种需求,易于使用,可定制。以适应您的交易 在 myport 应用程序中",
+    "Header_welcome_description": "满足各种需求,易于使用,可定制。以适应您的交易 在 ",
+    "Header_welcome_description_enter" : "myport 应用程序中",
     "Header_welcome_subdescription": "创新平台",
     "Header_welcome_cta": "立即加入",
     "NuxtLink_1": "MYPORT/ 应用程序交易",
@@ -199,6 +200,7 @@
     "Header_welcome_cta": "加入我们成为合作伙伴",
     "Header_welcome_cta_title": "自2015年以来的佣金奖励",
     "Header_welcome_cta_description": "$ 90,920,739.85",
+    "Header_welcome_dolar_description" : "",
     "Header_row_description_1": "每月忠诚度奖励计划。",
     "Header_row_description_2": "赚取高达72%的佣金。",
     "Header_row_description_3": "市场推广材料与协助。",

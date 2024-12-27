@@ -10,7 +10,8 @@
               {{ $t("Platform.Header_welcome_subttile") }}
             </h2>
             <p class="mt-4 text-lg text-gray-400 motion-preset-blur-left block motion-delay-[1200ms]">
-              {{ $t("Platform.Header_welcome_description") }}
+              {{ $t("Platform.Header_welcome_description") }}<br>
+              {{ $t("Platform.Header_welcome_description_enter") }}
             </p>
             <div class="mt-6 flex flex-col xl:flex-row space-x-0 xl:space-x-4 flex gap-4 ">
               <NuxtLink to="/">
@@ -26,7 +27,7 @@
           <!-- Image Section -->
           <div class="md:w-1/2 mt-8 md:mt-0 px-5 lg:px-16 pt-16">
             <img :src="section1_2" class="w-[80%] h-auto mx-auto">
-            <img :src="section1_3" class="fix-drop-right-top block hidden md:block absolute app-mobile-icon transform  right-0 -translate-y-1/2 w-100 top-1/2 z-20">
+            <img :src="section1_3" class="fix-drop-right-top block hidden md:block absolute app-mobile-icon transform  right-0 -translate-y-1/2 w-100 top-[60%] z-20">
           </div>
         </div>
       </div>
