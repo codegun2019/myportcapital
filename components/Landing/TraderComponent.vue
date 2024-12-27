@@ -9,9 +9,9 @@
             <h2 data-aos="fade-up" data-aos-duration="1000" class="text-4xl lg:text-left xl:tex-teft text-center font-bold">
               {{ $t("Home.Trader_welcome_title") }} <span class="text-primary-500">{{ $t("Home.Trader_welcome_title_sub") }}</span>
             </h2>
-            <h2 data-aos="fade-up" data-aos-duration="1000" class="mt-[16px] text-xs text-center text-body-2 text-white sm:text-body-1 md:mt-0 lg:text-start lg:text-heading-6">
-              {{ $t("Home.Trader_welcome_subttile") }}
-            </h2>
+            <h3 data-aos="fade-up" data-aos-duration="1000" class="mt-[16px] text-xs text-center text-body-2 text-white sm:text-body-1 md:mt-0 lg:text-start lg:text-heading-6">
+             {{ $t("Home.Trader_welcome_subttile") }}
+            </h3>
             <p data-aos="fade-up" data-aos-duration="1000" class="mt-3 text-center text-body-4 text-secondary-500 sm:text-body-3 lg:text-start lg:text-heading-body">
               {{ $t("Home.Trader_welcome_description") }}
             </p>

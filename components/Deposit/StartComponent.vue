@@ -2,7 +2,7 @@
   <section class="bg-[#0b090a]" id="section-start-trader">
     <div class="grid grid-cols-1 md:grid-cols-2">
       <!-- Right content section -->
-      <div class="flex items-center px-[16px] pb-[62px] pt-[16px] md:pb-0 md:pt-[0]">
+      <div class="flex items-center px-[16px] pt-[16px] md:pb-0 md:pt-[0]">
         <div class="px-5 py-20">
           <div>
             <h3 data-aos="fade-up" data-aos-duration="1000" class="text-4xl font-bold mb-4 text-center md:text-left">

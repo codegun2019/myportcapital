@@ -143,7 +143,7 @@
             <img class="w-10 h-10 rounded-full border-2 border-white" src="https://i.pravatar.cc/40?img=2" alt="Partner 2">
             <img class="w-10 h-10 rounded-full border-2 border-white" src="https://i.pravatar.cc/40?img=3" alt="Partner 3">
           </div>
-          <div class="text-xl md:text-2xl font-bold">
+          <div class="text-xl md:text-2xl font-bold pl-3">
             {{ $t("FooterPartner.join_title") }}{{ $t("FooterPartner.join_subtitle") }} 68,745 {{ $t("FooterPartner.cta") }}
           </div>
         </div>
