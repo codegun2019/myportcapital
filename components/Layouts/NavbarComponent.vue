@@ -17,7 +17,7 @@
         </button>
 
         <!-- Menu items (hidden on mobile, shown on desktop) -->
-        <div :class="{'hidden': isMobileMenuOpen, 'hidden': !isMobileMenuOpen}" class="md:flex md:space-x-6 hidden md:block">
+        <div :class="{'hidden': isMobileMenuOpen, 'hidden': !isMobileMenuOpen}" class="sm:flex sm:space-x-6 hidden sm:block">
           <NuxtLink  @click="closeMobileMenu" to="/">{{ $t("menu.home") }}</NuxtLink>
           
           <!-- <a href="#" class="hover:text-primary-400">{{ $t("menu.buy") }}</a>
@@ -68,8 +68,8 @@
           </div>
         </div>
 
-        <a href="#"  class="px-4 py-2 bg-primary-500 hover:bg-primary-700 text-white rounded-lg">{{ $t("buttons.open_account") }}</a>
-        <a href="#" class="px-4 py-2 bg-gray-800 hover:bg-gray-700 text-white rounded-lg hidden sm:block">{{ $t("buttons.login") }}</a>
+        <a href="#"  class="px-4 py-2 bg-primary-500 hover:bg-primary-700 text-white rounded-lg ">{{ $t("buttons.open_account") }}</a>
+        <a href="#" class="px-4 py-2 bg-gray-800 hover:bg-gray-700 text-white rounded-lg hidden xs:block">{{ $t("buttons.login") }}</a>
       </div>
     </nav>
 

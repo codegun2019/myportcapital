@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-primaryDarkNight text-white py-16 px-4 lg:px-24 pt-16">
+  <div class="bg-primaryDarkNight text-white py-16 px-4 lg:px-8 pt-16">
     <section class="container mx-auto" id="section-ready">
     <!-- Section Header -->
       <div class="text-center my-10">

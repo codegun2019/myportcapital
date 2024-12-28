@@ -1,5 +1,5 @@
 <template>
-  <section id="section-trader" :style="{ backgroundImage: `url(${section6_1})`, backgroundSize: 'cover', backgroundPosition: 'left' }" class="bg-bottom 2xl:bg-contain bg-left bg-black min-h-screen bg-top text-white bg-[80%_0%] bg-no-repeat">
+  <section id="section-trader" :style="{ backgroundImage: `url(${section6_1})`, backgroundSize: 'cover' }" class="xl:bg-bottom lg:bg-bottom md:bg-bottom bg-left 2xl:bg-contain bg-black min-h-screen text-white bg-[80%_0%] bg-no-repeat">
     <div class="container mx-auto px-[16px]">
       <div class="grid grid-cols-1 gap-4 lg:grid-cols-2">
         <!-- Left content -->

@@ -13,7 +13,7 @@
     loop=""
     :poster="loadpage"
     id="hero-video"
-    class="absolute top-0 grayscale brightness-100 lg:left-20 left-0 w-full h-full object-cover z-0"
+    class="absolute top-0 grayscale brightness-100 lg:left-0 left-0 w-full h-full object-cover z-0"
     
   >
     <source :src="cover" type="video/webm" />
@@ -108,4 +108,5 @@ onMounted(() => {
 audio, canvas, video {
   display: inline-block;
 }
+
 </style>

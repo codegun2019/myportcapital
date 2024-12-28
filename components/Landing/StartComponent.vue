@@ -8,7 +8,7 @@
       </div>
       <!-- Right content section -->
       <div class="order-1 md:order-2 flex items-center px-[16px] pb-[62px] pt-[16px] md:pb-0 md:pt-[0]">
-        <div class="md:p-20 px-1 py-10">
+        <div class="lg:p-20 px-1 py-10">
           <div>
             <h2 data-aos="fade-up" data-aos-duration="1000" class="text-4xl mt-5 mb-5 font-bold lg:text-left xl:tex-teft text-center">
               <span class="text-white">{{ $t("Home.Start_welcome_title") }}</span>

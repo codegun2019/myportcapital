@@ -1,5 +1,5 @@
 <template>
-<div class="bg-dark-500 text-white md:py-16 min-h-screen  py-5 md:px-16 px-5 items-center justify-center">
+<div class="bg-dark-500 text-white md:py-16 xl-min-h-screen  py-5 md:px-16 px-5 items-center justify-center">
   <div class="text-center">
     <h1 class="text-4xl font-bold mb-4 motion-preset-fade-lg motion-delay-500">
       {{ $t("Package.Header_welcome_title") }}<span class="text-primary-500">{{ $t("Package.Header_welcome_subttile") }}</span>

@@ -1,11 +1,11 @@
 <template>
-  <section id="section-trader" :style="{ backgroundImage: `url(${section6_1})`, backgroundSize: 'cover', backgroundPosition: 'left' }" class="bg-bottom 2xl:bg-contain bg-left bg-black min-h-screen bg-top text-white bg-[80%_0%] bg-no-repeat">
+  <section id="section-trader" :style="{ backgroundImage: `url(${section6_1})`, backgroundSize: 'cover'}" class="bg-left  2xl:bg-contain  bg-black min-h-screen  text-white bg-[80%_0%] bg-no-repeat">
     <div class="container mx-auto px-[16px]">
-      <div class="grid grid-cols-1 gap-4 lg:grid-cols-2">
+      <div class="grid grid-cols-1 gap-4 xl:grid-cols-2">
         <!-- Left content -->
         <div class="flex items-center justify-center min-h-screen pl-0 pt-[62px] lg:justify-start lg:pl-12 lg:pt-0">
           <div>
-            <img :src="section6_2" alt="web" class="block md:hidden w-100 mb-2" />
+            <img :src="section6_2" alt="web" class="block xl:hidden w-100 mb-2" />
             <h2 data-aos="fade-up" data-aos-duration="1000" class="text-4xl lg:text-left xl:tex-teft text-center font-bold">
               {{ $t("Home.Trader_welcome_title") }} <span class="text-primary-500">{{ $t("Home.Trader_welcome_title_sub") }}</span>
             </h2>

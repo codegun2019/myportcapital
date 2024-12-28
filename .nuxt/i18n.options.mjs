@@ -1,10 +1,10 @@
 
 // @ts-nocheck
-import locale_C_58_C_58_Users_gmcod_Desktop_myportcapital_locales_en_json from "../locales/en.json";
-import locale_C_58_C_58_Users_gmcod_Desktop_myportcapital_locales_th_json from "../locales/th.json";
-import locale_C_58_C_58_Users_gmcod_Desktop_myportcapital_locales_zh_json from "../locales/zh.json";
-import locale_C_58_C_58_Users_gmcod_Desktop_myportcapital_locales_jp_json from "../locales/jp.json";
-import locale_C_58_C_58_Users_gmcod_Desktop_myportcapital_locales_lo_json from "../locales/lo.json";
+import locale__Users_photograph_Desktop_myportcapital_locales_en_json from "../locales/en.json";
+import locale__Users_photograph_Desktop_myportcapital_locales_th_json from "../locales/th.json";
+import locale__Users_photograph_Desktop_myportcapital_locales_zh_json from "../locales/zh.json";
+import locale__Users_photograph_Desktop_myportcapital_locales_jp_json from "../locales/jp.json";
+import locale__Users_photograph_Desktop_myportcapital_locales_lo_json from "../locales/lo.json";
 
 
 export const localeCodes =  [
@@ -16,11 +16,11 @@ export const localeCodes =  [
 ]
 
 export const localeLoaders = {
-  "en": [{ key: "../locales/en.json", load: () => Promise.resolve(locale_C_58_C_58_Users_gmcod_Desktop_myportcapital_locales_en_json), cache: true }],
-  "th": [{ key: "../locales/th.json", load: () => Promise.resolve(locale_C_58_C_58_Users_gmcod_Desktop_myportcapital_locales_th_json), cache: true }],
-  "zh": [{ key: "../locales/zh.json", load: () => Promise.resolve(locale_C_58_C_58_Users_gmcod_Desktop_myportcapital_locales_zh_json), cache: true }],
-  "jp": [{ key: "../locales/jp.json", load: () => Promise.resolve(locale_C_58_C_58_Users_gmcod_Desktop_myportcapital_locales_jp_json), cache: true }],
-  "lo": [{ key: "../locales/lo.json", load: () => Promise.resolve(locale_C_58_C_58_Users_gmcod_Desktop_myportcapital_locales_lo_json), cache: true }]
+  "en": [{ key: "../locales/en.json", load: () => Promise.resolve(locale__Users_photograph_Desktop_myportcapital_locales_en_json), cache: true }],
+  "th": [{ key: "../locales/th.json", load: () => Promise.resolve(locale__Users_photograph_Desktop_myportcapital_locales_th_json), cache: true }],
+  "zh": [{ key: "../locales/zh.json", load: () => Promise.resolve(locale__Users_photograph_Desktop_myportcapital_locales_zh_json), cache: true }],
+  "jp": [{ key: "../locales/jp.json", load: () => Promise.resolve(locale__Users_photograph_Desktop_myportcapital_locales_jp_json), cache: true }],
+  "lo": [{ key: "../locales/lo.json", load: () => Promise.resolve(locale__Users_photograph_Desktop_myportcapital_locales_lo_json), cache: true }]
 }
 
 export const vueI18nConfigs = [
@@ -55,7 +55,7 @@ export const nuxtI18nOptions = {
       "name": "English",
       "language": "en-US",
       "files": [
-        "C:/Users/gmcod/Desktop/myportcapital/locales/en.json"
+        "/Users/photograph/Desktop/myportcapital/locales/en.json"
       ]
     },
     {
@@ -63,7 +63,7 @@ export const nuxtI18nOptions = {
       "name": "ไทย",
       "language": "th-TH",
       "files": [
-        "C:/Users/gmcod/Desktop/myportcapital/locales/th.json"
+        "/Users/photograph/Desktop/myportcapital/locales/th.json"
       ]
     },
     {
@@ -71,7 +71,7 @@ export const nuxtI18nOptions = {
       "name": "中文",
       "language": "zh-CN",
       "files": [
-        "C:/Users/gmcod/Desktop/myportcapital/locales/zh.json"
+        "/Users/photograph/Desktop/myportcapital/locales/zh.json"
       ]
     },
     {
@@ -79,7 +79,7 @@ export const nuxtI18nOptions = {
       "name": "日本語",
       "language": "ja-JP",
       "files": [
-        "C:/Users/gmcod/Desktop/myportcapital/locales/jp.json"
+        "/Users/photograph/Desktop/myportcapital/locales/jp.json"
       ]
     },
     {
@@ -87,7 +87,7 @@ export const nuxtI18nOptions = {
       "name": "ລາວ",
       "language": "lo-LA",
       "files": [
-        "C:/Users/gmcod/Desktop/myportcapital/locales/lo.json"
+        "/Users/photograph/Desktop/myportcapital/locales/lo.json"
       ]
     }
   ],
@@ -120,7 +120,7 @@ export const normalizedLocales = [
     "language": "en-US",
     "files": [
       {
-        "path": "C:/Users/gmcod/Desktop/myportcapital/locales/en.json"
+        "path": "/Users/photograph/Desktop/myportcapital/locales/en.json"
       }
     ]
   },
@@ -130,7 +130,7 @@ export const normalizedLocales = [
     "language": "th-TH",
     "files": [
       {
-        "path": "C:/Users/gmcod/Desktop/myportcapital/locales/th.json"
+        "path": "/Users/photograph/Desktop/myportcapital/locales/th.json"
       }
     ]
   },
@@ -140,7 +140,7 @@ export const normalizedLocales = [
     "language": "zh-CN",
     "files": [
       {
-        "path": "C:/Users/gmcod/Desktop/myportcapital/locales/zh.json"
+        "path": "/Users/photograph/Desktop/myportcapital/locales/zh.json"
       }
     ]
   },
@@ -150,7 +150,7 @@ export const normalizedLocales = [
     "language": "ja-JP",
     "files": [
       {
-        "path": "C:/Users/gmcod/Desktop/myportcapital/locales/jp.json"
+        "path": "/Users/photograph/Desktop/myportcapital/locales/jp.json"
       }
     ]
   },
@@ -160,7 +160,7 @@ export const normalizedLocales = [
     "language": "lo-LA",
     "files": [
       {
-        "path": "C:/Users/gmcod/Desktop/myportcapital/locales/lo.json"
+        "path": "/Users/photograph/Desktop/myportcapital/locales/lo.json"
       }
     ]
   }

@@ -12,7 +12,7 @@
             <div
               v-for="(icon, index) in icons"
               :key="index"
-              class="bg-black h-full border border-dark-400 rounded-[24px] h-60 p-4 relative w-full max-w-md"
+              class="bg-black h-full border border-dark-400 rounded-[24px] h-60 p-4 relative w-full max-w-sm"
             >
               <div class="flex items-center justify-between">
                 <!-- Icon and text section -->

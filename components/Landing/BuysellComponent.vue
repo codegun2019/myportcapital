@@ -1,33 +1,33 @@
 <template>
   <div :style="{
       backgroundImage: `url(${BglightImage})`,
-    }" class="bg-light 2xl:bg-bottom bg-top 2xl:bg-contain xl:bg-contain lg:bg-contain 2xl:bg-left bg-no-repeat bg-black text-white flex items-center justify-center">
+    }" class="bg-light 2xl:bg-bottom bg-top 2xl:bg-contain xl:bg-contain lg:bg-cover md:bg-contain bg-cover 2xl:bg-left bg-no-repeat bg-black text-white flex items-center justify-center">
     <section  class=" pt-[62px] md:pt-[125px]" id="buysell-section">
       <div class=" mx-auto">
         <div class="container-section-custom">
           <div class="grid grid-cols-1 lg:grid-cols-2">
             <!-- Left side image -->
-            <div class="order-2 md:order-1">
+            <div class="order-2 lg:order-1">
               <div class="flex justify-center pb-[10px] md:pb-0 mt-16">
                 <div class="relative w-full h-[600px] app-all-mobile">
-                  <img data-aos="fade-in" data-aos-duration="6000" :src="section5_1" class="fix-drop-strone hidden md:block absolute bottom-0 left-1/2 transform -translate-x-1/2 h-auto">
+                  <img data-aos="fade-in" data-aos-duration="6000" :src="section5_1" class="fix-drop-strone hidden md:block absolute bottom-0 xl:left-1/2 transform -translate-x-1/2 h-auto">
                   <img data-aos="fade-in" data-aos-duration="6000" :src="section5_2" 
                   :alt="$t('Home.Buysell_welcome_title')"
-                  class="absolute md:left-1/2 left-32 transform -translate-x-1/2 bottom-16  h-auto z-10">
+                  class="absolute xl:left-1/2 left-32 transform -translate-x-1/2 bottom-16  h-auto z-10">
                   <img data-aos="fade-in" data-aos-duration="6000" :src="section5_3" 
                   class="absolute app-mobile-icon fix-drop-right-top transform -translate-x-2/10  -translate-y-1/2 top-2/4 w-36 h-36 z-20">
-                  <img :src="section5_4" class="absolute bottom-0 hidden md:block left-1/2 transform -translate-x-1/2 h-auto">    
+                  <img :src="section5_4" class="absolute bottom-0 hidden md:block xl:left-1/2 transform -translate-x-1/2 h-auto">
                 </div>
               </div>
             </div>
             <!-- Right side content -->
-            <div class="order-1 md:order-2">
+            <div class="order-1 lg:order-2">
               <h2 class="text-4xl font-bold mt-20 lg:mt-44 text-center 2xl:text-left xl:text-left">
                 <span class="md:inline block mr-4">{{ $t("Home.Buysell_welcome_title") }}</span>
                 <span class="md:inline block text-primary-500">{{ $t("Home.Buysell_welcome_title_sub") }}</span>
               </h2>
-              <h3 class="text-xs text-center text-body-2 text-white sm:text-body-1 md:mt-0 lg:text-start lg:text-heading-6 mb-24">{{ $t("Home.Trader_welcome_subttile") }}<span class="text-white text-xs mb-24">{{ $t("Home.Buysell_welcome_title_sub") }}</span></h3>
-              <p class="mt-[28px] text-secondary-500 text-center text-button-2 md:text-heading-body lg:text-start">
+              <h3 class="text-xs text-center text-body-2 text-white sm:text-body-1 md:mt-0 xl:text-start lg:text-heading-6 mb-24">{{ $t("Home.Trader_welcome_subttile") }}<span class="text-white text-xs mb-24">{{ $t("Home.Buysell_welcome_title_sub") }}</span></h3>
+              <p class="mt-[28px] lg:p-1 p-5 text-secondary-500 text-center text-button-2 md:text-heading-body lg:text-start">
                 {{ $t("Home.Buysell_welcome_description") }}
               </p>
               <div class="flex justify-center lg:justify-start ">
@@ -43,7 +43,7 @@
 
             <!-- Download buttons for MetaTrader -->
             <div class="mt-[50px]">
-              <div class="flex max-w-[315px] flex-wrap items-center pl-5 lg:pl-0">
+              <div class="flex flex-wrap items-center justify-between max-w-[315px] pl-5 lg:pl-0">
                 <div class="basis-1/2 ">
                   <NuxtLink target="_blank" href="">
                     <img data-aos="fade-up" data-aos-duration="3000" :src="mt5Android" alt="android" class="w-100 mb-2" />
@@ -90,20 +90,28 @@ import mt5Image from '~/assets/images/landing/mt5.png'
 
 <style scoped>
 .app-mobile-icon{
-  left: 60%;
+    left: 19vw;
+    top: 23%;
+  }
+  @media screen and (min-width: 1366px) {
+
+  .app-mobile-icon{
+    left: 55%;
+    top: 23%;
+  }
+}
+@media screen and (max-width: 430px) {
+
+.app-mobile-icon{
+  left: 50%;
   top: 23%;
 }
-
+}
 @media screen and (max-width: 600px) {
-  .app-mobile-icon{
-    left: 53%;
-    top: 30%;
-  }
   .app-all-mobile{
     left: -45px;
     top: -70px;
   }
-
 }
 
 .fix-drop-right-top {

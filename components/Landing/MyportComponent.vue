@@ -26,8 +26,8 @@
           </div>
 
           <!-- Image Section -->
-          <div class="md:w-1/2 mt-8 md:mt-0 px-5 lg:px-16 pt-16">
-            <img :src="section2_2" data-aos="fade-in" data-aos-duration="3000" :alt="$t('Home.Myport_welcome_title')" class="w-[100%] h-auto mx-auto">
+          <div class="md:w-1/2 mt-8 md:mt-44 px-5 lg:px-16 pt-16">
+            <img :src="section2_2" data-aos="fade-in" data-aos-duration="3000" :alt="$t('Home.Myport_welcome_title')" class="md:mt-16 w-[100%] h-auto mx-auto">
           </div>
         </div>
       </div>

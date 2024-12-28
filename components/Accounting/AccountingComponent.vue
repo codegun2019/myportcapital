@@ -1,5 +1,5 @@
 <template>
-  <div :style="{ backgroundImage: `url(${cover})` }" class="bg-no-repeat bg-right bg-auto bg-dark-500 text-white md:py-16 py-5 md:px-16 px-5 min-h-screen flex items-center justify-center">
+  <div :style="{ backgroundImage: `url(${cover})` }" class="bg-no-repeat bg-right bg-auto bg-dark-500 text-white md:py-16 py-5 md:px-16 px-5 xl-min-h-screen flex items-center justify-center">
     <section class="text-white py-24" id="accounting-section">
       <div class="container mx-auto text-center">
         <!-- หัวข้อ -->
