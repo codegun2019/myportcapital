@@ -12,7 +12,7 @@
               <span class="text-primary-500">port</span>
               <span class="text-white"></span>
             </h3>
-            <p data-aos="fade-up" data-aos-duration="1000" class="mt-2 text-center text-secondary-400 md:text-start lg:text-body-3">
+            <p data-aos="fade-up" data-aos-duration="1000" class="mt-2 text-center text-white md:text-start lg:text-body-3">
               {{ $t("Deposit.Header_welcome_subttile") }}
             </p>
           </div>
