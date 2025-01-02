@@ -5,11 +5,13 @@
       <!-- Logo and Hamburger menu icon for mobile -->
       <div class="flex items-center space-x-0 sm:space-x-6">
         <div class="h-8 hidden sm:block" >
-          <img :src="logo" alt="logo" class="h-8 w-12" />
+          <NuxtLink @click="closeMobileMenu" to="/">
+            <img :src="logo" alt="logo" class="h-8 w-12" />
+          </NuxtLink>
         </div>
 
         <!-- Hamburger icon for mobile -->
-        <button @click="toggleMobileMenu" class="md:hidden block">
+        <button @click="toggleMobileMenu"  class="md:hidden block">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-8 w-8">
             <path v-if="!isMobileMenuOpen" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
             <path v-else stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
@@ -18,8 +20,7 @@
 
         <!-- Menu items (hidden on mobile, shown on desktop) -->
         <div :class="{'hidden': isMobileMenuOpen, 'hidden': !isMobileMenuOpen}" class="sm:flex sm:space-x-6 hidden sm:block">
-          <NuxtLink  @click="closeMobileMenu" to="/">{{ $t("menu.home") }}</NuxtLink>
-          
+          <NuxtLink class="hidden lg:block" @click="closeMobileMenu" to="/">{{ $t("menu.home") }}</NuxtLink>
           <!-- <a href="#" class="hover:text-primary-400">{{ $t("menu.buy") }}</a>
           <a href="#" class="hover:text-primary-400">{{ $t("menu.platform") }}</a>
           <a href="#" class="hover:text-primary-400">{{ $t("menu.more") }}</a> -->
@@ -29,7 +30,7 @@
           <NuxtLink  @click="closeMobileMenu" to="promotion">{{ $t("menu.promotion") }}</NuxtLink>
           <NuxtLink  @click="closeMobileMenu" to="platform">{{ $t("menu.platform") }}</NuxtLink>
           <NuxtLink  @click="closeMobileMenu" to="partners">{{ $t("menu.partners") }}</NuxtLink>
-          <NuxtLink  @click="closeMobileMenu" to="about">{{ $t("menu.about") }}</NuxtLink>
+          <NuxtLink class="hidden lg:block"  @click="closeMobileMenu" to="about">{{ $t("menu.about") }}</NuxtLink>
         </div>
       </div>
 
@@ -68,8 +69,8 @@
           </div>
         </div>
 
-        <a href="#"  class="px-4 py-2 bg-primary-500 hover:bg-primary-700 text-white rounded-lg ">{{ $t("buttons.open_account") }}</a>
-        <a href="#" class="px-4 py-2 bg-gray-800 hover:bg-gray-700 text-white rounded-lg hidden xs:block">{{ $t("buttons.login") }}</a>
+        <a href="https://client.myportcapital.com/registration"  class="px-4 py-2 bg-primary-500 hover:bg-primary-700 text-white rounded-lg ">{{ $t("buttons.open_account") }}</a>
+        <a href="https://client.myportcapital.com/login" class="px-4 py-2 bg-gray-800 hover:bg-gray-700 text-white rounded-lg hidden lg:block">{{ $t("buttons.login") }}</a>
       </div>
     </nav>
 
@@ -114,8 +115,8 @@
       </div>
 
       <div class="grid grid-cols-1 gap-4 p-4">
-        <NuxtLink href="#" class="px-24 py-5 w-100 bg-primary-600 hover:bg-primary-700 text-white rounded-lg text-center">{{ $t("buttons.open_account") }}</NuxtLink>
-        <NuxtLink href="#" class="px-24 py-5 bg-gray-800 hover:bg-gray-900 text-white rounded-lg text-center">{{ $t("buttons.login") }}</NuxtLink>
+        <NuxtLink href="https://client.myportcapital.com/registration" class="px-24 py-5 w-100 bg-primary-600 hover:bg-primary-700 text-white rounded-lg text-center">{{ $t("buttons.open_account") }}</NuxtLink>
+        <NuxtLink href="https://client.myportcapital.com/login" class="px-24 py-5 bg-gray-800 hover:bg-gray-900 text-white rounded-lg text-center">{{ $t("buttons.login") }}</NuxtLink>
       </div>
       
     </div>
