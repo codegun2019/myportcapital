@@ -33,7 +33,7 @@
     "Myport_4_subtitle": "コミッション",
     "Myport_welcome_title" : "なぜmyportウェブサイトを選ぶのですか",
     "Myport_welcome_description" : "あなたの取引スタイルを強化できる先進技術を発見してください。私のプラットフォームを通じて、世界中の資産取引にアクセスできます",
-    "Myport_welcome_description_end" : "中断のない取引 — myportは、最高の取引機会を引き出すための最先端テクノロジーを開発しました。私たちは、あなたのライフスタイルに合わせた多様な口座オプションを提供しています。株式、石油、金、金属など、幅広い投資商品の中から選択でき、すべてmyportを通じてご利用いただけます。",
+    "Myport_welcome_description_end" : "中断のない取引 — MyPortは、最高の取引機会を引き出すための最先端テクノロジーを開発しました。私たちは、あなたのライフスタイルに合わせた多様な口座オプションを提供しています。株式、石油、金、金属など、幅広い投資商品の中から選択でき、すべてMyPortを通じてご利用いただけます。",
     
     "Myport_welcome_cta": "トレードを始める",
     "Myport_welcome_ctb": "デモ口座",
@@ -77,13 +77,13 @@
     "WordTitleSub_c": "最新の市場ニュースと今後の経済イベントをいつでもどこでも",
     "Buysell_welcome_title": "携帯電話で資産を簡単に取引",
     "Buysell_welcome_title_sub": "",
-    "Buysell_welcome_description": "モバイルで使いやすく、高速なmyportを利用すれば、世界中のどの国からでも取引が可能です。このプラットフォームは、あらゆる取引環境において最も先進的なものとなるように開発されました",
+    "Buysell_welcome_description": "モバイルで使いやすく、高速なMyPortを利用すれば、世界中のどの国からでも取引が可能です。このプラットフォームは、あらゆる取引環境において最も先進的なものとなるように開発されました",
     "Buysell_welcome_cta": "もっと見る",
     "Trader_welcome_title": "コンピューター上で資産を簡単に取引",
     "Trader_welcome_title_sub": "",
     "Trader_welcome_subttile": "強力なトレードターミナル",
-    "Trader_welcome_description": "デスクトップから簡単にアクセスできるmyportを使用することで、世界中どこからでも取引が可能になります。このプラットフォームは、あらゆる取引環境において最も先進的なものとなるように開発されています。",
-    "Trader_welcome_description_market": "いつでもどこでも取引へのアクセス Myport のアプリケーションを通じて 使いやすく、中断がなく、現代のトレーダーのニーズを満たします",
+    "Trader_welcome_description": "デスクトップから簡単にアクセスできるMyPortを使用することで、世界中どこからでも取引が可能になります。このプラットフォームは、あらゆる取引環境において最も先進的なものとなるように開発されています。",
+    "Trader_welcome_description_market": "いつでもどこでも取引へのアクセス MyPort のアプリケーションを通じて 使いやすく、中断がなく、現代のトレーダーのニーズを満たします",
     "Trader_welcome_cta": "もっと見る",
     "Trader_welcome_ctb": "MetaTrader をダウンロード",
 
@@ -100,7 +100,7 @@
     "Header_welcome_subdescription": "革新的なプラットフォームによって推進される",
     "Header_welcome_cta": "今すぐ参加",
     "Footer_welcome_title": "今日からグローバルマーケットでのトレードを始めよう",
-    "Footer_welcome_description": "すべてのプラットフォームで取引可能、MYPORT Web Trade、MYPORT App Trade、Myport。MetaTraderは現代のトレーダーに最適な選択です",
+    "Footer_welcome_description": "すべてのプラットフォームで取引可能、MyPort Web Trade、MyPort App Trade、MyPort。MetaTraderは現代のトレーダーに最適な選択です",
     "Header_welcome_cta_1": "取引する",
     "Header_welcome_cta_2": "デモ口座"
   },
@@ -144,7 +144,7 @@
     "Header_welcome_title": "myport",
     "Header_welcome_subttile": "アプリトレード",
     "Header_welcome_description": "あらゆるニーズを満たし、使いやすく、カスタマイズできます。",
-    "Header_welcome_description_enter" : "myport アプリケーションで取引に合わせて",
+    "Header_welcome_description_enter" : "MyPort アプリケーションで取引に合わせて",
     "Header_welcome_subdescription": "革新的なプラットフォーム",
     "Header_welcome_cta": "今すぐ参加",
     "NuxtLink_1": "MYPORT/ アプリトレード",
@@ -170,7 +170,7 @@
     "Trader_welcome_title_sub": "",
     "Trader_welcome_subttile": "強力なトレードターミナル",
     "Trader_welcome_description": "オペレーティングシステムに適した最適な取引アプリケーション ウィンドウ コンピュータ いつでもどこでもアセットにアクセスできます",
-    "Trader_welcome_description_market": "いつでもどこでも取引へのアクセス Myport のアプリケーションを通じて 使いやすく、中断がなく、現代のトレーダーのニーズを満たします",
+    "Trader_welcome_description_market": "いつでもどこでも取引へのアクセス MyPort のアプリケーションを通じて 使いやすく、中断がなく、現代のトレーダーのニーズを満たします",
     "Trader_welcome_cta": "もっと見る",
     "Trader_welcome_ctb": "MetaTrader をダウンロード"
 
@@ -195,7 +195,7 @@
     "Header_about_subttile": "パートナー",
     "Header_welcome_title": "myPortパートナープログラムに参加",
     "Header_welcome_subttile": "プラットフォーム",
-    "Header_welcome_description": "myPortで稼ぐチャンスに踏み出しましょう。ただの取引以上を提供するプラットフォームです。",
+    "Header_welcome_description": "MyPortで稼ぐチャンスに踏み出しましょう。ただの取引以上を提供するプラットフォームです。",
     "Header_welcome_cta": "パートナーとして参加",
     "Header_welcome_cta_title": "2015年以来の報酬コミッション",
     "Header_welcome_cta_description": "$ 90,920,739.85",
@@ -249,11 +249,11 @@
 },
 
 "Review": {
-    "review_1": "過去数年間で、ウェブサイトは近代化され、使いやすくなり、myPortとの仕事がよりスムーズになりました。",
-    "review_2": "myPortで取引を始め、高いコミッションを受け取り、実際の財務的安定を実現しました。",
-    "review_3": "myPortとxx年以上の取引をしており、安定性と優れたサービスを実感しています。",
-    "review_4": "myPortのウェブサイトとアプリケーションは常に進化しており、パートナーがさまざまな方法で収益を得るための機会を提供しています。",
-    "review_5": "myPortで取引している間、素晴らしい体験をしました。"
+    "review_1": "過去数年間で、ウェブサイトは近代化され、使いやすくなり、MyPortとの仕事がよりスムーズになりました。",
+    "review_2": "MyPortで取引を始め、高いコミッションを受け取り、実際の財務的安定を実現しました。",
+    "review_3": "MyPortとxx年以上の取引をしており、安定性と優れたサービスを実感しています。",
+    "review_4": "MyPortのウェブサイトとアプリケーションは常に進化しており、パートナーがさまざまな方法で収益を得るための機会を提供しています。",
+    "review_5": "MyPortで取引している間、素晴らしい体験をしました。"
 }
 ,
 
@@ -293,7 +293,7 @@
     }  ,
     "Cookiepolicy": {
       "title": "プライバシー＆クッキーポリシー",
-      "subtitle": "以下のプライバシーポリシーでは、myPort Capital が機密ユーザー情報の収集、管理、および保護をどのように行うかについて詳しく説明しています。",
+      "subtitle": "以下のプライバシーポリシーでは、MyPort Capital が機密ユーザー情報の収集、管理、および保護をどのように行うかについて詳しく説明しています。",
       "description": "完全なポリシーはこちら",
       "Accept": "承認",
       "Decline": "拒否",

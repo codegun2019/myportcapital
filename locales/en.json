@@ -23,7 +23,6 @@
     "Header_welcome_description": "Offering more than just trading.",
     "Header_welcome_subttile": "With no hidden fees, you can conveniently manage your funds and maximize the value of your bank account. Our user-friendly myPort platform provides a secure and seamless banking experience for all of your needs. Rest assured that your money is safe and easily accessible whenever you need it.",
     "Header_welcome_cta": "Create a Myport trading account",
-    
     "Myport_1_title": "LotBack",
     "Myport_2_title": "0.0",
     "Myport_3_title": "STP",
@@ -35,7 +34,6 @@
     "Myport_welcome_title" : "Why should you choose ",
     "Myport_welcome_description" : "Discover advanced technology that can enhance your trading style. Gain access to global asset trading through my platform",
     "Myport_welcome_description_end" : "Trade without interruption—Myport has developed the most advanced technology to unlock the best trading opportunities. We offer a variety of account options to suit your trading lifestyle. Choose from a wide range of investments, including stocks, oil, gold, metals, and much more, all available through Myport",
-    
     "Myport_welcome_cta": "Start Trading",
     "Myport_welcome_ctb": "Demo Account",
     "MyportBox_1_title": "0.0 Spread",
@@ -78,13 +76,13 @@
     "WordTitleSub_c": "Keep track of the latest market news and upcoming economic events anywhere, anytime?",
     "Buysell_welcome_title": "Easily trade assets on your ",
     "Buysell_welcome_title_sub": "Mobile",
-    "Buysell_welcome_description": "Easy to use and fast on mobile, myport enables trading from any country in the world. It has been developed to be the most advanced platform across all trading environments",
+    "Buysell_welcome_description": "Easy to use and fast on mobile, Myport enables trading from any country in the world. It has been developed to be the most advanced platform across all trading environments",
     "Buysell_welcome_cta": "Learn More",
     "Trader_welcome_title": "Easily trade assets on your ",
     "Trader_welcome_title_sub": "Computer",
     "Trader_welcome_subttile": "A Powerful Trading Terminal",
-    "Trader_welcome_description": "Easy to use via Desktop, myport enables trading from any country in the world. It has been developed to be the most advanced platform across all trading environments",
-    "Trader_welcome_description_market": "Access to trading Anywhere, anytime Through myport's application Easy to use, no interruptions, meets the needs of modern traders.",
+    "Trader_welcome_description": "Easy to use via Desktop, Myport enables trading from any country in the world. It has been developed to be the most advanced platform across all trading environments",
+    "Trader_welcome_description_market": "Access to trading Anywhere, anytime Through Myport's application Easy to use, no interruptions, meets the needs of modern traders.",
     "Trader_welcome_cta": "Learn More",
     "Trader_welcome_ctb": "Download Myport at",
     "Start_welcome_title": "Start trading with myport now",
@@ -99,7 +97,7 @@
     "Header_welcome_subdescription" : "trading style with just one click",
     "Header_welcome_cta" : "Join us",
     "Footer_welcome_title": "Start trading with myPort now.",
-    "Footer_welcome_description": "Ready to trade on all platforms: myPort is the best choice for modern traders. Take advantage of real-time market data and analysis tools to make strategic decisions. With myPort, you can access your account from anywhere and trade seamlessly across devices. Elevate your trading experience with myPort's comprehensive platform today.",
+    "Footer_welcome_description": "Ready to trade on all platforms: Myport is the best choice for modern traders. Take advantage of real-time market data and analysis tools to make strategic decisions. With Myport, you can access your account from anywhere and trade seamlessly across devices. Elevate your trading experience with Myport's comprehensive platform today.",
     "Footer_welcome_cta_1": "Trade with",
     "Footer_welcome_cta_2": "Demo Account"
 
@@ -109,7 +107,7 @@
 
   "Deposit": {
     "Header_welcome_title": "No Fees",
-    "Header_welcome_subttile": "Perform financial transactions yourself through the myport website instantly",
+    "Header_welcome_subttile": "Perform financial transactions yourself through the Myport website instantly",
     "Header_welcome_cta": "Start Trading Now"
   },
 
@@ -156,7 +154,7 @@
       "NuxtLink_3" : "Myport",
       "NuxtLink_4" : "Myport WebTerminal",
       "Header_android_title" : "For IOS",
-      "Header_android_description" : "Trade confidently with myPort for IOS, a user-friendly platform that provides fast trade signals and access to the market. With customizable features and real-time updates, myPort for iOS ensures you stay informed and make the most of your trading opportunities.",
+      "Header_android_description" : "Trade confidently with myPort for IOS, a user-friendly platform that provides fast trade signals and access to the market. With customizable features and real-time updates, Myport for iOS ensures you stay informed and make the most of your trading opportunities.",
       "Header_ios_title" : "For Android",
       "Header_ios_description" : "Trade confidently with myPort for Android, a user-friendly platform that provides fast trade signals and access to the market. Take advantage of its customizable features and stay informed on the go to maximize your success in trading.",
       "Header_welcome_title_2" : "Fast trade signals",
@@ -173,8 +171,8 @@
       "Trader_welcome_title" : "Start trading with ",
       "Trader_welcome_title_sub": "myPort now.",
       "Trader_welcome_subttile": "A Powerful Trading Terminal",
-      "Trader_welcome_description": "A Powerful Trading Terminal With comprehensive charting tools and technical analysis capabilities, myPort for Computer is an effective trading terminal for experienced traders. Take use of its user-friendly interface and efficient trade execution to improve your trading tactics and reach your financial objectives.",
-      "Trader_welcome_description_market": "The best choice for modern traders. Take advantage of real-time market data and analysis tools to make strategic decisions. With myPort, you can access your account from anywhere and trade seamlessly across devices. Elevate your trading experience with myPort's comprehensive platform today.",
+      "Trader_welcome_description": "A Powerful Trading Terminal With comprehensive charting tools and technical analysis capabilities, Myport for Computer is an effective trading terminal for experienced traders. Take use of its user-friendly interface and efficient trade execution to improve your trading tactics and reach your financial objectives.",
+      "Trader_welcome_description_market": "The best choice for modern traders. Take advantage of real-time market data and analysis tools to make strategic decisions. With Myport, you can access your account from anywhere and trade seamlessly across devices. Elevate your trading experience with Myport's comprehensive platform today.",
       "Trader_welcome_cta": "Learn More",
       "Trader_welcome_ctb": "Download Myport at"
   
@@ -199,7 +197,7 @@
       "Header_about_subttile": "Partner",
       "Header_welcome_title": "Joining into myPort Partner program",
       "Header_welcome_subttile": "Port",
-      "Header_welcome_description": "Step into earning chances with myPort, a trading platform that provides more than just trading.",
+      "Header_welcome_description": "Step into earning chances with Myport, a trading platform that provides more than just trading.",
       "Header_welcome_cta": "Join us as a partner",
       "Header_welcome_cta_title": "Commission rewards since 2015",
       "Header_welcome_cta_description": "$ 90,920,739.85",
@@ -309,7 +307,7 @@
     "Marketing": "Marketing",
     "MarketingSub": "For marketing inquiries, please contact us at:",
     "TechnicalSupport" : "Technical Support",
-    "TechnicalSub": "If you have any suggestions or ideas, myport is happy to hear your feedback. Please contact us at:",
+    "TechnicalSub": "If you have any suggestions or ideas, MyPort is happy to hear your feedback. Please contact us at:",
     "MediaInquiries" : "Media Inquiries",
     "Officesworldwide" : "Offices worldwide",
     "Fulltimecolleagues" : "Full-time colleagues",

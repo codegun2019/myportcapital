@@ -207,7 +207,7 @@
                 <p class="text-xs text-gray-400">เป็นพันธมิตรมา 6 ปี</p>
               </div>
             </div>
-            <p class="text-sm">
+            <p class="text-sm text-xs xs:text-sm h-[2em] md:h-[4em] whitespace-normal overflow-hidden text-ellipsis">
               {{ $t("Review.review_1") }}
             </p>
           </div>
@@ -221,7 +221,7 @@
                 <p class="text-xs text-gray-400">เป็นพันธมิตรมา 3 ปี</p>
               </div>
             </div>
-            <p class="text-sm">
+            <p class="text-sm text-xs xs:text-sm h-[2em] md:h-[4em] whitespace-normal overflow-hidden text-ellipsis">
               {{ $t("Review.review_2") }}
             </p>
           </div>
@@ -235,7 +235,7 @@
                 <p class="text-xs text-gray-400">เป็นพันธมิตรมา 2 ปี</p>
               </div>
             </div>
-            <p class="text-sm">
+            <p class="text-sm text-xs xs:text-sm h-[2em] md:h-[4em] whitespace-normal overflow-hidden text-ellipsis">
               {{ $t("Review.review_3") }}
             </p>
           </div>
@@ -249,7 +249,7 @@
                 <p class="text-xs text-gray-400">เป็นพันธมิตรมา 3 ปี</p>
               </div>
             </div>
-            <p class="text-sm">
+            <p class="text-sm text-xs xs:text-sm h-[2em] md:h-[4em] whitespace-normal overflow-hidden text-ellipsis">
               {{ $t("Review.review_4") }}
             </p>
           </div>
@@ -263,7 +263,7 @@
                 <p class="text-xs text-gray-400">เป็นพันธมิตรมา 4 ปี</p>
               </div>
             </div>
-            <p class="text-sm">
+            <p class="text-xs xs:text-sm h-[2em] md:h-[4em] whitespace-normal overflow-hidden text-ellipsis">
               {{ $t("Review.review_5") }}
             </p>
           </div>
