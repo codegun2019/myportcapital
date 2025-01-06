@@ -84,10 +84,10 @@
     "Trader_welcome_description": "Easy to use via Desktop, Myport enables trading from any country in the world. It has been developed to be the most advanced platform across all trading environments",
     "Trader_welcome_description_market": "Access to trading Anywhere, anytime Through Myport's application Easy to use, no interruptions, meets the needs of modern traders.",
     "Trader_welcome_cta": "Learn More",
-    "Trader_welcome_ctb": "Download Myport at",
+    "Trader_welcome_ctb": "Download Myport",
     "Start_welcome_title": "Start trading with myport now",
     "Start_welcome_description": "Ready to trade on all platforms: Myport is the best choice for modern traders.",
-    "Start_welcome_cta": "Create a real account",
+    "Start_welcome_cta": "Create real account",
     "Start_welcome_ctb": "Demo Account"
   },
   "Accounting": {
@@ -96,7 +96,7 @@
     "Header_welcome_description" : "Create your own account by selecting the promotions that best fit your Demo accounts for novices and advanced accounts for experienced traders. Trade with simplicity and increase your profits.",
     "Header_welcome_subdescription" : "trading style with just one click",
     "Header_welcome_cta" : "Join us",
-    "Footer_welcome_title": "Start trading with myPort now.",
+    "Footer_welcome_title": "Start trading with myport now.",
     "Footer_welcome_description": "Ready to trade on all platforms: Myport is the best choice for modern traders. Take advantage of real-time market data and analysis tools to make strategic decisions. With Myport, you can access your account from anywhere and trade seamlessly across devices. Elevate your trading experience with Myport's comprehensive platform today.",
     "Footer_welcome_cta_1": "Trade with",
     "Footer_welcome_cta_2": "Demo Account"
@@ -124,18 +124,18 @@
     "Package_welcome_description_1" : "Initial deposit $10",
     "Package_welcome_description_2" : "Initial deposit $500",
     "Package_welcome_description_3" : "An account with lower spreads, offered to traders who aim to generate income.",
-    "Package_Space_1" : "Spread : เริ่มต้น 20 pip",
-    "Package_CommissionLeverag_1" : "commission : $10",
+    "Package_Space_1" : "Spread : Start 20 pip",
+    "Package_CommissionLeverag_1" : "Commission : $10",
     "Package_Leverage_1" : "Leverage : 500",
     "Package_Lotback_1" : "Leverage : 500",
     "Package_Stop_out_1" : "Stop out 35%",
-    "Package_Space_2" : "Spread : เริ่มต้น 10 pip",
-    "Package_CommissionLeverag_2" : "commission : $2",
+    "Package_Space_2" : "Spread : Start 10 pip",
+    "Package_CommissionLeverag_2" : "Commission : $2",
     "Package_Leverage_2" : "Leverage : 500",
     "Package_Lotback_2" : "Lotback : $1 / lot ",
     "Package_Stop_out_2" : "Stop out 35%",
     "Package_Space_3" : "Spread : raw spread 0.0",
-    "Package_CommissionLeverag_3" : "commission : $15",
+    "Package_CommissionLeverag_3" : "Commission : $15",
     "Package_Leverage_3" : "Leverage : 500",
     "Package_Lotback_3" : "Lotback : $1 / lot",
     "Package_Stop_out_3" : "Stop out 35%"
@@ -174,7 +174,7 @@
       "Trader_welcome_description": "A Powerful Trading Terminal With comprehensive charting tools and technical analysis capabilities, Myport for Computer is an effective trading terminal for experienced traders. Take use of its user-friendly interface and efficient trade execution to improve your trading tactics and reach your financial objectives.",
       "Trader_welcome_description_market": "The best choice for modern traders. Take advantage of real-time market data and analysis tools to make strategic decisions. With Myport, you can access your account from anywhere and trade seamlessly across devices. Elevate your trading experience with Myport's comprehensive platform today.",
       "Trader_welcome_cta": "Learn More",
-      "Trader_welcome_ctb": "Download Myport at"
+      "Trader_welcome_ctb": "Download Myport"
   
     },
 
@@ -183,7 +183,7 @@
       "Header_bonus_title_sub": "that best fit your trading style with just one click",
   
       "Header_welcome_title": "Special Offers",
-      "Header_welcome_subttile": "Don't pass up this limited-time opportunity to boost your earnings when trading. To take advantage of this exclusive promotion, start depositing and trading today. Participating in this special offer will help you increase your profits.",
+      "Header_welcome_subttile": "Don't pass up this limited-time opportunity to boost your earnings when trading. To take advantage of this exclusive promotion, start depositing and trading today. Participating in this special offer will help you increase your profits",
       "Header_Tradition_title_1": "Bonus",
       "Header_Tradition_subttile_1": "20% Bonus",
       "Header_Tradition_title_2": "Lotback",

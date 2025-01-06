@@ -49,8 +49,8 @@
       <li>- {{ $t("Package.Package_Space_2") }}</li>
       <li>- {{ $t("Package.Package_CommissionLeverag_2") }}</li>
       <li>- {{ $t("Package.Package_Leverage_2") }}</li>
-      <li>- {{ $t("Package.Package_Lotback_2") }}</li>
       <li>- {{ $t("Package.Package_Stop_out_2") }}</li>
+      <li>- {{ $t("Package.Package_Lotback_2") }}</li>
     </ul>
     <NuxtLink
       class="font-bold inline-flex items-center cursor-pointer justify-between border border-white rounded-full px-4 py-2 text-dark-900 bg-white hover:scale-110 transform-gpu transition duration-300 ease-in-out"

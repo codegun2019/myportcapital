@@ -68,7 +68,7 @@
               <td class="py-3 px-6 text-gray-400"><span class="text-white text-xs">{{ $t("text.Minimum_Deposit") }} </span> 100 THB</td>
               <td class="py-3 px-6 text-gray-400"><span class="text-white text-xs">{{ $t("text.Minimum_Withdrawal") }} </span> 500 THB</td>
               <td class="py-3 px-6 text-gray-400"><span class="text-white text-xs">{{ $t("text.Maximum_Withdrawal") }} </span> 300,000 THB/DAY</td>
-              <td class="py-3 px-6">ทันที</td>
+              <td class="py-3 px-6">{{ $t("text.Instant") }}</td>
             </tr>
             <tr class="flex flex-col flex-no wrap sm:table-row rounded-l-lg sm:rounded-none mb-2 sm:mb-0">
               <td class="py-3 px-6 flex items-center text-xs">
@@ -78,7 +78,7 @@
               <td class="py-3 px-6 text-gray-400"><span class="text-white text-xs">{{ $t("text.Minimum_Deposit") }} </span> 100 THB</td>
               <td class="py-3 px-6 text-gray-400"><span class="text-white text-xs">{{ $t("text.Minimum_Withdrawal") }} </span> 500 THB</td>
               <td class="py-3 px-6 text-gray-400"><span class="text-white text-xs">{{ $t("text.Maximum_Withdrawal") }} </span> 300,000 THB/DAY</td>
-              <td class="py-3 px-6">ทันที</td>
+              <td class="py-3 px-6">{{ $t("text.Instant") }}</td>
             </tr>
             <tr class="flex flex-col flex-no wrap sm:table-row rounded-l-lg sm:rounded-none mb-2 sm:mb-0">
               <td class="py-3 px-6 flex items-center text-xs">
@@ -88,7 +88,7 @@
               <td class="py-3 px-6 text-gray-400"><span class="text-white text-xs">{{ $t("text.Minimum_Deposit") }} </span> 100 THB</td>
               <td class="py-3 px-6 text-gray-400"><span class="text-white text-xs">{{ $t("text.Minimum_Withdrawal") }} </span> 500 THB</td>
               <td class="py-3 px-6 text-gray-400"><span class="text-white text-xs">{{ $t("text.Maximum_Withdrawal") }} </span> 300,000 THB/DAY</td>
-              <td class="py-3 px-6">ทันที</td>
+              <td class="py-3 px-6">{{ $t("text.Instant") }}</td>
             </tr>
           </tbody>
         </table>

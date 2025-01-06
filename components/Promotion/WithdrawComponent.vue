@@ -10,7 +10,7 @@
           {{ $t("Promotion.Header_welcome_title") }} my <span class="text-primary-500">Promotion</span>
         </h1>
         <!-- คำอธิบาย -->
-        <p class="text-lg text-gray-400 max-w-2xl mx-auto mb-8 motion-preset-fade-lg motion-delay-[1s]">
+        <p class="text-lg text-gray-400 max-w-[45rem] mx-auto mb-8 motion-preset-fade-lg motion-delay-[1s]">
           {{ $t("Promotion.Header_welcome_subttile") }}
         </p>
       </div>
