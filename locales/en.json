@@ -55,16 +55,16 @@
     "ReadyTitleSub_b": "Explore a variety of asset classes and monitor performance in real-time to make strategic investment decisions. With myAsset,",
     "ReadyTitle_c": "Economic Calendar",
     "ReadyTitleSub_c": "Elevate your trading experience with my Partner. Get started today and see the difference for yourself.",
-    
+
     "PlatformTitle" : "myport",
     "PlatformTitleSub" : "takes trading to the next level.",
     "PlatformTitle_a" : "เข้าถึงการวิเคราะห์ได้ตลอด",
-    "PlatformTitleSub_a" : "my lotback Get cashback on every trade",
+    "PlatformTitleSub_a" : "My lotback Get cashback on every trade",
     "PlatformTitle_b" : "สินทรัพย์ยอดนิยม",
-    "PlatformTitleSub_b" : "my trade Use trading orders instanly",
+    "PlatformTitleSub_b" : "My trade use trading orders instanly",
     "PlatformTitle_c" : "ปฏิทินเศรษฐกิจ",
     "PlatformTitleSub_c" : "Indicator tools ",
-    
+
     "WordTitle": "Global Market",
     "WordTitleSub": "Just",
     "WordTitleSub_row": "at your fingertips?",
@@ -154,9 +154,9 @@
       "NuxtLink_3" : "Myport",
       "NuxtLink_4" : "Myport WebTerminal",
       "Header_android_title" : "For IOS",
-      "Header_android_description" : "Trade confidently with myPort for IOS, a user-friendly platform that provides fast trade signals and access to the market. With customizable features and real-time updates, Myport for iOS ensures you stay informed and make the most of your trading opportunities.",
+      "Header_android_description" : "Trade confidently with myport for IOS, a user-friendly platform that provides fast trade signals and access to the market. With customizable features and real-time updates, Myport for iOS ensures you stay informed and make the most of your trading opportunities.",
       "Header_ios_title" : "For Android",
-      "Header_ios_description" : "Trade confidently with myPort for Android, a user-friendly platform that provides fast trade signals and access to the market. Take advantage of its customizable features and stay informed on the go to maximize your success in trading.",
+      "Header_ios_description" : "Trade confidently with myport for Android, a user-friendly platform that provides fast trade signals and access to the market. Take advantage of its customizable features and stay informed on the go to maximize your success in trading.",
       "Header_welcome_title_2" : "Fast trade signals",
       "Header_welcome_description_2" : "Access the market via a mobile application both IOS and Android designed for ease of use, with fast order execution and optimal performance for smooth trading",
       "Header_welcome_cta_2" : "MYPORT/ App Trade",
@@ -171,17 +171,17 @@
       "Trader_welcome_title" : "Start trading with ",
       "Trader_welcome_title_sub": "myPort now.",
       "Trader_welcome_subttile": "A Powerful Trading Terminal",
-      "Trader_welcome_description": "A Powerful Trading Terminal With comprehensive charting tools and technical analysis capabilities, Myport for Computer is an effective trading terminal for experienced traders. Take use of its user-friendly interface and efficient trade execution to improve your trading tactics and reach your financial objectives.",
+      "Trader_welcome_description": "A Powerful Trading Terminal with comprehensive charting tools and technical analysis capabilities, myport for Computer is an effective trading terminal for experienced traders. Take use of its user-friendly interface and efficient trade execution to improve your trading tactics and reach your financial objectives.",
       "Trader_welcome_description_market": "The best choice for modern traders. Take advantage of real-time market data and analysis tools to make strategic decisions. With Myport, you can access your account from anywhere and trade seamlessly across devices. Elevate your trading experience with Myport's comprehensive platform today.",
       "Trader_welcome_cta": "Learn More",
       "Trader_welcome_ctb": "Download Myport"
-  
+
     },
 
     "Promotion": {
       "Header_bonus_title": "Create your own account by selecting the promotions",
       "Header_bonus_title_sub": "that best fit your trading style with just one click",
-  
+
       "Header_welcome_title": "Special Offers",
       "Header_welcome_subttile": "Don't pass up this limited-time opportunity to boost your earnings when trading. To take advantage of this exclusive promotion, start depositing and trading today. Participating in this special offer will help you increase your profits",
       "Header_Tradition_title_1": "Bonus",
@@ -195,22 +195,22 @@
   "Partners": {
       "Header_about_title": "Step into",
       "Header_about_subttile": "Partner",
-      "Header_welcome_title": "Joining into myPort Partner program",
-      "Header_welcome_subttile": "Port",
-      "Header_welcome_description": "Step into earning chances with Myport, a trading platform that provides more than just trading.",
+      "Header_welcome_title": "Joining into myport Partner program",
+      "Header_welcome_subttile": "port",
+      "Header_welcome_description": "Step into earning chances with Myport, a trading platform that provides more than just trading",
       "Header_welcome_cta": "Join us as a partner",
       "Header_welcome_cta_title": "Commission rewards since 2015",
       "Header_welcome_cta_description": "$ 90,920,739.85",
       "Header_welcome_dolar_description" : "",
-      "Header_row_description_1": "Monthly loyalty program rewards.",
-      "Header_row_description_2": "Earn up to 65% commissions.",
-      "Header_row_description_3": "Marketing materials and assistance.",
+      "Header_row_description_1": "Monthly loyalty program rewards",
+      "Header_row_description_2": "Earn up to 65% commissions",
+      "Header_row_description_3": "Marketing materials and assistance",
       "Header_row_description_4": "Exclusive elite events, activities and more",
       "Header_row_description": "* Please note that all affiliate program benefits are subject to terms and conditions.",
       "Header_about_title": "Step into program",
       "Header_about_subttile": "Partner",
       "Header_about_subttile2": "",
-      "Header_about_description" : "Provides a large selection of financial tools and investment options to assist you in achieving your financial objectives. myPartner provides an easy-to-use interface and educational materials to assist your investment journey, regardless of your level of experience. Utilize our extensive asset portfolio and professional analysis to help you make well-informed decisions and optimize your profits."
+      "Header_about_description" : "Provides a large selection of financial tools and investment options to assist you in achieving your financial objectives. my Partner provides an easy-to-use interface and educational materials to assist your investment journey, regardless of your level of experience. Utilize our extensive asset portfolio and professional analysis to help you make well-informed decisions and optimize your profits."
     },
   "BrokerReferral": {
       "title": "Introducing Broker (IB)",
@@ -223,7 +223,7 @@
     "cta": "Learn More"
   },
   "MyPartners": {
-      "start_title": "Establish benefit from myPort's ",
+      "start_title": "Establish benefit from MYPORT's ",
       "start_title_2": "earning opportunities.",
       "welcome_description": "An opportunity that goes beyond just a trading platform.",
       "opportunity_description": "Designed to celebrate your development and success.",
@@ -249,10 +249,10 @@
 
       "Review": {
       "review_1": "In the past few years, the website has been modernized and made it easier to use, making working with myPort much smoother.",
-      "review_2": "I started trading with myPort and received very high commissions, which helped me to achieve real financial stability.x",
+      "review_2": "I started trading with Myport and received very high commissions, which helped me to achieve real financial stability.x",
       "review_3": "Having worked with myPort for over xx years, I have experienced stability and outstanding and excellent service.",
       "review_4": "myPort website and application are constantly being developed to create opportunities for partners to generate income in various ways.",
-      "review_5": "During the whole time I have been trading with myPort, I have had an excellent experience."
+      "review_5": "During the whole time I have been trading with My port, I have had an excellent experience."
     },
 
 

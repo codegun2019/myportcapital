@@ -187,7 +187,7 @@
         </div>
         <div class="container mx-auto text-center md:pt-[100px] pt-5 md:pb-[55px] pb-5">
           <h2 class="text-4xl font-bold text-white">
-            {{ $t("FooterPartner.feedback_from") }} my<span class="text-primary-400">partner</span>
+            {{ $t("FooterPartner.feedback_from") }}
           </h2>
           <p class="page-header-description text-lg mb-6 text-secondary-500">
             {{ $t("FooterPartner.growth_title") }} <br />
