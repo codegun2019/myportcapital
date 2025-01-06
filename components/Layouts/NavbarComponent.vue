@@ -11,7 +11,7 @@
         </div>
 
         <!-- Hamburger icon for mobile -->
-        <button @click="toggleMobileMenu"  class="md:hidden block">
+        <button @click="toggleMobileMenu"  class="xl:hidden lg:hidden md:hidden sm:hidden block block-menu">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-8 w-8">
             <path v-if="!isMobileMenuOpen" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
             <path v-else stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
@@ -19,7 +19,7 @@
         </button>
 
         <!-- Menu items (hidden on mobile, shown on desktop) -->
-        <div :class="{'hidden': isMobileMenuOpen, 'hidden': !isMobileMenuOpen}" class="sm:flex sm:space-x-6 hidden sm:block">
+        <div :class="{'hidden': isMobileMenuOpen, 'hidden': !isMobileMenuOpen}" class="sm:flex sm:space-x-6 hidden block none-menu">
           <NuxtLink class="hidden lg:block" @click="closeMobileMenu" to="/">{{ $t("menu.home") }}</NuxtLink>
           <!-- <a href="#" class="hover:text-primary-400">{{ $t("menu.buy") }}</a>
           <a href="#" class="hover:text-primary-400">{{ $t("menu.platform") }}</a>
@@ -204,5 +204,13 @@ onMounted(() => {
 </script>
 
 <style scoped>
-/* Custom styles for the hero section if needed */
+@media screen and (min-device-width: 600px) and (max-device-width: 1280px) { 
+  .none-menu{
+    display: none;
+  }
+  .block-menu{
+    display: block !important;
+  }
+}
+
 </style>
