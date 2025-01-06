@@ -21,7 +21,7 @@
         </NuxtLink>
                   <!-- Image Section -->
       <div class="md:w-1/2 mt-8 md:mt-0 px-5 lg:px-16 pt-16 ">
-        <img :src="section1_2" class="motion-preset-fade motion-delay-[700ms] block hidden md:block absolute transform  right-0  w-100 top-10 z-20">
+        <img :src="section1_2" class="motion-preset-fade motion-delay-[700ms] block hidden md:block absolute transform  right-0  w-100 xl:top-10 lg:top-[15vw] md:top-[25vw] top-10 z-20">
       </div>
 
       </div>

@@ -1,11 +1,11 @@
 <template>
-  <section id="section-trader" :style="{ backgroundImage: `url(${section6_1})`, backgroundSize: 'cover' }" class="xl:bg-bottom lg:bg-bottom md:bg-bottom bg-left 2xl:bg-contain bg-black min-h-screen text-white bg-[80%_0%] bg-no-repeat">
+  <section id="section-trader" :style="{ backgroundImage: `url(${section6_1})`, backgroundSize: 'cover' }" class="xl:bg-bottom lg:bg-bottom md:bg-left bg-left 2xl:bg-contain bg-black min-h-screen text-white bg-[80%_0%] bg-no-repeat">
     <div class="container mx-auto px-[16px]">
       <div class="grid grid-cols-1 gap-4 lg:grid-cols-2">
         <!-- Left content -->
         <div class="flex items-center justify-center min-h-screen pl-0 pt-[62px] lg:justify-start lg:pl-12 lg:pt-0">
           <div>
-            <img :src="section6_2" alt="web" class="block md:hidden w-100 mb-2" />
+            <img :src="section6_2" alt="web" class="block lg:hidden w-100 mb-2" />
             <h2 class="motion-preset-slide-left-sm motion-delay-[800ms] text-4xl lg:text-left xl:tex-teft text-center font-bold">
               {{ $t("Home.Trader_welcome_title") }}<span class="text-primary-500">{{ $t("Home.Trader_welcome_title_sub") }}</span>
             </h2>
@@ -88,3 +88,12 @@ import mt5Ios from '~/assets/images/landing/icons/mt5-ios.svg'
 import mt5Web from '~/assets/images/landing/icons/mt5-web.svg'
 import mt5Image from '~/assets/images/landing/mt5.png'
 </script>
+
+<style scoped>
+@media (min-width: 768px) {
+    .md\:bg-bottom {
+        background-position: bottom;
+    }
+}
+
+</style>
