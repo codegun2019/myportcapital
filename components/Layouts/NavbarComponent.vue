@@ -88,28 +88,28 @@
         <div class="absolute inset-x-0 -top-16 -z-10 flex transform-gpu justify-center overflow-hidden blur-3xl" aria-hidden="true">
           <div class="aspect-[1318/752] w-[82.375rem] flex-none bg-gradient-to-r from-[#F7C948] to-[#C69002] opacity-25" style="clip-path: polygon(73.6% 51.7%, 91.7% 11.8%, 100% 46.4%, 97.4% 82.2%, 92.5% 84.9%, 75.7% 64%, 55.3% 47.5%, 46.5% 49.4%, 45% 62.9%, 50.3% 87.2%, 21.3% 64.1%, 0.1% 100%, 5.4% 51.1%, 21.4% 63.9%, 58.9% 0.2%, 73.6% 51.7%)" />
         </div>
-        <div class="ring-1 text-white ring-white/10 sm:rounded-3xl sm:p-8 lg:mx-0 lg:max-w-none lg:flex-row lg:items-center lg:py-20 xl:gap-x-20 xl:px-20 p-4 rounded-lg hover:bg-primary-500">
+        <div class="ring-1 text-white ring-white/10 sm:rounded-3xl sm:p-8 lg:mx-0 lg:max-w-none lg:flex-row lg:items-center lg:py-10 md:py-10 xl:gap-x-20 xl:px-20 p-4 rounded-lg hover:bg-primary-500">
           <NuxtLink  @click="closeMobileMenu" to="/">{{ $t("menu.home") }}</NuxtLink>
         </div>
-        <div class="ring-1 ring-white/10 sm:rounded-3xl sm:p-8 lg:mx-0 lg:max-w-none lg:flex-row lg:items-center lg:py-20 xl:gap-x-20 xl:px-20 p-4 rounded-lg hover:bg-primary-500">
+        <div class="ring-1 ring-white/10 sm:rounded-3xl sm:p-8 lg:mx-0 lg:max-w-none lg:flex-row lg:items-center lg:py-10 md:py-10 xl:gap-x-20 xl:px-20 p-4 rounded-lg hover:bg-primary-500">
           <NuxtLink  @click="closeMobileMenu" to="market" class="font-normal tracking-tight text-white">{{ $t("menu.market") }}</NuxtLink>
         </div>
-        <div class="ring-1 ring-white/10 sm:rounded-3xl sm:p-8 lg:mx-0 lg:max-w-none lg:flex-row lg:items-center lg:py-20 xl:gap-x-20 xl:px-20 p-4 rounded-lg hover:bg-primary-500">
+        <div class="ring-1 ring-white/10 sm:rounded-3xl sm:p-8 lg:mx-0 lg:max-w-none lg:flex-row lg:items-center lg:py-10 md:py-10 xl:gap-x-20 xl:px-20 p-4 rounded-lg hover:bg-primary-500">
           <NuxtLink  @click="closeMobileMenu" to="accounting" class="font-normal tracking-tight text-white">{{ $t("menu.accounting") }}</NuxtLink>
         </div>
-        <div class="ring-1 ring-white/10 sm:rounded-3xl sm:p-8 lg:mx-0 lg:max-w-none lg:flex-row lg:items-center lg:py-20 xl:gap-x-20 xl:px-20 p-4 rounded-lg hover:bg-primary-500">
+        <div class="ring-1 ring-white/10 sm:rounded-3xl sm:p-8 lg:mx-0 lg:max-w-none lg:flex-row lg:items-center lg:py-10 md:py-10 xl:gap-x-20 xl:px-20 p-4 rounded-lg hover:bg-primary-500">
           <NuxtLink  @click="closeMobileMenu" to="deposit" class="font-normal tracking-tight text-white">{{ $t("menu.deposit") }}</NuxtLink>
         </div>
-        <div class="ring-1 ring-white/10 sm:rounded-3xl sm:p-8 lg:mx-0 lg:max-w-none lg:flex-row lg:items-center lg:py-20 xl:gap-x-20 xl:px-20 p-4 rounded-lg hover:bg-primary-500">
+        <div class="ring-1 ring-white/10 sm:rounded-3xl sm:p-8 lg:mx-0 lg:max-w-none lg:flex-row lg:items-center lg:py-10 md:py-10 xl:gap-x-20 xl:px-20 p-4 rounded-lg hover:bg-primary-500">
           <NuxtLink  @click="closeMobileMenu" to="promotion" class="font-normal tracking-tight text-white">{{ $t("menu.promotion") }}</NuxtLink>
         </div>
-        <div class="ring-1 ring-white/10 sm:rounded-3xl sm:p-8 lg:mx-0 lg:max-w-none lg:flex-row lg:items-center lg:py-20 xl:gap-x-20 xl:px-20 p-4 rounded-lg hover:bg-primary-500">
+        <div class="ring-1 ring-white/10 sm:rounded-3xl sm:p-8 lg:mx-0 lg:max-w-none lg:flex-row lg:items-center lg:py-10 md:py-10 xl:gap-x-20 xl:px-20 p-4 rounded-lg hover:bg-primary-500">
           <NuxtLink  @click="closeMobileMenu" to="platform" class="font-normal tracking-tight text-white">{{ $t("menu.platform") }}</NuxtLink>
         </div>
-        <div class="ring-1 ring-white/10 sm:rounded-3xl sm:p-8 lg:mx-0 lg:max-w-none lg:flex-row lg:items-center lg:py-20 xl:gap-x-20 xl:px-20 p-4 rounded-lg hover:bg-primary-500">
+        <div class="ring-1 ring-white/10 sm:rounded-3xl sm:p-8 lg:mx-0 lg:max-w-none lg:flex-row lg:items-center lg:py-10 md:py-10 xl:gap-x-20 xl:px-20 p-4 rounded-lg hover:bg-primary-500">
           <NuxtLink  @click="closeMobileMenu" to="partners" class="font-normal tracking-tight text-white">{{ $t("menu.partners") }}</NuxtLink>
         </div>
-        <div class="ring-1 ring-white/10 sm:rounded-3xl sm:p-8 lg:mx-0 lg:max-w-none lg:flex-row lg:items-center lg:py-20 xl:gap-x-20 xl:px-20 p-4 rounded-lg hover:bg-primary-500">
+        <div class="ring-1 ring-white/10 sm:rounded-3xl sm:p-8 lg:mx-0 lg:max-w-none lg:flex-row lg:items-center lg:py-10 md:py-10 xl:gap-x-20 xl:px-20 p-4 rounded-lg hover:bg-primary-500">
           <NuxtLink  @click="closeMobileMenu" to="about" class="font-normal tracking-tight text-white">{{ $t("menu.about") }}</NuxtLink>
         </div>
       </div>
