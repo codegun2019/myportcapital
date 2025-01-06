@@ -44,7 +44,7 @@
 
 
     <!-- Hero section Tab -->
-    <section class="bg-dark-900 text-white py-4">
+    <!-- <section class="bg-dark-900 text-white py-4">
       <div class="flex justify-between items-center text-center">
         <div class="flex-1">
           <h2 data-aos="fade-in" data-aos-duration="3500" class="text-lg font-bold">{{ $t("Home.Myport_1_title") }}</h2>
@@ -63,7 +63,7 @@
           <p class="text-sm" data-aos="fade-in" data-aos-duration="4500">{{ $t("Home.Myport_4_subtitle") }}</p>
         </div>
       </div>
-    </section>
+    </section> -->
   </div>
 </template>
 
