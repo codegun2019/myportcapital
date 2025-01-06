@@ -4,7 +4,7 @@
       <div class="px-10">
         <div class="container mx-auto flex flex-col md:flex-row min-h-fit items-center justify-between">
           <!-- Text Section -->
-          <div class="md:w-1/2 md:py-16 py-8">
+          <div class="md:w-1/2 md:py-16 py-8 z-30">
             <h2 class="text-4xl font-bold motion-preset-slide-left-sm motion-delay-[800ms]">
               <span class="text-primary-400">{{ $t("Platform.Header_welcome_title") }} </span>
               {{ $t("Platform.Header_welcome_subttile") }}
@@ -13,7 +13,7 @@
               {{ $t("Platform.Header_welcome_description") }}<br>
               {{ $t("Platform.Header_welcome_description_enter") }}
             </p>
-            <div class="mt-6 flex flex-col xl:flex-row space-x-0 xl:space-x-4 flex gap-4 ">
+            <div class="mt-6 flex flex-col xl:flex-row space-x-0 xl:space-x-4 flex gap-4">
               <NuxtLink to="/">
                 <button
                   class="py-[10px] px-[16px] motion-delay-[100ms] motion-ease-spring-bouncier motion-translate-y-in-75 motion-opacity-in bg-primary-500 text-whire rounded-full hover:bg-primary-600 disabled:bg-[#2F2F2F] disabled:text-[#666666] max-h-[44px] btn-primary-iux-round whitespace-nowrap"
@@ -25,9 +25,9 @@
           </div>
 
           <!-- Image Section -->
-          <div class="md:w-1/2 mt-8 md:mt-0 px-5 lg:px-16 pt-16">
+          <div class="md:w-1/2 mt-8 md:mt-0 px-5 lg:px-16 pt-16 z-20">
             <img :src="section1_2" class="w-[80%] h-auto mx-auto">
-            <img :src="section1_3" class="fix-drop-right-top block hidden md:block absolute app-mobile-icon transform  right-0 -translate-y-1/2 w-100 top-[60%] z-20">
+            <img :src="section1_3" class="fix-drop-right-top block hidden md:block absolute app-mobile-icon transform  right-0 -translate-y-1/2 w-100 xl:top-[60%] md:top-[35%]">
           </div>
         </div>
       </div>
