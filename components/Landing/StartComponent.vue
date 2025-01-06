@@ -2,7 +2,7 @@
   <section class="bg-black" id="section-start-trader">
     <div class="grid grid-cols-1 md:grid-cols-2">
       <!-- Left image section -->
-      <div class="bg-left bg-cover order-2 md:order-1 bg-no-repeat h-[340px]" :style="{
+      <div class="xl:bg-right md:bg-center lg:bg-center bg-left bg-cover order-2 md:order-1 bg-no-repeat h-[340px]" :style="{
           backgroundImage: `url(${section7_1})`,
         }">
       </div>
