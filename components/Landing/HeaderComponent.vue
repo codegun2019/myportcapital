@@ -27,11 +27,11 @@
       <span class="mr-3">my</span>
       <span class="text-primary-500">plan</span>
     </h1>
-    <h2 class="text-3xl font-semibold text-primary-500 mt-4 motion-preset-blur-left block motion-delay-[1200ms]">
-      <span class="text-primary-500 mr-3">{{ $t("Home.Header_welcome_title") }}</span>
+    <h2 class="text-md md:text-3xl font-semibold text-primary-500 mt-4 motion-preset-blur-left block motion-delay-[1200ms]">
+      <span class="text-primary-500 mr-3 block">{{ $t("Home.Header_welcome_title") }}</span>
       <span class="text-white">{{ $t("Home.Header_welcome_description") }}</span>
     </h2>
-    <p class="text-lg mt-6 max-w-2xl mx-auto text-secondary-500 motion-preset-blur-left block motion-delay-[1400ms]">
+    <p class="text-lg hidden mt-6 max-w-2xl mx-auto text-secondary-500 motion-preset-blur-left md:block motion-delay-[1400ms]">
       {{ $t("Home.Header_welcome_subttile") }}
     </p>
     <button
